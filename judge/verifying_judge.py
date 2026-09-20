@@ -66,12 +66,18 @@ def _extract_json(text: str) -> dict | None:
 def judge_task_verifying(task_prompt: str, answer, notes: str,
                          trace_summary: str, cfg: dict) -> dict:
     """Tool-loop judge. Returns {"score", "critique", "criteria"}. Never raises."""
+    import time as _time
+
     from runtime.llm import LLMClient
     from runtime.tools import TOOL_SCHEMAS, make_toolbox
 
     files_dir = (cfg or {}).get("_files_dir")
     jcfg = (cfg or {}).get("training_judge", {}) or {}
     max_steps = int(jcfg.get("verify_max_steps", 18))
+    # Hard wall-clock: a judge that keeps calling tools without concluding must
+    # still return a verdict, or it wedges the worker (observed on held-out
+    # h06). On timeout we force a final no-tools verdict from what it has.
+    _deadline = _time.monotonic() + float(jcfg.get("verify_wallclock_s", 300))
     try:
         if not files_dir:
             return {"score": 0.0, "critique":
@@ -89,7 +95,10 @@ def judge_task_verifying(task_prompt: str, answer, notes: str,
                 "Verify against the files, then output the JSON verdict.")
         messages = [{"role": "user", "content": user}]
         final_text = ""
+        concluded = False
         for _ in range(max_steps):
+            if _time.monotonic() > _deadline:
+                break  # out of time — forced verdict below
             resp = client.chat(SYSTEM, messages, tools=tool_defs,
                                max_tokens=int(jcfg.get("max_tokens", 4000)))
             if resp.tool_calls:
@@ -110,12 +119,13 @@ def judge_task_verifying(task_prompt: str, answer, notes: str,
                                      "content": str(out)[:8000]})
                 continue
             final_text = resp.text or ""
+            concluded = True
             break
-        else:
-            # step budget exhausted — force a verdict from what it has
+        if not concluded:
+            # step budget OR wall-clock reached — force a verdict from what it has
             messages.append({"role": "user",
-                             "content": "Step budget reached. Output the JSON "
-                                        "verdict NOW based on what you verified."})
+                             "content": "Stop verifying and output the JSON "
+                                        "verdict NOW based on what you checked."})
             final_text = client.chat(SYSTEM, messages, tools=None,
                                      max_tokens=2000).text or ""
 

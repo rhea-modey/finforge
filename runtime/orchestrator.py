@@ -361,7 +361,13 @@ def run_task(spec: HarnessSpec, world_files_dir: str, task_prompt: str,
             return done
 
         submitted = False
+        # Wall-clock cap: a task that cannot finish must become scored data
+        # (a forced submit, usually 0) rather than wedge a worker forever.
+        _deadline = time.monotonic() + float(
+            (cfg or {}).get("task_wallclock_cap_s", 900))
         for _ in range(orch.max_steps):
+            if time.monotonic() > _deadline:
+                break
             resp = _model_call(client, state, trace, "orchestrator",
                                system, messages, schemas)
             if run_round(resp, allow_agents=True):
