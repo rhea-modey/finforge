@@ -249,51 +249,29 @@ def build(curve_path="results/curve.json", cert_path="DATASET_V1_CERTIFIED.json"
                                "points": dep_pts})
 
     arch = '''
-  <h2>Architecture 1/2 — the harness itself (the artifact that evolves)</h2>
-  <p class="note">A harness is ONE markdown spec: agent roles, their tool rosters,
-  and the contracts between them. The optimizer edits this document — nothing else.
-  Shown: the evolved shape after self-improvement (v0 started with no run_python
-  anywhere and a Reviewer that could not see source data).</p>
-  <div class="mermaid-wrap"><pre class="mermaid">
-flowchart LR
-  TP["task prompt +<br/>world files (CSV/TXT/MD)"] --> O
-  subgraph SPEC["harness spec vN &mdash; markdown, rewritten each iteration"]
-    O["<b>Orchestrator</b><br/>tools: call_agent &middot; submit_answer"]
-    FS["<b>FileScout</b><br/>list_files &middot; read_file &middot; grep_files"]
-    AN["<b>Analyst</b><br/>read_file &middot; grep_files &middot; run_python"]
-    RV["<b>Reviewer</b><br/>read_file &middot; grep_files &middot; run_python"]
-    O -->|"contract: relevant files<br/>+ column layouts"| FS
-    O -->|"contract: draft with<br/>evidence per figure"| AN
-    O -->|"contract: recompute all;<br/>verdict + reasons"| RV
-    RV -->|"one-shot revision loop"| AN
-  end
-  O --> ANS["answer JSON<br/>(submit_answer)"]
-  </pre></div>
-
-  <h2>Architecture 2/2 — the self-improvement loop around it</h2>
-  <p class="note">The load-bearing component is the VERIFYING JUDGE: gold-blind, but
-  armed with the actor's own tools, it recomputes every tie-out via tool calls before
-  scoring. Alignment with hidden ground truth: &rho; = +0.24 (reading judge) &rarr;
-  +0.70 (verifying). Gold stays quarantined below the dashed boundary &mdash;
-  measurement only, never a training signal.</p>
-  <div class="mermaid-wrap"><pre class="mermaid">
-flowchart TB
-  SP["harness spec vN"] --> ACT["<b>Actor</b> (gpt-oss-120b)<br/>runs 12 tasks on 3 FRESH worlds<br/>(never reused across iterations)"]
-  ACT --> TR["answers + traces"]
-  TR --> VJ["<b>Verifying Judge</b> (deepseek-v4.1, gold-blind)<br/>tool calls: list_files &middot; read_file &middot; grep_files &middot; run_python<br/>recomputes balances, checks each claimed item exists"]
-  VJ --> CR["scores + falsification critiques<br/>(&quot;the 8,317.00 receipt is fabricated&quot;)"]
-  CR --> OPT["<b>Optimizer</b> (MiniMax-M3)<br/>full genealogy + revert rights<br/>bounded surgical edits"]
-  OPT --> NV["candidate spec v(N+1)"]
-  NV --> GATE{"<b>acceptance gate</b><br/>candidate vs incumbent,<br/>same worlds, judged blind"}
-  GATE -->|wins| DEP["deploy candidate"]
-  GATE -->|loses| KEEP["keep incumbent"]
-  DEP --> SP
-  KEEP --> SP
-  DEP -.->|"checkpoint only"| HO
-  subgraph QUAR["QUARANTINE &mdash; measurement, never training"]
-    HO["6 held-out worlds &times; 4 tasks &times; 2 rollouts<br/>(unseen companies + unseen industries)"] --> GS["deterministic gold scorer<br/>(frozen weights)"]
-  end
-  </pre></div>
+  <h2>How it works — five parts, one loop</h2>
+  <p class="note">The system improves a <b>Playbook</b>: one plain-text document
+  describing a small AI team (who reads the files, who does the math, who
+  double-checks, and what each hands the next). The loop edits that document —
+  nothing else.</p>
+  <div class="flow">
+    <div class="fcard"><b>1 · The Playbook</b>The text document describing the
+    AI team and its hand-offs.</div>
+    <div class="fcard"><b>2 · The Team</b>Runs the playbook to close the books
+    of three brand-new companies each round.</div>
+    <div class="fcard"><b>3 · The Grader</b>Scores the work using only the
+    files the team saw — never the answer key. Our upgraded grader redoes
+    the math with tools before scoring.</div>
+    <div class="fcard"><b>4 · The Coach</b>Reads the grader's notes and makes
+    small, targeted playbook edits; can revert to any earlier version.</div>
+    <div class="fcard"><b>5 · The Tryout</b>New playbook vs current on the same
+    fresh books; winner stays.</div>
+  </div>
+  <div class="fcard quarantine"><b>The sealed answer key</b> &mdash; true answers
+  exist (our worlds are generated) but stay locked away, used only to measure
+  progress on 6 never-seen companies. The team, grader, and coach never see
+  them. Grader-score correlation with this key: reading grader +0.24 vs
+  verifying grader +0.70.</div>
 '''
 
     headline = ""
@@ -439,9 +417,13 @@ PAGE = r'''<title>FinForge Improvement Curve</title>
   border:1px solid var(--border); border-radius:8px; padding:7px 10px;
   font-size:.8rem; color:var(--text-primary); box-shadow:0 2px 10px rgba(0,0,0,.12);
   white-space:nowrap; z-index:5; }
-.mermaid-wrap { overflow-x:auto; background:var(--surface-2); border-radius:10px;
-  padding:10px 6px; margin:8px 0 4px; }
-.mermaid-wrap pre.mermaid { margin:0; }
+.flow { display:grid; grid-template-columns:repeat(auto-fit,minmax(155px,1fr));
+  gap:10px; margin:10px 0; }
+.fcard { background:var(--surface-2); border-radius:10px; padding:11px 13px;
+  font-size:.82rem; line-height:1.45; color:var(--text-secondary); }
+.fcard b { display:block; margin-bottom:3px; color:var(--text-primary); }
+.fcard.quarantine { border:1.5px dashed var(--series-2); margin-top:10px; }
+.fcard.quarantine b { display:inline; color:var(--series-2); }
 .table-wrap { overflow-x:auto; margin-top:10px; }
 table { border-collapse:collapse; font-size:.82rem; min-width:640px; }
 th, td { text-align:right; padding:5px 10px; border-bottom:1px solid var(--grid);

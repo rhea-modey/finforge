@@ -98,20 +98,20 @@
   {
    "by_category": {
     "accrual_schedule": 100.0,
-    "bank_rec": 82.5,
+    "bank_rec": 81.83,
     "journal_entries": 75.7,
     "variance_analysis": 8.33
    },
    "checkpoint": 5,
    "errors": 0,
-   "gold_mean": 65.19,
-   "gold_seen_industries": 63.64,
-   "gold_unseen_industries": 66.74,
-   "judge_mean": 54.55,
-   "n": 22,
+   "gold_mean": 66.47,
+   "gold_seen_industries": 66.25,
+   "gold_unseen_industries": 66.68,
+   "judge_mean": 55.83,
+   "n": 24,
    "tag": "c5",
-   "usd": 5.4187,
-   "usd_per_task": 0.25,
+   "usd": 6.5728,
+   "usd_per_task": 0.27,
    "version": "v5"
   }
  ],

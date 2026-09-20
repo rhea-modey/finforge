@@ -113,7 +113,8 @@ What the loop *did* demonstrably learn: every rationale's diagnosis was verified
 | c2 | v2 | 63.2 | 52.2 | 76.9 | 23.5 | 100 | 5.00 | 49.1 | 77.2 | 0.32 | reject ✗ |
 | c3 | v3 | 51.8 | 71.8 | 29.2 | 6.2 | 100 | 4.92 | 55.0 | 48.6 | 0.21 | reject ✓ |
 | c4 | v4 | 64.5 | 91.3 | 61.9 | 22.3 | 82.5 | 5.54 | 64.1 | 64.9 | 0.16 | adopt ✓ |
-| c5–c10 | v5–v10 | [[RESULT: remaining checkpoint rows]] | | | | | | | | | |
+| c5 | v5 | 66.5 | 82.1 | 76.4 | 7.5 | 100 | 5.58 | 66.3 | 66.7 | 0.27 | pending |
+| c6–c10 | v6–v10 | [[RESULT: remaining checkpoint rows]] | | | | | | | | | |
 
 *(n = 24 held-out tasks per checkpoint; gold 0–100 under frozen weights. Gate column: the judge-driven acceptance decision, ✓/✗ = whether quarantined gold agrees.)*
 

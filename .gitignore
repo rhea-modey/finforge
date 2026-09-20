@@ -6,3 +6,4 @@ __pycache__/
 node_modules/
 results/traces/
 results_b/traces/
+*.log
