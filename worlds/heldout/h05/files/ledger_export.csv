@@ -1,0 +1,160 @@
+posting_date,account,Debit,credit,description
+04/01/2026,1000 Cash,281471.96,,Opening balances
+04/01/2026,1300 Prepaid Insurance,1683.0,,Opening balances
+04/01/2026,1500 Equipment,95626.0,,Opening balances
+04/01/2026,1590 Accumulated Depreciation,,12750.08,Opening balances
+04/01/2026,2000 Accounts Payable,,26845.96,Opening balances
+04/01/2026,3000 Retained Earnings,,339184.92,Opening balances
+04/02/2026,1100 Accounts Receivable,17045.0,,Invoice INV-2245 - Pinehurst Digital
+04/02/2026,4000 Patient Service Revenue,,17045.0,Invoice INV-2245 - Pinehurst Digital
+04/02/2026,1100 Accounts Receivable,17982.0,,Invoice INV-2246 - Marlowe & Finch
+04/02/2026,4000 Patient Service Revenue,,17982.0,Invoice INV-2246 - Marlowe & Finch
+04/03/2026,1000 Cash,,4399.0,Rent - Harborstone Realty Partners
+04/03/2026,6100 Rent Expense,4399.0,,Rent - Harborstone Realty Partners
+04/05/2026,2000 Accounts Payable,,5351.0,BILL-3131 CloudSpan Hosting
+04/05/2026,6450 Software Expense,5351.0,,BILL-3131 CloudSpan Hosting
+04/06/2026,1000 Cash,,13422.98,Payment on account - opening payables
+04/06/2026,2000 Accounts Payable,13422.98,,Payment on account - opening payables
+04/07/2026,1100 Accounts Receivable,24190.0,,Invoice INV-2242 - Hartwell Group
+04/07/2026,4000 Patient Service Revenue,,24190.0,Invoice INV-2242 - Hartwell Group
+04/08/2026,1000 Cash,,5351.0,Pay BILL-3131 CloudSpan Hosting CHK#1003
+04/08/2026,2000 Accounts Payable,5351.0,,Pay BILL-3131 CloudSpan Hosting CHK#1003
+04/10/2026,2000 Accounts Payable,,2552.0,BILL-3130 Kite Digital Ads
+04/10/2026,6200 Advertising & Marketing,2552.0,,BILL-3130 Kite Digital Ads
+04/11/2026,2000 Accounts Payable,,5699.0,BILL-3133 Bright Harbor Media
+04/11/2026,6200 Advertising & Marketing,5699.0,,BILL-3133 Bright Harbor Media
+04/12/2026,1100 Accounts Receivable,21385.0,,Invoice INV-2241 - Yardley Supply
+04/12/2026,4000 Patient Service Revenue,,21385.0,Invoice INV-2241 - Yardley Supply
+04/14/2026,2000 Accounts Payable,,612.0,BILL-3129 Uptown Catering Co.
+04/14/2026,6700 Office Supplies,612.0,,BILL-3129 Uptown Catering Co.
+04/14/2026,2000 Accounts Payable,,2127.0,BILL-3132 Helix IT Solutions
+04/14/2026,6450 Software Expense,2127.0,,BILL-3132 Helix IT Solutions
+04/15/2026,1100 Accounts Receivable,21057.0,,Invoice INV-2243 - Yardley Supply
+04/15/2026,4000 Patient Service Revenue,,21057.0,Invoice INV-2243 - Yardley Supply
+04/15/2026,1000 Cash,,23868.0,Payroll 2026-04/01-04/15
+04/15/2026,2300 Payroll Liabilities,,6732.0,Payroll 2026-04/01-04/15
+04/15/2026,6000 Salaries Expense,30600.0,,Payroll 2026-04/01-04/15
+04/17/2026,1000 Cash,17982.0,,Deposit - Marlowe & Finch INV-2246
+04/17/2026,1100 Accounts Receivable,,17982.0,Deposit - Marlowe & Finch INV-2246
+04/18/2026,1000 Cash,,5699.0,Pay BILL-3133 Bright Harbor Media CHK#1004
+04/18/2026,2000 Accounts Payable,5699.0,,Pay BILL-3133 Bright Harbor Media CHK#1004
+04/19/2026,1000 Cash,,612.0,Pay BILL-3129 Uptown Catering Co. CHK#1005
+04/19/2026,2000 Accounts Payable,612.0,,Pay BILL-3129 Uptown Catering Co. CHK#1005
+04/20/2026,1100 Accounts Receivable,12626.0,,Invoice INV-2244 - Longmont Systems
+04/20/2026,4100 Lab & Imaging Revenue,,12626.0,Invoice INV-2244 - Longmont Systems
+04/20/2026,1000 Cash,,2127.0,Pay BILL-3132 Helix IT Solutions CHK#1006
+04/20/2026,2000 Accounts Payable,2127.0,,Pay BILL-3132 Helix IT Solutions CHK#1006
+04/28/2026,1000 Cash,,23907.0,Payroll 2026-04/16-04/30
+04/28/2026,2300 Payroll Liabilities,,6743.0,Payroll 2026-04/16-04/30
+04/28/2026,6000 Salaries Expense,30650.0,,Payroll 2026-04/16-04/30
+04/28/2026,1300 Prepaid Insurance,,187.0,Monthly insurance amortization
+04/28/2026,6400 Insurance Expense,187.0,,Monthly insurance amortization
+04/28/2026,1590 Accumulated Depreciation,,1593.76,Monthly depreciation
+04/28/2026,6800 Depreciation Expense,1593.76,,Monthly depreciation
+05/02/2026,1000 Cash,21057.0,,Deposit - Yardley Supply INV-2243
+05/02/2026,1100 Accounts Receivable,,21057.0,Deposit - Yardley Supply INV-2243
+05/02/2026,1000 Cash,17045.0,,Deposit - Pinehurst Digital INV-2245
+05/02/2026,1100 Accounts Receivable,,17045.0,Deposit - Pinehurst Digital INV-2245
+05/02/2026,2000 Accounts Payable,,5539.0,BILL-3137 Bluecross Lab Consumables
+05/02/2026,6350 Medical Supplies,5539.0,,BILL-3137 Bluecross Lab Consumables
+05/03/2026,1000 Cash,,4399.0,Rent - Harborstone Realty Partners
+05/03/2026,6100 Rent Expense,4399.0,,Rent - Harborstone Realty Partners
+05/05/2026,1100 Accounts Receivable,5738.0,,Invoice INV-2250 - Crestline Partners
+05/05/2026,4000 Patient Service Revenue,,5738.0,Invoice INV-2250 - Crestline Partners
+05/07/2026,2000 Accounts Payable,,4616.0,BILL-3134 Stanton Cleaning Crew
+05/07/2026,6700 Office Supplies,4616.0,,BILL-3134 Stanton Cleaning Crew
+05/10/2026,1000 Cash,21385.0,,Deposit - Yardley Supply INV-2241
+05/10/2026,1100 Accounts Receivable,,21385.0,Deposit - Yardley Supply INV-2241
+05/11/2026,1000 Cash,24190.0,,Deposit - Hartwell Group INV-2242
+05/11/2026,1100 Accounts Receivable,,24190.0,Deposit - Hartwell Group INV-2242
+05/12/2026,1000 Cash,12626.0,,Deposit - Longmont Systems INV-2244
+05/12/2026,1100 Accounts Receivable,,12626.0,Deposit - Longmont Systems INV-2244
+05/12/2026,1100 Accounts Receivable,5599.0,,Invoice INV-2248 - Longmont Systems
+05/12/2026,4000 Patient Service Revenue,,5599.0,Invoice INV-2248 - Longmont Systems
+05/13/2026,1100 Accounts Receivable,19028.0,,Invoice INV-2252 - Atlas Verde LLC
+05/13/2026,4000 Patient Service Revenue,,19028.0,Invoice INV-2252 - Atlas Verde LLC
+05/14/2026,1100 Accounts Receivable,21018.0,,Invoice INV-2249 - Marlowe & Finch
+05/14/2026,4000 Patient Service Revenue,,21018.0,Invoice INV-2249 - Marlowe & Finch
+05/14/2026,1000 Cash,,4616.0,Pay BILL-3134 Stanton Cleaning Crew CHK#1008
+05/14/2026,2000 Accounts Payable,4616.0,,Pay BILL-3134 Stanton Cleaning Crew CHK#1008
+05/15/2026,1000 Cash,,24137.0,Payroll 2026-05/01-05/15
+05/15/2026,2300 Payroll Liabilities,,6807.0,Payroll 2026-05/01-05/15
+05/15/2026,6000 Salaries Expense,30944.0,,Payroll 2026-05/01-05/15
+05/16/2026,2000 Accounts Payable,,2532.0,BILL-3135 Pillar Accounting Services
+05/16/2026,6600 Professional Fees,2532.0,,BILL-3135 Pillar Accounting Services
+05/17/2026,1100 Accounts Receivable,6393.0,,Invoice INV-2251 - Ivywood Enterprises
+05/17/2026,4000 Patient Service Revenue,,6393.0,Invoice INV-2251 - Ivywood Enterprises
+05/19/2026,1100 Accounts Receivable,5519.0,,Invoice INV-2247 - Pinehurst Digital
+05/19/2026,4000 Patient Service Revenue,,5519.0,Invoice INV-2247 - Pinehurst Digital
+05/19/2026,2000 Accounts Payable,,5804.0,BILL-3136 Ridgeline Telecom
+05/19/2026,6500 Utilities Expense,5804.0,,BILL-3136 Ridgeline Telecom
+05/25/2026,1000 Cash,,5804.0,Pay BILL-3136 Ridgeline Telecom CHK#1009
+05/25/2026,2000 Accounts Payable,5804.0,,Pay BILL-3136 Ridgeline Telecom CHK#1009
+05/26/2026,1000 Cash,5738.0,,Deposit - Crestline Partners INV-2250
+05/26/2026,1100 Accounts Receivable,,5738.0,Deposit - Crestline Partners INV-2250
+05/26/2026,1000 Cash,19028.0,,Deposit - Atlas Verde LLC INV-2252
+05/26/2026,1100 Accounts Receivable,,19028.0,Deposit - Atlas Verde LLC INV-2252
+05/28/2026,1000 Cash,5599.0,,Deposit - Longmont Systems INV-2248
+05/28/2026,1100 Accounts Receivable,,5599.0,Deposit - Longmont Systems INV-2248
+05/28/2026,1000 Cash,,23996.0,Payroll 2026-05/16-05/30
+05/28/2026,2300 Payroll Liabilities,,6768.0,Payroll 2026-05/16-05/30
+05/28/2026,6000 Salaries Expense,30764.0,,Payroll 2026-05/16-05/30
+05/28/2026,1300 Prepaid Insurance,,187.0,Monthly insurance amortization
+05/28/2026,6400 Insurance Expense,187.0,,Monthly insurance amortization
+05/28/2026,1590 Accumulated Depreciation,,1593.76,Monthly depreciation
+05/28/2026,6800 Depreciation Expense,1593.76,,Monthly depreciation
+06/02/2026,2000 Accounts Payable,,3351.0,BILL-3138 Uptown Catering Co.
+06/02/2026,6700 Office Supplies,3351.0,,BILL-3138 Uptown Catering Co.
+06/03/2026,1000 Cash,,4399.0,Rent - Harborstone Realty Partners
+06/03/2026,6100 Rent Expense,4399.0,,Rent - Harborstone Realty Partners
+06/04/2026,2000 Accounts Payable,,717.0,BILL-3141 Meridian Legal LLP
+06/04/2026,6600 Professional Fees,717.0,,BILL-3141 Meridian Legal LLP
+06/04/2026,2000 Accounts Payable,,903.0,BILL-3143 Bright Harbor Media
+06/04/2026,6200 Advertising & Marketing,903.0,,BILL-3143 Bright Harbor Media
+06/04/2026,2000 Accounts Payable,,11400.67,BILL-3144 Pillar Accounting Services
+06/04/2026,6600 Professional Fees,11400.67,,BILL-3144 Pillar Accounting Services
+06/05/2026,1100 Accounts Receivable,16214.0,,Invoice INV-2256 - Crestline Partners
+06/05/2026,4000 Patient Service Revenue,,16214.0,Invoice INV-2256 - Crestline Partners
+06/07/2026,1000 Cash,,11400.67,Pay BILL-3144 Pillar Accounting Services CHK#1012
+06/07/2026,2000 Accounts Payable,11400.67,,Pay BILL-3144 Pillar Accounting Services CHK#1012
+06/08/2026,1000 Cash,,3351.0,Pay BILL-3138 Uptown Catering Co. CHK#1011
+06/08/2026,2000 Accounts Payable,3351.0,,Pay BILL-3138 Uptown Catering Co. CHK#1011
+06/11/2026,2000 Accounts Payable,,3242.0,BILL-3140 Meridix Clinical Products
+06/11/2026,6350 Medical Supplies,3242.0,,BILL-3140 Meridix Clinical Products
+06/11/2026,2000 Accounts Payable,,8677.01,BILL-3146 Bright Harbor Media
+06/11/2026,6200 Advertising & Marketing,8677.01,,BILL-3146 Bright Harbor Media
+06/12/2026,1000 Cash,21018.0,,Deposit - Marlowe & Finch INV-2249
+06/12/2026,1100 Accounts Receivable,,21018.0,Deposit - Marlowe & Finch INV-2249
+06/12/2026,1100 Accounts Receivable,24383.0,,Invoice INV-2254 - Marlowe & Finch
+06/12/2026,4000 Patient Service Revenue,,24383.0,Invoice INV-2254 - Marlowe & Finch
+06/12/2026,1000 Cash,19022.0,,Owner capital contribution
+06/12/2026,3000 Retained Earnings,,19022.0,Owner capital contribution
+06/13/2026,2000 Accounts Payable,,4705.0,BILL-3142 Kite Digital Ads
+06/13/2026,6200 Advertising & Marketing,4705.0,,BILL-3142 Kite Digital Ads
+06/15/2026,2000 Accounts Payable,,14004.41,BILL-3145 Caldwell Medical Supply
+06/15/2026,6350 Medical Supplies,14004.41,,BILL-3145 Caldwell Medical Supply
+06/15/2026,1000 Cash,,22501.0,Payroll 2026-06/01-06/15
+06/15/2026,2300 Payroll Liabilities,,6346.0,Payroll 2026-06/01-06/15
+06/15/2026,6000 Salaries Expense,28847.0,,Payroll 2026-06/01-06/15
+06/16/2026,1000 Cash,6393.0,,Deposit - Ivywood Enterprises INV-2251
+06/16/2026,1100 Accounts Receivable,,6393.0,Deposit - Ivywood Enterprises INV-2251
+06/18/2026,1000 Cash,,4705.0,Pay BILL-3142 Kite Digital Ads CHK#1014
+06/18/2026,2000 Accounts Payable,4705.0,,Pay BILL-3142 Kite Digital Ads CHK#1014
+06/18/2026,1000 Cash,,14004.41,Pay BILL-3145 Caldwell Medical Supply CHK#1015
+06/18/2026,2000 Accounts Payable,14004.41,,Pay BILL-3145 Caldwell Medical Supply CHK#1015
+06/19/2026,1000 Cash,,3242.0,Pay BILL-3140 Meridix Clinical Products CHK#1013
+06/19/2026,2000 Accounts Payable,3242.0,,Pay BILL-3140 Meridix Clinical Products CHK#1013
+06/20/2026,1100 Accounts Receivable,11537.0,,Invoice INV-2255 - Marlowe & Finch
+06/20/2026,4000 Patient Service Revenue,,11537.0,Invoice INV-2255 - Marlowe & Finch
+06/20/2026,2000 Accounts Payable,,2859.0,BILL-3139 Junction Utility Co-op
+06/20/2026,6500 Utilities Expense,2859.0,,BILL-3139 Junction Utility Co-op
+06/21/2026,1100 Accounts Receivable,6459.0,,Invoice INV-2253 - Atlas Verde LLC
+06/21/2026,4100 Lab & Imaging Revenue,,6459.0,Invoice INV-2253 - Atlas Verde LLC
+06/25/2026,1000 Cash,24383.0,,Deposit - Marlowe & Finch INV-2254
+06/25/2026,1100 Accounts Receivable,,24383.0,Deposit - Marlowe & Finch INV-2254
+06/28/2026,1000 Cash,5519.0,,Deposit - Pinehurst Digital INV-2247
+06/28/2026,1100 Accounts Receivable,,5519.0,Deposit - Pinehurst Digital INV-2247
+06/28/2026,1000 Cash,,2859.0,Pay BILL-3139 Junction Utility Co-op CHK#1016
+06/28/2026,2000 Accounts Payable,2859.0,,Pay BILL-3139 Junction Utility Co-op CHK#1016
+06/28/2026,1590 Accumulated Depreciation,,1593.76,Monthly depreciation
+06/28/2026,6800 Depreciation Expense,1593.76,,Monthly depreciation

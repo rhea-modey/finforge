@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 12457.25,
+   "keywords": [
+    "lighthouse",
+    "bright"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 11774.01,
+   "keywords": [
+    "momentum",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 18724.25,
+   "budget": 6489.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 12457.25,
+     "description": "Special Lighthouse initiative - one-off fees billed by Bright Harbor Media (BILL-3132)",
+     "evidence": [
+      "bills/BILL-3132.txt"
+     ]
+    }
+   ],
+   "variance": 12235.25
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 11774.01,
+   "budget": 160.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 11774.01,
+     "description": "Special Momentum initiative - one-off fees billed by Pillar Accounting Services (BILL-3131)",
+     "evidence": [
+      "bills/BILL-3131.txt"
+     ]
+    }
+   ],
+   "variance": 11614.01
+  }
+ ]
+}

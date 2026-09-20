@@ -1,0 +1,53 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 399519.78,
+    "gold": 399519.78,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 410886.22,
+    "gold": 410886.22,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "BILL-3125 states $3,271.00, and the bank statement shows check #1020 clearing for $3,271.00, but the GL records both the bill and payment as $2,371.00. The books are understated by $900.00, although the source document and bank evidence make the required correction determinable.",
+    "severity": "medium"
+   },
+   {
+    "description": "The 2026-06-30 AP aging totals $32,714.00, while the trial balance reports Accounts Payable of $59,123.86, leaving $26,409.86 of ledger payables absent from the aging.",
+    "severity": "medium"
+   },
+   {
+    "description": "BILL-3131 documents a $5,245.00 advertising campaign placement, but the GL records it in 6700 Office Supplies rather than 6200 Advertising & Marketing. The source document makes the required reclassification determinable.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w19-accrual_schedule": {
+    "reason": "The May prepaid schedule establishes the insurance opening balance, while the insurance and software contracts establish additions and monthly amortization. The GL confirms that June amortization has not yet been posted.",
+    "solvable": true
+   },
+   "w19-bank_rec": {
+    "reason": "The bank statement, GL, trial balance, and supporting BILL-3125 identify all timing items and book-side corrections. The statement balance can be reconciled to a unique adjusted balance after the deposit in transit, outstanding checks, unrecorded fees and interest, and the $900 BILL-3125 cash understatement.",
+    "solvable": true
+   },
+   "w19-journal_entries": {
+    "reason": "The payroll register, prepaid contracts and schedule, fixed asset register, GL, and vendor source documents provide the information needed to identify the payroll accrual, combined prepaid amortization, already-posted depreciation, and required expense reclassification. Bank-side corrections are explicitly excluded.",
+    "solvable": true
+   },
+   "w19-variance_analysis": {
+    "reason": "June actual activity can be isolated from the GL and adjusted using the determinable checklist entries before comparison with the June budget. Materiality requires ordinary professional judgment but does not prevent a defensible analysis.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

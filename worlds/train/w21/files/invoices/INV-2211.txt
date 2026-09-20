@@ -1,0 +1,15 @@
+Halcyon Grid Software
+GRID OPERATIONS, WITHOUT THE BUSYWORK
+
+INVOICE
+Document id: INV-2211
+Customer: Longmont Systems
+Date: 2026-04-04
+
+Line item
+Cloud grid-management software service for the service period.
+
+Amount due: $30,683.00
+
+Payment terms: Due upon receipt.
+Remittance note: Include the invoice id so we can apply payment promptly.

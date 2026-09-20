@@ -1,0 +1,216 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Inventory",
+   "number": "1400"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Wholesale Sales",
+   "number": "4000"
+  },
+  {
+   "name": "Delivery Fees",
+   "number": "4100"
+  },
+  {
+   "name": "Cost of Goods Sold",
+   "number": "5000"
+  },
+  {
+   "name": "Freight & Shipping",
+   "number": "5100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Ironline Distributors Inc.",
+ "files_tree_hash": "783309ce04029d79da4b02966e31e87c0f0ef25c33f70799c54550dc6778911f",
+ "industry": "wholesale",
+ "split": "train",
+ "truth_records": [
+  {
+   "amount": 4864.0,
+   "detail": {
+    "bill_id": "BILL-3149",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 1790.51,
+   "detail": {
+    "asset": "Equipment (aggregate)"
+   },
+   "kind": "missing_depreciation"
+  },
+  {
+   "amount": 113.0,
+   "detail": {
+    "item": "Bellhaven Insurance Agency annual policy"
+   },
+   "kind": "missing_prepaid_amort"
+  },
+  {
+   "amount": 9882.0,
+   "detail": {
+    "bill_id": "BILL-3143",
+    "check_no": "CHK-1011",
+    "date": "2026-06-11",
+    "vendor": "CloudSpan Hosting"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 29372.53,
+   "detail": {
+    "bill_id": "BILL-3148",
+    "check_no": "CHK-1013",
+    "date": "2026-06-16",
+    "vendor": "Zenith Freight Lines"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 81.0,
+   "detail": {
+    "bank_amount": 4709.0,
+    "bill_id": "BILL-3146",
+    "check_no": "CHK-1014",
+    "direction": "gl_overstated_payment",
+    "expense_acct": "5100",
+    "gl_amount": 4790.0
+   },
+   "kind": "gl_amount_error"
+  },
+  {
+   "amount": 25958.0,
+   "detail": {
+    "desc": "DEPOSIT DUNMORE HOLD INV-2236"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 63.99,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 19846.73,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3147",
+    "campaign": "Harvest",
+    "desc": "Non-recurring Harvest program",
+    "keywords": [
+     "harvest",
+     "trellis"
+    ],
+    "vendor": "Trellis Marketing Group"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 29372.53,
+   "detail": {
+    "account": "5100",
+    "bill_id": "BILL-3148",
+    "campaign": "Northstar",
+    "desc": "Non-recurring Northstar program",
+    "keywords": [
+     "northstar",
+     "zenith"
+    ],
+    "vendor": "Zenith Freight Lines"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "w15"
+}

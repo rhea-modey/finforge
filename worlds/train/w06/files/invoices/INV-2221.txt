@@ -1,0 +1,16 @@
+Copper Kettle Trading
+ONLINE TRADE INVOICE
+
+Document: INV-2221
+Date: 2026-04-23
+
+Account customer:
+Ivywood Enterprises
+
+Order detail:
+Merchandise supplied and dispatched for the current trading period.
+
+Amount due: $14,689.00
+
+Terms: Net 30
+Remittance: Include the document id so payment can be applied promptly.

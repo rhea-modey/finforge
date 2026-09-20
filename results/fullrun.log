@@ -1,0 +1,193 @@
+[finforge] budget cap=$120.00, already spent per records=$13.22
+[finforge] heldout eval tag=c0 version=v0 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge] iteration 0: already finalized (deployed=v0) — fast-forward
+[finforge] heldout eval tag=c1 version=v1 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge] iteration 1: already finalized (deployed=v1) — fast-forward
+[finforge] heldout eval tag=c2 version=v2 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge]   heldout-c2-h04-journal_entries: ended=submitted gold=100.0 judge=6.0 usd=0.0630
+[finforge]   heldout-c2-h03-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.1061
+[finforge]   heldout-c2-h04-accrual_schedule: ended=submitted gold=100.0 judge=6.0 usd=0.1165
+[finforge]   heldout-c2-h05-journal_entries: ended=submitted gold=95.0 judge=5.0 usd=0.1166
+[finforge]   heldout-c2-h03-journal_entries: ended=submitted gold=50.0 judge=3.0 usd=0.1927
+[finforge]   heldout-c2-h06-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.0309
+[finforge]   heldout-c2-h03-bank_rec: ended=submitted gold=13.3 judge=5.0 usd=0.1326
+[finforge]   heldout-c2-h05-accrual_schedule: ended=submitted gold=100.0 judge=6.0 usd=0.2740
+[finforge]   heldout-c2-h04-bank_rec: ended=submitted gold=100.0 judge=8.0 usd=0.2107
+[finforge]   heldout-c2-h05-bank_rec: ended=submitted gold=86.7 judge=8.0 usd=0.2315
+[finforge]   heldout-c2-h03-variance_analysis: ended=submitted gold=12.5 judge=5.0 usd=0.3141
+[finforge]   heldout-c2-h06-journal_entries: ended=submitted gold=66.7 judge=5.0 usd=0.3369
+[finforge]   heldout-c2-h06-bank_rec: ended=submitted gold=100.0 judge=8.0 usd=0.3799
+[finforge]   heldout-c2-h04-variance_analysis: ended=submitted gold=78.6 judge=3.0 usd=0.4762
+[finforge]   heldout-c2-h06-variance_analysis: ended=submitted gold=0.0 judge=5.0 usd=0.5137
+[finforge]   heldout-c2-h05-variance_analysis: ended=max_steps gold=0.0 judge=1.0 usd=0.9535
+[finforge] iteration 2: candidate=v2 vs incumbent=v1 (acceptance gate) worlds=['w07', 'w08', 'w09']
+[finforge]   train-i02-w07-accrual_schedule@inc: ended=submitted judge=7.0 usd=0.0595
+[finforge]   train-i02-w07-variance_analysis@inc: ended=submitted judge=5.0 usd=0.0662
+[finforge]   train-i02-w08-journal_entries@inc: ended=submitted judge=4.0 usd=0.0976
+[finforge]   train-i02-w07-journal_entries: ended=submitted judge=7.0 usd=0.1264
+[finforge]   train-i02-w07-journal_entries@inc: ended=submitted judge=4.0 usd=0.1305
+[finforge]   train-i02-w08-journal_entries: ended=submitted judge=4.0 usd=0.1441
+[finforge]   train-i02-w07-accrual_schedule: ended=submitted judge=7.0 usd=0.1313
+[finforge]   train-i02-w08-accrual_schedule@inc: ended=submitted judge=8.0 usd=0.0453
+[finforge]   train-i02-w08-accrual_schedule: ended=submitted judge=6.0 usd=0.0509
+[finforge]   train-i02-w08-bank_rec: ended=submitted judge=8.0 usd=0.1354
+[finforge]   train-i02-w07-bank_rec: ended=submitted judge=8.0 usd=0.1881
+[finforge]   train-i02-w08-bank_rec@inc: ended=submitted judge=7.0 usd=0.1616
+[finforge]   train-i02-w09-journal_entries@inc: ended=submitted judge=5.0 usd=0.0461
+[finforge]   train-i02-w07-bank_rec@inc: ended=submitted judge=8.0 usd=0.2184
+[finforge]   train-i02-w09-accrual_schedule: ended=submitted judge=5.0 usd=0.0317
+[finforge]   train-i02-w09-accrual_schedule@inc: ended=submitted judge=7.0 usd=0.1377
+[finforge]   train-i02-w08-variance_analysis@inc: ended=submitted judge=4.0 usd=0.4243
+[finforge]   train-i02-w07-variance_analysis: ended=submitted judge=5.0 usd=0.5948
+[finforge]   train-i02-w09-bank_rec@inc: ended=submitted judge=6.0 usd=0.4483
+[finforge]   train-i02-w09-journal_entries: ended=submitted judge=4.0 usd=0.6797
+[finforge]   train-i02-w09-variance_analysis: ended=submitted judge=4.0 usd=0.6504
+[finforge]   train-i02-w09-variance_analysis@inc: ended=submitted judge=5.0 usd=0.6286
+[finforge]   train-i02-w08-variance_analysis: ended=max_steps judge=1.0 usd=0.8788
+[finforge]   train-i02-w09-bank_rec: ended=submitted judge=3.0 usd=0.7207
+[finforge]   acceptance gate: v2=5.167 vs v1=5.833 -> deployed v1
+[finforge] wrote harness/revisions/v3.md
+[finforge] heldout eval tag=c3 version=v3 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge]   heldout-c3-h03-journal_entries: ended=submitted gold=50.0 judge=4.0 usd=0.0480
+[finforge]   heldout-c3-h02-journal_entries: ended=submitted gold=62.5 judge=6.0 usd=0.0490
+[finforge]   heldout-c3-h01-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.0665
+[finforge]   heldout-c3-h03-accrual_schedule: ended=submitted gold=100.0 judge=6.0 usd=0.0738
+[finforge]   heldout-c3-h02-accrual_schedule: ended=submitted gold=100.0 judge=5.0 usd=0.1286
+[finforge]   heldout-c3-h01-bank_rec: ended=submitted gold=100.0 judge=8.0 usd=0.1217
+[finforge]   heldout-c3-h01-journal_entries: ended=submitted gold=12.5 judge=3.0 usd=0.1715
+[finforge]   heldout-c3-h02-variance_analysis: ended=submitted gold=0.0 judge=4.0 usd=0.1484
+[finforge]   heldout-c3-h04-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.1496
+[finforge]   heldout-c3-h05-bank_rec: ended=submitted gold=100.0 judge=8.0 usd=0.1137
+[finforge]   heldout-c3-h04-bank_rec: ended=submitted gold=78.3 judge=4.0 usd=0.1702
+[finforge]   heldout-c3-h04-variance_analysis: ended=submitted gold=25.0 judge=5.0 usd=0.1902
+[finforge]   heldout-c3-h03-bank_rec: ended=submitted gold=100.0 judge=8.0 usd=0.2534
+[finforge]   heldout-c3-h05-variance_analysis: ended=submitted gold=0.0 judge=4.0 usd=0.1530
+[finforge]   heldout-c3-h06-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.0441
+[finforge]   heldout-c3-h01-variance_analysis: ended=submitted gold=0.0 judge=3.0 usd=0.3328
+[finforge]   heldout-c3-h02-bank_rec: ended=submitted gold=22.6 judge=3.0 usd=0.3632
+[finforge]   heldout-c3-h06-journal_entries: ended=submitted gold=0.0 judge=1.0 usd=0.1890
+[finforge]   heldout-c3-h05-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.3738
+[finforge]   heldout-c3-h06-bank_rec: ended=submitted gold=30.0 judge=5.0 usd=0.2074
+[finforge]   heldout-c3-h06-variance_analysis: ended=submitted gold=0.0 judge=4.0 usd=0.1730
+[finforge]   heldout-c3-h03-variance_analysis: ended=submitted gold=12.5 judge=4.0 usd=0.4120
+[finforge]   heldout-c3-h05-journal_entries: ended=submitted gold=50.0 judge=4.0 usd=0.3702
+[finforge]   heldout-c3-h04-journal_entries: ended=max_steps gold=0.0 judge=1.0 usd=0.7263
+[finforge] iteration 3: candidate=v3 vs incumbent=v1 (acceptance gate) worlds=['w10', 'w11', 'w12']
+[finforge]   train-i03-w10-journal_entries@inc: ended=submitted judge=7.0 usd=0.0694
+[finforge]   train-i03-w10-bank_rec: ended=submitted judge=4.0 usd=0.0516
+[finforge]   train-i03-w10-variance_analysis: ended=submitted judge=3.0 usd=0.0900
+[finforge]   train-i03-w10-bank_rec@inc: ended=submitted judge=8.0 usd=0.0693
+[finforge]   train-i03-w10-accrual_schedule@inc: ended=submitted judge=8.0 usd=0.0946
+[finforge]   train-i03-w10-journal_entries: ended=submitted judge=1.0 usd=0.2333
+[finforge]   train-i03-w10-accrual_schedule: ended=submitted judge=4.0 usd=0.2218
+[finforge]   train-i03-w11-journal_entries: ended=submitted judge=6.0 usd=0.2544
+[finforge]   train-i03-w11-accrual_schedule: ended=submitted judge=6.0 usd=0.1336
+[finforge]   train-i03-w12-journal_entries@inc: ended=submitted judge=4.0 usd=0.0392
+[finforge]   train-i03-w12-journal_entries: ended=submitted judge=5.0 usd=0.0489
+[finforge]   train-i03-w12-bank_rec: ended=submitted judge=8.0 usd=0.1039
+[finforge]   train-i03-w11-variance_analysis: ended=submitted judge=5.0 usd=0.2349
+[finforge]   train-i03-w11-variance_analysis@inc: ended=submitted judge=4.0 usd=0.2318
+[finforge]   train-i03-w12-accrual_schedule: ended=submitted judge=7.0 usd=0.1314
+[finforge]   train-i03-w12-variance_analysis: ended=submitted judge=6.0 usd=0.1151
+[finforge]   train-i03-w12-accrual_schedule@inc: ended=submitted judge=6.0 usd=0.1275
+[finforge]   train-i03-w10-variance_analysis@inc: ended=submitted judge=3.0 usd=0.3222
+[finforge]   train-i03-w11-journal_entries@inc: ended=submitted judge=6.0 usd=0.6144
+[finforge]   train-i03-w11-bank_rec: ended=submitted judge=5.0 usd=0.4213
+[finforge]   train-i03-w11-bank_rec@inc: ended=submitted judge=5.0 usd=0.5755
+[finforge]   train-i03-w11-accrual_schedule@inc: ended=submitted judge=7.0 usd=0.5883
+[finforge]   train-i03-w12-bank_rec@inc: ended=submitted judge=4.0 usd=0.4178
+[finforge]   train-i03-w12-variance_analysis@inc: ended=submitted judge=4.0 usd=0.4181
+[finforge]   acceptance gate: v3=5.0 vs v1=5.5 -> deployed v1
+[finforge] wrote harness/revisions/v4.md
+[finforge] heldout eval tag=c4 version=v4 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge]   heldout-c4-h02-journal_entries: ended=submitted gold=75.0 judge=6.0 usd=0.0424
+[finforge]   heldout-c4-h03-journal_entries: ended=submitted gold=50.0 judge=4.0 usd=0.0561
+[finforge]   heldout-c4-h01-accrual_schedule: ended=submitted gold=65.0 judge=4.0 usd=0.0901
+[finforge]   heldout-c4-h02-accrual_schedule: ended=submitted gold=100.0 judge=6.0 usd=0.1122
+[finforge]   heldout-c4-h03-accrual_schedule: ended=submitted gold=100.0 judge=6.0 usd=0.1416
+[finforge]   heldout-c4-h01-journal_entries: ended=submitted gold=50.0 judge=6.0 usd=0.1470
+[finforge]   heldout-c4-h04-journal_entries: ended=submitted gold=80.0 judge=5.0 usd=0.0812
+[finforge]   heldout-c4-h03-variance_analysis: ended=submitted gold=52.5 judge=6.0 usd=0.1456
+[finforge]   heldout-c4-h04-accrual_schedule: ended=submitted gold=35.0 judge=4.0 usd=0.0456
+[finforge]   heldout-c4-h04-bank_rec: ended=submitted gold=100.0 judge=8.0 usd=0.1322
+[finforge]   heldout-c4-h01-variance_analysis: ended=submitted gold=0.0 judge=4.0 usd=0.1941
+[finforge]   heldout-c4-h01-bank_rec: ended=submitted gold=100.0 judge=7.0 usd=0.1719
+[finforge]   heldout-c4-h04-variance_analysis: ended=submitted gold=25.0 judge=4.0 usd=0.1187
+[finforge]   heldout-c4-h03-bank_rec: ended=submitted gold=72.9 judge=6.0 usd=0.1909
+[finforge]   heldout-c4-h02-variance_analysis: ended=submitted gold=12.5 judge=6.0 usd=0.2583
+[finforge]   heldout-c4-h06-accrual_schedule: ended=submitted gold=100.0 judge=6.0 usd=0.0282
+[finforge]   heldout-c4-h06-variance_analysis: ended=submitted gold=0.0 judge=5.0 usd=0.0445
+[finforge]   heldout-c4-h05-journal_entries: ended=submitted gold=50.0 judge=5.0 usd=0.1565
+[finforge]   heldout-c4-h02-bank_rec: ended=submitted gold=91.4 judge=6.0 usd=0.3019
+[finforge]   heldout-c4-h05-variance_analysis: ended=submitted gold=43.9 judge=5.0 usd=0.2297
+[finforge]   heldout-c4-h06-journal_entries: ended=submitted gold=66.7 judge=4.0 usd=0.3013
+[finforge]   heldout-c4-h06-bank_rec: ended=submitted gold=83.3 judge=6.0 usd=0.1905
+[finforge]   heldout-c4-h05-accrual_schedule: ended=submitted gold=95.0 judge=6.0 usd=0.2557
+[finforge]   heldout-c4-h05-bank_rec: ended=submitted gold=100.0 judge=8.0 usd=0.3562
+[finforge] iteration 4: candidate=v4 vs incumbent=v1 (acceptance gate) worlds=['w13', 'w14', 'w15']
+[finforge]   train-i04-w14-journal_entries: ended=submitted judge=5.0 usd=0.0221
+[finforge]   train-i04-w13-accrual_schedule: ended=submitted judge=7.0 usd=0.0273
+[finforge]   train-i04-w13-journal_entries: ended=submitted judge=6.5 usd=0.0742
+[finforge]   train-i04-w14-bank_rec@inc: ended=submitted judge=8.0 usd=0.0544
+[finforge]   train-i04-w13-bank_rec@inc: ended=submitted judge=3.0 usd=0.1150
+[finforge]   train-i04-w14-accrual_schedule: ended=submitted judge=8.0 usd=0.0290
+[finforge]   train-i04-w13-journal_entries@inc: ended=submitted judge=5.0 usd=0.1728
+[finforge]   train-i04-w13-variance_analysis@inc: ended=submitted judge=4.0 usd=0.1259
+[finforge]   train-i04-w14-accrual_schedule@inc: ended=submitted judge=3.0 usd=0.0860
+[finforge]   train-i04-w15-journal_entries: ended=submitted judge=4.0 usd=0.0729
+[finforge]   train-i04-w14-journal_entries@inc: ended=submitted judge=5.0 usd=0.2491
+[finforge]   train-i04-w15-journal_entries@inc: ended=submitted judge=4.0 usd=0.0853
+[finforge]   train-i04-w13-bank_rec: ended=submitted judge=8.0 usd=0.1957
+[finforge]   train-i04-w14-bank_rec: ended=submitted judge=6.0 usd=0.3294
+[finforge]   train-i04-w15-variance_analysis: ended=submitted judge=6.0 usd=0.0856
+[finforge]   train-i04-w15-accrual_schedule: ended=submitted judge=7.0 usd=0.0802
+[finforge]   train-i04-w15-bank_rec@inc: ended=submitted judge=6.0 usd=0.1651
+[finforge]   train-i04-w14-variance_analysis: ended=submitted judge=4.0 usd=0.2653
+[finforge]   train-i04-w15-accrual_schedule@inc: ended=submitted judge=7.0 usd=0.0908
+[finforge]   train-i04-w15-variance_analysis@inc: ended=submitted judge=5.0 usd=0.1248
+[finforge]   train-i04-w13-accrual_schedule@inc: ended=submitted judge=7.0 usd=0.5490
+[finforge]   train-i04-w13-variance_analysis: ended=submitted judge=5.0 usd=0.4908
+[finforge]   train-i04-w14-variance_analysis@inc: ended=submitted judge=6.0 usd=0.6647
+[finforge]   train-i04-w15-bank_rec: ended=submitted judge=4.0 usd=0.5308
+[finforge]   acceptance gate: v4=5.875 vs v1=5.25 -> deployed v4
+[finforge] wrote harness/revisions/v5.md
+[finforge] heldout eval tag=c5 version=v5 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge]   heldout-c5-h03-accrual_schedule: ended=submitted gold=100.0 judge=5.0 usd=0.1155
+[finforge]   heldout-c5-h02-journal_entries: ended=submitted gold=62.5 judge=5.0 usd=0.1003
+[finforge]   heldout-c5-h02-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.1311
+[finforge]   heldout-c5-h01-journal_entries: ended=submitted gold=75.0 judge=6.0 usd=0.2179
+[finforge]   heldout-c5-h01-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.2350
+[finforge]   heldout-c5-h01-variance_analysis: ended=submitted gold=0.0 judge=6.0 usd=0.2220
+[finforge]   heldout-c5-h03-journal_entries: ended=submitted gold=50.0 judge=3.0 usd=0.2674
+[finforge]   heldout-c5-h04-accrual_schedule: ended=submitted gold=100.0 judge=5.0 usd=0.0824
+[finforge]   heldout-c5-h05-journal_entries: ended=submitted gold=100.0 judge=6.0 usd=0.0433
+[finforge]   heldout-c5-h02-variance_analysis: ended=submitted gold=0.0 judge=2.0 usd=0.4149
+[finforge]   heldout-c5-h04-journal_entries: ended=submitted gold=100.0 judge=7.0 usd=0.2374
+[finforge]   heldout-c5-h04-variance_analysis: ended=submitted gold=0.0 judge=5.0 usd=0.2536
+[finforge]   heldout-c5-h05-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.0895
+[finforge]   heldout-c5-h06-journal_entries: ended=submitted gold=66.7 judge=4.0 usd=0.0962
+[finforge]   heldout-c5-h02-bank_rec: ended=submitted gold=100.0 judge=8.0 usd=0.4348
+[finforge]   heldout-c5-h04-bank_rec: ended=submitted gold=36.7 judge=4.0 usd=0.2947
+[finforge]   heldout-c5-h03-variance_analysis: ended=submitted gold=12.5 judge=5.0 usd=0.3686
+[finforge]   heldout-c5-h06-accrual_schedule: ended=submitted gold=100.0 judge=6.0 usd=0.2199
+[finforge]   heldout-c5-h06-variance_analysis: ended=submitted gold=12.5 judge=4.0 usd=0.1704
+[finforge]   heldout-c5-h05-variance_analysis: ended=submitted gold=25.0 judge=4.0 usd=0.4443
+[finforge]   heldout-c5-h03-bank_rec: ended=submitted gold=100.0 judge=8.0 usd=0.6677
+[finforge]   heldout-c5-h05-bank_rec: ended=submitted gold=93.3 judge=6.0 usd=0.3117
+[finforge]   heldout-c5-h01-bank_rec: ended=submitted gold=95.0 judge=8.0 usd=0.6299
+[finforge]   heldout-c5-h06-bank_rec: ended=submitted gold=66.0 judge=6.0 usd=0.5243
+[finforge] iteration 5: candidate=v5 vs incumbent=v4 (acceptance gate) worlds=['w16', 'w17', 'w18']
+[finforge] budget cap=$120.00, already spent per records=$51.98
+[finforge] heldout eval tag=c0 version=v0 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge] iteration 0: already finalized (deployed=v0) — fast-forward
+[finforge] heldout eval tag=c1 version=v1 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge] iteration 1: already finalized (deployed=v1) — fast-forward
+[finforge] heldout eval tag=c2 version=v2 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge] iteration 2: already finalized (deployed=v1) — fast-forward
+[finforge] heldout eval tag=c3 version=v3 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge] iteration 3: already finalized (deployed=v1) — fast-forward
+[finforge] heldout eval tag=c4 version=v4 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge] iteration 4: already finalized (deployed=v4) — fast-forward
+[finforge] heldout eval tag=c5 version=v5 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge] iteration 5: candidate=v5 vs incumbent=v4 (acceptance gate) worlds=['w16', 'w17', 'w18']
+[finforge]   train-i05-w16-accrual_schedule@inc: ended=submitted judge=5.0 usd=0.0245

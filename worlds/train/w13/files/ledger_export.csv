@@ -1,0 +1,160 @@
+Date;gl_account;dr;cr;description
+2026-04-01;1000 Cash;472451.22;;Opening balances
+2026-04-01;1300 Prepaid Insurance;1341.0;;Opening balances
+2026-04-01;1500 Equipment;64171.0;;Opening balances
+2026-04-01;1590 Accumulated Depreciation;;16042.65;Opening balances
+2026-04-01;2000 Accounts Payable;;33562.15;Opening balances
+2026-04-01;3000 Retained Earnings;;488358.42;Opening balances
+2026-04-02;1100 Accounts Receivable;29913.0;;Invoice INV-2211 - Aldergate Insurance
+2026-04-02;4000 Subscription Revenue;;29913.0;Invoice INV-2211 - Aldergate Insurance
+2026-04-02;1100 Accounts Receivable;18080.0;;Invoice INV-2213 - Vesper Technologies
+2026-04-02;4000 Subscription Revenue;;18080.0;Invoice INV-2213 - Vesper Technologies
+2026-04-02;2000 Accounts Payable;;3090.0;BILL-3124 Stanton Cleaning Crew
+2026-04-02;6700 Office Supplies;3090.0;;BILL-3124 Stanton Cleaning Crew
+2026-04-03;1100 Accounts Receivable;8152.0;;Invoice INV-2212 - Corliss Marine
+2026-04-03;4000 Subscription Revenue;;8152.0;Invoice INV-2212 - Corliss Marine
+2026-04-03;1000 Cash;;7420.0;Rent - Amberfield Property Group
+2026-04-03;6100 Rent Expense;7420.0;;Rent - Amberfield Property Group
+2026-04-03;2000 Accounts Payable;;8630.0;BILL-3129 CloudSpan Hosting
+2026-04-03;6450 Software Expense;8630.0;;BILL-3129 CloudSpan Hosting
+2026-04-05;2000 Accounts Payable;;4680.0;BILL-3126 Ridgeline Telecom
+2026-04-05;6500 Utilities Expense;4680.0;;BILL-3126 Ridgeline Telecom
+2026-04-06;1000 Cash;;16781.07;Payment on account - opening payables
+2026-04-06;2000 Accounts Payable;16781.07;;Payment on account - opening payables
+2026-04-06;1100 Accounts Receivable;29456.0;;Invoice INV-2215 - Yardley Supply
+2026-04-06;4000 Subscription Revenue;;29456.0;Invoice INV-2215 - Yardley Supply
+2026-04-08;1000 Cash;;3090.0;Pay BILL-3124 Stanton Cleaning Crew CHK#1003
+2026-04-08;2000 Accounts Payable;3090.0;;Pay BILL-3124 Stanton Cleaning Crew CHK#1003
+2026-04-09;2000 Accounts Payable;;9154.0;BILL-3127 Clearbyte Cloud Services
+2026-04-09;6300 Software Subscriptions;9154.0;;BILL-3127 Clearbyte Cloud Services
+2026-04-10;1000 Cash;;8630.0;Pay BILL-3129 CloudSpan Hosting CHK#1004
+2026-04-10;2000 Accounts Payable;8630.0;;Pay BILL-3129 CloudSpan Hosting CHK#1004
+2026-04-15;1000 Cash;;62250.0;Payroll 2026-04/01-04/15
+2026-04-15;2300 Payroll Liabilities;;17557.0;Payroll 2026-04/01-04/15
+2026-04-15;6000 Salaries Expense;79807.0;;Payroll 2026-04/01-04/15
+2026-04-16;1000 Cash;8152.0;;Deposit - Corliss Marine INV-2212
+2026-04-16;1100 Accounts Receivable;;8152.0;Deposit - Corliss Marine INV-2212
+2026-04-16;1000 Cash;;9154.0;Pay BILL-3127 Clearbyte Cloud Services CHK#1005
+2026-04-16;2000 Accounts Payable;9154.0;;Pay BILL-3127 Clearbyte Cloud Services CHK#1005
+2026-04-17;1000 Cash;18080.0;;Deposit - Vesper Technologies INV-2213
+2026-04-17;1100 Accounts Receivable;;18080.0;Deposit - Vesper Technologies INV-2213
+2026-04-18;2000 Accounts Payable;;9455.0;BILL-3125 Lumen Office Supply
+2026-04-18;6700 Office Supplies;9455.0;;BILL-3125 Lumen Office Supply
+2026-04-18;2000 Accounts Payable;;7447.0;BILL-3128 Meridian Legal LLP
+2026-04-18;6600 Professional Fees;7447.0;;BILL-3128 Meridian Legal LLP
+2026-04-21;1100 Accounts Receivable;23614.0;;Invoice INV-2214 - Eastgate Collective
+2026-04-21;4000 Subscription Revenue;;23614.0;Invoice INV-2214 - Eastgate Collective
+2026-04-22;1000 Cash;;7447.0;Pay BILL-3128 Meridian Legal LLP CHK#1006
+2026-04-22;2000 Accounts Payable;7447.0;;Pay BILL-3128 Meridian Legal LLP CHK#1006
+2026-04-23;1000 Cash;29456.0;;Deposit - Yardley Supply INV-2215
+2026-04-23;1100 Accounts Receivable;;29456.0;Deposit - Yardley Supply INV-2215
+2026-04-28;1000 Cash;;62289.0;Payroll 2026-04/16-04/30
+2026-04-28;2300 Payroll Liabilities;;17568.0;Payroll 2026-04/16-04/30
+2026-04-28;6000 Salaries Expense;79857.0;;Payroll 2026-04/16-04/30
+2026-04-28;1300 Prepaid Insurance;;149.0;Monthly insurance amortization
+2026-04-28;6400 Insurance Expense;149.0;;Monthly insurance amortization
+2026-04-28;1590 Accumulated Depreciation;;1069.51;Monthly depreciation
+2026-04-28;6800 Depreciation Expense;1069.51;;Monthly depreciation
+2026-05-01;1000 Cash;29913.0;;Deposit - Aldergate Insurance INV-2211
+2026-05-01;1100 Accounts Receivable;;29913.0;Deposit - Aldergate Insurance INV-2211
+2026-05-02;1100 Accounts Receivable;12087.0;;Invoice INV-2219 - Crestline Partners
+2026-05-02;4000 Subscription Revenue;;12087.0;Invoice INV-2219 - Crestline Partners
+2026-05-03;1100 Accounts Receivable;12930.0;;Invoice INV-2217 - Longmont Systems
+2026-05-03;4100 Professional Services Revenue;;12930.0;Invoice INV-2217 - Longmont Systems
+2026-05-03;1000 Cash;;7420.0;Rent - Amberfield Property Group
+2026-05-03;6100 Rent Expense;7420.0;;Rent - Amberfield Property Group
+2026-05-03;2000 Accounts Payable;;2530.0;BILL-3134 Delta Facility Services
+2026-05-03;6700 Office Supplies;2530.0;;BILL-3134 Delta Facility Services
+2026-05-08;2000 Accounts Payable;;3732.0;BILL-3130 Bright Harbor Media
+2026-05-08;6200 Advertising & Marketing;3732.0;;BILL-3130 Bright Harbor Media
+2026-05-09;2000 Accounts Payable;;6885.0;BILL-3131 Stackline SaaS Tools
+2026-05-09;6300 Software Subscriptions;6885.0;;BILL-3131 Stackline SaaS Tools
+2026-05-12;1000 Cash;;2530.0;Pay BILL-3134 Delta Facility Services CHK#1008
+2026-05-12;2000 Accounts Payable;2530.0;;Pay BILL-3134 Delta Facility Services CHK#1008
+2026-05-13;1100 Accounts Receivable;12371.0;;Invoice INV-2218 - Longmont Systems
+2026-05-13;4000 Subscription Revenue;;12371.0;Invoice INV-2218 - Longmont Systems
+2026-05-13;1000 Cash;;3732.0;Pay BILL-3130 Bright Harbor Media CHK#1009
+2026-05-13;2000 Accounts Payable;3732.0;;Pay BILL-3130 Bright Harbor Media CHK#1009
+2026-05-14;1100 Accounts Receivable;12257.0;;Invoice INV-2221 - Marlowe & Finch
+2026-05-14;4100 Professional Services Revenue;;12257.0;Invoice INV-2221 - Marlowe & Finch
+2026-05-14;1100 Accounts Receivable;41697.0;;Invoice INV-2222 - Crestline Partners
+2026-05-14;4000 Subscription Revenue;;41697.0;Invoice INV-2222 - Crestline Partners
+2026-05-15;1000 Cash;;6885.0;Pay BILL-3131 Stackline SaaS Tools CHK#1010
+2026-05-15;2000 Accounts Payable;6885.0;;Pay BILL-3131 Stackline SaaS Tools CHK#1010
+2026-05-15;1000 Cash;;32992.0;Payroll 2026-05/01-05/15
+2026-05-15;2300 Payroll Liabilities;;9305.0;Payroll 2026-05/01-05/15
+2026-05-15;6000 Salaries Expense;42297.0;;Payroll 2026-05/01-05/15
+2026-05-17;1000 Cash;23614.0;;Deposit - Eastgate Collective INV-2214
+2026-05-17;1100 Accounts Receivable;;23614.0;Deposit - Eastgate Collective INV-2214
+2026-05-21;1100 Accounts Receivable;26082.0;;Invoice INV-2216 - Crestline Partners
+2026-05-21;4000 Subscription Revenue;;26082.0;Invoice INV-2216 - Crestline Partners
+2026-05-21;2000 Accounts Payable;;7450.0;BILL-3132 CloudSpan Hosting
+2026-05-21;6450 Software Expense;7450.0;;BILL-3132 CloudSpan Hosting
+2026-05-22;2000 Accounts Payable;;8038.0;BILL-3133 Trellis Marketing Group
+2026-05-22;6200 Advertising & Marketing;8038.0;;BILL-3133 Trellis Marketing Group
+2026-05-24;1100 Accounts Receivable;34808.0;;Invoice INV-2220 - Yardley Supply
+2026-05-24;4000 Subscription Revenue;;34808.0;Invoice INV-2220 - Yardley Supply
+2026-05-27;1000 Cash;;7450.0;Pay BILL-3132 CloudSpan Hosting CHK#1011
+2026-05-27;2000 Accounts Payable;7450.0;;Pay BILL-3132 CloudSpan Hosting CHK#1011
+2026-05-28;1000 Cash;41697.0;;Deposit - Crestline Partners INV-2222
+2026-05-28;1100 Accounts Receivable;;41697.0;Deposit - Crestline Partners INV-2222
+2026-05-28;1000 Cash;;33008.0;Payroll 2026-05/16-05/30
+2026-05-28;2300 Payroll Liabilities;;9309.0;Payroll 2026-05/16-05/30
+2026-05-28;6000 Salaries Expense;42317.0;;Payroll 2026-05/16-05/30
+2026-05-28;1300 Prepaid Insurance;;149.0;Monthly insurance amortization
+2026-05-28;6400 Insurance Expense;149.0;;Monthly insurance amortization
+2026-05-28;1590 Accumulated Depreciation;;1069.51;Monthly depreciation
+2026-05-28;6800 Depreciation Expense;1069.51;;Monthly depreciation
+2026-06-02;1000 Cash;12930.0;;Deposit - Longmont Systems INV-2217
+2026-06-02;1100 Accounts Receivable;;12930.0;Deposit - Longmont Systems INV-2217
+2026-06-02;2000 Accounts Payable;;4815.0;BILL-3136 Helix IT Solutions
+2026-06-02;6450 Software Expense;4815.0;;BILL-3136 Helix IT Solutions
+2026-06-03;1100 Accounts Receivable;17810.0;;Invoice INV-2225 - Longmont Systems
+2026-06-03;4000 Subscription Revenue;;17810.0;Invoice INV-2225 - Longmont Systems
+2026-06-03;1000 Cash;;7420.0;Rent - Amberfield Property Group
+2026-06-03;6100 Rent Expense;7420.0;;Rent - Amberfield Property Group
+2026-06-03;2000 Accounts Payable;;5671.0;BILL-3138 Kite Digital Ads
+2026-06-03;6200 Advertising & Marketing;5671.0;;BILL-3138 Kite Digital Ads
+2026-06-05;1000 Cash;12087.0;;Deposit - Crestline Partners INV-2219
+2026-06-05;1100 Accounts Receivable;;12087.0;Deposit - Crestline Partners INV-2219
+2026-06-05;1000 Cash;;336.0;Prepaid software - 12 month license (Quillware Technologies)
+2026-06-05;1310 Prepaid Software;336.0;;Prepaid software - 12 month license (Quillware Technologies)
+2026-06-06;1000 Cash;12371.0;;Deposit - Longmont Systems INV-2218
+2026-06-06;1100 Accounts Receivable;;12371.0;Deposit - Longmont Systems INV-2218
+2026-06-07;1100 Accounts Receivable;20457.0;;Invoice INV-2224 - Eastgate Collective
+2026-06-07;4100 Professional Services Revenue;;20457.0;Invoice INV-2224 - Eastgate Collective
+2026-06-09;1000 Cash;12257.0;;Deposit - Marlowe & Finch INV-2221
+2026-06-09;1100 Accounts Receivable;;12257.0;Deposit - Marlowe & Finch INV-2221
+2026-06-10;2000 Accounts Payable;;4825.0;BILL-3135 Clearbyte Cloud Services
+2026-06-10;6300 Software Subscriptions;4825.0;;BILL-3135 Clearbyte Cloud Services
+2026-06-12;1100 Accounts Receivable;31983.0;;Invoice INV-2226 - Crestline Partners
+2026-06-12;4000 Subscription Revenue;;31983.0;Invoice INV-2226 - Crestline Partners
+2026-06-12;2000 Accounts Payable;;24026.08;BILL-3140 Kite Digital Ads
+2026-06-12;6200 Advertising & Marketing;24026.08;;BILL-3140 Kite Digital Ads
+2026-06-12;1000 Cash;9784.0;;Owner capital contribution
+2026-06-12;3000 Retained Earnings;;9784.0;Owner capital contribution
+2026-06-15;1000 Cash;;4825.0;Pay BILL-3135 Clearbyte Cloud Services CHK#1013
+2026-06-15;2000 Accounts Payable;4825.0;;Pay BILL-3135 Clearbyte Cloud Services CHK#1013
+2026-06-15;2000 Accounts Payable;;20360.38;BILL-3139 Pillar Accounting Services
+2026-06-15;6600 Professional Fees;20360.38;;BILL-3139 Pillar Accounting Services
+2026-06-15;1000 Cash;;32438.0;Payroll 2026-06/01-06/15
+2026-06-15;2300 Payroll Liabilities;;9149.0;Payroll 2026-06/01-06/15
+2026-06-15;6000 Salaries Expense;41587.0;;Payroll 2026-06/01-06/15
+2026-06-16;1100 Accounts Receivable;11344.0;;Invoice INV-2223 - Vesper Technologies
+2026-06-16;4000 Subscription Revenue;;11344.0;Invoice INV-2223 - Vesper Technologies
+2026-06-17;2000 Accounts Payable;;5335.0;BILL-3137 Helix IT Solutions
+2026-06-17;6450 Software Expense;5335.0;;BILL-3137 Helix IT Solutions
+2026-06-19;1000 Cash;;24026.08;Pay BILL-3140 Kite Digital Ads CHK#1014
+2026-06-19;2000 Accounts Payable;24026.08;;Pay BILL-3140 Kite Digital Ads CHK#1014
+2026-06-20;1000 Cash;17810.0;;Deposit - Longmont Systems INV-2225
+2026-06-20;1100 Accounts Receivable;;17810.0;Deposit - Longmont Systems INV-2225
+2026-06-20;1000 Cash;;20360.38;Pay BILL-3139 Pillar Accounting Services CHK#1015
+2026-06-20;2000 Accounts Payable;20360.38;;Pay BILL-3139 Pillar Accounting Services CHK#1015
+2026-06-22;1000 Cash;20457.0;;Deposit - Eastgate Collective INV-2224
+2026-06-22;1100 Accounts Receivable;;20457.0;Deposit - Eastgate Collective INV-2224
+2026-06-23;1000 Cash;26082.0;;Deposit - Crestline Partners INV-2216
+2026-06-23;1100 Accounts Receivable;;26082.0;Deposit - Crestline Partners INV-2216
+2026-06-26;1000 Cash;34808.0;;Deposit - Yardley Supply INV-2220
+2026-06-26;1100 Accounts Receivable;;34808.0;Deposit - Yardley Supply INV-2220
+2026-06-28;1590 Accumulated Depreciation;;1069.51;Monthly depreciation
+2026-06-28;6800 Depreciation Expense;1069.51;;Monthly depreciation

@@ -1,0 +1,220 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Consulting Revenue",
+   "number": "4000"
+  },
+  {
+   "name": "Retainer Revenue",
+   "number": "4100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Clearpath Partners LLC",
+ "files_tree_hash": "8b5ac5fc9d03e400214bed3897e472bb99f252bb33ab3d973d72f370456b4311",
+ "industry": "services",
+ "split": "train",
+ "truth_records": [
+  {
+   "amount": 7298.0,
+   "detail": {
+    "bill_id": "BILL-3156",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 87276.0,
+   "detail": {
+    "pay_date": "2026-07-02",
+    "period": "2026-06/16-06/30"
+   },
+   "kind": "missing_payroll_accrual"
+  },
+  {
+   "amount": 24979.85,
+   "detail": {
+    "bill_id": "BILL-3154",
+    "check_no": "CHK-1016",
+    "date": "2026-06-18",
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 1252.0,
+   "detail": {
+    "bill_id": "BILL-3148",
+    "check_no": "CHK-1015",
+    "date": "2026-06-14",
+    "vendor": "Junction Utility Co-op"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 6530.0,
+   "detail": {
+    "bill_id": "BILL-3152",
+    "check_no": "CHK-1017",
+    "date": "2026-06-22",
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 900.0,
+   "detail": {
+    "bank_amount": 7844.0,
+    "bill_id": "BILL-3150",
+    "check_no": "CHK-1012",
+    "direction": "gl_overstated_payment",
+    "expense_acct": "6700",
+    "gl_amount": 8744.0
+   },
+   "kind": "gl_amount_error"
+  },
+  {
+   "amount": 7454.0,
+   "detail": {
+    "desc": "DEPOSIT GLENROCK SOL INV-2219"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 31687.0,
+   "detail": {
+    "desc": "DEPOSIT NORDICA LABS"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 41.46,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 34.7,
+   "detail": {},
+   "kind": "interest_unrecorded"
+  },
+  {
+   "amount": 24979.85,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3154",
+    "campaign": "Harvest",
+    "desc": "Harvest project - one-off engagement",
+    "keywords": [
+     "harvest",
+     "bright"
+    ],
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 15514.02,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3155",
+    "campaign": "Northstar",
+    "desc": "Northstar project - one-off engagement",
+    "keywords": [
+     "northstar",
+     "pillar"
+    ],
+    "vendor": "Pillar Accounting Services"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "w12"
+}

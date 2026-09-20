@@ -1,0 +1,52 @@
+{
+ "entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6400 Insurance Expense",
+     "credit": 0,
+     "debit": 149.0
+    },
+    {
+     "account": "1300 Prepaid Insurance",
+     "credit": 149.0,
+     "debit": 0
+    }
+   ],
+   "memo": "June prepaid amortization"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6200 Advertising & Marketing",
+     "credit": 0,
+     "debit": 2777.0
+    },
+    {
+     "account": "6700 Office Supplies",
+     "credit": 2777.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Reclass BILL-3150 (Trellis Marketing Group) to correct account"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6800 Depreciation Expense",
+     "credit": 0,
+     "debit": 2825.5
+    },
+    {
+     "account": "1590 Accumulated Depreciation",
+     "credit": 2825.5,
+     "debit": 0
+    }
+   ],
+   "memo": "June depreciation"
+  }
+ ]
+}

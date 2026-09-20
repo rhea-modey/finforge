@@ -1,0 +1,15 @@
+Vantage Loop Inc.
+Cloud Software for Modern Operations
+
+INVOICE
+Invoice id: INV-2240
+Customer: Vesper Technologies
+Date: 2026-04-09
+
+Current monthly service
+SaaS platform access, processing, and standard support.
+
+Amount due: $17,687.00
+
+Terms: Payable upon receipt.
+Remittance: Include the invoice id with payment.

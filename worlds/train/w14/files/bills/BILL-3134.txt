@@ -1,0 +1,14 @@
+ZENITH FREIGHT LINES
+Zenith Freight Lines
+Freight Billing Statement
+
+BILL-3134
+Customer: Meridian Basket Inc.
+Date: 2026-04-16
+
+Service detail: Freight handling and shipment transport for the current service period.
+
+Amount: $6,021.00
+
+Terms: Payment due under agreed account terms.
+Remit: Please include BILL-3134 with payment.

@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 24026.08,
+   "keywords": [
+    "anchor",
+    "kite"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 20360.38,
+   "keywords": [
+    "northstar",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 29697.08,
+   "budget": 5834.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 24026.08,
+     "description": "One-time Anchor initiative billed by Kite Digital Ads (BILL-3140)",
+     "evidence": [
+      "bills/BILL-3140.txt"
+     ]
+    }
+   ],
+   "variance": 23863.08
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 20360.38,
+   "budget": 66.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 20360.38,
+     "description": "Northstar project - one-off engagement billed by Pillar Accounting Services (BILL-3139)",
+     "evidence": [
+      "bills/BILL-3139.txt"
+     ]
+    }
+   ],
+   "variance": 20294.38
+  }
+ ]
+}

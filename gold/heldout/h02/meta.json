@@ -1,0 +1,239 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Inventory",
+   "number": "1400"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Product Sales",
+   "number": "4000"
+  },
+  {
+   "name": "Shipping Income",
+   "number": "4100"
+  },
+  {
+   "name": "Cost of Goods Sold",
+   "number": "5000"
+  },
+  {
+   "name": "Freight & Shipping",
+   "number": "5100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Saltbox Mercantile Co.",
+ "files_tree_hash": "dba4e34ac062494e0fae6cbcd246c9f73e6d1e9b41ca83b0156b41926a45f3b8",
+ "industry": "ecommerce",
+ "split": "heldout",
+ "truth_records": [
+  {
+   "amount": 3101.0,
+   "detail": {
+    "bill_id": "BILL-3138",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 67207.0,
+   "detail": {
+    "pay_date": "2026-07-02",
+    "period": "2026-06/16-06/30"
+   },
+   "kind": "missing_payroll_accrual"
+  },
+  {
+   "amount": 1525.28,
+   "detail": {
+    "asset": "Equipment (aggregate)"
+   },
+   "kind": "missing_depreciation"
+  },
+  {
+   "amount": 103.0,
+   "detail": {
+    "item": "Hartline Mutual Insurance annual policy"
+   },
+   "kind": "missing_prepaid_amort"
+  },
+  {
+   "amount": 6575.0,
+   "detail": {
+    "bill_id": "BILL-3134",
+    "check_no": "CHK-1013",
+    "date": "2026-06-19",
+    "vendor": "Uptown Catering Co."
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 3101.0,
+   "detail": {
+    "bill_id": "BILL-3138",
+    "check_no": "CHK-1011",
+    "date": "2026-06-09",
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 6145.0,
+   "detail": {
+    "bill_id": "BILL-3135",
+    "check_no": "CHK-1017",
+    "date": "2026-06-26",
+    "vendor": "CloudSpan Hosting"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 21887.11,
+   "detail": {
+    "bill_id": "BILL-3137",
+    "check_no": "CHK-1014",
+    "date": "2026-06-18",
+    "vendor": "Quicksilver Couriers"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 22556.0,
+   "detail": {
+    "desc": "DEPOSIT ZEPHYR DYNAM INV-2217"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 30085.0,
+   "detail": {
+    "desc": "DEPOSIT FERRELL INDUSTRIES INV-2215"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 50.41,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 8744.22,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3136",
+    "campaign": "Bloom",
+    "desc": "One-time Bloom initiative",
+    "keywords": [
+     "bloom",
+     "bright"
+    ],
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 21887.11,
+   "detail": {
+    "account": "5100",
+    "bill_id": "BILL-3137",
+    "campaign": "Catalyst",
+    "desc": "Catalyst launch sprint (one-time)",
+    "keywords": [
+     "catalyst",
+     "quicksilver"
+    ],
+    "vendor": "Quicksilver Couriers"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "h02"
+}

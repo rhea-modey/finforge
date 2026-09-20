@@ -1,0 +1,49 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 97819.93,
+    "gold": 97819.93,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 94550.54,
+    "gold": 94550.54,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "BILL-3145 amount is inconsistent: bills/BILL-3145.txt and bank_statement_jun2026.csv show $995.00, while ledger_export.csv records both the bill and payment at $959.00. The supporting bill and cleared check agree, so the GL is understated by $36.00.",
+    "severity": "medium"
+   },
+   {
+    "description": "The 2026-06-30 AP aging totals $38,326.19, while the trial balance reports Accounts Payable of $53,312.91. The $14,986.72 difference corresponds to the unpaid remainder of opening AP ($29,973.43 less the $14,986.71 payment), but that balance is absent from the aging detail.",
+    "severity": "low"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w14-accrual_schedule": {
+    "reason": "The May prepaid schedule and contracts define the prepaid population, balances, additions, useful periods, and full-month amortization convention, while the GL confirms June amortization is missing.",
+    "solvable": true
+   },
+   "w14-bank_rec": {
+    "reason": "The bank statement, cash ledger, trial balance, and supporting bill identify all timing items and book-side corrections, including the $36.00 BILL-3145 error.",
+    "solvable": true
+   },
+   "w14-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed-asset register, vendor bills, checklist, and GL provide sufficient information to identify missing entries, avoid duplicate depreciation, and make the required reclassification.",
+    "solvable": true
+   },
+   "w14-variance_analysis": {
+    "reason": "June budgets and GL activity are available, and the close adjustments can be derived from the supporting records; materiality and commentary can be addressed using ordinary professional judgment.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

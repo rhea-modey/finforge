@@ -1,0 +1,14 @@
+KEYSTONE FREIGHT & SUPPLY
+Keystone Freight & Supply
+Freight supplies • order handling • fulfillment
+
+INVOICE
+Invoice: INV-2232
+Bill to: Jasper Analytics
+Date: 2026-04-04
+
+Line item: Single-period wholesale freight-supply fulfillment and handling.
+Amount due: $16,969.00
+
+Terms: Due upon receipt.
+Remit: Reference the invoice id when paying.

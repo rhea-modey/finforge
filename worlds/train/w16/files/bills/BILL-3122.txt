@@ -1,0 +1,16 @@
+RIDGELINE TELECOM
+Ridgeline Telecom
+Business Communications
+
+CUSTOMER BILL
+Document: BILL-3122
+Customer: Summit Ridge Advisors
+Date: 2026-04-04
+
+Service detail
+Single-period business voice and data utility service.
+
+Amount: $4,637.00
+
+Terms: Payment due upon receipt.
+Remit: Include the document id with payment.

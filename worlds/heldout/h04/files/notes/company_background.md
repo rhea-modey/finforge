@@ -1,0 +1,7 @@
+# Company background
+
+Anvil Works Manufacturing began in 2012 when two former plant-floor colleagues, a machinist and a production planner, started taking on small fabrication jobs from a rented workshop. Their early reputation came from fixing awkward, low-volume component problems that larger suppliers tended to decline. Over time, the company added machining, light assembly, finishing, and short-run production capabilities while keeping the practical, hands-on culture of the original shop.
+
+Today, Anvil Works Manufacturing sells made-to-order brackets, housings, guards, fixtures, and compact assemblies to food processors, laboratory suppliers, technology firms, and other regional industrial customers. Work generally moves from customer drawing review through material preparation, fabrication, inspection, and shipment. The team includes experienced operators, a small engineering and estimating group, production coordinators, and an office staff that knows most customers by voice.
+
+The company remains an ordinary going concern serving a steady mix of repeat accounts and project work. Its current focus is disciplined scheduling, dependable lead times, and cleaner handoffs between estimating, purchasing, production, and accounting. Management is also refining how the business presents itself in the market, with an emphasis on responsive service and the ability to handle specialized runs without making the process cumbersome for customers.

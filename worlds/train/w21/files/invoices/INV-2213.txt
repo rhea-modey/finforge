@@ -1,0 +1,15 @@
+Halcyon Grid Software
+Cloud software for practical grid operations
+
+CUSTOMER INVOICE
+Invoice id: INV-2213
+Bill to: Nordica Labs
+Date: 2026-04-16
+
+Service
+Grid operations software platform access for the service period.
+
+Amount due: $20,718.00
+
+Terms: Due upon receipt.
+Remit: Please include the invoice id on your payment advice.

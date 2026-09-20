@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 94528.04,
+    "gold": 94528.04,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 77973.83,
+    "gold": 77973.83,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $12,952.00, while the trial balance reports Accounts Payable of $22,433.34, leaving an unexplained $9,481.34 subledger-to-GL difference. The ledger indicates this equals the residual opening payable balance, but that open balance is absent from the dated AP aging.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w23-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract uniquely establish the June opening balance, monthly amortization, and closing balance; the GL confirms June amortization has not yet been booked.",
+    "solvable": true
+   },
+   "w23-bank_rec": {
+    "reason": "The bank statement arithmetic, GL cash activity, and trial-balance cash balance support a unique reconciliation, including outstanding checks, a deposit in transit, unrecorded bank charges, and unrecorded interest.",
+    "solvable": true
+   },
+   "w23-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed-asset register, ledger, and June vendor documents provide sufficient information to identify missing amortization and depreciation, determine that no payroll accrual is required, and identify necessary expense reclasses. Classification of the packaging project requires ordinary professional judgment but does not make the task unsolvable.",
+    "solvable": true
+   },
+   "w23-variance_analysis": {
+    "reason": "June ledger activity, the budget, and the supporting vendor documents permit as-closed actuals and documented variance drivers to be calculated. Materiality requires ordinary professional judgment.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

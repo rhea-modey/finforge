@@ -1,0 +1,45 @@
+{
+ "journal_entry": {
+  "date": "2026-06-30",
+  "lines": [
+   {
+    "account": "6400 Insurance Expense",
+    "credit": 0,
+    "debit": 168.0
+   },
+   {
+    "account": "1300 Prepaid Insurance",
+    "credit": 168.0,
+    "debit": 0
+   },
+   {
+    "account": "6450 Software Expense",
+    "credit": 0,
+    "debit": 32.0
+   },
+   {
+    "account": "1310 Prepaid Software",
+    "credit": 32.0,
+    "debit": 0
+   }
+  ],
+  "memo": "June prepaid amortization"
+ },
+ "journal_entry_status": "to_book",
+ "schedule": [
+  {
+   "additions": 0.0,
+   "amortization": 168.0,
+   "closing_balance": 1008.0,
+   "item": "Copperfield Risk Partners annual policy",
+   "opening_balance": 1176.0
+  },
+  {
+   "additions": 384.0,
+   "amortization": 32.0,
+   "closing_balance": 352.0,
+   "item": "Prepaid software - 12 month license (Clearstack Software Co.)",
+   "opening_balance": 0.0
+  }
+ ]
+}

@@ -1,0 +1,177 @@
+Date;Account;Debit;cr;memo
+04/01/2026;1000 Cash;208671.48;;Opening balances
+04/01/2026;1300 Prepaid Insurance;1593.0;;Opening balances
+04/01/2026;1400 Inventory;132813.79;;Opening balances
+04/01/2026;1500 Equipment;165217.0;;Opening balances
+04/01/2026;1590 Accumulated Depreciation;;35796.93;Opening balances
+04/01/2026;2000 Accounts Payable;;32286.85;Opening balances
+04/01/2026;3000 Retained Earnings;;440211.49;Opening balances
+04/02/2026;1100 Accounts Receivable;11206.0;;Invoice INV-2239 - Hartwell Group
+04/02/2026;4100 Delivery Fees;;11206.0;Invoice INV-2239 - Hartwell Group
+04/03/2026;1000 Cash;;10784.0;Rent - Harborstone Realty Partners
+04/03/2026;6100 Rent Expense;10784.0;;Rent - Harborstone Realty Partners
+04/03/2026;2000 Accounts Payable;;581.0;BILL-3112 CloudSpan Hosting
+04/03/2026;6450 Software Expense;581.0;;BILL-3112 CloudSpan Hosting
+04/04/2026;2000 Accounts Payable;;10084.0;BILL-3108 Helix IT Solutions
+04/04/2026;6450 Software Expense;10084.0;;BILL-3108 Helix IT Solutions
+04/04/2026;2000 Accounts Payable;;8976.0;BILL-3109 Trellis Marketing Group
+04/04/2026;6200 Advertising & Marketing;8976.0;;BILL-3109 Trellis Marketing Group
+04/06/2026;1000 Cash;;16143.42;Payment on account - opening payables
+04/06/2026;2000 Accounts Payable;16143.42;;Payment on account - opening payables
+04/06/2026;1100 Accounts Receivable;32293.0;;Invoice INV-2240 - Zephyr Dynamics
+04/06/2026;4000 Wholesale Sales;;32293.0;Invoice INV-2240 - Zephyr Dynamics
+04/06/2026;1400 Inventory;;16672.0;COGS - INV-2240
+04/06/2026;5000 Cost of Goods Sold;16672.0;;COGS - INV-2240
+04/06/2026;2000 Accounts Payable;;7257.0;BILL-3110 CloudSpan Hosting
+04/06/2026;6450 Software Expense;7257.0;;BILL-3110 CloudSpan Hosting
+04/07/2026;1000 Cash;;581.0;Pay BILL-3112 CloudSpan Hosting CHK#1003
+04/07/2026;2000 Accounts Payable;581.0;;Pay BILL-3112 CloudSpan Hosting CHK#1003
+04/08/2026;1000 Cash;;10084.0;Pay BILL-3108 Helix IT Solutions CHK#1004
+04/08/2026;2000 Accounts Payable;10084.0;;Pay BILL-3108 Helix IT Solutions CHK#1004
+04/09/2026;1000 Cash;;8976.0;Pay BILL-3109 Trellis Marketing Group CHK#1005
+04/09/2026;2000 Accounts Payable;8976.0;;Pay BILL-3109 Trellis Marketing Group CHK#1005
+04/13/2026;2000 Accounts Payable;;10265.0;BILL-3107 Junction Utility Co-op
+04/13/2026;6500 Utilities Expense;10265.0;;BILL-3107 Junction Utility Co-op
+04/14/2026;1000 Cash;;7257.0;Pay BILL-3110 CloudSpan Hosting CHK#1006
+04/14/2026;2000 Accounts Payable;7257.0;;Pay BILL-3110 CloudSpan Hosting CHK#1006
+04/15/2026;1000 Cash;;33324.0;Payroll 2026-04/01-04/15
+04/15/2026;2300 Payroll Liabilities;;9398.0;Payroll 2026-04/01-04/15
+04/15/2026;6000 Salaries Expense;42722.0;;Payroll 2026-04/01-04/15
+04/16/2026;1100 Accounts Receivable;43684.0;;Invoice INV-2238 - Longmont Systems
+04/16/2026;4100 Delivery Fees;;43684.0;Invoice INV-2238 - Longmont Systems
+04/16/2026;1000 Cash;11206.0;;Deposit - Hartwell Group INV-2239
+04/16/2026;1100 Accounts Receivable;;11206.0;Deposit - Hartwell Group INV-2239
+04/17/2026;2000 Accounts Payable;;1353.0;BILL-3111 CloudSpan Hosting
+04/17/2026;6450 Software Expense;1353.0;;BILL-3111 CloudSpan Hosting
+04/23/2026;1100 Accounts Receivable;14553.0;;Invoice INV-2241 - Birchfield Foods
+04/23/2026;4000 Wholesale Sales;;14553.0;Invoice INV-2241 - Birchfield Foods
+04/23/2026;1400 Inventory;;7887.0;COGS - INV-2241
+04/23/2026;5000 Cost of Goods Sold;7887.0;;COGS - INV-2241
+04/26/2026;1000 Cash;;1353.0;Pay BILL-3111 CloudSpan Hosting CHK#1007
+04/26/2026;2000 Accounts Payable;1353.0;;Pay BILL-3111 CloudSpan Hosting CHK#1007
+04/28/2026;1000 Cash;;33339.0;Payroll 2026-04/16-04/30
+04/28/2026;2300 Payroll Liabilities;;9403.0;Payroll 2026-04/16-04/30
+04/28/2026;6000 Salaries Expense;42742.0;;Payroll 2026-04/16-04/30
+04/28/2026;1300 Prepaid Insurance;;177.0;Monthly insurance amortization
+04/28/2026;6400 Insurance Expense;177.0;;Monthly insurance amortization
+04/28/2026;1590 Accumulated Depreciation;;2753.61;Monthly depreciation
+04/28/2026;6800 Depreciation Expense;2753.61;;Monthly depreciation
+05/03/2026;1000 Cash;;10784.0;Rent - Harborstone Realty Partners
+05/03/2026;6100 Rent Expense;10784.0;;Rent - Harborstone Realty Partners
+05/03/2026;2000 Accounts Payable;;9511.0;BILL-3113 Inkwell Print Co.
+05/03/2026;6700 Office Supplies;9511.0;;BILL-3113 Inkwell Print Co.
+05/05/2026;2000 Accounts Payable;;7555.0;BILL-3116 Bright Harbor Media
+05/05/2026;6200 Advertising & Marketing;7555.0;;BILL-3116 Bright Harbor Media
+05/05/2026;2000 Accounts Payable;;950.0;BILL-3117 Stanton Cleaning Crew
+05/05/2026;6700 Office Supplies;950.0;;BILL-3117 Stanton Cleaning Crew
+05/06/2026;1000 Cash;43684.0;;Deposit - Longmont Systems INV-2238
+05/06/2026;1100 Accounts Receivable;;43684.0;Deposit - Longmont Systems INV-2238
+05/06/2026;1000 Cash;32293.0;;Deposit - Zephyr Dynamics INV-2240
+05/06/2026;1100 Accounts Receivable;;32293.0;Deposit - Zephyr Dynamics INV-2240
+05/11/2026;1100 Accounts Receivable;9432.0;;Invoice INV-2242 - Hartwell Group
+05/11/2026;4000 Wholesale Sales;;9432.0;Invoice INV-2242 - Hartwell Group
+05/11/2026;1400 Inventory;;5236.0;COGS - INV-2242
+05/11/2026;5000 Cost of Goods Sold;5236.0;;COGS - INV-2242
+05/12/2026;1100 Accounts Receivable;14633.0;;Invoice INV-2243 - Marlowe & Finch
+05/12/2026;4000 Wholesale Sales;;14633.0;Invoice INV-2243 - Marlowe & Finch
+05/12/2026;1400 Inventory;;6333.0;COGS - INV-2243
+05/12/2026;5000 Cost of Goods Sold;6333.0;;COGS - INV-2243
+05/12/2026;1100 Accounts Receivable;15647.0;;Invoice INV-2247 - Marlowe & Finch
+05/12/2026;4000 Wholesale Sales;;15647.0;Invoice INV-2247 - Marlowe & Finch
+05/12/2026;1400 Inventory;;7930.0;COGS - INV-2247
+05/12/2026;5000 Cost of Goods Sold;7930.0;;COGS - INV-2247
+05/14/2026;1000 Cash;;950.0;Pay BILL-3117 Stanton Cleaning Crew CHK#1009
+05/14/2026;2000 Accounts Payable;950.0;;Pay BILL-3117 Stanton Cleaning Crew CHK#1009
+05/15/2026;1100 Accounts Receivable;31393.0;;Invoice INV-2245 - Birchfield Foods
+05/15/2026;4000 Wholesale Sales;;31393.0;Invoice INV-2245 - Birchfield Foods
+05/15/2026;1400 Inventory;;13675.0;COGS - INV-2245
+05/15/2026;5000 Cost of Goods Sold;13675.0;;COGS - INV-2245
+05/15/2026;1000 Cash;;67285.0;Payroll 2026-05/01-05/15
+05/15/2026;2300 Payroll Liabilities;;18977.0;Payroll 2026-05/01-05/15
+05/15/2026;6000 Salaries Expense;86262.0;;Payroll 2026-05/01-05/15
+05/16/2026;2000 Accounts Payable;;4547.0;BILL-3115 Meridian Legal LLP
+05/16/2026;6600 Professional Fees;4547.0;;BILL-3115 Meridian Legal LLP
+05/19/2026;1100 Accounts Receivable;24479.0;;Invoice INV-2244 - Longmont Systems
+05/19/2026;4000 Wholesale Sales;;24479.0;Invoice INV-2244 - Longmont Systems
+05/19/2026;1400 Inventory;;12778.0;COGS - INV-2244
+05/19/2026;5000 Cost of Goods Sold;12778.0;;COGS - INV-2244
+05/22/2026;1000 Cash;;4547.0;Pay BILL-3115 Meridian Legal LLP CHK#1010
+05/22/2026;2000 Accounts Payable;4547.0;;Pay BILL-3115 Meridian Legal LLP CHK#1010
+05/22/2026;2000 Accounts Payable;;10104.0;BILL-3114 Pillar Accounting Services
+05/22/2026;6600 Professional Fees;10104.0;;BILL-3114 Pillar Accounting Services
+05/24/2026;1100 Accounts Receivable;21291.0;;Invoice INV-2246 - Zephyr Dynamics
+05/24/2026;4000 Wholesale Sales;;21291.0;Invoice INV-2246 - Zephyr Dynamics
+05/24/2026;1400 Inventory;;10769.0;COGS - INV-2246
+05/24/2026;5000 Cost of Goods Sold;10769.0;;COGS - INV-2246
+05/25/2026;1000 Cash;;10104.0;Pay BILL-3114 Pillar Accounting Services CHK#1011
+05/25/2026;2000 Accounts Payable;10104.0;;Pay BILL-3114 Pillar Accounting Services CHK#1011
+05/26/2026;1000 Cash;14553.0;;Deposit - Birchfield Foods INV-2241
+05/26/2026;1100 Accounts Receivable;;14553.0;Deposit - Birchfield Foods INV-2241
+05/28/2026;1000 Cash;;67410.0;Payroll 2026-05/16-05/30
+05/28/2026;2300 Payroll Liabilities;;19012.0;Payroll 2026-05/16-05/30
+05/28/2026;6000 Salaries Expense;86422.0;;Payroll 2026-05/16-05/30
+05/28/2026;1300 Prepaid Insurance;;177.0;Monthly insurance amortization
+05/28/2026;6400 Insurance Expense;177.0;;Monthly insurance amortization
+05/28/2026;1590 Accumulated Depreciation;;2753.61;Monthly depreciation
+05/28/2026;6800 Depreciation Expense;2753.61;;Monthly depreciation
+06/01/2026;1000 Cash;9432.0;;Deposit - Hartwell Group INV-2242
+06/01/2026;1100 Accounts Receivable;;9432.0;Deposit - Hartwell Group INV-2242
+06/02/2026;1100 Accounts Receivable;20223.0;;Invoice INV-2249 - Hartwell Group
+06/02/2026;4000 Wholesale Sales;;20223.0;Invoice INV-2249 - Hartwell Group
+06/02/2026;1400 Inventory;;11283.0;COGS - INV-2249
+06/02/2026;5000 Cost of Goods Sold;11283.0;;COGS - INV-2249
+06/03/2026;1000 Cash;;10784.0;Rent - Harborstone Realty Partners
+06/03/2026;6100 Rent Expense;10784.0;;Rent - Harborstone Realty Partners
+06/04/2026;1000 Cash;14633.0;;Deposit - Marlowe & Finch INV-2243
+06/04/2026;1100 Accounts Receivable;;14633.0;Deposit - Marlowe & Finch INV-2243
+06/04/2026;2000 Accounts Payable;;8785.0;BILL-3120 Junction Utility Co-op
+06/04/2026;6500 Utilities Expense;8785.0;;BILL-3120 Junction Utility Co-op
+06/05/2026;1100 Accounts Receivable;21852.0;;Invoice INV-2248 - Aldergate Insurance
+06/05/2026;4000 Wholesale Sales;;21852.0;Invoice INV-2248 - Aldergate Insurance
+06/05/2026;1400 Inventory;;10803.0;COGS - INV-2248
+06/05/2026;5000 Cost of Goods Sold;10803.0;;COGS - INV-2248
+06/05/2026;1000 Cash;;936.0;Prepaid software - 12 month license (Bytefield Systems LLC)
+06/05/2026;1310 Prepaid Software;936.0;;Prepaid software - 12 month license (Bytefield Systems LLC)
+06/08/2026;1000 Cash;24479.0;;Deposit - Longmont Systems INV-2244
+06/08/2026;1100 Accounts Receivable;;24479.0;Deposit - Longmont Systems INV-2244
+06/08/2026;1000 Cash;31393.0;;Deposit - Birchfield Foods INV-2245
+06/08/2026;1100 Accounts Receivable;;31393.0;Deposit - Birchfield Foods INV-2245
+06/08/2026;2000 Accounts Payable;;3301.0;BILL-3118 Pillar Accounting Services
+06/08/2026;6600 Professional Fees;3301.0;;BILL-3118 Pillar Accounting Services
+06/08/2026;2000 Accounts Payable;;19633.85;BILL-3123 Firstlane Logistics
+06/08/2026;5100 Freight & Shipping;19633.85;;BILL-3123 Firstlane Logistics
+06/11/2026;1000 Cash;;19633.85;Pay BILL-3123 Firstlane Logistics CHK#1013
+06/11/2026;2000 Accounts Payable;19633.85;;Pay BILL-3123 Firstlane Logistics CHK#1013
+06/11/2026;2000 Accounts Payable;;5023.0;BILL-3119 Quicksilver Couriers
+06/11/2026;5100 Freight & Shipping;5023.0;;BILL-3119 Quicksilver Couriers
+06/12/2026;1000 Cash;10996.0;;Owner capital contribution
+06/12/2026;3000 Retained Earnings;;10996.0;Owner capital contribution
+06/15/2026;2000 Accounts Payable;;18554.72;BILL-3124 Trellis Marketing Group
+06/15/2026;6200 Advertising & Marketing;18554.72;;BILL-3124 Trellis Marketing Group
+06/15/2026;2000 Accounts Payable;;13480.78;BILL-3125 Meridian Legal LLP
+06/15/2026;6600 Professional Fees;13480.78;;BILL-3125 Meridian Legal LLP
+06/15/2026;1000 Cash;;32735.0;Payroll 2026-06/01-06/15
+06/15/2026;2300 Payroll Liabilities;;9232.0;Payroll 2026-06/01-06/15
+06/15/2026;6000 Salaries Expense;41967.0;;Payroll 2026-06/01-06/15
+06/16/2026;1000 Cash;15647.0;;Deposit - Marlowe & Finch INV-2247
+06/16/2026;1100 Accounts Receivable;;15647.0;Deposit - Marlowe & Finch INV-2247
+06/16/2026;1100 Accounts Receivable;32147.0;;Invoice INV-2251 - Aldergate Insurance
+06/16/2026;4000 Wholesale Sales;;32147.0;Invoice INV-2251 - Aldergate Insurance
+06/16/2026;1400 Inventory;;18107.0;COGS - INV-2251
+06/16/2026;5000 Cost of Goods Sold;18107.0;;COGS - INV-2251
+06/17/2026;1100 Accounts Receivable;46712.0;;Invoice INV-2250 - Vesper Technologies
+06/17/2026;4000 Wholesale Sales;;46712.0;Invoice INV-2250 - Vesper Technologies
+06/17/2026;1400 Inventory;;24455.0;COGS - INV-2250
+06/17/2026;5000 Cost of Goods Sold;24455.0;;COGS - INV-2250
+06/18/2026;1000 Cash;;13480.78;Pay BILL-3125 Meridian Legal LLP CHK#1015
+06/18/2026;2000 Accounts Payable;13480.78;;Pay BILL-3125 Meridian Legal LLP CHK#1015
+06/18/2026;2000 Accounts Payable;;7815.0;BILL-3121 Delta Facility Services
+06/18/2026;6700 Office Supplies;7815.0;;BILL-3121 Delta Facility Services
+06/18/2026;2000 Accounts Payable;;10801.0;BILL-3122 Pillar Accounting Services
+06/18/2026;6600 Professional Fees;10801.0;;BILL-3122 Pillar Accounting Services
+06/20/2026;1000 Cash;;5023.0;Pay BILL-3119 Quicksilver Couriers CHK#1014
+06/20/2026;2000 Accounts Payable;5023.0;;Pay BILL-3119 Quicksilver Couriers CHK#1014
+06/24/2026;1000 Cash;21291.0;;Deposit - Zephyr Dynamics INV-2246
+06/24/2026;1100 Accounts Receivable;;21291.0;Deposit - Zephyr Dynamics INV-2246
+06/28/2026;1590 Accumulated Depreciation;;2753.61;Monthly depreciation
+06/28/2026;6800 Depreciation Expense;2753.61;;Monthly depreciation

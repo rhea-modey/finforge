@@ -1,0 +1,46 @@
+{
+ "entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6000 Salaries Expense",
+     "credit": 0,
+     "debit": 42197.0
+    },
+    {
+     "account": "2100 Accrued Liabilities",
+     "credit": 42197.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Accrue payroll for period 2026-06/16-06/30 paid 2026-07-02"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6400 Insurance Expense",
+     "credit": 0,
+     "debit": 177.0
+    },
+    {
+     "account": "1300 Prepaid Insurance",
+     "credit": 177.0,
+     "debit": 0
+    },
+    {
+     "account": "6450 Software Expense",
+     "credit": 0,
+     "debit": 78.0
+    },
+    {
+     "account": "1310 Prepaid Software",
+     "credit": 78.0,
+     "debit": 0
+    }
+   ],
+   "memo": "June prepaid amortization"
+  }
+ ]
+}

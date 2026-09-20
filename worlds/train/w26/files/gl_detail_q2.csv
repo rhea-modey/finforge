@@ -1,0 +1,196 @@
+date;gl_account;debit;Credit;description
+01-Apr-2026;1000 Cash;328993.65;;Opening balances
+01-Apr-2026;1300 Prepaid Insurance;1656.0;;Opening balances
+01-Apr-2026;1400 Inventory;57734.21;;Opening balances
+01-Apr-2026;1500 Equipment;153410.0;;Opening balances
+01-Apr-2026;1590 Accumulated Depreciation;;46022.94;Opening balances
+01-Apr-2026;2000 Accounts Payable;;45656.79;Opening balances
+01-Apr-2026;3000 Retained Earnings;;450114.13;Opening balances
+01-Apr-2026;1100 Accounts Receivable;19949.0;;Invoice INV-2221 - Wexford Group
+01-Apr-2026;4000 Product Sales;;19949.0;Invoice INV-2221 - Wexford Group
+01-Apr-2026;1400 Inventory;;10160.0;COGS - INV-2221
+01-Apr-2026;5000 Cost of Goods Sold;10160.0;;COGS - INV-2221
+03-Apr-2026;1100 Accounts Receivable;24752.0;;Invoice INV-2226 - Aldergate Insurance
+03-Apr-2026;4000 Product Sales;;24752.0;Invoice INV-2226 - Aldergate Insurance
+03-Apr-2026;1400 Inventory;;10755.0;COGS - INV-2226
+03-Apr-2026;5000 Cost of Goods Sold;10755.0;;COGS - INV-2226
+03-Apr-2026;1000 Cash;;7390.0;Rent - Harborstone Realty Partners
+03-Apr-2026;6100 Rent Expense;7390.0;;Rent - Harborstone Realty Partners
+03-Apr-2026;2000 Accounts Payable;;3022.0;BILL-3139 Junction Utility Co-op
+03-Apr-2026;6500 Utilities Expense;3022.0;;BILL-3139 Junction Utility Co-op
+05-Apr-2026;1100 Accounts Receivable;19934.0;;Invoice INV-2224 - Wexford Group
+05-Apr-2026;4000 Product Sales;;19934.0;Invoice INV-2224 - Wexford Group
+05-Apr-2026;1400 Inventory;;11070.0;COGS - INV-2224
+05-Apr-2026;5000 Cost of Goods Sold;11070.0;;COGS - INV-2224
+05-Apr-2026;2000 Accounts Payable;;3044.0;BILL-3136 Junction Utility Co-op
+05-Apr-2026;6500 Utilities Expense;3044.0;;BILL-3136 Junction Utility Co-op
+06-Apr-2026;1000 Cash;;22828.39;Payment on account - opening payables
+06-Apr-2026;2000 Accounts Payable;22828.39;;Payment on account - opening payables
+06-Apr-2026;2000 Accounts Payable;;2192.0;BILL-3135 Willow Creek Packaging
+06-Apr-2026;5100 Freight & Shipping;2192.0;;BILL-3135 Willow Creek Packaging
+06-Apr-2026;2000 Accounts Payable;;4330.0;BILL-3138 Delta Facility Services
+06-Apr-2026;6700 Office Supplies;4330.0;;BILL-3138 Delta Facility Services
+11-Apr-2026;1000 Cash;;3044.0;Pay BILL-3136 Junction Utility Co-op CHK#1003
+11-Apr-2026;2000 Accounts Payable;3044.0;;Pay BILL-3136 Junction Utility Co-op CHK#1003
+14-Apr-2026;1100 Accounts Receivable;25457.0;;Invoice INV-2222 - Zephyr Dynamics
+14-Apr-2026;4000 Product Sales;;25457.0;Invoice INV-2222 - Zephyr Dynamics
+14-Apr-2026;1400 Inventory;;13705.0;COGS - INV-2222
+14-Apr-2026;5000 Cost of Goods Sold;13705.0;;COGS - INV-2222
+14-Apr-2026;1000 Cash;;4330.0;Pay BILL-3138 Delta Facility Services CHK#1004
+14-Apr-2026;2000 Accounts Payable;4330.0;;Pay BILL-3138 Delta Facility Services CHK#1004
+15-Apr-2026;1000 Cash;;27838.0;Payroll 2026-04/01-04/15
+15-Apr-2026;2300 Payroll Liabilities;;7851.0;Payroll 2026-04/01-04/15
+15-Apr-2026;6000 Salaries Expense;35689.0;;Payroll 2026-04/01-04/15
+16-Apr-2026;1100 Accounts Receivable;6595.0;;Invoice INV-2223 - Pinehurst Digital
+16-Apr-2026;4000 Product Sales;;6595.0;Invoice INV-2223 - Pinehurst Digital
+16-Apr-2026;1400 Inventory;;3759.0;COGS - INV-2223
+16-Apr-2026;5000 Cost of Goods Sold;3759.0;;COGS - INV-2223
+18-Apr-2026;2000 Accounts Payable;;3742.0;BILL-3137 Pillar Accounting Services
+18-Apr-2026;6600 Professional Fees;3742.0;;BILL-3137 Pillar Accounting Services
+20-Apr-2026;1000 Cash;19949.0;;Deposit - Wexford Group INV-2221
+20-Apr-2026;1100 Accounts Receivable;;19949.0;Deposit - Wexford Group INV-2221
+20-Apr-2026;1000 Cash;19934.0;;Deposit - Wexford Group INV-2224
+20-Apr-2026;1100 Accounts Receivable;;19934.0;Deposit - Wexford Group INV-2224
+21-Apr-2026;1100 Accounts Receivable;7948.0;;Invoice INV-2225 - Dunmore Holdings
+21-Apr-2026;4000 Product Sales;;7948.0;Invoice INV-2225 - Dunmore Holdings
+21-Apr-2026;1400 Inventory;;4226.0;COGS - INV-2225
+21-Apr-2026;5000 Cost of Goods Sold;4226.0;;COGS - INV-2225
+26-Apr-2026;1000 Cash;;3742.0;Pay BILL-3137 Pillar Accounting Services CHK#1005
+26-Apr-2026;2000 Accounts Payable;3742.0;;Pay BILL-3137 Pillar Accounting Services CHK#1005
+28-Apr-2026;1000 Cash;;27822.0;Payroll 2026-04/16-04/30
+28-Apr-2026;2300 Payroll Liabilities;;7847.0;Payroll 2026-04/16-04/30
+28-Apr-2026;6000 Salaries Expense;35669.0;;Payroll 2026-04/16-04/30
+28-Apr-2026;1300 Prepaid Insurance;;184.0;Monthly insurance amortization
+28-Apr-2026;6400 Insurance Expense;184.0;;Monthly insurance amortization
+28-Apr-2026;1590 Accumulated Depreciation;;2556.83;Monthly depreciation
+28-Apr-2026;6800 Depreciation Expense;2556.83;;Monthly depreciation
+01-May-2026;1000 Cash;25457.0;;Deposit - Zephyr Dynamics INV-2222
+01-May-2026;1100 Accounts Receivable;;25457.0;Deposit - Zephyr Dynamics INV-2222
+02-May-2026;1100 Accounts Receivable;17903.0;;Invoice INV-2227 - Silverthorne Media
+02-May-2026;4000 Product Sales;;17903.0;Invoice INV-2227 - Silverthorne Media
+02-May-2026;1400 Inventory;;10229.0;COGS - INV-2227
+02-May-2026;5000 Cost of Goods Sold;10229.0;;COGS - INV-2227
+02-May-2026;1100 Accounts Receivable;26110.0;;Invoice INV-2232 - Birchfield Foods
+02-May-2026;4000 Product Sales;;26110.0;Invoice INV-2232 - Birchfield Foods
+02-May-2026;1400 Inventory;;12287.0;COGS - INV-2232
+02-May-2026;5000 Cost of Goods Sold;12287.0;;COGS - INV-2232
+03-May-2026;1000 Cash;;7390.0;Rent - Harborstone Realty Partners
+03-May-2026;6100 Rent Expense;7390.0;;Rent - Harborstone Realty Partners
+04-May-2026;2000 Accounts Payable;;3470.0;BILL-3140 Meridian Legal LLP
+04-May-2026;6600 Professional Fees;3470.0;;BILL-3140 Meridian Legal LLP
+08-May-2026;1100 Accounts Receivable;19970.0;;Invoice INV-2230 - Aldergate Insurance
+08-May-2026;4000 Product Sales;;19970.0;Invoice INV-2230 - Aldergate Insurance
+08-May-2026;1400 Inventory;;11555.0;COGS - INV-2230
+08-May-2026;5000 Cost of Goods Sold;11555.0;;COGS - INV-2230
+08-May-2026;2000 Accounts Payable;;4953.0;BILL-3141 Junction Utility Co-op
+08-May-2026;6500 Utilities Expense;4953.0;;BILL-3141 Junction Utility Co-op
+09-May-2026;1000 Cash;7948.0;;Deposit - Dunmore Holdings INV-2225
+09-May-2026;1100 Accounts Receivable;;7948.0;Deposit - Dunmore Holdings INV-2225
+09-May-2026;2000 Accounts Payable;;5988.0;BILL-3142 Junction Utility Co-op
+09-May-2026;6500 Utilities Expense;5988.0;;BILL-3142 Junction Utility Co-op
+11-May-2026;1000 Cash;6595.0;;Deposit - Pinehurst Digital INV-2223
+11-May-2026;1100 Accounts Receivable;;6595.0;Deposit - Pinehurst Digital INV-2223
+12-May-2026;1000 Cash;24752.0;;Deposit - Aldergate Insurance INV-2226
+12-May-2026;1100 Accounts Receivable;;24752.0;Deposit - Aldergate Insurance INV-2226
+12-May-2026;1000 Cash;;3470.0;Pay BILL-3140 Meridian Legal LLP CHK#1007
+12-May-2026;2000 Accounts Payable;3470.0;;Pay BILL-3140 Meridian Legal LLP CHK#1007
+15-May-2026;1000 Cash;17903.0;;Deposit - Silverthorne Media INV-2227
+15-May-2026;1100 Accounts Receivable;;17903.0;Deposit - Silverthorne Media INV-2227
+15-May-2026;1000 Cash;;40672.0;Payroll 2026-05/01-05/15
+15-May-2026;2300 Payroll Liabilities;;11471.0;Payroll 2026-05/01-05/15
+15-May-2026;6000 Salaries Expense;52143.0;;Payroll 2026-05/01-05/15
+16-May-2026;1100 Accounts Receivable;13185.0;;Invoice INV-2229 - Zephyr Dynamics
+16-May-2026;4100 Shipping Income;;13185.0;Invoice INV-2229 - Zephyr Dynamics
+16-May-2026;1000 Cash;;4953.0;Pay BILL-3141 Junction Utility Co-op CHK#1008
+16-May-2026;2000 Accounts Payable;4953.0;;Pay BILL-3141 Junction Utility Co-op CHK#1008
+17-May-2026;1000 Cash;;5988.0;Pay BILL-3142 Junction Utility Co-op CHK#1009
+17-May-2026;2000 Accounts Payable;5988.0;;Pay BILL-3142 Junction Utility Co-op CHK#1009
+18-May-2026;1100 Accounts Receivable;27563.0;;Invoice INV-2228 - Eastgate Collective
+18-May-2026;4100 Shipping Income;;27563.0;Invoice INV-2228 - Eastgate Collective
+18-May-2026;1100 Accounts Receivable;8148.0;;Invoice INV-2231 - Birchfield Foods
+18-May-2026;4100 Shipping Income;;8148.0;Invoice INV-2231 - Birchfield Foods
+21-May-2026;2000 Accounts Payable;;4118.0;BILL-3143 CloudSpan Hosting
+21-May-2026;6450 Software Expense;4118.0;;BILL-3143 CloudSpan Hosting
+28-May-2026;1000 Cash;;40672.0;Payroll 2026-05/16-05/30
+28-May-2026;2300 Payroll Liabilities;;11471.0;Payroll 2026-05/16-05/30
+28-May-2026;6000 Salaries Expense;52143.0;;Payroll 2026-05/16-05/30
+28-May-2026;1300 Prepaid Insurance;;184.0;Monthly insurance amortization
+28-May-2026;6400 Insurance Expense;184.0;;Monthly insurance amortization
+28-May-2026;1590 Accumulated Depreciation;;2556.83;Monthly depreciation
+28-May-2026;6800 Depreciation Expense;2556.83;;Monthly depreciation
+02-Jun-2026;1100 Accounts Receivable;5921.0;;Invoice INV-2235 - Dunmore Holdings
+02-Jun-2026;4100 Shipping Income;;5921.0;Invoice INV-2235 - Dunmore Holdings
+03-Jun-2026;1100 Accounts Receivable;28050.0;;Invoice INV-2236 - Dunmore Holdings
+03-Jun-2026;4100 Shipping Income;;28050.0;Invoice INV-2236 - Dunmore Holdings
+03-Jun-2026;1000 Cash;;7390.0;Rent - Harborstone Realty Partners
+03-Jun-2026;6100 Rent Expense;7390.0;;Rent - Harborstone Realty Partners
+04-Jun-2026;2000 Accounts Payable;;2327.0;BILL-3145 Pillar Accounting Services
+04-Jun-2026;6600 Professional Fees;2327.0;;BILL-3145 Pillar Accounting Services
+05-Jun-2026;2000 Accounts Payable;;13417.53;BILL-3148 Willow Creek Packaging
+05-Jun-2026;5100 Freight & Shipping;13417.53;;BILL-3148 Willow Creek Packaging
+06-Jun-2026;2000 Accounts Payable;;4929.0;BILL-3151 Trellis Marketing Group
+06-Jun-2026;6700 Office Supplies;4929.0;;BILL-3151 Trellis Marketing Group
+07-Jun-2026;1000 Cash;26110.0;;Deposit - Birchfield Foods INV-2232
+07-Jun-2026;1100 Accounts Receivable;;26110.0;Deposit - Birchfield Foods INV-2232
+09-Jun-2026;1100 Accounts Receivable;16716.0;;Invoice INV-2237 - Zephyr Dynamics
+09-Jun-2026;4100 Shipping Income;;16716.0;Invoice INV-2237 - Zephyr Dynamics
+10-Jun-2026;1100 Accounts Receivable;19015.0;;Invoice INV-2234 - Aldergate Insurance
+10-Jun-2026;4000 Product Sales;;19015.0;Invoice INV-2234 - Aldergate Insurance
+10-Jun-2026;1400 Inventory;;9531.0;COGS - INV-2234
+10-Jun-2026;5000 Cost of Goods Sold;9531.0;;COGS - INV-2234
+12-Jun-2026;1000 Cash;16433.0;;Owner capital contribution
+12-Jun-2026;3000 Retained Earnings;;16433.0;Owner capital contribution
+13-Jun-2026;1000 Cash;27563.0;;Deposit - Eastgate Collective INV-2228
+13-Jun-2026;1100 Accounts Receivable;;27563.0;Deposit - Eastgate Collective INV-2228
+13-Jun-2026;1100 Accounts Receivable;26447.0;;Invoice INV-2238 - Zephyr Dynamics
+13-Jun-2026;4000 Product Sales;;26447.0;Invoice INV-2238 - Zephyr Dynamics
+13-Jun-2026;1400 Inventory;;13700.0;COGS - INV-2238
+13-Jun-2026;5000 Cost of Goods Sold;13700.0;;COGS - INV-2238
+13-Jun-2026;1000 Cash;;2327.0;Pay BILL-3145 Pillar Accounting Services CHK#1011
+13-Jun-2026;2000 Accounts Payable;2327.0;;Pay BILL-3145 Pillar Accounting Services CHK#1011
+13-Jun-2026;2000 Accounts Payable;;1845.0;BILL-3144 CloudSpan Hosting
+13-Jun-2026;6450 Software Expense;1845.0;;BILL-3144 CloudSpan Hosting
+14-Jun-2026;1000 Cash;13185.0;;Deposit - Zephyr Dynamics INV-2229
+14-Jun-2026;1100 Accounts Receivable;;13185.0;Deposit - Zephyr Dynamics INV-2229
+14-Jun-2026;1100 Accounts Receivable;23263.0;;Invoice INV-2233 - Silverthorne Media
+14-Jun-2026;4000 Product Sales;;23263.0;Invoice INV-2233 - Silverthorne Media
+14-Jun-2026;1400 Inventory;;10389.0;COGS - INV-2233
+14-Jun-2026;5000 Cost of Goods Sold;10389.0;;COGS - INV-2233
+15-Jun-2026;1000 Cash;;4929.0;Pay BILL-3151 Trellis Marketing Group CHK#1012
+15-Jun-2026;2000 Accounts Payable;4929.0;;Pay BILL-3151 Trellis Marketing Group CHK#1012
+15-Jun-2026;1000 Cash;;42447.0;Payroll 2026-06/01-06/15
+15-Jun-2026;2300 Payroll Liabilities;;11972.0;Payroll 2026-06/01-06/15
+15-Jun-2026;6000 Salaries Expense;54419.0;;Payroll 2026-06/01-06/15
+16-Jun-2026;1000 Cash;8148.0;;Deposit - Birchfield Foods INV-2231
+16-Jun-2026;1100 Accounts Receivable;;8148.0;Deposit - Birchfield Foods INV-2231
+17-Jun-2026;2000 Accounts Payable;;2622.0;BILL-3146 Uptown Catering Co.
+17-Jun-2026;6700 Office Supplies;2622.0;;BILL-3146 Uptown Catering Co.
+17-Jun-2026;2000 Accounts Payable;;3375.0;BILL-3147 Zenith Freight Lines
+17-Jun-2026;5100 Freight & Shipping;3375.0;;BILL-3147 Zenith Freight Lines
+17-Jun-2026;2000 Accounts Payable;;15966.59;BILL-3149 Trellis Marketing Group
+17-Jun-2026;6200 Advertising & Marketing;15966.59;;BILL-3149 Trellis Marketing Group
+17-Jun-2026;2000 Accounts Payable;;16896.8;BILL-3150 Pillar Accounting Services
+17-Jun-2026;6600 Professional Fees;16896.8;;BILL-3150 Pillar Accounting Services
+18-Jun-2026;1000 Cash;19970.0;;Deposit - Aldergate Insurance INV-2230
+18-Jun-2026;1100 Accounts Receivable;;19970.0;Deposit - Aldergate Insurance INV-2230
+19-Jun-2026;1000 Cash;;1845.0;Pay BILL-3144 CloudSpan Hosting CHK#1013
+19-Jun-2026;2000 Accounts Payable;1845.0;;Pay BILL-3144 CloudSpan Hosting CHK#1013
+20-Jun-2026;1100 Accounts Receivable;30539.0;;Invoice INV-2239 - Aldergate Insurance
+20-Jun-2026;4000 Product Sales;;30539.0;Invoice INV-2239 - Aldergate Insurance
+20-Jun-2026;1400 Inventory;;17157.0;COGS - INV-2239
+20-Jun-2026;5000 Cost of Goods Sold;17157.0;;COGS - INV-2239
+20-Jun-2026;1000 Cash;;15966.59;Pay BILL-3149 Trellis Marketing Group CHK#1016
+20-Jun-2026;2000 Accounts Payable;15966.59;;Pay BILL-3149 Trellis Marketing Group CHK#1016
+21-Jun-2026;1000 Cash;;3375.0;Pay BILL-3147 Zenith Freight Lines CHK#1015
+21-Jun-2026;2000 Accounts Payable;3375.0;;Pay BILL-3147 Zenith Freight Lines CHK#1015
+22-Jun-2026;1000 Cash;19015.0;;Deposit - Aldergate Insurance INV-2234
+22-Jun-2026;1100 Accounts Receivable;;19015.0;Deposit - Aldergate Insurance INV-2234
+25-Jun-2026;1000 Cash;28050.0;;Deposit - Dunmore Holdings INV-2236
+25-Jun-2026;1100 Accounts Receivable;;28050.0;Deposit - Dunmore Holdings INV-2236
+25-Jun-2026;1000 Cash;;2622.0;Pay BILL-3146 Uptown Catering Co. CHK#1014
+25-Jun-2026;2000 Accounts Payable;2622.0;;Pay BILL-3146 Uptown Catering Co. CHK#1014
+25-Jun-2026;1000 Cash;;16896.8;Pay BILL-3150 Pillar Accounting Services CHK#1017
+25-Jun-2026;2000 Accounts Payable;16896.8;;Pay BILL-3150 Pillar Accounting Services CHK#1017
+28-Jun-2026;1000 Cash;;42385.0;Payroll 2026-06/16-06/30
+28-Jun-2026;2300 Payroll Liabilities;;11954.0;Payroll 2026-06/16-06/30
+28-Jun-2026;6000 Salaries Expense;54339.0;;Payroll 2026-06/16-06/30

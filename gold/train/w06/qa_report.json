@@ -1,0 +1,53 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 431862.07,
+    "gold": 431862.07,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 471144.12,
+    "gold": 471144.12,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "BILL-3139 is $1,626.00 in bills/BILL-3139.txt and the bank statement, but the general ledger records both the bill and its payment as $1,662.00. The source document and bank evidence support treating the $36.00 difference as a book error.",
+    "severity": "medium"
+   },
+   {
+    "description": "The 2026-06-30 AP aging totals $31,310.00, while the trial balance reports Accounts Payable of $48,614.58. The $17,304.58 difference corresponds to the residual generic opening payable balance but is absent from the vendor aging.",
+    "severity": "medium"
+   },
+   {
+    "description": "BILL-3146 describes a $4,608.00 trade-show booth build-out and staffing engagement from Bright Harbor Media, but the general ledger codes it to Office Supplies. The source supports a marketing-related classification rather than office supplies.",
+    "severity": "low"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w06-accrual_schedule": {
+    "reason": "The May prepaid schedule, insurance policy, software contract, and June GL provide the opening balances, additions, amortization, closing balances, and evidence that June amortization was already recorded.",
+    "solvable": true
+   },
+   "w06-bank_rec": {
+    "reason": "The bank statement, GL, trial balance, and supporting bill identify all timing items, unrecorded bank activity, and the $36.00 CloudSpan book error, allowing both sides to reconcile uniquely.",
+    "solvable": true
+   },
+   "w06-journal_entries": {
+    "reason": "The payroll register, prepaid records, fixed asset register, GL, and vendor source documents provide sufficient support for the missing payroll accrual, June depreciation, and required expense reclassification without duplicating posted amortization.",
+    "solvable": true
+   },
+   "w06-variance_analysis": {
+    "reason": "June GL activity can be adjusted for the supported close entries and compared with the June budget. Materiality and classification require ordinary professional judgment but do not prevent a defensible analysis.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

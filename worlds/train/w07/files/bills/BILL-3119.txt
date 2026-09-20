@@ -1,0 +1,13 @@
+QUICKSILVER COURIERS
+Quicksilver Couriers
+
+FREIGHT SERVICE BILL
+Document: BILL-3119
+Customer: Bluebird Wholesale Co.
+Bill date: 2026-06-11
+
+Service detail: June courier, freight, and outbound delivery services.
+Amount: $5,023.00
+
+Terms: Payment due under established freight terms.
+Remit: Reference BILL-3119 with payment.

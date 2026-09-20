@@ -1,0 +1,81 @@
+{
+ "adjusted_balance": 269584.91,
+ "bank_statement_ending_balance": 260276.71,
+ "gl_cash_ending_balance": 269682.87,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 59.64
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 59.64,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 38.32
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 38.32,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 1845.0,
+   "date": "2026-06-19",
+   "description": "Check to CloudSpan Hosting not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1013",
+   "side": "bank"
+  },
+  {
+   "amount": 16896.8,
+   "date": "2026-06-25",
+   "description": "Check to Pillar Accounting Services not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1017",
+   "side": "bank"
+  },
+  {
+   "amount": 28050.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT DUNMORE HOLDINGS INV-2236",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 59.64,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 38.32,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

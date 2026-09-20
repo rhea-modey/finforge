@@ -1,0 +1,176 @@
+txn_date;Account;Debit;Credit;description
+04/01/2026;1000 Cash;388417.86;;Opening balances
+04/01/2026;1300 Prepaid Insurance;927.0;;Opening balances
+04/01/2026;1400 Inventory;87487.05;;Opening balances
+04/01/2026;1500 Equipment;137410.0;;Opening balances
+04/01/2026;1590 Accumulated Depreciation;;43513.04;Opening balances
+04/01/2026;2000 Accounts Payable;;30626.29;Opening balances
+04/01/2026;3000 Retained Earnings;;540102.58;Opening balances
+04/03/2026;1000 Cash;;12159.0;Rent - Amberfield Property Group
+04/03/2026;6100 Rent Expense;12159.0;;Rent - Amberfield Property Group
+04/05/2026;1100 Accounts Receivable;21428.0;;Invoice INV-2241 - Kelso Brands
+04/05/2026;4100 Delivery Fees;;21428.0;Invoice INV-2241 - Kelso Brands
+04/06/2026;1000 Cash;;15313.14;Payment on account - opening payables
+04/06/2026;2000 Accounts Payable;15313.14;;Payment on account - opening payables
+04/06/2026;1100 Accounts Receivable;18894.0;;Invoice INV-2244 - Hartwell Group
+04/06/2026;4000 Wholesale Sales;;18894.0;Invoice INV-2244 - Hartwell Group
+04/06/2026;1400 Inventory;;10341.0;COGS - INV-2244
+04/06/2026;5000 Cost of Goods Sold;10341.0;;COGS - INV-2244
+04/07/2026;2000 Accounts Payable;;8318.0;BILL-3108 Kite Digital Ads
+04/07/2026;6200 Advertising & Marketing;8318.0;;BILL-3108 Kite Digital Ads
+04/08/2026;2000 Accounts Payable;;6420.0;BILL-3109 Trellis Marketing Group
+04/08/2026;6200 Advertising & Marketing;6420.0;;BILL-3109 Trellis Marketing Group
+04/10/2026;1100 Accounts Receivable;7832.0;;Invoice INV-2242 - Kelso Brands
+04/10/2026;4000 Wholesale Sales;;7832.0;Invoice INV-2242 - Kelso Brands
+04/10/2026;1400 Inventory;;4541.0;COGS - INV-2242
+04/10/2026;5000 Cost of Goods Sold;4541.0;;COGS - INV-2242
+04/10/2026;1000 Cash;;8318.0;Pay BILL-3108 Kite Digital Ads CHK#1003
+04/10/2026;2000 Accounts Payable;8318.0;;Pay BILL-3108 Kite Digital Ads CHK#1003
+04/14/2026;2000 Accounts Payable;;4687.0;BILL-3107 Helix IT Solutions
+04/14/2026;6450 Software Expense;4687.0;;BILL-3107 Helix IT Solutions
+04/15/2026;2000 Accounts Payable;;7592.0;BILL-3106 Ridgeline Telecom
+04/15/2026;6500 Utilities Expense;7592.0;;BILL-3106 Ridgeline Telecom
+04/15/2026;1000 Cash;;33106.0;Payroll 2026-04/01-04/15
+04/15/2026;2300 Payroll Liabilities;;9337.0;Payroll 2026-04/01-04/15
+04/15/2026;6000 Salaries Expense;42443.0;;Payroll 2026-04/01-04/15
+04/16/2026;1000 Cash;;6420.0;Pay BILL-3109 Trellis Marketing Group CHK#1004
+04/16/2026;2000 Accounts Payable;6420.0;;Pay BILL-3109 Trellis Marketing Group CHK#1004
+04/17/2026;1000 Cash;;4687.0;Pay BILL-3107 Helix IT Solutions CHK#1005
+04/17/2026;2000 Accounts Payable;4687.0;;Pay BILL-3107 Helix IT Solutions CHK#1005
+04/19/2026;2000 Accounts Payable;;1359.0;BILL-3105 Lumen Office Supply
+04/19/2026;6700 Office Supplies;1359.0;;BILL-3105 Lumen Office Supply
+04/22/2026;1000 Cash;;1359.0;Pay BILL-3105 Lumen Office Supply CHK#1007
+04/22/2026;2000 Accounts Payable;1359.0;;Pay BILL-3105 Lumen Office Supply CHK#1007
+04/24/2026;1100 Accounts Receivable;31626.0;;Invoice INV-2243 - Ivywood Enterprises
+04/24/2026;4000 Wholesale Sales;;31626.0;Invoice INV-2243 - Ivywood Enterprises
+04/24/2026;1400 Inventory;;17493.0;COGS - INV-2243
+04/24/2026;5000 Cost of Goods Sold;17493.0;;COGS - INV-2243
+04/24/2026;1000 Cash;;7592.0;Pay BILL-3106 Ridgeline Telecom CHK#1006
+04/24/2026;2000 Accounts Payable;7592.0;;Pay BILL-3106 Ridgeline Telecom CHK#1006
+04/28/2026;1000 Cash;18894.0;;Deposit - Hartwell Group INV-2244
+04/28/2026;1100 Accounts Receivable;;18894.0;Deposit - Hartwell Group INV-2244
+04/28/2026;1000 Cash;;33028.0;Payroll 2026-04/16-04/30
+04/28/2026;2300 Payroll Liabilities;;9315.0;Payroll 2026-04/16-04/30
+04/28/2026;6000 Salaries Expense;42343.0;;Payroll 2026-04/16-04/30
+04/28/2026;1300 Prepaid Insurance;;103.0;Monthly insurance amortization
+04/28/2026;6400 Insurance Expense;103.0;;Monthly insurance amortization
+04/28/2026;1590 Accumulated Depreciation;;2290.16;Monthly depreciation
+04/28/2026;6800 Depreciation Expense;2290.16;;Monthly depreciation
+05/02/2026;2000 Accounts Payable;;4871.0;BILL-3114 Firstlane Logistics
+05/02/2026;5100 Freight & Shipping;4871.0;;BILL-3114 Firstlane Logistics
+05/03/2026;1000 Cash;21428.0;;Deposit - Kelso Brands INV-2241
+05/03/2026;1100 Accounts Receivable;;21428.0;Deposit - Kelso Brands INV-2241
+05/03/2026;1000 Cash;;12159.0;Rent - Amberfield Property Group
+05/03/2026;6100 Rent Expense;12159.0;;Rent - Amberfield Property Group
+05/04/2026;1100 Accounts Receivable;8205.0;;Invoice INV-2247 - Longmont Systems
+05/04/2026;4000 Wholesale Sales;;8205.0;Invoice INV-2247 - Longmont Systems
+05/04/2026;1400 Inventory;;3457.0;COGS - INV-2247
+05/04/2026;5000 Cost of Goods Sold;3457.0;;COGS - INV-2247
+05/09/2026;1100 Accounts Receivable;33891.0;;Invoice INV-2246 - Hartwell Group
+05/09/2026;4000 Wholesale Sales;;33891.0;Invoice INV-2246 - Hartwell Group
+05/09/2026;1400 Inventory;;16253.0;COGS - INV-2246
+05/09/2026;5000 Cost of Goods Sold;16253.0;;COGS - INV-2246
+05/09/2026;1100 Accounts Receivable;24959.0;;Invoice INV-2248 - Longmont Systems
+05/09/2026;4000 Wholesale Sales;;24959.0;Invoice INV-2248 - Longmont Systems
+05/09/2026;1400 Inventory;;11164.0;COGS - INV-2248
+05/09/2026;5000 Cost of Goods Sold;11164.0;;COGS - INV-2248
+05/13/2026;2000 Accounts Payable;;951.0;BILL-3111 Helix IT Solutions
+05/13/2026;6450 Software Expense;951.0;;BILL-3111 Helix IT Solutions
+05/14/2026;2000 Accounts Payable;;7011.0;BILL-3113 Firstlane Logistics
+05/14/2026;5100 Freight & Shipping;7011.0;;BILL-3113 Firstlane Logistics
+05/15/2026;1100 Accounts Receivable;21201.0;;Invoice INV-2245 - Vesper Technologies
+05/15/2026;4000 Wholesale Sales;;21201.0;Invoice INV-2245 - Vesper Technologies
+05/15/2026;1400 Inventory;;10979.0;COGS - INV-2245
+05/15/2026;5000 Cost of Goods Sold;10979.0;;COGS - INV-2245
+05/15/2026;1100 Accounts Receivable;12590.0;;Invoice INV-2249 - Hartwell Group
+05/15/2026;4000 Wholesale Sales;;12590.0;Invoice INV-2249 - Hartwell Group
+05/15/2026;1400 Inventory;;6856.0;COGS - INV-2249
+05/15/2026;5000 Cost of Goods Sold;6856.0;;COGS - INV-2249
+05/15/2026;2000 Accounts Payable;;2985.0;BILL-3110 Helix IT Solutions
+05/15/2026;6450 Software Expense;2985.0;;BILL-3110 Helix IT Solutions
+05/15/2026;2000 Accounts Payable;;3114.0;BILL-3112 Zenith Freight Lines
+05/15/2026;5100 Freight & Shipping;3114.0;;BILL-3112 Zenith Freight Lines
+05/15/2026;1000 Cash;;40107.0;Payroll 2026-05/01-05/15
+05/15/2026;2300 Payroll Liabilities;;11311.0;Payroll 2026-05/01-05/15
+05/15/2026;6000 Salaries Expense;51418.0;;Payroll 2026-05/01-05/15
+05/18/2026;1000 Cash;7832.0;;Deposit - Kelso Brands INV-2242
+05/18/2026;1100 Accounts Receivable;;7832.0;Deposit - Kelso Brands INV-2242
+05/19/2026;1000 Cash;8205.0;;Deposit - Longmont Systems INV-2247
+05/19/2026;1100 Accounts Receivable;;8205.0;Deposit - Longmont Systems INV-2247
+05/19/2026;1100 Accounts Receivable;34203.0;;Invoice INV-2250 - Hartwell Group
+05/19/2026;4000 Wholesale Sales;;34203.0;Invoice INV-2250 - Hartwell Group
+05/19/2026;1400 Inventory;;15813.0;COGS - INV-2250
+05/19/2026;5000 Cost of Goods Sold;15813.0;;COGS - INV-2250
+05/19/2026;1000 Cash;;7011.0;Pay BILL-3113 Firstlane Logistics CHK#1009
+05/19/2026;2000 Accounts Payable;7011.0;;Pay BILL-3113 Firstlane Logistics CHK#1009
+05/21/2026;1000 Cash;;3114.0;Pay BILL-3112 Zenith Freight Lines CHK#1010
+05/21/2026;2000 Accounts Payable;3114.0;;Pay BILL-3112 Zenith Freight Lines CHK#1010
+05/23/2026;1000 Cash;31626.0;;Deposit - Ivywood Enterprises INV-2243
+05/23/2026;1100 Accounts Receivable;;31626.0;Deposit - Ivywood Enterprises INV-2243
+05/28/2026;1000 Cash;;40068.0;Payroll 2026-05/16-05/30
+05/28/2026;2300 Payroll Liabilities;;11300.0;Payroll 2026-05/16-05/30
+05/28/2026;6000 Salaries Expense;51368.0;;Payroll 2026-05/16-05/30
+05/28/2026;1300 Prepaid Insurance;;103.0;Monthly insurance amortization
+05/28/2026;6400 Insurance Expense;103.0;;Monthly insurance amortization
+05/28/2026;1590 Accumulated Depreciation;;2290.16;Monthly depreciation
+05/28/2026;6800 Depreciation Expense;2290.16;;Monthly depreciation
+06/03/2026;1000 Cash;;12159.0;Rent - Amberfield Property Group
+06/03/2026;6100 Rent Expense;12159.0;;Rent - Amberfield Property Group
+06/04/2026;2000 Accounts Payable;;6135.0;BILL-3121 Bright Harbor Media
+06/04/2026;6700 Office Supplies;6135.0;;BILL-3121 Bright Harbor Media
+06/05/2026;2000 Accounts Payable;;8791.0;BILL-3116 Uptown Catering Co.
+06/05/2026;6700 Office Supplies;8791.0;;BILL-3116 Uptown Catering Co.
+06/07/2026;2000 Accounts Payable;;17039.58;BILL-3120 Pillar Accounting Services
+06/07/2026;6600 Professional Fees;17039.58;;BILL-3120 Pillar Accounting Services
+06/10/2026;1000 Cash;33891.0;;Deposit - Hartwell Group INV-2246
+06/10/2026;1100 Accounts Receivable;;33891.0;Deposit - Hartwell Group INV-2246
+06/10/2026;2000 Accounts Payable;;3128.0;BILL-3115 Lumen Office Supply
+06/10/2026;6700 Office Supplies;3128.0;;BILL-3115 Lumen Office Supply
+06/10/2026;2000 Accounts Payable;;10941.19;BILL-3119 Quicksilver Couriers
+06/10/2026;5100 Freight & Shipping;10941.19;;BILL-3119 Quicksilver Couriers
+06/11/2026;2000 Accounts Payable;;5090.0;BILL-3117 Ridgeline Telecom
+06/11/2026;6500 Utilities Expense;5090.0;;BILL-3117 Ridgeline Telecom
+06/12/2026;1100 Accounts Receivable;24925.0;;Invoice INV-2251 - Rosewood Retail
+06/12/2026;4000 Wholesale Sales;;24925.0;Invoice INV-2251 - Rosewood Retail
+06/12/2026;1400 Inventory;;11148.0;COGS - INV-2251
+06/12/2026;5000 Cost of Goods Sold;11148.0;;COGS - INV-2251
+06/12/2026;1000 Cash;;6135.0;Pay BILL-3121 Bright Harbor Media CHK#1012
+06/12/2026;2000 Accounts Payable;6135.0;;Pay BILL-3121 Bright Harbor Media CHK#1012
+06/12/2026;1000 Cash;;17039.58;Pay BILL-3120 Pillar Accounting Services CHK#1013
+06/12/2026;2000 Accounts Payable;17039.58;;Pay BILL-3120 Pillar Accounting Services CHK#1013
+06/12/2026;1000 Cash;16289.0;;Owner capital contribution
+06/12/2026;3000 Retained Earnings;;16289.0;Owner capital contribution
+06/15/2026;1000 Cash;;54382.0;Payroll 2026-06/01-06/15
+06/15/2026;2300 Payroll Liabilities;;15338.0;Payroll 2026-06/01-06/15
+06/15/2026;6000 Salaries Expense;69720.0;;Payroll 2026-06/01-06/15
+06/16/2026;1000 Cash;24959.0;;Deposit - Longmont Systems INV-2248
+06/16/2026;1100 Accounts Receivable;;24959.0;Deposit - Longmont Systems INV-2248
+06/16/2026;1000 Cash;;10941.19;Pay BILL-3119 Quicksilver Couriers CHK#1015
+06/16/2026;2000 Accounts Payable;10941.19;;Pay BILL-3119 Quicksilver Couriers CHK#1015
+06/16/2026;2000 Accounts Payable;;6083.0;BILL-3118 Trellis Marketing Group
+06/16/2026;6200 Advertising & Marketing;6083.0;;BILL-3118 Trellis Marketing Group
+06/17/2026;1100 Accounts Receivable;26707.0;;Invoice INV-2254 - Ivywood Enterprises
+06/17/2026;4000 Wholesale Sales;;26707.0;Invoice INV-2254 - Ivywood Enterprises
+06/17/2026;1400 Inventory;;14813.0;COGS - INV-2254
+06/17/2026;5000 Cost of Goods Sold;14813.0;;COGS - INV-2254
+06/18/2026;1000 Cash;21201.0;;Deposit - Vesper Technologies INV-2245
+06/18/2026;1100 Accounts Receivable;;21201.0;Deposit - Vesper Technologies INV-2245
+06/18/2026;1000 Cash;12590.0;;Deposit - Hartwell Group INV-2249
+06/18/2026;1100 Accounts Receivable;;12590.0;Deposit - Hartwell Group INV-2249
+06/19/2026;1100 Accounts Receivable;16585.0;;Invoice INV-2253 - Brockman & Hale
+06/19/2026;4000 Wholesale Sales;;16585.0;Invoice INV-2253 - Brockman & Hale
+06/19/2026;1400 Inventory;;8942.0;COGS - INV-2253
+06/19/2026;5000 Cost of Goods Sold;8942.0;;COGS - INV-2253
+06/19/2026;1000 Cash;;3128.0;Pay BILL-3115 Lumen Office Supply CHK#1014
+06/19/2026;2000 Accounts Payable;3128.0;;Pay BILL-3115 Lumen Office Supply CHK#1014
+06/20/2026;1100 Accounts Receivable;28888.0;;Invoice INV-2252 - Vesper Technologies
+06/20/2026;4000 Wholesale Sales;;28888.0;Invoice INV-2252 - Vesper Technologies
+06/20/2026;1400 Inventory;;14275.0;COGS - INV-2252
+06/20/2026;5000 Cost of Goods Sold;14275.0;;COGS - INV-2252
+06/28/2026;1000 Cash;34203.0;;Deposit - Hartwell Group INV-2250
+06/28/2026;1100 Accounts Receivable;;34203.0;Deposit - Hartwell Group INV-2250
+06/28/2026;1000 Cash;;54546.0;Payroll 2026-06/16-06/30
+06/28/2026;2300 Payroll Liabilities;;15384.0;Payroll 2026-06/16-06/30
+06/28/2026;6000 Salaries Expense;69930.0;;Payroll 2026-06/16-06/30
+06/28/2026;1590 Accumulated Depreciation;;2290.16;Monthly depreciation
+06/28/2026;6800 Depreciation Expense;2290.16;;Monthly depreciation

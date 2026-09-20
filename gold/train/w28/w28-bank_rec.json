@@ -1,0 +1,81 @@
+{
+ "adjusted_balance": 239413.94,
+ "bank_statement_ending_balance": 221049.94,
+ "gl_cash_ending_balance": 239481.93,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 29.19
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 29.19,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 38.8
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 38.8,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 646.0,
+   "date": "2026-06-24",
+   "description": "Check to Inkwell Print Co. not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1018",
+   "side": "bank"
+  },
+  {
+   "amount": 865.0,
+   "date": "2026-06-08",
+   "description": "Check to Inkwell Print Co. not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1015",
+   "side": "bank"
+  },
+  {
+   "amount": 19875.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT BIRCHFIELD FOODS",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 29.19,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 38.8,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

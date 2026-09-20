@@ -1,0 +1,216 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Inventory",
+   "number": "1400"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Wholesale Sales",
+   "number": "4000"
+  },
+  {
+   "name": "Delivery Fees",
+   "number": "4100"
+  },
+  {
+   "name": "Cost of Goods Sold",
+   "number": "5000"
+  },
+  {
+   "name": "Freight & Shipping",
+   "number": "5100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Harborline Supply Co.",
+ "files_tree_hash": "9996d1685a12ea33f61d2366d52f498a6b7974506ba5670245e4928141a4a466",
+ "industry": "wholesale",
+ "split": "train",
+ "truth_records": [
+  {
+   "amount": 6135.0,
+   "detail": {
+    "bill_id": "BILL-3121",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 103.0,
+   "detail": {
+    "item": "Copperfield Risk Partners annual policy"
+   },
+   "kind": "missing_prepaid_amort"
+  },
+  {
+   "amount": 17039.58,
+   "detail": {
+    "bill_id": "BILL-3120",
+    "check_no": "CHK-1013",
+    "date": "2026-06-12",
+    "vendor": "Pillar Accounting Services"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 3128.0,
+   "detail": {
+    "bill_id": "BILL-3115",
+    "check_no": "CHK-1014",
+    "date": "2026-06-19",
+    "vendor": "Lumen Office Supply"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 12590.0,
+   "detail": {
+    "desc": "DEPOSIT HARTWELL GROUP"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 34203.0,
+   "detail": {
+    "desc": "DEPOSIT HARTWELL GROUP INV-2250"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 54.78,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 56.64,
+   "detail": {
+    "desc": "WIRE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 12.11,
+   "detail": {},
+   "kind": "interest_unrecorded"
+  },
+  {
+   "amount": 10941.19,
+   "detail": {
+    "account": "5100",
+    "bill_id": "BILL-3119",
+    "campaign": "Harvest",
+    "desc": "Non-recurring Harvest program",
+    "keywords": [
+     "harvest",
+     "quicksilver"
+    ],
+    "vendor": "Quicksilver Couriers"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 17039.58,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3120",
+    "campaign": "Bloom",
+    "desc": "Bloom launch sprint (one-time)",
+    "keywords": [
+     "bloom",
+     "pillar"
+    ],
+    "vendor": "Pillar Accounting Services"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "w27"
+}

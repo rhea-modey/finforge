@@ -1,0 +1,15 @@
+account_number,account_name,apr_budget,may_budget,jun_budget
+4000,Subscription Revenue,71280.0,92729.0,85327.0
+4100,Professional Services Revenue,30468.0,45173.0,44679.0
+6000,Salaries Expense,110477.0,134603.0,117194.78
+6100,Rent Expense,12084.0,11986.0,11564.0
+6200,Advertising & Marketing,9754.0,3371.0,10625.0
+6300,Software Subscriptions,0.0,0.0,8662.0
+6400,Insurance Expense,87.0,85.0,86.0
+6450,Software Expense,0.0,7051.0,0.0
+6500,Utilities Expense,5948.0,7743.0,0.0
+6600,Professional Fees,5826.0,0.0,0.0
+6700,Office Supplies,2012.0,7749.0,17104.0
+6800,Depreciation Expense,1879.26,1876.26,1802.26
+6900,Bank Fees,0.0,0.0,0.0
+7100,Interest Income,0.0,0.0,0.0

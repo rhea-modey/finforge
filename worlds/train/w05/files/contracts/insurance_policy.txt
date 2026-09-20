@@ -1,0 +1,20 @@
+HARTLINE MUTUAL INSURANCE
+Hartline Mutual Insurance
+
+COMMERCIAL PACKAGE POLICY
+DECLARATIONS
+
+Named insured: Beacon Ledger Software
+Broker: Hartline Mutual Insurance
+
+Policy term
+From: 2026-01-01
+Through: 2026-12-31
+
+Premium: $1,716.00
+Payment status: Paid in full at inception.
+
+ACCOUNTING TREATMENT
+The premium is amortized straight-line over the term with a full month recognized in each month in force.
+
+These declarations are subject to all policy forms, conditions, limitations, and endorsements made part of the policy.

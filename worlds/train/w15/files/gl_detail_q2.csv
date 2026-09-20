@@ -1,0 +1,172 @@
+posting_date,gl_account,dr,Credit,Memo
+04/01/2026,1000 Cash,386094.34,,Opening balances
+04/01/2026,1300 Prepaid Insurance,1017.0,,Opening balances
+04/01/2026,1400 Inventory,142003.48,,Opening balances
+04/01/2026,1500 Equipment,107431.0,,Opening balances
+04/01/2026,1590 Accumulated Depreciation,,19695.61,Opening balances
+04/01/2026,2000 Accounts Payable,,78264.92,Opening balances
+04/01/2026,3000 Retained Earnings,,538585.29,Opening balances
+04/03/2026,1100 Accounts Receivable,28612.0,,Invoice INV-2235 - Nordica Labs
+04/03/2026,4000 Wholesale Sales,,28612.0,Invoice INV-2235 - Nordica Labs
+04/03/2026,1400 Inventory,,15739.0,COGS - INV-2235
+04/03/2026,5000 Cost of Goods Sold,15739.0,,COGS - INV-2235
+04/03/2026,1000 Cash,,13278.0,Rent - Harborstone Realty Partners
+04/03/2026,6100 Rent Expense,13278.0,,Rent - Harborstone Realty Partners
+04/06/2026,1000 Cash,,39132.46,Payment on account - opening payables
+04/06/2026,2000 Accounts Payable,39132.46,,Payment on account - opening payables
+04/06/2026,2000 Accounts Payable,,8598.0,BILL-3136 Trellis Marketing Group
+04/06/2026,6200 Advertising & Marketing,8598.0,,BILL-3136 Trellis Marketing Group
+04/10/2026,1000 Cash,,8598.0,Pay BILL-3136 Trellis Marketing Group CHK#1003
+04/10/2026,2000 Accounts Payable,8598.0,,Pay BILL-3136 Trellis Marketing Group CHK#1003
+04/11/2026,1100 Accounts Receivable,40960.0,,Invoice INV-2233 - Silverthorne Media
+04/11/2026,4000 Wholesale Sales,,40960.0,Invoice INV-2233 - Silverthorne Media
+04/11/2026,1400 Inventory,,19774.0,COGS - INV-2233
+04/11/2026,5000 Cost of Goods Sold,19774.0,,COGS - INV-2233
+04/11/2026,1100 Accounts Receivable,10596.0,,Invoice INV-2234 - Birchfield Foods
+04/11/2026,4000 Wholesale Sales,,10596.0,Invoice INV-2234 - Birchfield Foods
+04/11/2026,1400 Inventory,,5334.0,COGS - INV-2234
+04/11/2026,5000 Cost of Goods Sold,5334.0,,COGS - INV-2234
+04/13/2026,1100 Accounts Receivable,13296.0,,Invoice INV-2232 - Jasper Analytics
+04/13/2026,4000 Wholesale Sales,,13296.0,Invoice INV-2232 - Jasper Analytics
+04/13/2026,1400 Inventory,,6353.0,COGS - INV-2232
+04/13/2026,5000 Cost of Goods Sold,6353.0,,COGS - INV-2232
+04/15/2026,1000 Cash,,42830.0,Payroll 2026-04/01-04/15
+04/15/2026,2300 Payroll Liabilities,,12079.0,Payroll 2026-04/01-04/15
+04/15/2026,6000 Salaries Expense,54909.0,,Payroll 2026-04/01-04/15
+04/16/2026,2000 Accounts Payable,,6428.0,BILL-3134 Stanton Cleaning Crew
+04/16/2026,6700 Office Supplies,6428.0,,BILL-3134 Stanton Cleaning Crew
+04/17/2026,2000 Accounts Payable,,3710.0,BILL-3137 Willow Creek Packaging
+04/17/2026,5100 Freight & Shipping,3710.0,,BILL-3137 Willow Creek Packaging
+04/19/2026,2000 Accounts Payable,,7454.0,BILL-3135 Zenith Freight Lines
+04/19/2026,5100 Freight & Shipping,7454.0,,BILL-3135 Zenith Freight Lines
+04/19/2026,2000 Accounts Payable,,1873.0,BILL-3138 Delta Facility Services
+04/19/2026,6700 Office Supplies,1873.0,,BILL-3138 Delta Facility Services
+04/20/2026,1100 Accounts Receivable,43006.0,,Invoice INV-2231 - Atlas Verde LLC
+04/20/2026,4100 Delivery Fees,,43006.0,Invoice INV-2231 - Atlas Verde LLC
+04/22/2026,1000 Cash,28612.0,,Deposit - Nordica Labs INV-2235
+04/22/2026,1100 Accounts Receivable,,28612.0,Deposit - Nordica Labs INV-2235
+04/22/2026,1000 Cash,,3710.0,Pay BILL-3137 Willow Creek Packaging CHK#1004
+04/22/2026,2000 Accounts Payable,3710.0,,Pay BILL-3137 Willow Creek Packaging CHK#1004
+04/27/2026,1000 Cash,13296.0,,Deposit - Jasper Analytics INV-2232
+04/27/2026,1100 Accounts Receivable,,13296.0,Deposit - Jasper Analytics INV-2232
+04/27/2026,1000 Cash,40960.0,,Deposit - Silverthorne Media INV-2233
+04/27/2026,1100 Accounts Receivable,,40960.0,Deposit - Silverthorne Media INV-2233
+04/28/2026,1000 Cash,,7454.0,Pay BILL-3135 Zenith Freight Lines CHK#1005
+04/28/2026,2000 Accounts Payable,7454.0,,Pay BILL-3135 Zenith Freight Lines CHK#1005
+04/28/2026,1000 Cash,,42837.0,Payroll 2026-04/16-04/30
+04/28/2026,2300 Payroll Liabilities,,12082.0,Payroll 2026-04/16-04/30
+04/28/2026,6000 Salaries Expense,54919.0,,Payroll 2026-04/16-04/30
+04/28/2026,1300 Prepaid Insurance,,113.0,Monthly insurance amortization
+04/28/2026,6400 Insurance Expense,113.0,,Monthly insurance amortization
+04/28/2026,1590 Accumulated Depreciation,,1790.51,Monthly depreciation
+04/28/2026,6800 Depreciation Expense,1790.51,,Monthly depreciation
+05/03/2026,1000 Cash,,13278.0,Rent - Harborstone Realty Partners
+05/03/2026,6100 Rent Expense,13278.0,,Rent - Harborstone Realty Partners
+05/05/2026,1100 Accounts Receivable,35139.0,,Invoice INV-2238 - Birchfield Foods
+05/05/2026,4000 Wholesale Sales,,35139.0,Invoice INV-2238 - Birchfield Foods
+05/05/2026,1400 Inventory,,15385.0,COGS - INV-2238
+05/05/2026,5000 Cost of Goods Sold,15385.0,,COGS - INV-2238
+05/07/2026,2000 Accounts Payable,,4030.0,BILL-3139 Uptown Catering Co.
+05/07/2026,6700 Office Supplies,4030.0,,BILL-3139 Uptown Catering Co.
+05/07/2026,2000 Accounts Payable,,5403.0,BILL-3141 Willow Creek Packaging
+05/07/2026,5100 Freight & Shipping,5403.0,,BILL-3141 Willow Creek Packaging
+05/07/2026,2000 Accounts Payable,,3380.0,BILL-3142 Junction Utility Co-op
+05/07/2026,6500 Utilities Expense,3380.0,,BILL-3142 Junction Utility Co-op
+05/08/2026,1000 Cash,10596.0,,Deposit - Birchfield Foods INV-2234
+05/08/2026,1100 Accounts Receivable,,10596.0,Deposit - Birchfield Foods INV-2234
+05/08/2026,1100 Accounts Receivable,37429.0,,Invoice INV-2239 - Atlas Verde LLC
+05/08/2026,4000 Wholesale Sales,,37429.0,Invoice INV-2239 - Atlas Verde LLC
+05/08/2026,1400 Inventory,,21706.0,COGS - INV-2239
+05/08/2026,5000 Cost of Goods Sold,21706.0,,COGS - INV-2239
+05/08/2026,2000 Accounts Payable,,7124.0,BILL-3140 Bright Harbor Media
+05/08/2026,6200 Advertising & Marketing,7124.0,,BILL-3140 Bright Harbor Media
+05/10/2026,1000 Cash,,5403.0,Pay BILL-3141 Willow Creek Packaging CHK#1007
+05/10/2026,2000 Accounts Payable,5403.0,,Pay BILL-3141 Willow Creek Packaging CHK#1007
+05/14/2026,1100 Accounts Receivable,27162.0,,Invoice INV-2237 - Silverthorne Media
+05/14/2026,4000 Wholesale Sales,,27162.0,Invoice INV-2237 - Silverthorne Media
+05/14/2026,1400 Inventory,,13817.0,COGS - INV-2237
+05/14/2026,5000 Cost of Goods Sold,13817.0,,COGS - INV-2237
+05/15/2026,1000 Cash,,58568.0,Payroll 2026-05/01-05/15
+05/15/2026,2300 Payroll Liabilities,,16519.0,Payroll 2026-05/01-05/15
+05/15/2026,6000 Salaries Expense,75087.0,,Payroll 2026-05/01-05/15
+05/16/2026,1000 Cash,,3380.0,Pay BILL-3142 Junction Utility Co-op CHK#1008
+05/16/2026,2000 Accounts Payable,3380.0,,Pay BILL-3142 Junction Utility Co-op CHK#1008
+05/22/2026,1100 Accounts Receivable,25958.0,,Invoice INV-2236 - Dunmore Holdings
+05/22/2026,4000 Wholesale Sales,,25958.0,Invoice INV-2236 - Dunmore Holdings
+05/22/2026,1400 Inventory,,10981.0,COGS - INV-2236
+05/22/2026,5000 Cost of Goods Sold,10981.0,,COGS - INV-2236
+05/28/2026,1000 Cash,,58561.0,Payroll 2026-05/16-05/30
+05/28/2026,2300 Payroll Liabilities,,16516.0,Payroll 2026-05/16-05/30
+05/28/2026,6000 Salaries Expense,75077.0,,Payroll 2026-05/16-05/30
+05/28/2026,1300 Prepaid Insurance,,113.0,Monthly insurance amortization
+05/28/2026,6400 Insurance Expense,113.0,,Monthly insurance amortization
+05/28/2026,1590 Accumulated Depreciation,,1790.51,Monthly depreciation
+05/28/2026,6800 Depreciation Expense,1790.51,,Monthly depreciation
+06/01/2026,1100 Accounts Receivable,17950.0,,Invoice INV-2242 - Nordica Labs
+06/01/2026,4000 Wholesale Sales,,17950.0,Invoice INV-2242 - Nordica Labs
+06/01/2026,1400 Inventory,,9713.0,COGS - INV-2242
+06/01/2026,5000 Cost of Goods Sold,9713.0,,COGS - INV-2242
+06/02/2026,1000 Cash,43006.0,,Deposit - Atlas Verde LLC INV-2231
+06/02/2026,1100 Accounts Receivable,,43006.0,Deposit - Atlas Verde LLC INV-2231
+06/03/2026,1000 Cash,,13278.0,Rent - Harborstone Realty Partners
+06/03/2026,6100 Rent Expense,13278.0,,Rent - Harborstone Realty Partners
+06/03/2026,2000 Accounts Payable,,4864.0,BILL-3149 Kite Digital Ads
+06/03/2026,6700 Office Supplies,4864.0,,BILL-3149 Kite Digital Ads
+06/04/2026,2000 Accounts Payable,,9882.0,BILL-3143 CloudSpan Hosting
+06/04/2026,6450 Software Expense,9882.0,,BILL-3143 CloudSpan Hosting
+06/04/2026,2000 Accounts Payable,,19846.73,BILL-3147 Trellis Marketing Group
+06/04/2026,6200 Advertising & Marketing,19846.73,,BILL-3147 Trellis Marketing Group
+06/05/2026,1000 Cash,37429.0,,Deposit - Atlas Verde LLC INV-2239
+06/05/2026,1100 Accounts Receivable,,37429.0,Deposit - Atlas Verde LLC INV-2239
+06/05/2026,1000 Cash,,1056.0,Prepaid software - 12 month license (Quillware Technologies)
+06/05/2026,1310 Prepaid Software,1056.0,,Prepaid software - 12 month license (Quillware Technologies)
+06/06/2026,1000 Cash,,4864.0,Pay BILL-3149 Kite Digital Ads CHK#1010
+06/06/2026,2000 Accounts Payable,4864.0,,Pay BILL-3149 Kite Digital Ads CHK#1010
+06/07/2026,1000 Cash,,19846.73,Pay BILL-3147 Trellis Marketing Group CHK#1012
+06/07/2026,2000 Accounts Payable,19846.73,,Pay BILL-3147 Trellis Marketing Group CHK#1012
+06/07/2026,2000 Accounts Payable,,29372.53,BILL-3148 Zenith Freight Lines
+06/07/2026,5100 Freight & Shipping,29372.53,,BILL-3148 Zenith Freight Lines
+06/08/2026,1100 Accounts Receivable,42027.0,,Invoice INV-2240 - Birchfield Foods
+06/08/2026,4000 Wholesale Sales,,42027.0,Invoice INV-2240 - Birchfield Foods
+06/08/2026,1400 Inventory,,17712.0,COGS - INV-2240
+06/08/2026,5000 Cost of Goods Sold,17712.0,,COGS - INV-2240
+06/09/2026,2000 Accounts Payable,,4790.0,BILL-3146 Quicksilver Couriers
+06/09/2026,5100 Freight & Shipping,4790.0,,BILL-3146 Quicksilver Couriers
+06/10/2026,1000 Cash,35139.0,,Deposit - Birchfield Foods INV-2238
+06/10/2026,1100 Accounts Receivable,,35139.0,Deposit - Birchfield Foods INV-2238
+06/10/2026,2000 Accounts Payable,,3171.0,BILL-3145 Quicksilver Couriers
+06/10/2026,5100 Freight & Shipping,3171.0,,BILL-3145 Quicksilver Couriers
+06/11/2026,1000 Cash,,9882.0,Pay BILL-3143 CloudSpan Hosting CHK#1011
+06/11/2026,2000 Accounts Payable,9882.0,,Pay BILL-3143 CloudSpan Hosting CHK#1011
+06/12/2026,1000 Cash,17367.0,,Owner capital contribution
+06/12/2026,3000 Retained Earnings,,17367.0,Owner capital contribution
+06/14/2026,1100 Accounts Receivable,48754.0,,Invoice INV-2244 - Atlas Verde LLC
+06/14/2026,4000 Wholesale Sales,,48754.0,Invoice INV-2244 - Atlas Verde LLC
+06/14/2026,1400 Inventory,,26879.0,COGS - INV-2244
+06/14/2026,5000 Cost of Goods Sold,26879.0,,COGS - INV-2244
+06/15/2026,1000 Cash,,53040.0,Payroll 2026-06/01-06/15
+06/15/2026,2300 Payroll Liabilities,,14960.0,Payroll 2026-06/01-06/15
+06/15/2026,6000 Salaries Expense,68000.0,,Payroll 2026-06/01-06/15
+06/16/2026,1000 Cash,,29372.53,Pay BILL-3148 Zenith Freight Lines CHK#1013
+06/16/2026,2000 Accounts Payable,29372.53,,Pay BILL-3148 Zenith Freight Lines CHK#1013
+06/18/2026,1100 Accounts Receivable,15215.0,,Invoice INV-2241 - Jasper Analytics
+06/18/2026,4100 Delivery Fees,,15215.0,Invoice INV-2241 - Jasper Analytics
+06/18/2026,1000 Cash,,4790.0,Pay BILL-3146 Quicksilver Couriers CHK#1014
+06/18/2026,2000 Accounts Payable,4790.0,,Pay BILL-3146 Quicksilver Couriers CHK#1014
+06/19/2026,1100 Accounts Receivable,17798.0,,Invoice INV-2243 - Birchfield Foods
+06/19/2026,4000 Wholesale Sales,,17798.0,Invoice INV-2243 - Birchfield Foods
+06/19/2026,1400 Inventory,,8334.0,COGS - INV-2243
+06/19/2026,5000 Cost of Goods Sold,8334.0,,COGS - INV-2243
+06/20/2026,1000 Cash,25958.0,,Deposit - Dunmore Holdings INV-2236
+06/20/2026,1100 Accounts Receivable,,25958.0,Deposit - Dunmore Holdings INV-2236
+06/20/2026,1000 Cash,17950.0,,Deposit - Nordica Labs INV-2242
+06/20/2026,1100 Accounts Receivable,,17950.0,Deposit - Nordica Labs INV-2242
+06/21/2026,1000 Cash,27162.0,,Deposit - Silverthorne Media INV-2237
+06/21/2026,1100 Accounts Receivable,,27162.0,Deposit - Silverthorne Media INV-2237
+06/21/2026,2000 Accounts Payable,,3936.0,BILL-3144 Trellis Marketing Group
+06/21/2026,6200 Advertising & Marketing,3936.0,,BILL-3144 Trellis Marketing Group
+06/28/2026,1000 Cash,,3936.0,Pay BILL-3144 Trellis Marketing Group CHK#1015
+06/28/2026,2000 Accounts Payable,3936.0,,Pay BILL-3144 Trellis Marketing Group CHK#1015
+06/28/2026,1000 Cash,,52986.0,Payroll 2026-06/16-06/30
+06/28/2026,2300 Payroll Liabilities,,14944.0,Payroll 2026-06/16-06/30
+06/28/2026,6000 Salaries Expense,67930.0,,Payroll 2026-06/16-06/30

@@ -1,0 +1,158 @@
+date;Account;dr;cr;Memo
+04/01/2026;1000 Cash;201733.92;;Opening balances
+04/01/2026;1300 Prepaid Insurance;1242.0;;Opening balances
+04/01/2026;1500 Equipment;169468.0;;Opening balances
+04/01/2026;1590 Accumulated Depreciation;;53664.74;Opening balances
+04/01/2026;2000 Accounts Payable;;31743.38;Opening balances
+04/01/2026;3000 Retained Earnings;;287035.8;Opening balances
+04/01/2026;1100 Accounts Receivable;12617.0;;Invoice INV-2222 - Marlowe & Finch
+04/01/2026;4000 Consulting Revenue;;12617.0;Invoice INV-2222 - Marlowe & Finch
+04/03/2026;1000 Cash;;3511.0;Rent - Harborstone Realty Partners
+04/03/2026;6100 Rent Expense;3511.0;;Rent - Harborstone Realty Partners
+04/04/2026;2000 Accounts Payable;;4637.0;BILL-3122 Ridgeline Telecom
+04/04/2026;6500 Utilities Expense;4637.0;;BILL-3122 Ridgeline Telecom
+04/06/2026;1000 Cash;;15871.69;Payment on account - opening payables
+04/06/2026;2000 Accounts Payable;15871.69;;Payment on account - opening payables
+04/07/2026;2000 Accounts Payable;;4639.0;BILL-3127 Inkwell Print Co.
+04/07/2026;6700 Office Supplies;4639.0;;BILL-3127 Inkwell Print Co.
+04/09/2026;2000 Accounts Payable;;4664.0;BILL-3126 Bright Harbor Media
+04/09/2026;6200 Advertising & Marketing;4664.0;;BILL-3126 Bright Harbor Media
+04/10/2026;2000 Accounts Payable;;4634.0;BILL-3125 Trellis Marketing Group
+04/10/2026;6200 Advertising & Marketing;4634.0;;BILL-3125 Trellis Marketing Group
+04/11/2026;1100 Accounts Receivable;11394.0;;Invoice INV-2224 - Kelso Brands
+04/11/2026;4000 Consulting Revenue;;11394.0;Invoice INV-2224 - Kelso Brands
+04/12/2026;2000 Accounts Payable;;3409.0;BILL-3123 Lumen Office Supply
+04/12/2026;6700 Office Supplies;3409.0;;BILL-3123 Lumen Office Supply
+04/12/2026;2000 Accounts Payable;;858.0;BILL-3124 Ridgeline Telecom
+04/12/2026;6500 Utilities Expense;858.0;;BILL-3124 Ridgeline Telecom
+04/15/2026;1000 Cash;;26408.0;Payroll 2026-04/01-04/15
+04/15/2026;2300 Payroll Liabilities;;7448.0;Payroll 2026-04/01-04/15
+04/15/2026;6000 Salaries Expense;33856.0;;Payroll 2026-04/01-04/15
+04/17/2026;1100 Accounts Receivable;4672.0;;Invoice INV-2223 - Longmont Systems
+04/17/2026;4000 Consulting Revenue;;4672.0;Invoice INV-2223 - Longmont Systems
+04/18/2026;1000 Cash;;4664.0;Pay BILL-3126 Bright Harbor Media CHK#1003
+04/18/2026;2000 Accounts Payable;4664.0;;Pay BILL-3126 Bright Harbor Media CHK#1003
+04/19/2026;1100 Accounts Receivable;13606.0;;Invoice INV-2225 - Marlowe & Finch
+04/19/2026;4100 Retainer Revenue;;13606.0;Invoice INV-2225 - Marlowe & Finch
+04/20/2026;1000 Cash;;858.0;Pay BILL-3124 Ridgeline Telecom CHK#1004
+04/20/2026;2000 Accounts Payable;858.0;;Pay BILL-3124 Ridgeline Telecom CHK#1004
+04/28/2026;1000 Cash;;26432.0;Payroll 2026-04/16-04/30
+04/28/2026;2300 Payroll Liabilities;;7454.0;Payroll 2026-04/16-04/30
+04/28/2026;6000 Salaries Expense;33886.0;;Payroll 2026-04/16-04/30
+04/28/2026;1300 Prepaid Insurance;;138.0;Monthly insurance amortization
+04/28/2026;6400 Insurance Expense;138.0;;Monthly insurance amortization
+04/28/2026;1590 Accumulated Depreciation;;2824.46;Monthly depreciation
+04/28/2026;6800 Depreciation Expense;2824.46;;Monthly depreciation
+05/01/2026;1000 Cash;4672.0;;Deposit - Longmont Systems INV-2223
+05/01/2026;1100 Accounts Receivable;;4672.0;Deposit - Longmont Systems INV-2223
+05/02/2026;1000 Cash;12617.0;;Deposit - Marlowe & Finch INV-2222
+05/02/2026;1100 Accounts Receivable;;12617.0;Deposit - Marlowe & Finch INV-2222
+05/03/2026;1000 Cash;;3511.0;Rent - Harborstone Realty Partners
+05/03/2026;6100 Rent Expense;3511.0;;Rent - Harborstone Realty Partners
+05/04/2026;1100 Accounts Receivable;9848.0;;Invoice INV-2230 - Brockman & Hale
+05/04/2026;4100 Retainer Revenue;;9848.0;Invoice INV-2230 - Brockman & Hale
+05/04/2026;1100 Accounts Receivable;19439.0;;Invoice INV-2232 - Marlowe & Finch
+05/04/2026;4000 Consulting Revenue;;19439.0;Invoice INV-2232 - Marlowe & Finch
+05/06/2026;1100 Accounts Receivable;3353.0;;Invoice INV-2231 - Vesper Technologies
+05/06/2026;4000 Consulting Revenue;;3353.0;Invoice INV-2231 - Vesper Technologies
+05/09/2026;1100 Accounts Receivable;7529.0;;Invoice INV-2228 - Vesper Technologies
+05/09/2026;4100 Retainer Revenue;;7529.0;Invoice INV-2228 - Vesper Technologies
+05/11/2026;2000 Accounts Payable;;327.0;BILL-3130 Helix IT Solutions
+05/11/2026;6450 Software Expense;327.0;;BILL-3130 Helix IT Solutions
+05/13/2026;1000 Cash;13606.0;;Deposit - Marlowe & Finch INV-2225
+05/13/2026;1100 Accounts Receivable;;13606.0;Deposit - Marlowe & Finch INV-2225
+05/13/2026;1100 Accounts Receivable;20413.0;;Invoice INV-2227 - Brockman & Hale
+05/13/2026;4100 Retainer Revenue;;20413.0;Invoice INV-2227 - Brockman & Hale
+05/15/2026;1000 Cash;;16097.0;Payroll 2026-05/01-05/15
+05/15/2026;2300 Payroll Liabilities;;4540.0;Payroll 2026-05/01-05/15
+05/15/2026;6000 Salaries Expense;20637.0;;Payroll 2026-05/01-05/15
+05/16/2026;1100 Accounts Receivable;17664.0;;Invoice INV-2229 - Pinehurst Digital
+05/16/2026;4000 Consulting Revenue;;17664.0;Invoice INV-2229 - Pinehurst Digital
+05/18/2026;2000 Accounts Payable;;333.0;BILL-3129 Uptown Catering Co.
+05/18/2026;6700 Office Supplies;333.0;;BILL-3129 Uptown Catering Co.
+05/19/2026;2000 Accounts Payable;;605.0;BILL-3131 Junction Utility Co-op
+05/19/2026;6500 Utilities Expense;605.0;;BILL-3131 Junction Utility Co-op
+05/20/2026;2000 Accounts Payable;;2839.0;BILL-3128 Pillar Accounting Services
+05/20/2026;6600 Professional Fees;2839.0;;BILL-3128 Pillar Accounting Services
+05/21/2026;1000 Cash;11394.0;;Deposit - Kelso Brands INV-2224
+05/21/2026;1100 Accounts Receivable;;11394.0;Deposit - Kelso Brands INV-2224
+05/22/2026;1100 Accounts Receivable;13430.0;;Invoice INV-2226 - Pinehurst Digital
+05/22/2026;4100 Retainer Revenue;;13430.0;Invoice INV-2226 - Pinehurst Digital
+05/26/2026;1000 Cash;;333.0;Pay BILL-3129 Uptown Catering Co. CHK#1006
+05/26/2026;2000 Accounts Payable;333.0;;Pay BILL-3129 Uptown Catering Co. CHK#1006
+05/26/2026;1000 Cash;;2839.0;Pay BILL-3128 Pillar Accounting Services CHK#1007
+05/26/2026;2000 Accounts Payable;2839.0;;Pay BILL-3128 Pillar Accounting Services CHK#1007
+05/28/2026;1000 Cash;7529.0;;Deposit - Vesper Technologies INV-2228
+05/28/2026;1100 Accounts Receivable;;7529.0;Deposit - Vesper Technologies INV-2228
+05/28/2026;1000 Cash;9848.0;;Deposit - Brockman & Hale INV-2230
+05/28/2026;1100 Accounts Receivable;;9848.0;Deposit - Brockman & Hale INV-2230
+05/28/2026;1000 Cash;;16090.0;Payroll 2026-05/16-05/30
+05/28/2026;2300 Payroll Liabilities;;4537.0;Payroll 2026-05/16-05/30
+05/28/2026;6000 Salaries Expense;20627.0;;Payroll 2026-05/16-05/30
+05/28/2026;1300 Prepaid Insurance;;138.0;Monthly insurance amortization
+05/28/2026;6400 Insurance Expense;138.0;;Monthly insurance amortization
+05/28/2026;1590 Accumulated Depreciation;;2824.46;Monthly depreciation
+05/28/2026;6800 Depreciation Expense;2824.46;;Monthly depreciation
+06/02/2026;2000 Accounts Payable;;4273.0;BILL-3132 Meridian Legal LLP
+06/02/2026;6600 Professional Fees;4273.0;;BILL-3132 Meridian Legal LLP
+06/03/2026;1000 Cash;;3511.0;Rent - Harborstone Realty Partners
+06/03/2026;6100 Rent Expense;3511.0;;Rent - Harborstone Realty Partners
+06/06/2026;1100 Accounts Receivable;17810.0;;Invoice INV-2237 - Yardley Supply
+06/06/2026;4000 Consulting Revenue;;17810.0;Invoice INV-2237 - Yardley Supply
+06/08/2026;1000 Cash;17664.0;;Deposit - Pinehurst Digital INV-2229
+06/08/2026;1100 Accounts Receivable;;17664.0;Deposit - Pinehurst Digital INV-2229
+06/08/2026;1000 Cash;;4273.0;Pay BILL-3132 Meridian Legal LLP CHK#1009
+06/08/2026;2000 Accounts Payable;4273.0;;Pay BILL-3132 Meridian Legal LLP CHK#1009
+06/08/2026;2000 Accounts Payable;;1386.0;BILL-3136 CloudSpan Hosting
+06/08/2026;6450 Software Expense;1386.0;;BILL-3136 CloudSpan Hosting
+06/09/2026;1000 Cash;20413.0;;Deposit - Brockman & Hale INV-2227
+06/09/2026;1100 Accounts Receivable;;20413.0;Deposit - Brockman & Hale INV-2227
+06/09/2026;2000 Accounts Payable;;2160.0;BILL-3134 Junction Utility Co-op
+06/09/2026;6500 Utilities Expense;2160.0;;BILL-3134 Junction Utility Co-op
+06/10/2026;1000 Cash;3353.0;;Deposit - Vesper Technologies INV-2231
+06/10/2026;1100 Accounts Receivable;;3353.0;Deposit - Vesper Technologies INV-2231
+06/11/2026;1100 Accounts Receivable;5875.0;;Invoice INV-2233 - Kelso Brands
+06/11/2026;4000 Consulting Revenue;;5875.0;Invoice INV-2233 - Kelso Brands
+06/12/2026;1000 Cash;19439.0;;Deposit - Marlowe & Finch INV-2232
+06/12/2026;1100 Accounts Receivable;;19439.0;Deposit - Marlowe & Finch INV-2232
+06/12/2026;2000 Accounts Payable;;9011.3;BILL-3138 Meridian Legal LLP
+06/12/2026;6600 Professional Fees;9011.3;;BILL-3138 Meridian Legal LLP
+06/12/2026;1000 Cash;19682.0;;Owner capital contribution
+06/12/2026;3000 Retained Earnings;;19682.0;Owner capital contribution
+06/13/2026;2000 Accounts Payable;;1984.0;BILL-3140 Kite Digital Ads
+06/13/2026;6700 Office Supplies;1984.0;;BILL-3140 Kite Digital Ads
+06/14/2026;2000 Accounts Payable;;7326.48;BILL-3139 Kite Digital Ads
+06/14/2026;6200 Advertising & Marketing;7326.48;;BILL-3139 Kite Digital Ads
+06/15/2026;1100 Accounts Receivable;19939.0;;Invoice INV-2235 - Wexford Group
+06/15/2026;4100 Retainer Revenue;;19939.0;Invoice INV-2235 - Wexford Group
+06/15/2026;1000 Cash;;1386.0;Pay BILL-3136 CloudSpan Hosting CHK#1010
+06/15/2026;2000 Accounts Payable;1386.0;;Pay BILL-3136 CloudSpan Hosting CHK#1010
+06/15/2026;2000 Accounts Payable;;1152.0;BILL-3133 Delta Facility Services
+06/15/2026;6700 Office Supplies;1152.0;;BILL-3133 Delta Facility Services
+06/15/2026;1000 Cash;;20171.0;Payroll 2026-06/01-06/15
+06/15/2026;2300 Payroll Liabilities;;5689.0;Payroll 2026-06/01-06/15
+06/15/2026;6000 Salaries Expense;25860.0;;Payroll 2026-06/01-06/15
+06/17/2026;2000 Accounts Payable;;669.0;BILL-3135 Meridian Legal LLP
+06/17/2026;6600 Professional Fees;669.0;;BILL-3135 Meridian Legal LLP
+06/19/2026;1100 Accounts Receivable;3337.0;;Invoice INV-2236 - Marlowe & Finch
+06/19/2026;4100 Retainer Revenue;;3337.0;Invoice INV-2236 - Marlowe & Finch
+06/19/2026;1000 Cash;;1984.0;Pay BILL-3140 Kite Digital Ads CHK#1012
+06/19/2026;2000 Accounts Payable;1984.0;;Pay BILL-3140 Kite Digital Ads CHK#1012
+06/20/2026;1000 Cash;;7326.48;Pay BILL-3139 Kite Digital Ads CHK#1013
+06/20/2026;2000 Accounts Payable;7326.48;;Pay BILL-3139 Kite Digital Ads CHK#1013
+06/20/2026;2000 Accounts Payable;;2598.0;BILL-3137 CloudSpan Hosting
+06/20/2026;6450 Software Expense;2598.0;;BILL-3137 CloudSpan Hosting
+06/21/2026;1100 Accounts Receivable;9363.0;;Invoice INV-2234 - Wexford Group
+06/21/2026;4000 Consulting Revenue;;9363.0;Invoice INV-2234 - Wexford Group
+06/21/2026;1000 Cash;;9011.3;Pay BILL-3138 Meridian Legal LLP CHK#1011
+06/21/2026;2000 Accounts Payable;9011.3;;Pay BILL-3138 Meridian Legal LLP CHK#1011
+06/23/2026;1000 Cash;;1152.0;Pay BILL-3133 Delta Facility Services CHK#1014
+06/23/2026;2000 Accounts Payable;1152.0;;Pay BILL-3133 Delta Facility Services CHK#1014
+06/26/2026;1000 Cash;17810.0;;Deposit - Yardley Supply INV-2237
+06/26/2026;1100 Accounts Receivable;;17810.0;Deposit - Yardley Supply INV-2237
+06/27/2026;1000 Cash;13430.0;;Deposit - Pinehurst Digital INV-2226
+06/27/2026;1100 Accounts Receivable;;13430.0;Deposit - Pinehurst Digital INV-2226
+06/28/2026;1300 Prepaid Insurance;;138.0;Monthly insurance amortization
+06/28/2026;6400 Insurance Expense;138.0;;Monthly insurance amortization
+06/28/2026;1590 Accumulated Depreciation;;2824.46;Monthly depreciation
+06/28/2026;6800 Depreciation Expense;2824.46;;Monthly depreciation

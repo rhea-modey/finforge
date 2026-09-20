@@ -1,0 +1,121 @@
+{
+ "adjusted_balance": 294954.65,
+ "bank_statement_ending_balance": 284421.24,
+ "gl_cash_ending_balance": 295030.97,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 32.89
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 32.89,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 54.32
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 54.32,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 10.89
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 10.89,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 3100.0,
+   "date": "2026-06-19",
+   "description": "Check to Meridian Legal LLP not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1014",
+   "side": "bank"
+  },
+  {
+   "amount": 5736.0,
+   "date": "2026-06-08",
+   "description": "Check to Kite Digital Ads not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1012",
+   "side": "bank"
+  },
+  {
+   "amount": 16325.59,
+   "date": "2026-06-12",
+   "description": "Check to Kite Digital Ads not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1013",
+   "side": "bank"
+  },
+  {
+   "amount": 13012.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT VESPER TECHNOLOGIES",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 22683.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT KELSO BRANDS INV-2233",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 32.89,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 54.32,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 10.89,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

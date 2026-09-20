@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 29372.53,
+   "keywords": [
+    "northstar",
+    "zenith"
+   ]
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 19846.73,
+   "keywords": [
+    "harvest",
+    "trellis"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 37252.53,
+   "budget": 7552.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 29372.53,
+     "description": "Non-recurring Northstar program billed by Zenith Freight Lines (BILL-3148)",
+     "evidence": [
+      "bills/BILL-3148.txt"
+     ]
+    }
+   ],
+   "variance": 29700.53
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 28646.73,
+   "budget": 9148.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 19846.73,
+     "description": "Non-recurring Harvest program billed by Trellis Marketing Group (BILL-3147)",
+     "evidence": [
+      "bills/BILL-3147.txt"
+     ]
+    }
+   ],
+   "variance": 19498.73
+  }
+ ]
+}

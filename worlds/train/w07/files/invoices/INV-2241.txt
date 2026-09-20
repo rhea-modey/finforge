@@ -1,0 +1,13 @@
+BLUEBIRD WHOLESALE CO.
+Bluebird Wholesale Co.
+
+WHOLESALE INVOICE
+Invoice: INV-2241
+Bill to: Birchfield Foods
+Date: 2026-04-23
+
+Line item: Wholesale food-order coordination and fulfillment service for the current service period.
+Amount due: $14,553.00
+
+Terms: Payment due upon receipt.
+Remit: Please note the invoice id on the remittance.

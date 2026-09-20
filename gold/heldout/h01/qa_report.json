@@ -1,0 +1,40 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 256761.82,
+    "gold": 256761.82,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 241192.0,
+    "gold": 241192.0,
+    "match": true
+   }
+  },
+  "contradictions": [],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "h01-accrual_schedule": {
+    "reason": "The prior prepaid schedule and insurance contract define the prepaid population and establish the monthly amortization, while the ledger confirms that June amortization remains unbooked.",
+    "solvable": true
+   },
+   "h01-bank_rec": {
+    "reason": "The bank statement, cash ledger, and trial balance provide sufficient information to match cleared activity, identify outstanding checks and the deposit in transit, and record the unbooked bank fee and interest.",
+    "solvable": true
+   },
+   "h01-journal_entries": {
+    "reason": "The payroll register, prepaid schedule and contract, fixed asset register, ledger, and June vendor bills support the required payroll accrual, insurance amortization, depreciation, and expense reclassification without duplication.",
+    "solvable": true
+   },
+   "h01-variance_analysis": {
+    "reason": "June activity can be isolated from the ledger and adjusted using the supported close entries, then compared with the June budget. Materiality and classification require ordinary professional judgment but do not prevent a defensible analysis.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

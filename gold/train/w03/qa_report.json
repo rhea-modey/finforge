@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 93229.85,
+    "gold": 93229.85,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 102520.04,
+    "gold": 102520.04,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $56,695.99, while the trial balance reports Accounts Payable of $70,299.68, leaving an unexplained $13,603.69 difference. This appears to be the residual opening payable balance not represented by a bill-level aging record.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w03-accrual_schedule": {
+    "reason": "The May prepaid schedule establishes the insurance opening balance, the contracts define both amortization terms, and the GL identifies the June software addition and confirms that June amortization has not yet been posted.",
+    "solvable": true
+   },
+   "w03-bank_rec": {
+    "reason": "The bank statement, GL cash detail, and trial balance provide sufficient information to identify outstanding checks, deposits in transit, unrecorded bank fees, and unrecorded interest and to calculate a unique adjusted cash balance.",
+    "solvable": true
+   },
+   "w03-journal_entries": {
+    "reason": "The payroll register, prepaid contracts and prior schedule, fixed asset register, GL detail, vendor-bill documents, and close checklist support the required payroll accrual, combined prepaid amortization, depreciation, and expense reclassification entries without duplication.",
+    "solvable": true
+   },
+   "w03-variance_analysis": {
+    "reason": "June actual activity can be derived from the GL and adjusted for the specified close entries, while the June budget and supporting payroll, contract, fixed-asset, and vendor documents provide sufficient support for material variance commentary. Materiality selection requires ordinary professional judgment but does not make the task unsolvable.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

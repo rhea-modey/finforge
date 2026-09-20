@@ -1,0 +1,73 @@
+{
+ "adjusted_balance": 421434.46,
+ "bank_statement_ending_balance": 409755.92,
+ "gl_cash_ending_balance": 421465.69,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 31.23
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 31.23,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 4825.0,
+   "date": "2026-06-15",
+   "description": "Check to Clearbyte Cloud Services not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1013",
+   "side": "bank"
+  },
+  {
+   "amount": 24026.08,
+   "date": "2026-06-19",
+   "description": "Check to Kite Digital Ads not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1014",
+   "side": "bank"
+  },
+  {
+   "amount": 20360.38,
+   "date": "2026-06-20",
+   "description": "Check to Pillar Accounting Services not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1015",
+   "side": "bank"
+  },
+  {
+   "amount": 26082.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT CRESTLINE PA INV-2216",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 34808.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT YARDLEY SUPPLY",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 31.23,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

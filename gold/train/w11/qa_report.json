@@ -1,0 +1,49 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 148396.46,
+    "gold": 148396.46,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 143485.68,
+    "gold": 143485.68,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "BILL-3114 is recorded in the GL at $1,515.00, but the authoritative vendor bill and bank-cleared check #1014 both show $5,115.00. The books understate Software Expense and Cash paid by $3,600.00.",
+    "severity": "medium"
+   },
+   {
+    "description": "The 2026-06-30 AP aging totals $29,830.19, while the trial balance and GL show Accounts Payable of $44,331.43. The $14,501.24 difference is the unpaid remainder of opening payables and is omitted from the aging.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w11-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract uniquely establish the June opening balance, monthly amortization, and closing balance; the GL confirms June amortization has not yet been posted.",
+    "solvable": true
+   },
+   "w11-bank_rec": {
+    "reason": "The statement, GL, source bill, and transaction references support a unique reconciliation, including outstanding checks, a deposit in transit, unrecorded fee and interest, and the $3,600 BILL-3114 book error.",
+    "solvable": true
+   },
+   "w11-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed-asset register, source bills, checklist, and presumption that GL coding stands unless contradicted provide sufficient support for the required entries and reclasses. Cash-side corrections are explicitly excluded.",
+    "solvable": true
+   },
+   "w11-variance_analysis": {
+    "reason": "June actuals can be derived from the GL and adjusted for the supported close entries and reclasses, then compared with the June budget. Materiality and account classification require ordinary professional judgment but do not prevent completion.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

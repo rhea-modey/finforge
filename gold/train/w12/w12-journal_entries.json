@@ -1,0 +1,36 @@
+{
+ "entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6000 Salaries Expense",
+     "credit": 0,
+     "debit": 87276.0
+    },
+    {
+     "account": "2100 Accrued Liabilities",
+     "credit": 87276.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Accrue payroll for period 2026-06/16-06/30 paid 2026-07-02"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6200 Advertising & Marketing",
+     "credit": 0,
+     "debit": 7298.0
+    },
+    {
+     "account": "6700 Office Supplies",
+     "credit": 7298.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Reclass BILL-3156 (Kite Digital Ads) to correct account"
+  }
+ ]
+}

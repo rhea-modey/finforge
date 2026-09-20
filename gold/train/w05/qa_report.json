@@ -1,0 +1,49 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 289689.93,
+    "gold": 289689.93,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 287592.41,
+    "gold": 287592.41,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "BILL-3129 is recorded in ledger_export.csv at $736.00 for both the bill and payment, while bills/BILL-3129.txt states $7,036.00 and first_national_stmt_062026.csv shows check #1011 clearing for $7,036.00. The source document and bank corroborate a $6,300.00 GL understatement, so the discrepancy is correctable and does not prevent a unique answer.",
+    "severity": "medium"
+   },
+   {
+    "description": "The 6/30 AP aging totals $32,967.00, while the trial balance reports Accounts Payable of $52,896.54. The unexplained $19,929.54 difference equals the unpaid remainder of opening AP, indicating that ap_aging_2026-06-30.csv omits legacy opening payables or is incomplete.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w05-accrual_schedule": {
+    "reason": "The May prepaid schedule and the insurance and software contracts define the complete prepaid population, additions, monthly amortization, and June closing balances; the GL confirms that June amortization has not yet been booked.",
+    "solvable": true
+   },
+   "w05-bank_rec": {
+    "reason": "The statement, GL, bill support, and clearing activity identify the outstanding checks, deposit in transit, unrecorded fee and interest, and the $6,300 BILL-3129 cash error; both adjusted balances can be made to tie uniquely.",
+    "solvable": true
+   },
+   "w05-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed-asset register, GL, and June bill documents provide sufficient information to determine the missing accrual, amortization, depreciation, and required expense reclassification without double-posting.",
+    "solvable": true
+   },
+   "w05-variance_analysis": {
+    "reason": "June activity can be isolated from the GL and adjusted for the supported close entries and reclassifications. Selection of material variances requires ordinary professional judgment but does not make the task indeterminate.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

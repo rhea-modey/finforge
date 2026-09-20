@@ -1,0 +1,153 @@
+{
+ "adjusted_balance": 198639.18,
+ "bank_statement_ending_balance": 168536.73,
+ "gl_cash_ending_balance": 198632.24,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 54.0
+    },
+    {
+     "account": "6600 Professional Fees",
+     "credit": 54.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Correct transposition on CHK-1010"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 31.61
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 31.61,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 48.24
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 48.24,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 32.79
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 32.79,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 13971.55,
+   "date": "2026-06-20",
+   "description": "Check to Bright Harbor Media not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1013",
+   "side": "bank"
+  },
+  {
+   "amount": 1990.0,
+   "date": "2026-06-19",
+   "description": "Check to Meridian Legal LLP not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1014",
+   "side": "bank"
+  },
+  {
+   "amount": 9907.0,
+   "date": "2026-06-17",
+   "description": "Check to Stackline SaaS Tools not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1011",
+   "side": "bank"
+  },
+  {
+   "amount": 6108.0,
+   "date": "2026-06-25",
+   "description": "Check to Meridian Legal LLP not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1015",
+   "side": "bank"
+  },
+  {
+   "amount": 54.0,
+   "date": "2026-06-30",
+   "description": "GL posted check at transposed amount (9671.0 vs bank 9617.0)",
+   "kind": "gl_error",
+   "ref": "CHK-1010",
+   "side": "book"
+  },
+  {
+   "amount": 39899.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT BROCKMAN  HALE INV-2248",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 22180.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT GLENROCK SOLUTIONS",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 31.61,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 48.24,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 32.79,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

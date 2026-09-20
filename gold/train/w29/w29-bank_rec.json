@@ -1,0 +1,113 @@
+{
+ "adjusted_balance": 137639.38,
+ "bank_statement_ending_balance": 139925.79,
+ "gl_cash_ending_balance": 137735.76,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 60.15
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 60.15,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 52.33
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 52.33,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 16.1
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 16.1,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 4463.0,
+   "date": "2026-06-24",
+   "description": "Check to Uptown Catering Co. not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1011",
+   "side": "bank"
+  },
+  {
+   "amount": 12773.41,
+   "date": "2026-06-11",
+   "description": "Check to Meridian Legal LLP not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1009",
+   "side": "bank"
+  },
+  {
+   "amount": 2164.0,
+   "date": "2026-06-18",
+   "description": "Check to Kite Digital Ads not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1010",
+   "side": "bank"
+  },
+  {
+   "amount": 17114.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT EASTGATE COLLECTIVE",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 60.15,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 52.33,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 16.1,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

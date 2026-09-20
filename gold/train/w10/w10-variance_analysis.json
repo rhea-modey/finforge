@@ -1,0 +1,79 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 15769.16,
+   "keywords": [
+    "anchor",
+    "zenith"
+   ]
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 11630.16,
+   "keywords": [
+    "horizon",
+    "kite"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 27261.59,
+   "keywords": [
+    "bloom",
+    "meridian"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 35337.16,
+   "budget": 19636.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 15769.16,
+     "description": "Anchor project - one-off engagement billed by Zenith Freight Lines (BILL-3139)",
+     "evidence": [
+      "bills/BILL-3139.txt"
+     ]
+    }
+   ],
+   "variance": 15701.16
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 14131.16,
+   "budget": 2263.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 11630.16,
+     "description": "Horizon project - one-off engagement billed by Kite Digital Ads (BILL-3138)",
+     "evidence": [
+      "bills/BILL-3138.txt"
+     ]
+    }
+   ],
+   "variance": 11868.16
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 35301.59,
+   "budget": 8365.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 27261.59,
+     "description": "Bloom launch sprint (one-time) billed by Meridian Legal LLP (BILL-3137)",
+     "evidence": [
+      "bills/BILL-3137.txt"
+     ]
+    }
+   ],
+   "variance": 26936.59
+  }
+ ]
+}

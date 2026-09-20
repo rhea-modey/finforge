@@ -1,0 +1,13 @@
+TIDEWATER OUTFITTERS
+Tidewater Outfitters
+Business outfitting sales
+
+INVOICE INV-2227
+Bill to: Zephyr Dynamics
+Date: 2026-04-02
+
+Line item: Outdoor gear and outfitting merchandise for the current order period.
+Amount due: $15,177.00
+
+Terms: Due upon receipt.
+Remit: Reference INV-2227 when submitting payment.

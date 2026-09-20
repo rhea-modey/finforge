@@ -1,0 +1,227 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Inventory",
+   "number": "1400"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Product Sales",
+   "number": "4000"
+  },
+  {
+   "name": "Shipping Income",
+   "number": "4100"
+  },
+  {
+   "name": "Cost of Goods Sold",
+   "number": "5000"
+  },
+  {
+   "name": "Freight & Shipping",
+   "number": "5100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Wildwood Supply Co.",
+ "files_tree_hash": "76982b36044bd8d1016a18dfee9a32eef9c8069c34bc88a74f062e3eb3dbdf2f",
+ "industry": "ecommerce",
+ "split": "train",
+ "truth_records": [
+  {
+   "amount": 74037.0,
+   "detail": {
+    "pay_date": "2026-07-02",
+    "period": "2026-06/16-06/30"
+   },
+   "kind": "missing_payroll_accrual"
+  },
+  {
+   "amount": 185.0,
+   "detail": {
+    "item": "Stately Assurance Group annual policy"
+   },
+   "kind": "missing_prepaid_amort"
+  },
+  {
+   "amount": 27261.59,
+   "detail": {
+    "bill_id": "BILL-3137",
+    "check_no": "CHK-1016",
+    "date": "2026-06-17",
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 10991.0,
+   "detail": {
+    "bill_id": "BILL-3134",
+    "check_no": "CHK-1017",
+    "date": "2026-06-23",
+    "vendor": "Firstlane Logistics"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 2501.0,
+   "detail": {
+    "bill_id": "BILL-3135",
+    "check_no": "CHK-1018",
+    "date": "2026-06-23",
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 7925.0,
+   "detail": {
+    "desc": "DEPOSIT ZEPHYR DYNAMICS INV-2234"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 44089.0,
+   "detail": {
+    "desc": "DEPOSIT BROCKMAN  HALE"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 56.11,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 27261.59,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3137",
+    "campaign": "Bloom",
+    "desc": "Bloom launch sprint (one-time)",
+    "keywords": [
+     "bloom",
+     "meridian"
+    ],
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 11630.16,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3138",
+    "campaign": "Horizon",
+    "desc": "Horizon project - one-off engagement",
+    "keywords": [
+     "horizon",
+     "kite"
+    ],
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 15769.16,
+   "detail": {
+    "account": "5100",
+    "bill_id": "BILL-3139",
+    "campaign": "Anchor",
+    "desc": "Anchor project - one-off engagement",
+    "keywords": [
+     "anchor",
+     "zenith"
+    ],
+    "vendor": "Zenith Freight Lines"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "w10"
+}

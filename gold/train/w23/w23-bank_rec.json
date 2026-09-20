@@ -1,0 +1,113 @@
+{
+ "adjusted_balance": 77903.73,
+ "bank_statement_ending_balance": 94528.04,
+ "gl_cash_ending_balance": 77973.83,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 61.42
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 61.42,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 43.32
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 43.32,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 34.64
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 34.64,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 5761.0,
+   "date": "2026-06-25",
+   "description": "Check to Helix IT Solutions not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1018",
+   "side": "bank"
+  },
+  {
+   "amount": 14908.31,
+   "date": "2026-06-18",
+   "description": "Check to Kite Digital Ads not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1017",
+   "side": "bank"
+  },
+  {
+   "amount": 726.0,
+   "date": "2026-06-08",
+   "description": "Check to CloudSpan Hosting not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1013",
+   "side": "bank"
+  },
+  {
+   "amount": 4771.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT ALDERGATE IN",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 61.42,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 43.32,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 34.64,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

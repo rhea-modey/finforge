@@ -1,0 +1,160 @@
+date,gl_account,Debit,cr,Memo
+04/01/2026,1000 Cash,192098.34,,Opening balances
+04/01/2026,1300 Prepaid Insurance,1314.0,,Opening balances
+04/01/2026,1500 Equipment,77653.0,,Opening balances
+04/01/2026,1590 Accumulated Depreciation,,19413.15,Opening balances
+04/01/2026,2000 Accounts Payable,,48577.88,Opening balances
+04/01/2026,3000 Retained Earnings,,203074.31,Opening balances
+04/03/2026,1000 Cash,,5667.0,Rent - Grandview Properties LLC
+04/03/2026,6100 Rent Expense,5667.0,,Rent - Grandview Properties LLC
+04/04/2026,1100 Accounts Receivable,30683.0,,Invoice INV-2211 - Longmont Systems
+04/04/2026,4100 Professional Services Revenue,,30683.0,Invoice INV-2211 - Longmont Systems
+04/05/2026,2000 Accounts Payable,,2892.0,BILL-3122 Delta Facility Services
+04/05/2026,6700 Office Supplies,2892.0,,BILL-3122 Delta Facility Services
+04/06/2026,1000 Cash,,24288.94,Payment on account - opening payables
+04/06/2026,2000 Accounts Payable,24288.94,,Payment on account - opening payables
+04/09/2026,1000 Cash,,2892.0,Pay BILL-3122 Delta Facility Services CHK#1003
+04/09/2026,2000 Accounts Payable,2892.0,,Pay BILL-3122 Delta Facility Services CHK#1003
+04/10/2026,1100 Accounts Receivable,27519.0,,Invoice INV-2212 - Vesper Technologies
+04/10/2026,4100 Professional Services Revenue,,27519.0,Invoice INV-2212 - Vesper Technologies
+04/12/2026,2000 Accounts Payable,,3299.0,BILL-3121 Delta Facility Services
+04/12/2026,6700 Office Supplies,3299.0,,BILL-3121 Delta Facility Services
+04/15/2026,2000 Accounts Payable,,3712.0,BILL-3124 Meridian Legal LLP
+04/15/2026,6600 Professional Fees,3712.0,,BILL-3124 Meridian Legal LLP
+04/15/2026,1000 Cash,,31856.0,Payroll 2026-04/01-04/15
+04/15/2026,2300 Payroll Liabilities,,8985.0,Payroll 2026-04/01-04/15
+04/15/2026,6000 Salaries Expense,40841.0,,Payroll 2026-04/01-04/15
+04/16/2026,1000 Cash,30683.0,,Deposit - Longmont Systems INV-2211
+04/16/2026,1100 Accounts Receivable,,30683.0,Deposit - Longmont Systems INV-2211
+04/16/2026,1100 Accounts Receivable,20718.0,,Invoice INV-2213 - Nordica Labs
+04/16/2026,4000 Subscription Revenue,,20718.0,Invoice INV-2213 - Nordica Labs
+04/17/2026,2000 Accounts Payable,,2493.0,BILL-3123 Stackline SaaS Tools
+04/17/2026,6300 Software Subscriptions,2493.0,,BILL-3123 Stackline SaaS Tools
+04/20/2026,1000 Cash,,3712.0,Pay BILL-3124 Meridian Legal LLP CHK#1004
+04/20/2026,2000 Accounts Payable,3712.0,,Pay BILL-3124 Meridian Legal LLP CHK#1004
+04/23/2026,1000 Cash,27519.0,,Deposit - Vesper Technologies INV-2212
+04/23/2026,1100 Accounts Receivable,,27519.0,Deposit - Vesper Technologies INV-2212
+04/24/2026,1100 Accounts Receivable,5373.0,,Invoice INV-2210 - Nordica Labs
+04/24/2026,4000 Subscription Revenue,,5373.0,Invoice INV-2210 - Nordica Labs
+04/28/2026,1000 Cash,,31700.0,Payroll 2026-04/16-04/30
+04/28/2026,2300 Payroll Liabilities,,8941.0,Payroll 2026-04/16-04/30
+04/28/2026,6000 Salaries Expense,40641.0,,Payroll 2026-04/16-04/30
+04/28/2026,1300 Prepaid Insurance,,146.0,Monthly insurance amortization
+04/28/2026,6400 Insurance Expense,146.0,,Monthly insurance amortization
+04/28/2026,1590 Accumulated Depreciation,,1294.21,Monthly depreciation
+04/28/2026,6800 Depreciation Expense,1294.21,,Monthly depreciation
+05/03/2026,1000 Cash,,5667.0,Rent - Grandview Properties LLC
+05/03/2026,6100 Rent Expense,5667.0,,Rent - Grandview Properties LLC
+05/03/2026,2000 Accounts Payable,,3361.0,BILL-3128 Lumen Office Supply
+05/03/2026,6700 Office Supplies,3361.0,,BILL-3128 Lumen Office Supply
+05/04/2026,2000 Accounts Payable,,1270.0,BILL-3127 Delta Facility Services
+05/04/2026,6700 Office Supplies,1270.0,,BILL-3127 Delta Facility Services
+05/05/2026,2000 Accounts Payable,,2811.0,BILL-3125 Kite Digital Ads
+05/05/2026,6200 Advertising & Marketing,2811.0,,BILL-3125 Kite Digital Ads
+05/06/2026,1100 Accounts Receivable,16151.0,,Invoice INV-2214 - Vesper Technologies
+05/06/2026,4000 Subscription Revenue,,16151.0,Invoice INV-2214 - Vesper Technologies
+05/07/2026,1100 Accounts Receivable,11381.0,,Invoice INV-2218 - Nordica Labs
+05/07/2026,4000 Subscription Revenue,,11381.0,Invoice INV-2218 - Nordica Labs
+05/07/2026,1000 Cash,,3361.0,Pay BILL-3128 Lumen Office Supply CHK#1006
+05/07/2026,2000 Accounts Payable,3361.0,,Pay BILL-3128 Lumen Office Supply CHK#1006
+05/11/2026,1000 Cash,,2811.0,Pay BILL-3125 Kite Digital Ads CHK#1007
+05/11/2026,2000 Accounts Payable,2811.0,,Pay BILL-3125 Kite Digital Ads CHK#1007
+05/13/2026,1100 Accounts Receivable,21215.0,,Invoice INV-2216 - Silverthorne Media
+05/13/2026,4000 Subscription Revenue,,21215.0,Invoice INV-2216 - Silverthorne Media
+05/15/2026,1000 Cash,,21802.0,Payroll 2026-05/01-05/15
+05/15/2026,2300 Payroll Liabilities,,6149.0,Payroll 2026-05/01-05/15
+05/15/2026,6000 Salaries Expense,27951.0,,Payroll 2026-05/01-05/15
+05/16/2026,1000 Cash,5373.0,,Deposit - Nordica Labs INV-2210
+05/16/2026,1100 Accounts Receivable,,5373.0,Deposit - Nordica Labs INV-2210
+05/17/2026,1100 Accounts Receivable,9466.0,,Invoice INV-2217 - Nordica Labs
+05/17/2026,4000 Subscription Revenue,,9466.0,Invoice INV-2217 - Nordica Labs
+05/19/2026,1100 Accounts Receivable,20928.0,,Invoice INV-2215 - Quimby Ventures
+05/19/2026,4000 Subscription Revenue,,20928.0,Invoice INV-2215 - Quimby Ventures
+05/19/2026,2000 Accounts Payable,,2349.0,BILL-3126 Meridian Legal LLP
+05/19/2026,6600 Professional Fees,2349.0,,BILL-3126 Meridian Legal LLP
+05/21/2026,1000 Cash,20718.0,,Deposit - Nordica Labs INV-2213
+05/21/2026,1100 Accounts Receivable,,20718.0,Deposit - Nordica Labs INV-2213
+05/22/2026,1100 Accounts Receivable,5762.0,,Invoice INV-2219 - Vesper Technologies
+05/22/2026,4000 Subscription Revenue,,5762.0,Invoice INV-2219 - Vesper Technologies
+05/28/2026,1000 Cash,,21904.0,Payroll 2026-05/16-05/30
+05/28/2026,2300 Payroll Liabilities,,6177.0,Payroll 2026-05/16-05/30
+05/28/2026,6000 Salaries Expense,28081.0,,Payroll 2026-05/16-05/30
+05/28/2026,1300 Prepaid Insurance,,146.0,Monthly insurance amortization
+05/28/2026,6400 Insurance Expense,146.0,,Monthly insurance amortization
+05/28/2026,1590 Accumulated Depreciation,,1294.21,Monthly depreciation
+05/28/2026,6800 Depreciation Expense,1294.21,,Monthly depreciation
+06/02/2026,1100 Accounts Receivable,24698.0,,Invoice INV-2220 - Quimby Ventures
+06/02/2026,4000 Subscription Revenue,,24698.0,Invoice INV-2220 - Quimby Ventures
+06/02/2026,1100 Accounts Receivable,16405.0,,Invoice INV-2225 - Ferrell Industries
+06/02/2026,4000 Subscription Revenue,,16405.0,Invoice INV-2225 - Ferrell Industries
+06/02/2026,2000 Accounts Payable,,6932.0,BILL-3129 Clearbyte Cloud Services
+06/02/2026,6300 Software Subscriptions,6932.0,,BILL-3129 Clearbyte Cloud Services
+06/03/2026,1100 Accounts Receivable,13608.0,,Invoice INV-2222 - Silverthorne Media
+06/03/2026,4000 Subscription Revenue,,13608.0,Invoice INV-2222 - Silverthorne Media
+06/03/2026,1000 Cash,,5667.0,Rent - Grandview Properties LLC
+06/03/2026,6100 Rent Expense,5667.0,,Rent - Grandview Properties LLC
+06/04/2026,1100 Accounts Receivable,21587.0,,Invoice INV-2224 - Ferrell Industries
+06/04/2026,4000 Subscription Revenue,,21587.0,Invoice INV-2224 - Ferrell Industries
+06/05/2026,1000 Cash,,948.0,Prepaid software - 12 month license (Lattice Desk Software)
+06/05/2026,1310 Prepaid Software,948.0,,Prepaid software - 12 month license (Lattice Desk Software)
+06/06/2026,1100 Accounts Receivable,20084.0,,Invoice INV-2223 - Silverthorne Media
+06/06/2026,4100 Professional Services Revenue,,20084.0,Invoice INV-2223 - Silverthorne Media
+06/06/2026,2000 Accounts Payable,,4747.0,BILL-3132 Uptown Catering Co.
+06/06/2026,6700 Office Supplies,4747.0,,BILL-3132 Uptown Catering Co.
+06/08/2026,1000 Cash,21215.0,,Deposit - Silverthorne Media INV-2216
+06/08/2026,1100 Accounts Receivable,,21215.0,Deposit - Silverthorne Media INV-2216
+06/08/2026,1000 Cash,,6932.0,Pay BILL-3129 Clearbyte Cloud Services CHK#1009
+06/08/2026,2000 Accounts Payable,6932.0,,Pay BILL-3129 Clearbyte Cloud Services CHK#1009
+06/09/2026,1000 Cash,5762.0,,Deposit - Vesper Technologies INV-2219
+06/09/2026,1100 Accounts Receivable,,5762.0,Deposit - Vesper Technologies INV-2219
+06/12/2026,1000 Cash,11381.0,,Deposit - Nordica Labs INV-2218
+06/12/2026,1100 Accounts Receivable,,11381.0,Deposit - Nordica Labs INV-2218
+06/12/2026,1000 Cash,5983.0,,Owner capital contribution
+06/12/2026,3000 Retained Earnings,,5983.0,Owner capital contribution
+06/14/2026,1000 Cash,16151.0,,Deposit - Vesper Technologies INV-2214
+06/14/2026,1100 Accounts Receivable,,16151.0,Deposit - Vesper Technologies INV-2214
+06/14/2026,1100 Accounts Receivable,20109.0,,Invoice INV-2226 - Ferrell Industries
+06/14/2026,4000 Subscription Revenue,,20109.0,Invoice INV-2226 - Ferrell Industries
+06/14/2026,1000 Cash,,4747.0,Pay BILL-3132 Uptown Catering Co. CHK#1010
+06/14/2026,2000 Accounts Payable,4747.0,,Pay BILL-3132 Uptown Catering Co. CHK#1010
+06/14/2026,2000 Accounts Payable,,5278.0,BILL-3137 Trellis Marketing Group
+06/14/2026,6700 Office Supplies,5278.0,,BILL-3137 Trellis Marketing Group
+06/15/2026,1000 Cash,,39731.0,Payroll 2026-06/01-06/15
+06/15/2026,2300 Payroll Liabilities,,11205.0,Payroll 2026-06/01-06/15
+06/15/2026,6000 Salaries Expense,50936.0,,Payroll 2026-06/01-06/15
+06/17/2026,2000 Accounts Payable,,7536.0,BILL-3133 Helix IT Solutions
+06/17/2026,6450 Software Expense,7536.0,,BILL-3133 Helix IT Solutions
+06/17/2026,2000 Accounts Payable,,12214.62,BILL-3135 Meridian Legal LLP
+06/17/2026,6600 Professional Fees,12214.62,,BILL-3135 Meridian Legal LLP
+06/18/2026,2000 Accounts Payable,,20081.25,BILL-3136 Trellis Marketing Group
+06/18/2026,6200 Advertising & Marketing,20081.25,,BILL-3136 Trellis Marketing Group
+06/19/2026,1000 Cash,9466.0,,Deposit - Nordica Labs INV-2217
+06/19/2026,1100 Accounts Receivable,,9466.0,Deposit - Nordica Labs INV-2217
+06/20/2026,2000 Accounts Payable,,1574.0,BILL-3130 Pillar Accounting Services
+06/20/2026,6600 Professional Fees,1574.0,,BILL-3130 Pillar Accounting Services
+06/20/2026,2000 Accounts Payable,,481.0,BILL-3134 Bright Harbor Media
+06/20/2026,6200 Advertising & Marketing,481.0,,BILL-3134 Bright Harbor Media
+06/21/2026,1000 Cash,,5278.0,Pay BILL-3137 Trellis Marketing Group CHK#1011
+06/21/2026,2000 Accounts Payable,5278.0,,Pay BILL-3137 Trellis Marketing Group CHK#1011
+06/21/2026,1000 Cash,,7536.0,Pay BILL-3133 Helix IT Solutions CHK#1012
+06/21/2026,2000 Accounts Payable,7536.0,,Pay BILL-3133 Helix IT Solutions CHK#1012
+06/21/2026,1000 Cash,,20081.25,Pay BILL-3136 Trellis Marketing Group CHK#1014
+06/21/2026,2000 Accounts Payable,20081.25,,Pay BILL-3136 Trellis Marketing Group CHK#1014
+06/22/2026,1000 Cash,,12214.62,Pay BILL-3135 Meridian Legal LLP CHK#1013
+06/22/2026,2000 Accounts Payable,12214.62,,Pay BILL-3135 Meridian Legal LLP CHK#1013
+06/22/2026,2000 Accounts Payable,,4686.0,BILL-3131 Stackline SaaS Tools
+06/22/2026,6300 Software Subscriptions,4686.0,,BILL-3131 Stackline SaaS Tools
+06/23/2026,1100 Accounts Receivable,31202.0,,Invoice INV-2221 - Longmont Systems
+06/23/2026,4000 Subscription Revenue,,31202.0,Invoice INV-2221 - Longmont Systems
+06/26/2026,1000 Cash,,1574.0,Pay BILL-3130 Pillar Accounting Services CHK#1015
+06/26/2026,2000 Accounts Payable,1574.0,,Pay BILL-3130 Pillar Accounting Services CHK#1015
+06/28/2026,1000 Cash,20928.0,,Deposit - Quimby Ventures INV-2215
+06/28/2026,1100 Accounts Receivable,,20928.0,Deposit - Quimby Ventures INV-2215
+06/28/2026,1000 Cash,20109.0,,Deposit - Ferrell Industries INV-2226
+06/28/2026,1100 Accounts Receivable,,20109.0,Deposit - Ferrell Industries INV-2226
+06/28/2026,1000 Cash,,481.0,Pay BILL-3134 Bright Harbor Media CHK#1016
+06/28/2026,2000 Accounts Payable,481.0,,Pay BILL-3134 Bright Harbor Media CHK#1016
+06/28/2026,1000 Cash,,4686.0,Pay BILL-3131 Stackline SaaS Tools CHK#1017
+06/28/2026,2000 Accounts Payable,4686.0,,Pay BILL-3131 Stackline SaaS Tools CHK#1017
+06/28/2026,1590 Accumulated Depreciation,,1294.21,Monthly depreciation
+06/28/2026,6800 Depreciation Expense,1294.21,,Monthly depreciation

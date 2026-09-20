@@ -1,0 +1,79 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 7159.27,
+   "keywords": [
+    "anchor",
+    "willow"
+   ]
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 14908.31,
+   "keywords": [
+    "anchor",
+    "kite"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 13631.11,
+   "keywords": [
+    "harvest",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 7159.27,
+   "budget": 74.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 7159.27,
+     "description": "Non-recurring Anchor program billed by Willow Creek Packaging (BILL-3148)",
+     "evidence": [
+      "bills/BILL-3148.txt"
+     ]
+    }
+   ],
+   "variance": 7085.27
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 20568.31,
+   "budget": 5421.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 14908.31,
+     "description": "Non-recurring Anchor program billed by Kite Digital Ads (BILL-3147)",
+     "evidence": [
+      "bills/BILL-3147.txt"
+     ]
+    }
+   ],
+   "variance": 15147.31
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 15212.11,
+   "budget": 1303.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 13631.11,
+     "description": "One-time Harvest initiative billed by Pillar Accounting Services (BILL-3149)",
+     "evidence": [
+      "bills/BILL-3149.txt"
+     ]
+    }
+   ],
+   "variance": 13909.11
+  }
+ ]
+}

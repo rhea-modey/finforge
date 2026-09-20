@@ -1,0 +1,211 @@
+date,Account,Debit,credit,memo
+04/01/2026,1000 Cash,379281.91,,Opening balances
+04/01/2026,1300 Prepaid Insurance,1512.0,,Opening balances
+04/01/2026,1400 Inventory,104895.12,,Opening balances
+04/01/2026,1500 Equipment,100741.0,,Opening balances
+04/01/2026,1590 Accumulated Depreciation,,33580.2,Opening balances
+04/01/2026,2000 Accounts Payable,,52819.71,Opening balances
+04/01/2026,3000 Retained Earnings,,500030.12,Opening balances
+04/03/2026,1000 Cash,,12111.0,Rent - Amberfield Property Group
+04/03/2026,6100 Rent Expense,12111.0,,Rent - Amberfield Property Group
+04/03/2026,2000 Accounts Payable,,9633.0,BILL-3110 Junction Utility Co-op
+04/03/2026,6500 Utilities Expense,9633.0,,BILL-3110 Junction Utility Co-op
+04/04/2026,1100 Accounts Receivable,14642.0,,Invoice INV-2240 - Underhill Logistics
+04/04/2026,4000 Wholesale Sales,,14642.0,Invoice INV-2240 - Underhill Logistics
+04/04/2026,1400 Inventory,,6467.0,COGS - INV-2240
+04/04/2026,5000 Cost of Goods Sold,6467.0,,COGS - INV-2240
+04/06/2026,1000 Cash,,26409.85,Payment on account - opening payables
+04/06/2026,2000 Accounts Payable,26409.85,,Payment on account - opening payables
+04/07/2026,2000 Accounts Payable,,3413.0,BILL-3115 Ridgeline Telecom
+04/07/2026,6500 Utilities Expense,3413.0,,BILL-3115 Ridgeline Telecom
+04/08/2026,2000 Accounts Payable,,5155.0,BILL-3111 CloudSpan Hosting
+04/08/2026,6450 Software Expense,5155.0,,BILL-3111 CloudSpan Hosting
+04/11/2026,1000 Cash,,3413.0,Pay BILL-3115 Ridgeline Telecom CHK#1003
+04/11/2026,2000 Accounts Payable,3413.0,,Pay BILL-3115 Ridgeline Telecom CHK#1003
+04/14/2026,1100 Accounts Receivable,32848.0,,Invoice INV-2239 - Hartwell Group
+04/14/2026,4000 Wholesale Sales,,32848.0,Invoice INV-2239 - Hartwell Group
+04/14/2026,1400 Inventory,,14497.0,COGS - INV-2239
+04/14/2026,5000 Cost of Goods Sold,14497.0,,COGS - INV-2239
+04/15/2026,1000 Cash,,36267.0,Payroll 2026-04/01-04/15
+04/15/2026,2300 Payroll Liabilities,,10228.0,Payroll 2026-04/01-04/15
+04/15/2026,6000 Salaries Expense,46495.0,,Payroll 2026-04/01-04/15
+04/17/2026,2000 Accounts Payable,,1414.0,BILL-3112 Ridgeline Telecom
+04/17/2026,6500 Utilities Expense,1414.0,,BILL-3112 Ridgeline Telecom
+04/18/2026,1100 Accounts Receivable,25943.0,,Invoice INV-2237 - Vesper Technologies
+04/18/2026,4100 Delivery Fees,,25943.0,Invoice INV-2237 - Vesper Technologies
+04/18/2026,1000 Cash,14642.0,,Deposit - Underhill Logistics INV-2240
+04/18/2026,1100 Accounts Receivable,,14642.0,Deposit - Underhill Logistics INV-2240
+04/19/2026,1100 Accounts Receivable,16716.0,,Invoice INV-2241 - Eastgate Collective
+04/19/2026,4100 Delivery Fees,,16716.0,Invoice INV-2241 - Eastgate Collective
+04/20/2026,1100 Accounts Receivable,30093.0,,Invoice INV-2242 - Underhill Logistics
+04/20/2026,4000 Wholesale Sales,,30093.0,Invoice INV-2242 - Underhill Logistics
+04/20/2026,1400 Inventory,,17161.0,COGS - INV-2242
+04/20/2026,5000 Cost of Goods Sold,17161.0,,COGS - INV-2242
+04/20/2026,1000 Cash,,1414.0,Pay BILL-3112 Ridgeline Telecom CHK#1004
+04/20/2026,2000 Accounts Payable,1414.0,,Pay BILL-3112 Ridgeline Telecom CHK#1004
+04/21/2026,2000 Accounts Payable,,9254.0,BILL-3113 CloudSpan Hosting
+04/21/2026,6450 Software Expense,9254.0,,BILL-3113 CloudSpan Hosting
+04/22/2026,1100 Accounts Receivable,25708.0,,Invoice INV-2238 - Hartwell Group
+04/22/2026,4000 Wholesale Sales,,25708.0,Invoice INV-2238 - Hartwell Group
+04/22/2026,1400 Inventory,,10858.0,COGS - INV-2238
+04/22/2026,5000 Cost of Goods Sold,10858.0,,COGS - INV-2238
+04/22/2026,2000 Accounts Payable,,6510.0,BILL-3114 CloudSpan Hosting
+04/22/2026,6450 Software Expense,6510.0,,BILL-3114 CloudSpan Hosting
+04/24/2026,1000 Cash,,9254.0,Pay BILL-3113 CloudSpan Hosting CHK#1005
+04/24/2026,2000 Accounts Payable,9254.0,,Pay BILL-3113 CloudSpan Hosting CHK#1005
+04/26/2026,1000 Cash,,6510.0,Pay BILL-3114 CloudSpan Hosting CHK#1006
+04/26/2026,2000 Accounts Payable,6510.0,,Pay BILL-3114 CloudSpan Hosting CHK#1006
+04/28/2026,1000 Cash,,36274.0,Payroll 2026-04/16-04/30
+04/28/2026,2300 Payroll Liabilities,,10231.0,Payroll 2026-04/16-04/30
+04/28/2026,6000 Salaries Expense,46505.0,,Payroll 2026-04/16-04/30
+04/28/2026,1300 Prepaid Insurance,,168.0,Monthly insurance amortization
+04/28/2026,6400 Insurance Expense,168.0,,Monthly insurance amortization
+04/28/2026,1590 Accumulated Depreciation,,1679.01,Monthly depreciation
+04/28/2026,6800 Depreciation Expense,1679.01,,Monthly depreciation
+05/01/2026,1100 Accounts Receivable,30796.0,,Invoice INV-2247 - Corliss Marine
+05/01/2026,4000 Wholesale Sales,,30796.0,Invoice INV-2247 - Corliss Marine
+05/01/2026,1400 Inventory,,17809.0,COGS - INV-2247
+05/01/2026,5000 Cost of Goods Sold,17809.0,,COGS - INV-2247
+05/03/2026,1000 Cash,32848.0,,Deposit - Hartwell Group INV-2239
+05/03/2026,1100 Accounts Receivable,,32848.0,Deposit - Hartwell Group INV-2239
+05/03/2026,1100 Accounts Receivable,27334.0,,Invoice INV-2244 - Corliss Marine
+05/03/2026,4000 Wholesale Sales,,27334.0,Invoice INV-2244 - Corliss Marine
+05/03/2026,1400 Inventory,,13831.0,COGS - INV-2244
+05/03/2026,5000 Cost of Goods Sold,13831.0,,COGS - INV-2244
+05/03/2026,1000 Cash,,12111.0,Rent - Amberfield Property Group
+05/03/2026,6100 Rent Expense,12111.0,,Rent - Amberfield Property Group
+05/05/2026,2000 Accounts Payable,,10382.0,BILL-3118 Kite Digital Ads
+05/05/2026,6200 Advertising & Marketing,10382.0,,BILL-3118 Kite Digital Ads
+05/06/2026,2000 Accounts Payable,,7733.0,BILL-3119 Willow Creek Packaging
+05/06/2026,5100 Freight & Shipping,7733.0,,BILL-3119 Willow Creek Packaging
+05/07/2026,2000 Accounts Payable,,2122.0,BILL-3120 CloudSpan Hosting
+05/07/2026,6450 Software Expense,2122.0,,BILL-3120 CloudSpan Hosting
+05/09/2026,1000 Cash,16716.0,,Deposit - Eastgate Collective INV-2241
+05/09/2026,1100 Accounts Receivable,,16716.0,Deposit - Eastgate Collective INV-2241
+05/10/2026,1000 Cash,,10382.0,Pay BILL-3118 Kite Digital Ads CHK#1008
+05/10/2026,2000 Accounts Payable,10382.0,,Pay BILL-3118 Kite Digital Ads CHK#1008
+05/11/2026,1100 Accounts Receivable,39850.0,,Invoice INV-2249 - Corliss Marine
+05/11/2026,4100 Delivery Fees,,39850.0,Invoice INV-2249 - Corliss Marine
+05/11/2026,2000 Accounts Payable,,6211.0,BILL-3117 Uptown Catering Co.
+05/11/2026,6700 Office Supplies,6211.0,,BILL-3117 Uptown Catering Co.
+05/13/2026,1000 Cash,,2122.0,Pay BILL-3120 CloudSpan Hosting CHK#1010
+05/13/2026,2000 Accounts Payable,2122.0,,Pay BILL-3120 CloudSpan Hosting CHK#1010
+05/14/2026,1100 Accounts Receivable,13378.0,,Invoice INV-2246 - Tamarack Health
+05/14/2026,4000 Wholesale Sales,,13378.0,Invoice INV-2246 - Tamarack Health
+05/14/2026,1400 Inventory,,7097.0,COGS - INV-2246
+05/14/2026,5000 Cost of Goods Sold,7097.0,,COGS - INV-2246
+05/15/2026,1000 Cash,,7733.0,Pay BILL-3119 Willow Creek Packaging CHK#1009
+05/15/2026,2000 Accounts Payable,7733.0,,Pay BILL-3119 Willow Creek Packaging CHK#1009
+05/15/2026,2000 Accounts Payable,,1250.0,BILL-3116 Uptown Catering Co.
+05/15/2026,6700 Office Supplies,1250.0,,BILL-3116 Uptown Catering Co.
+05/15/2026,1000 Cash,,37375.0,Payroll 2026-05/01-05/15
+05/15/2026,2300 Payroll Liabilities,,10541.0,Payroll 2026-05/01-05/15
+05/15/2026,6000 Salaries Expense,47916.0,,Payroll 2026-05/01-05/15
+05/18/2026,1000 Cash,,6211.0,Pay BILL-3117 Uptown Catering Co. CHK#1011
+05/18/2026,2000 Accounts Payable,6211.0,,Pay BILL-3117 Uptown Catering Co. CHK#1011
+05/21/2026,1100 Accounts Receivable,38052.0,,Invoice INV-2243 - Tamarack Health
+05/21/2026,4100 Delivery Fees,,38052.0,Invoice INV-2243 - Tamarack Health
+05/21/2026,1100 Accounts Receivable,28890.0,,Invoice INV-2248 - Silverthorne Media
+05/21/2026,4000 Wholesale Sales,,28890.0,Invoice INV-2248 - Silverthorne Media
+05/21/2026,1400 Inventory,,15829.0,COGS - INV-2248
+05/21/2026,5000 Cost of Goods Sold,15829.0,,COGS - INV-2248
+05/21/2026,2000 Accounts Payable,,4315.0,BILL-3121 Ridgeline Telecom
+05/21/2026,6500 Utilities Expense,4315.0,,BILL-3121 Ridgeline Telecom
+05/23/2026,1000 Cash,25943.0,,Deposit - Vesper Technologies INV-2237
+05/23/2026,1100 Accounts Receivable,,25943.0,Deposit - Vesper Technologies INV-2237
+05/24/2026,1000 Cash,30093.0,,Deposit - Underhill Logistics INV-2242
+05/24/2026,1100 Accounts Receivable,,30093.0,Deposit - Underhill Logistics INV-2242
+05/24/2026,1000 Cash,27334.0,,Deposit - Corliss Marine INV-2244
+05/24/2026,1100 Accounts Receivable,,27334.0,Deposit - Corliss Marine INV-2244
+05/24/2026,1100 Accounts Receivable,15269.0,,Invoice INV-2245 - Ferrell Industries
+05/24/2026,4000 Wholesale Sales,,15269.0,Invoice INV-2245 - Ferrell Industries
+05/24/2026,1400 Inventory,,7474.0,COGS - INV-2245
+05/24/2026,5000 Cost of Goods Sold,7474.0,,COGS - INV-2245
+05/26/2026,1000 Cash,25708.0,,Deposit - Hartwell Group INV-2238
+05/26/2026,1100 Accounts Receivable,,25708.0,Deposit - Hartwell Group INV-2238
+05/28/2026,1000 Cash,,4315.0,Pay BILL-3121 Ridgeline Telecom CHK#1012
+05/28/2026,2000 Accounts Payable,4315.0,,Pay BILL-3121 Ridgeline Telecom CHK#1012
+05/28/2026,1000 Cash,,37328.0,Payroll 2026-05/16-05/30
+05/28/2026,2300 Payroll Liabilities,,10528.0,Payroll 2026-05/16-05/30
+05/28/2026,6000 Salaries Expense,47856.0,,Payroll 2026-05/16-05/30
+05/28/2026,1300 Prepaid Insurance,,168.0,Monthly insurance amortization
+05/28/2026,6400 Insurance Expense,168.0,,Monthly insurance amortization
+05/28/2026,1590 Accumulated Depreciation,,1679.01,Monthly depreciation
+05/28/2026,6800 Depreciation Expense,1679.01,,Monthly depreciation
+06/03/2026,1000 Cash,,12111.0,Rent - Amberfield Property Group
+06/03/2026,6100 Rent Expense,12111.0,,Rent - Amberfield Property Group
+06/03/2026,2000 Accounts Payable,,5245.0,BILL-3131 Kite Digital Ads
+06/03/2026,6700 Office Supplies,5245.0,,BILL-3131 Kite Digital Ads
+06/04/2026,1000 Cash,39850.0,,Deposit - Corliss Marine INV-2249
+06/04/2026,1100 Accounts Receivable,,39850.0,Deposit - Corliss Marine INV-2249
+06/05/2026,1000 Cash,,384.0,Prepaid software - 12 month license (Clearstack Software Co.)
+06/05/2026,1310 Prepaid Software,384.0,,Prepaid software - 12 month license (Clearstack Software Co.)
+06/07/2026,2000 Accounts Payable,,1554.0,BILL-3122 Trellis Marketing Group
+06/07/2026,6200 Advertising & Marketing,1554.0,,BILL-3122 Trellis Marketing Group
+06/09/2026,1000 Cash,38052.0,,Deposit - Tamarack Health INV-2243
+06/09/2026,1100 Accounts Receivable,,38052.0,Deposit - Tamarack Health INV-2243
+06/09/2026,1000 Cash,15269.0,,Deposit - Ferrell Industries INV-2245
+06/09/2026,1100 Accounts Receivable,,15269.0,Deposit - Ferrell Industries INV-2245
+06/09/2026,1100 Accounts Receivable,34697.0,,Invoice INV-2254 - Corliss Marine
+06/09/2026,4100 Delivery Fees,,34697.0,Invoice INV-2254 - Corliss Marine
+06/11/2026,1000 Cash,30796.0,,Deposit - Corliss Marine INV-2247
+06/11/2026,1100 Accounts Receivable,,30796.0,Deposit - Corliss Marine INV-2247
+06/12/2026,1000 Cash,19916.0,,Owner capital contribution
+06/12/2026,3000 Retained Earnings,,19916.0,Owner capital contribution
+06/13/2026,2000 Accounts Payable,,10235.77,BILL-3128 Zenith Freight Lines
+06/13/2026,5100 Freight & Shipping,10235.77,,BILL-3128 Zenith Freight Lines
+06/13/2026,2000 Accounts Payable,,12947.38,BILL-3130 Trellis Marketing Group
+06/13/2026,6200 Advertising & Marketing,12947.38,,BILL-3130 Trellis Marketing Group
+06/15/2026,2000 Accounts Payable,,1393.0,BILL-3123 Quicksilver Couriers
+06/15/2026,5100 Freight & Shipping,1393.0,,BILL-3123 Quicksilver Couriers
+06/15/2026,1000 Cash,,36237.0,Payroll 2026-06/01-06/15
+06/15/2026,2300 Payroll Liabilities,,10220.0,Payroll 2026-06/01-06/15
+06/15/2026,6000 Salaries Expense,46457.0,,Payroll 2026-06/01-06/15
+06/16/2026,2000 Accounts Payable,,26975.69,BILL-3129 Pillar Accounting Services
+06/16/2026,6600 Professional Fees,26975.69,,BILL-3129 Pillar Accounting Services
+06/17/2026,1100 Accounts Receivable,45978.0,,Invoice INV-2252 - Tamarack Health
+06/17/2026,4000 Wholesale Sales,,45978.0,Invoice INV-2252 - Tamarack Health
+06/17/2026,1400 Inventory,,23108.0,COGS - INV-2252
+06/17/2026,5000 Cost of Goods Sold,23108.0,,COGS - INV-2252
+06/17/2026,1000 Cash,,12947.38,Pay BILL-3130 Trellis Marketing Group CHK#1015
+06/17/2026,2000 Accounts Payable,12947.38,,Pay BILL-3130 Trellis Marketing Group CHK#1015
+06/20/2026,1100 Accounts Receivable,46288.0,,Invoice INV-2250 - Vesper Technologies
+06/20/2026,4000 Wholesale Sales,,46288.0,Invoice INV-2250 - Vesper Technologies
+06/20/2026,1400 Inventory,,20917.0,COGS - INV-2250
+06/20/2026,5000 Cost of Goods Sold,20917.0,,COGS - INV-2250
+06/20/2026,1100 Accounts Receivable,32928.0,,Invoice INV-2253 - Corliss Marine
+06/20/2026,4000 Wholesale Sales,,32928.0,Invoice INV-2253 - Corliss Marine
+06/20/2026,1400 Inventory,,15463.0,COGS - INV-2253
+06/20/2026,5000 Cost of Goods Sold,15463.0,,COGS - INV-2253
+06/20/2026,1000 Cash,,10235.77,Pay BILL-3128 Zenith Freight Lines CHK#1014
+06/20/2026,2000 Accounts Payable,10235.77,,Pay BILL-3128 Zenith Freight Lines CHK#1014
+06/21/2026,1000 Cash,13378.0,,Deposit - Tamarack Health INV-2246
+06/21/2026,1100 Accounts Receivable,,13378.0,Deposit - Tamarack Health INV-2246
+06/21/2026,1100 Accounts Receivable,25416.0,,Invoice INV-2251 - Vesper Technologies
+06/21/2026,4000 Wholesale Sales,,25416.0,Invoice INV-2251 - Vesper Technologies
+06/21/2026,1400 Inventory,,14188.0,COGS - INV-2251
+06/21/2026,5000 Cost of Goods Sold,14188.0,,COGS - INV-2251
+06/21/2026,2000 Accounts Payable,,700.0,BILL-3126 Trellis Marketing Group
+06/21/2026,6200 Advertising & Marketing,700.0,,BILL-3126 Trellis Marketing Group
+06/21/2026,2000 Accounts Payable,,9943.0,BILL-3127 CloudSpan Hosting
+06/21/2026,6450 Software Expense,9943.0,,BILL-3127 CloudSpan Hosting
+06/22/2026,2000 Accounts Payable,,9877.0,BILL-3124 Helix IT Solutions
+06/22/2026,6450 Software Expense,9877.0,,BILL-3124 Helix IT Solutions
+06/22/2026,2000 Accounts Payable,,2371.0,BILL-3125 Helix IT Solutions
+06/22/2026,6450 Software Expense,2371.0,,BILL-3125 Helix IT Solutions
+06/23/2026,1000 Cash,28890.0,,Deposit - Silverthorne Media INV-2248
+06/23/2026,1100 Accounts Receivable,,28890.0,Deposit - Silverthorne Media INV-2248
+06/23/2026,1000 Cash,,1393.0,Pay BILL-3123 Quicksilver Couriers CHK#1016
+06/23/2026,2000 Accounts Payable,1393.0,,Pay BILL-3123 Quicksilver Couriers CHK#1016
+06/25/2026,1000 Cash,,26975.69,Pay BILL-3129 Pillar Accounting Services CHK#1017
+06/25/2026,2000 Accounts Payable,26975.69,,Pay BILL-3129 Pillar Accounting Services CHK#1017
+06/26/2026,1000 Cash,34697.0,,Deposit - Corliss Marine INV-2254
+06/26/2026,1100 Accounts Receivable,,34697.0,Deposit - Corliss Marine INV-2254
+06/28/2026,1000 Cash,,700.0,Pay BILL-3126 Trellis Marketing Group CHK#1018
+06/28/2026,2000 Accounts Payable,700.0,,Pay BILL-3126 Trellis Marketing Group CHK#1018
+06/28/2026,1000 Cash,,9943.0,Pay BILL-3127 CloudSpan Hosting CHK#1019
+06/28/2026,2000 Accounts Payable,9943.0,,Pay BILL-3127 CloudSpan Hosting CHK#1019
+06/28/2026,1000 Cash,,2371.0,Pay BILL-3125 Helix IT Solutions CHK#1020
+06/28/2026,2000 Accounts Payable,2371.0,,Pay BILL-3125 Helix IT Solutions CHK#1020
+06/28/2026,1590 Accumulated Depreciation,,1679.01,Monthly depreciation
+06/28/2026,6800 Depreciation Expense,1679.01,,Monthly depreciation

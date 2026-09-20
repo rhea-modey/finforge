@@ -1,0 +1,15 @@
+HALCYON GRID SOFTWARE
+Halcyon Grid Software
+Hosted grid operations software
+
+INVOICE INV-2210
+Bill to: Nordica Labs
+Date: 2026-04-24
+
+Service provided
+Hosted software platform access for the service period.
+
+Amount due: $5,373.00
+
+Terms: Payable upon receipt.
+Remit: Please quote the invoice id with payment.

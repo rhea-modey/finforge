@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 321047.7,
+    "gold": 321047.7,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 293656.9,
+    "gold": 293656.9,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $20,920.01, while the trial balance reports Accounts Payable of $34,342.99. The $13,422.98 difference equals the unpaid remainder of opening payables, but that balance has no vendor-level item in the AP aging. This is a subledger-to-control-account discrepancy, although it does not prevent completion of the four requested tasks.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "h05-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract uniquely establish the June opening balance, monthly straight-line amortization, and closing balance, while the GL confirms June amortization has not yet been booked.",
+    "solvable": true
+   },
+   "h05-bank_rec": {
+    "reason": "The bank statement, cash ledger, and trial balance provide enough detail to match cleared transactions and identify outstanding checks, the deposit in transit, unrecorded bank fees, and unrecorded interest; both adjusted balances tie uniquely.",
+    "solvable": true
+   },
+   "h05-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed-asset register, source bills, and GL establish the required payroll accrual and missing insurance amortization, confirm that June depreciation is already posted, and provide sufficient support to assess bill coding.",
+    "solvable": true
+   },
+   "h05-variance_analysis": {
+    "reason": "June ledger activity can be adjusted for the checklist close entries and compared with the June budget. Source bills identify the specific unbudgeted one-off initiatives driving the material expense variances; materiality requires ordinary professional judgment but does not make the task indeterminate.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

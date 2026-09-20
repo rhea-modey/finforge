@@ -1,0 +1,16 @@
+account_number;account_name;apr_budget;may_budget;jun_budget
+4000;Product Sales;26231.0;97690.0;86514.0
+4100;Shipping Income;116996.0;7925.0;25801.0
+5000;Cost of Goods Sold;14206.0;52765.0;46455.0
+5100;Freight & Shipping;0.0;0.0;19636.0
+6000;Salaries Expense;143912.0;129979.0;152114.55
+6100;Rent Expense;14922.0;14259.0;15226.0
+6200;Advertising & Marketing;0.0;7574.0;2263.0
+6400;Insurance Expense;190.0;187.0;186.0
+6450;Software Expense;12492.0;0.0;57.0
+6500;Utilities Expense;1085.0;17524.0;0.0
+6600;Professional Fees;9858.0;8084.0;8365.0
+6700;Office Supplies;2687.0;9730.0;0.0
+6800;Depreciation Expense;1056.36;1071.36;998.36
+6900;Bank Fees;0.0;0.0;0.0
+7100;Interest Income;0.0;0.0;0.0

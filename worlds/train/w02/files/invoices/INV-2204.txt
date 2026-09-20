@@ -1,0 +1,15 @@
+Juniper Goods Co.
+WHOLESALE SALES INVOICE
+
+INV-2204
+Date: 2026-04-04
+
+Customer
+Brockman & Hale
+
+Line item
+Assorted business merchandise supplied and fulfilled for one sales period.
+
+Amount due: $9,380.00
+
+Terms: Net 30. Remit against the invoice identifier shown above.

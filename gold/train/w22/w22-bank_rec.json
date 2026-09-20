@@ -1,0 +1,137 @@
+{
+ "adjusted_balance": 252729.28,
+ "bank_statement_ending_balance": 242470.28,
+ "gl_cash_ending_balance": 252822.99,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6500 Utilities Expense",
+     "credit": 0,
+     "debit": 18.0
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 18.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Correct transposition on CHK-1016"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 52.69
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 52.69,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 63.55
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 63.55,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 40.53
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 40.53,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 8168.5,
+   "date": "2026-06-15",
+   "description": "Check to Willow Creek Packaging not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1010",
+   "side": "bank"
+  },
+  {
+   "amount": 14158.5,
+   "date": "2026-06-19",
+   "description": "Check to Meridian Legal LLP not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1013",
+   "side": "bank"
+  },
+  {
+   "amount": 18.0,
+   "date": "2026-06-30",
+   "description": "GL posted check at transposed amount (468.0 vs bank 486.0)",
+   "kind": "gl_error",
+   "ref": "CHK-1016",
+   "side": "book"
+  },
+  {
+   "amount": 19345.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT GLENROCK SOLUTIONS INV-2239",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 13241.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT VESPER TECHNOLOGIES",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 52.69,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 63.55,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 40.53,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

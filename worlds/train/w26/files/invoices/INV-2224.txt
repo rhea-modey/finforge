@@ -1,0 +1,15 @@
+MAPLE & MAIN RETAIL CO.
+Maple & Main Retail Co.
+Retail Supply & Fulfillment
+
+INVOICE INV-2224
+Date: 2026-04-05
+Account customer: Wexford Group
+
+LINE ITEM
+Merchandise supplied with ecommerce fulfillment for one sales period.
+
+Amount due: $19,934.00
+
+Terms: Net 30
+Remit: Apply payment to INV-2224.

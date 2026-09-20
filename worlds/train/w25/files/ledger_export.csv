@@ -1,0 +1,154 @@
+Date;gl_account;dr;cr;memo
+2026-04-01;1000 Cash;254123.23;;Opening balances
+2026-04-01;1300 Prepaid Insurance;639.0;;Opening balances
+2026-04-01;1500 Equipment;102468.0;;Opening balances
+2026-04-01;1590 Accumulated Depreciation;;30740.4;Opening balances
+2026-04-01;2000 Accounts Payable;;32412.72;Opening balances
+2026-04-01;3000 Retained Earnings;;294077.11;Opening balances
+2026-04-03;1000 Cash;;6310.0;Rent - Harborstone Realty Partners
+2026-04-03;6100 Rent Expense;6310.0;;Rent - Harborstone Realty Partners
+2026-04-03;2000 Accounts Payable;;4140.0;BILL-3136 CloudSpan Hosting
+2026-04-03;6450 Software Expense;4140.0;;BILL-3136 CloudSpan Hosting
+2026-04-06;1000 Cash;;16206.36;Payment on account - opening payables
+2026-04-06;2000 Accounts Payable;16206.36;;Payment on account - opening payables
+2026-04-06;1100 Accounts Receivable;11009.0;;Invoice INV-2239 - Tamarack Health
+2026-04-06;4000 Subscription Revenue;;11009.0;Invoice INV-2239 - Tamarack Health
+2026-04-06;1100 Accounts Receivable;17934.0;;Invoice INV-2242 - Corliss Marine
+2026-04-06;4000 Subscription Revenue;;17934.0;Invoice INV-2242 - Corliss Marine
+2026-04-09;1100 Accounts Receivable;17687.0;;Invoice INV-2240 - Vesper Technologies
+2026-04-09;4000 Subscription Revenue;;17687.0;Invoice INV-2240 - Vesper Technologies
+2026-04-09;2000 Accounts Payable;;5142.0;BILL-3137 CloudSpan Hosting
+2026-04-09;6450 Software Expense;5142.0;;BILL-3137 CloudSpan Hosting
+2026-04-12;1100 Accounts Receivable;26818.0;;Invoice INV-2241 - Ferrell Industries
+2026-04-12;4000 Subscription Revenue;;26818.0;Invoice INV-2241 - Ferrell Industries
+2026-04-15;1000 Cash;;31595.0;Payroll 2026-04/01-04/15
+2026-04-15;2300 Payroll Liabilities;;8911.0;Payroll 2026-04/01-04/15
+2026-04-15;6000 Salaries Expense;40506.0;;Payroll 2026-04/01-04/15
+2026-04-17;1000 Cash;;5142.0;Pay BILL-3137 CloudSpan Hosting CHK#1003
+2026-04-17;2000 Accounts Payable;5142.0;;Pay BILL-3137 CloudSpan Hosting CHK#1003
+2026-04-18;2000 Accounts Payable;;468.0;BILL-3139 Clearbyte Cloud Services
+2026-04-18;6300 Software Subscriptions;468.0;;BILL-3139 Clearbyte Cloud Services
+2026-04-18;2000 Accounts Payable;;2783.0;BILL-3140 Junction Utility Co-op
+2026-04-18;6500 Utilities Expense;2783.0;;BILL-3140 Junction Utility Co-op
+2026-04-19;2000 Accounts Payable;;5352.0;BILL-3138 Junction Utility Co-op
+2026-04-19;6500 Utilities Expense;5352.0;;BILL-3138 Junction Utility Co-op
+2026-04-20;1000 Cash;11009.0;;Deposit - Tamarack Health INV-2239
+2026-04-20;1100 Accounts Receivable;;11009.0;Deposit - Tamarack Health INV-2239
+2026-04-22;1000 Cash;;468.0;Pay BILL-3139 Clearbyte Cloud Services CHK#1004
+2026-04-22;2000 Accounts Payable;468.0;;Pay BILL-3139 Clearbyte Cloud Services CHK#1004
+2026-04-28;1000 Cash;;31533.0;Payroll 2026-04/16-04/30
+2026-04-28;2300 Payroll Liabilities;;8893.0;Payroll 2026-04/16-04/30
+2026-04-28;6000 Salaries Expense;40426.0;;Payroll 2026-04/16-04/30
+2026-04-28;1300 Prepaid Insurance;;71.0;Monthly insurance amortization
+2026-04-28;6400 Insurance Expense;71.0;;Monthly insurance amortization
+2026-04-28;1590 Accumulated Depreciation;;1707.8;Monthly depreciation
+2026-04-28;6800 Depreciation Expense;1707.8;;Monthly depreciation
+2026-05-02;1100 Accounts Receivable;22585.0;;Invoice INV-2249 - Corliss Marine
+2026-05-02;4000 Subscription Revenue;;22585.0;Invoice INV-2249 - Corliss Marine
+2026-05-03;1000 Cash;;6310.0;Rent - Harborstone Realty Partners
+2026-05-03;6100 Rent Expense;6310.0;;Rent - Harborstone Realty Partners
+2026-05-04;1100 Accounts Receivable;19160.0;;Invoice INV-2244 - Corliss Marine
+2026-05-04;4000 Subscription Revenue;;19160.0;Invoice INV-2244 - Corliss Marine
+2026-05-06;1100 Accounts Receivable;22645.0;;Invoice INV-2248 - Corliss Marine
+2026-05-06;4000 Subscription Revenue;;22645.0;Invoice INV-2248 - Corliss Marine
+2026-05-06;2000 Accounts Payable;;5215.0;BILL-3144 Ridgeline Telecom
+2026-05-06;6500 Utilities Expense;5215.0;;BILL-3144 Ridgeline Telecom
+2026-05-11;2000 Accounts Payable;;1427.0;BILL-3143 Bright Harbor Media
+2026-05-11;6200 Advertising & Marketing;1427.0;;BILL-3143 Bright Harbor Media
+2026-05-13;1000 Cash;17934.0;;Deposit - Corliss Marine INV-2242
+2026-05-13;1100 Accounts Receivable;;17934.0;Deposit - Corliss Marine INV-2242
+2026-05-13;1000 Cash;;5215.0;Pay BILL-3144 Ridgeline Telecom CHK#1006
+2026-05-13;2000 Accounts Payable;5215.0;;Pay BILL-3144 Ridgeline Telecom CHK#1006
+2026-05-15;1000 Cash;;1427.0;Pay BILL-3143 Bright Harbor Media CHK#1007
+2026-05-15;2000 Accounts Payable;1427.0;;Pay BILL-3143 Bright Harbor Media CHK#1007
+2026-05-15;1000 Cash;;26170.0;Payroll 2026-05/01-05/15
+2026-05-15;2300 Payroll Liabilities;;7381.0;Payroll 2026-05/01-05/15
+2026-05-15;6000 Salaries Expense;33551.0;;Payroll 2026-05/01-05/15
+2026-05-16;1000 Cash;17687.0;;Deposit - Vesper Technologies INV-2240
+2026-05-16;1100 Accounts Receivable;;17687.0;Deposit - Vesper Technologies INV-2240
+2026-05-16;1100 Accounts Receivable;18992.0;;Invoice INV-2245 - Corliss Marine
+2026-05-16;4000 Subscription Revenue;;18992.0;Invoice INV-2245 - Corliss Marine
+2026-05-18;1100 Accounts Receivable;17035.0;;Invoice INV-2247 - Ferrell Industries
+2026-05-18;4000 Subscription Revenue;;17035.0;Invoice INV-2247 - Ferrell Industries
+2026-05-18;2000 Accounts Payable;;1019.0;BILL-3142 Stackline SaaS Tools
+2026-05-18;6300 Software Subscriptions;1019.0;;BILL-3142 Stackline SaaS Tools
+2026-05-19;1100 Accounts Receivable;12776.0;;Invoice INV-2243 - Corliss Marine
+2026-05-19;4000 Subscription Revenue;;12776.0;Invoice INV-2243 - Corliss Marine
+2026-05-19;2000 Accounts Payable;;1602.0;BILL-3141 Delta Facility Services
+2026-05-19;6700 Office Supplies;1602.0;;BILL-3141 Delta Facility Services
+2026-05-21;1000 Cash;26818.0;;Deposit - Ferrell Industries INV-2241
+2026-05-21;1100 Accounts Receivable;;26818.0;Deposit - Ferrell Industries INV-2241
+2026-05-21;1100 Accounts Receivable;6374.0;;Invoice INV-2246 - Underhill Logistics
+2026-05-21;4000 Subscription Revenue;;6374.0;Invoice INV-2246 - Underhill Logistics
+2026-05-27;1000 Cash;;1019.0;Pay BILL-3142 Stackline SaaS Tools CHK#1008
+2026-05-27;2000 Accounts Payable;1019.0;;Pay BILL-3142 Stackline SaaS Tools CHK#1008
+2026-05-28;1000 Cash;;26272.0;Payroll 2026-05/16-05/30
+2026-05-28;2300 Payroll Liabilities;;7409.0;Payroll 2026-05/16-05/30
+2026-05-28;6000 Salaries Expense;33681.0;;Payroll 2026-05/16-05/30
+2026-05-28;1300 Prepaid Insurance;;71.0;Monthly insurance amortization
+2026-05-28;6400 Insurance Expense;71.0;;Monthly insurance amortization
+2026-05-28;1590 Accumulated Depreciation;;1707.8;Monthly depreciation
+2026-05-28;6800 Depreciation Expense;1707.8;;Monthly depreciation
+2026-06-03;1100 Accounts Receivable;17219.0;;Invoice INV-2251 - Corliss Marine
+2026-06-03;4000 Subscription Revenue;;17219.0;Invoice INV-2251 - Corliss Marine
+2026-06-03;1100 Accounts Receivable;15363.0;;Invoice INV-2252 - Quimby Ventures
+2026-06-03;4000 Subscription Revenue;;15363.0;Invoice INV-2252 - Quimby Ventures
+2026-06-03;1000 Cash;;6310.0;Rent - Harborstone Realty Partners
+2026-06-03;6100 Rent Expense;6310.0;;Rent - Harborstone Realty Partners
+2026-06-04;1000 Cash;19160.0;;Deposit - Corliss Marine INV-2244
+2026-06-04;1100 Accounts Receivable;;19160.0;Deposit - Corliss Marine INV-2244
+2026-06-04;1100 Accounts Receivable;23682.0;;Invoice INV-2250 - Vesper Technologies
+2026-06-04;4000 Subscription Revenue;;23682.0;Invoice INV-2250 - Vesper Technologies
+2026-06-04;2000 Accounts Payable;;2684.0;BILL-3145 Lumen Office Supply
+2026-06-04;6700 Office Supplies;2684.0;;BILL-3145 Lumen Office Supply
+2026-06-05;1100 Accounts Receivable;14415.0;;Invoice INV-2254 - Vesper Technologies
+2026-06-05;4000 Subscription Revenue;;14415.0;Invoice INV-2254 - Vesper Technologies
+2026-06-06;2000 Accounts Payable;;2709.0;BILL-3151 Kite Digital Ads
+2026-06-06;6700 Office Supplies;2709.0;;BILL-3151 Kite Digital Ads
+2026-06-09;1000 Cash;22585.0;;Deposit - Corliss Marine INV-2249
+2026-06-09;1100 Accounts Receivable;;22585.0;Deposit - Corliss Marine INV-2249
+2026-06-10;2000 Accounts Payable;;2856.0;BILL-3148 Bright Harbor Media
+2026-06-10;6200 Advertising & Marketing;2856.0;;BILL-3148 Bright Harbor Media
+2026-06-11;1000 Cash;;2709.0;Pay BILL-3151 Kite Digital Ads CHK#1010
+2026-06-11;2000 Accounts Payable;2709.0;;Pay BILL-3151 Kite Digital Ads CHK#1010
+2026-06-11;2000 Accounts Payable;;4148.0;BILL-3147 Ridgeline Telecom
+2026-06-11;6500 Utilities Expense;4148.0;;BILL-3147 Ridgeline Telecom
+2026-06-12;1000 Cash;5876.0;;Owner capital contribution
+2026-06-12;3000 Retained Earnings;;5876.0;Owner capital contribution
+2026-06-13;1000 Cash;22645.0;;Deposit - Corliss Marine INV-2248
+2026-06-13;1100 Accounts Receivable;;22645.0;Deposit - Corliss Marine INV-2248
+2026-06-14;1000 Cash;18992.0;;Deposit - Corliss Marine INV-2245
+2026-06-14;1100 Accounts Receivable;;18992.0;Deposit - Corliss Marine INV-2245
+2026-06-14;1000 Cash;6374.0;;Deposit - Underhill Logistics INV-2246
+2026-06-14;1100 Accounts Receivable;;6374.0;Deposit - Underhill Logistics INV-2246
+2026-06-14;1100 Accounts Receivable;6618.0;;Invoice INV-2255 - Corliss Marine
+2026-06-14;4000 Subscription Revenue;;6618.0;Invoice INV-2255 - Corliss Marine
+2026-06-15;2000 Accounts Payable;;9821.81;BILL-3149 Meridian Legal LLP
+2026-06-15;6600 Professional Fees;9821.81;;BILL-3149 Meridian Legal LLP
+2026-06-15;1000 Cash;;27541.0;Payroll 2026-06/01-06/15
+2026-06-15;2300 Payroll Liabilities;;7767.0;Payroll 2026-06/01-06/15
+2026-06-15;6000 Salaries Expense;35308.0;;Payroll 2026-06/01-06/15
+2026-06-18;1000 Cash;17035.0;;Deposit - Ferrell Industries INV-2247
+2026-06-18;1100 Accounts Receivable;;17035.0;Deposit - Ferrell Industries INV-2247
+2026-06-18;1100 Accounts Receivable;15486.0;;Invoice INV-2253 - Tamarack Health
+2026-06-18;4000 Subscription Revenue;;15486.0;Invoice INV-2253 - Tamarack Health
+2026-06-18;1000 Cash;;4148.0;Pay BILL-3147 Ridgeline Telecom CHK#1011
+2026-06-18;2000 Accounts Payable;4148.0;;Pay BILL-3147 Ridgeline Telecom CHK#1011
+2026-06-18;2000 Accounts Payable;;10957.31;BILL-3150 Trellis Marketing Group
+2026-06-18;6200 Advertising & Marketing;10957.31;;BILL-3150 Trellis Marketing Group
+2026-06-20;1000 Cash;12776.0;;Deposit - Corliss Marine INV-2243
+2026-06-20;1100 Accounts Receivable;;12776.0;Deposit - Corliss Marine INV-2243
+2026-06-20;2000 Accounts Payable;;5602.0;BILL-3146 Ridgeline Telecom
+2026-06-20;6500 Utilities Expense;5602.0;;BILL-3146 Ridgeline Telecom
+2026-06-22;1000 Cash;;9821.81;Pay BILL-3149 Meridian Legal LLP CHK#1012
+2026-06-22;2000 Accounts Payable;9821.81;;Pay BILL-3149 Meridian Legal LLP CHK#1012
+2026-06-24;1000 Cash;;5602.0;Pay BILL-3146 Ridgeline Telecom CHK#1014
+2026-06-24;2000 Accounts Payable;5602.0;;Pay BILL-3146 Ridgeline Telecom CHK#1014
+2026-06-25;1000 Cash;;10957.31;Pay BILL-3150 Trellis Marketing Group CHK#1013
+2026-06-25;2000 Accounts Payable;10957.31;;Pay BILL-3150 Trellis Marketing Group CHK#1013
+2026-06-26;1000 Cash;14415.0;;Deposit - Vesper Technologies INV-2254
+2026-06-26;1100 Accounts Receivable;;14415.0;Deposit - Vesper Technologies INV-2254
+2026-06-26;1000 Cash;6618.0;;Deposit - Corliss Marine INV-2255
+2026-06-26;1100 Accounts Receivable;;6618.0;Deposit - Corliss Marine INV-2255
+2026-06-28;1590 Accumulated Depreciation;;1707.8;Monthly depreciation
+2026-06-28;6800 Depreciation Expense;1707.8;;Monthly depreciation

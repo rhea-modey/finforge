@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 221049.94,
+    "gold": 221049.94,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 239481.93,
+    "gold": 239481.93,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $28,787.28, while the trial balance reports Accounts Payable of $37,969.44, leaving an unexplained $9,182.16 control-account difference. This does not prevent completion of the four requested tasks because none requires an AP reconciliation, and GL coding is presumed correct absent contradictory source documents.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w28-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract uniquely support a $728.00 opening balance, no June additions, $104.00 June amortization, and a $624.00 closing balance; the GL confirms June amortization is missing.",
+    "solvable": true
+   },
+   "w28-bank_rec": {
+    "reason": "The bank statement, GL detail, and trial balance provide sufficient information to identify outstanding checks, the deposit in transit, and two unrecorded bank fees and to reconcile both sides uniquely.",
+    "solvable": true
+   },
+   "w28-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed-asset register, GL, and available vendor documents establish the missing payroll accrual and insurance amortization, confirm depreciation is already posted, and provide no documentary basis for a reclassification.",
+    "solvable": true
+   },
+   "w28-variance_analysis": {
+    "reason": "June actuals can be derived from the GL and adjusted for the checklist close entries, then compared with the June budget. Materiality and classification of commentary require ordinary professional judgment but are not missing facts.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

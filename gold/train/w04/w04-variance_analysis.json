@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 13444.44,
+   "keywords": [
+    "velocity",
+    "trellis"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 8167.46,
+   "keywords": [
+    "bloom",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 17686.44,
+   "budget": 4263.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 13444.44,
+     "description": "Velocity project - one-off engagement billed by Trellis Marketing Group (BILL-3123)",
+     "evidence": [
+      "bills/BILL-3123.txt"
+     ]
+    }
+   ],
+   "variance": 13423.44
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 14138.46,
+   "budget": 5890.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 8167.46,
+     "description": "Special Bloom initiative - one-off fees billed by Pillar Accounting Services (BILL-3122)",
+     "evidence": [
+      "bills/BILL-3122.txt"
+     ]
+    }
+   ],
+   "variance": 8248.46
+  }
+ ]
+}

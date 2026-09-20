@@ -1,0 +1,153 @@
+{
+ "adjusted_balance": 258463.37,
+ "bank_statement_ending_balance": 244776.37,
+ "gl_cash_ending_balance": 257623.65,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 900.0
+    },
+    {
+     "account": "6600 Professional Fees",
+     "credit": 900.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Correct transposition on CHK-1014"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 39.23
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 39.23,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 37.77
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 37.77,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 16.72
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 16.72,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 774.0,
+   "date": "2026-06-19",
+   "description": "Check to Kite Digital Ads not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1017",
+   "side": "bank"
+  },
+  {
+   "amount": 3814.0,
+   "date": "2026-06-11",
+   "description": "Check to Bright Harbor Media not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1012",
+   "side": "bank"
+  },
+  {
+   "amount": 1602.0,
+   "date": "2026-06-20",
+   "description": "Check to Kite Digital Ads not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1016",
+   "side": "bank"
+  },
+  {
+   "amount": 1117.0,
+   "date": "2026-06-11",
+   "description": "Check to Ridgeline Telecom not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1011",
+   "side": "bank"
+  },
+  {
+   "amount": 900.0,
+   "date": "2026-06-30",
+   "description": "GL posted check at transposed amount (5433.0 vs bank 4533.0)",
+   "kind": "gl_error",
+   "ref": "CHK-1014",
+   "side": "book"
+  },
+  {
+   "amount": 16647.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT PINEHURST DIGITAL INV-2210",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 4347.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT FERRELL INDU INV-2212",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 39.23,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 37.77,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 16.72,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

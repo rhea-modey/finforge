@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 260605.8,
+    "gold": 260605.8,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 266091.71,
+    "gold": 266091.71,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $13,048.00, while the trial balance reports Accounts Payable of $36,107.41. The $23,059.41 difference is traceable to residual opening payables but is omitted from the aging, making that aging incomplete.",
+    "severity": "low"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w12-accrual_schedule": {
+    "reason": "The May prepaid schedule, insurance contract, June GL posting, and trial balance provide a complete insurance prepaid roll-forward and establish that June amortization was already booked.",
+    "solvable": true
+   },
+   "w12-bank_rec": {
+    "reason": "The bank statement, GL, trial balance, and supporting bill identify all timing items, unrecorded bank activity, and the BILL-3150 amount error, allowing both sides to reconcile uniquely.",
+    "solvable": true
+   },
+   "w12-journal_entries": {
+    "reason": "The payroll register supports the missing gross-wage accrual; the GL confirms insurance amortization and depreciation are already posted; and the vendor document for BILL-3156 supports the required expense reclassification. Bank-side corrections are separately identifiable and excluded as instructed.",
+    "solvable": true
+   },
+   "w12-variance_analysis": {
+    "reason": "June actuals can be derived from the GL and adjusted for the supported payroll accrual and vendor reclassification, then compared with the June budget. The payroll register and vendor bills support the material variance drivers.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

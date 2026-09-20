@@ -1,0 +1,80 @@
+[finforge] budget cap=$60.00, already spent per records=$0.00
+[finforge] heldout eval tag=c0 version=v0 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge]   heldout-c0-h01-bank_rec: ended=submitted gold=80.0 judge=7.0 usd=0.0245
+[finforge]   heldout-c0-h01-journal_entries: ended=submitted gold=62.5 judge=6.0 usd=0.0183
+[finforge]   heldout-c0-h01-variance_analysis: ended=submitted gold=41.7 judge=4.0 usd=0.0334
+[finforge]   heldout-c0-h01-accrual_schedule: ended=submitted gold=65.0 judge=6.0 usd=0.0729
+[finforge]   heldout-c0-h02-bank_rec: ended=submitted gold=48.6 judge=6.0 usd=0.0457
+[finforge]   heldout-c0-h02-journal_entries: ended=submitted gold=75.0 judge=5.0 usd=0.0141
+[finforge]   heldout-c0-h02-variance_analysis: ended=submitted gold=41.1 judge=5.0 usd=0.0103
+[finforge]   heldout-c0-h02-accrual_schedule: ended=submitted gold=100.0 judge=5.0 usd=0.0353
+[finforge]   heldout-c0-h03-bank_rec: ended=submitted gold=70.0 judge=6.0 usd=0.0128
+[finforge]   heldout-c0-h03-journal_entries: ended=submitted gold=50.0 judge=4.0 usd=0.1175
+[finforge]   heldout-c0-h03-variance_analysis: ended=submitted gold=62.5 judge=4.0 usd=0.0365
+[finforge]   heldout-c0-h03-accrual_schedule: ended=submitted gold=100.0 judge=5.0 usd=0.0185
+[finforge]   heldout-c0-h04-bank_rec: ended=submitted gold=26.7 judge=4.0 usd=0.0417
+[finforge]   heldout-c0-h04-journal_entries: ended=submitted gold=66.7 judge=5.0 usd=0.0149
+[finforge]   heldout-c0-h04-variance_analysis: ended=submitted gold=56.2 judge=5.0 usd=0.0723
+[finforge]   heldout-c0-h04-accrual_schedule: ended=submitted gold=100.0 judge=5.0 usd=0.0402
+[finforge]   heldout-c0-h05-bank_rec: ended=submitted gold=40.0 judge=5.0 usd=0.0165
+[finforge]   heldout-c0-h05-journal_entries: ended=submitted gold=90.0 judge=6.0 usd=0.0523
+[finforge]   heldout-c0-h05-variance_analysis: ended=submitted gold=25.0 judge=6.0 usd=0.0261
+[finforge]   heldout-c0-h05-accrual_schedule: ended=submitted gold=100.0 judge=6.0 usd=0.0747
+[finforge]   heldout-c0-h06-bank_rec: ended=submitted gold=100.0 judge=7.0 usd=0.0264
+[finforge]   heldout-c0-h06-journal_entries: ended=submitted gold=41.7 judge=6.0 usd=0.1769
+[finforge]   heldout-c0-h06-variance_analysis: ended=submitted gold=72.5 judge=5.0 usd=0.0155
+[finforge]   heldout-c0-h06-accrual_schedule: ended=submitted gold=100.0 judge=5.0 usd=0.0181
+[finforge] iteration 0: version=v0 worlds=['w01', 'w02', 'w03']
+[finforge]   train-i00-w01-bank_rec: ended=submitted judge=3.0 usd=0.0738
+[finforge]   train-i00-w01-journal_entries: ended=submitted judge=5.0 usd=0.0153
+[finforge]   train-i00-w01-variance_analysis: ended=submitted judge=4.0 usd=0.0202
+[finforge]   train-i00-w01-accrual_schedule: ended=submitted judge=5.0 usd=0.0219
+[finforge]   train-i00-w02-bank_rec: ended=submitted judge=3.0 usd=0.0437
+[finforge]   train-i00-w02-journal_entries: ended=submitted judge=6.0 usd=0.0133
+[finforge]   train-i00-w02-variance_analysis: ended=submitted judge=5.0 usd=0.0647
+[finforge]   train-i00-w02-accrual_schedule: ended=submitted judge=8.0 usd=0.0531
+[finforge]   train-i00-w03-bank_rec: ended=submitted judge=7.0 usd=0.0178
+[finforge]   train-i00-w03-journal_entries: ended=submitted judge=6.0 usd=0.0236
+[finforge]   train-i00-w03-variance_analysis: ended=submitted judge=5.0 usd=0.0483
+[finforge]   train-i00-w03-accrual_schedule: ended=submitted judge=7.0 usd=0.0205
+[finforge] wrote harness/revisions/v1.md
+[finforge] heldout eval tag=c1 version=v1 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
+[finforge]   heldout-c1-h01-bank_rec: ended=submitted gold=100.0 judge=7.0 usd=0.2461
+[finforge]   heldout-c1-h01-journal_entries: ended=submitted gold=75.0 judge=6.0 usd=0.1291
+[finforge]   heldout-c1-h01-variance_analysis: ended=submitted gold=0.0 judge=3.0 usd=0.2156
+[finforge]   heldout-c1-h01-accrual_schedule: ended=submitted gold=100.0 judge=5.0 usd=0.0738
+[finforge]   heldout-c1-h02-bank_rec: ended=submitted gold=40.0 judge=6.0 usd=0.4305
+[finforge]   heldout-c1-h02-journal_entries: ended=submitted gold=75.0 judge=5.0 usd=0.1191
+[finforge]   heldout-c1-h02-variance_analysis: ended=submitted gold=12.5 judge=6.0 usd=0.9292
+[finforge]   heldout-c1-h02-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.0407
+[finforge]   heldout-c1-h03-bank_rec: ended=submitted gold=13.3 judge=5.0 usd=0.0556
+[finforge]   heldout-c1-h03-journal_entries: ended=submitted gold=50.0 judge=3.0 usd=0.1795
+[finforge]   heldout-c1-h03-variance_analysis: ended=submitted gold=12.5 judge=4.0 usd=0.1833
+[finforge]   heldout-c1-h03-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.0822
+[finforge]   heldout-c1-h04-bank_rec: ended=submitted gold=100.0 judge=8.0 usd=0.1941
+[finforge]   heldout-c1-h04-journal_entries: ended=submitted gold=66.7 judge=4.0 usd=0.1685
+[finforge]   heldout-c1-h04-variance_analysis: ended=submitted gold=0.0 judge=4.0 usd=0.1926
+[finforge]   heldout-c1-h04-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.0882
+[finforge]   heldout-c1-h05-bank_rec: ended=submitted gold=100.0 judge=7.0 usd=0.2561
+[finforge]   heldout-c1-h05-journal_entries: ended=submitted gold=50.0 judge=5.0 usd=0.0994
+[finforge]   heldout-c1-h05-variance_analysis: ended=submitted gold=51.8 judge=5.0 usd=0.3265
+[finforge]   heldout-c1-h05-accrual_schedule: ended=submitted gold=65.0 judge=6.0 usd=0.1295
+[finforge]   heldout-c1-h06-bank_rec: ended=submitted gold=100.0 judge=7.0 usd=0.1044
+[finforge]   heldout-c1-h06-journal_entries: ended=submitted gold=50.0 judge=5.0 usd=0.0538
+[finforge]   heldout-c1-h06-variance_analysis: ended=submitted gold=0.0 judge=4.0 usd=0.7115
+[finforge]   heldout-c1-h06-accrual_schedule: ended=submitted gold=100.0 judge=7.0 usd=0.1198
+[finforge] run complete
+== FinForge summary ==
+
+Training (judge 0-10, mean per iteration)
+iter ver     n   judge   bank     je    var   accr err      usd
+   0 v0     12    5.33   4.33   5.67   4.67   6.67   0     0.42
+
+Heldout checkpoints (gold 0-100 | judge 0-10; ti=train-industry worlds, hi=heldout-industry worlds)
+tag      ver     n    gold   judge  gold-ti  gold-hi err      usd
+c0       v0     24   67.30    5.33    66.36    68.23   0     1.02
+           per-cat (gold/judge): bank=60.9/5.8  je=64.3/5.3  var=49.8/4.8  accr=94.2/5.3
+c1       v1     24   60.91    5.54    56.53    65.29   0     5.13
+           per-cat (gold/judge): bank=75.6/6.7  je=61.1/4.7  var=12.8/4.3  accr=94.2/6.5
+
+Cost: $6.56 total (train $0.42, heldout $6.14); tokens in=43042159 out=3767052 cache_r=37258710 cache_w=0

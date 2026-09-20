@@ -1,0 +1,12 @@
+RIDGELINE TELECOM
+Ridgeline Telecom
+
+SERVICE BILL
+Document: BILL-3141
+Date: 2026-04-21
+Customer: Bluewater Stack Co.
+
+Line item: Telecom and network utility service for one service period
+Amount: $3,888.00
+
+Terms: Payment due upon receipt. Please remit with the document identifier shown above.

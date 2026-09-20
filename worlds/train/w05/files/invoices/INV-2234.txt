@@ -1,0 +1,15 @@
+BEACON LEDGER SOFTWARE
+Cloud accounting, without the clutter
+
+Beacon Ledger Software
+
+INVOICE INV-2234
+Issued: 2026-04-07
+Customer: Rosewood Retail
+
+Service detail
+Single-period hosted accounting software service and standard support.
+
+Amount due: $6,068.00
+
+Remit terms: Net 30. Apply payment to the invoice identifier above.

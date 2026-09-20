@@ -1,0 +1,15 @@
+HARBORLINE SUPPLY CO.
+Harborline Supply Co.
+Wholesale Distribution
+
+SALES INVOICE
+Invoice: INV-2241
+Bill to: Kelso Brands
+Date: 2026-04-05
+
+Wholesale goods supplied for the current billing period.
+
+Amount due: $21,428.00
+
+Terms: Standard account terms.
+Remit payment quoting the invoice id above.

@@ -1,0 +1,7 @@
+## Company background
+
+Cascade Supply Partners began when two former regional distribution managers decided that smaller organizations deserved the same dependable sourcing support as national accounts. They built the business around a straightforward promise: answer the phone, know the products, and tell customers early when a shipment or substitute needs attention.
+
+The company wholesales everyday workplace, shipping, packaging, breakroom, and light facility supplies to a mix of local and regional customers. Its team is deliberately compact. Account managers tend to know customers by voice, warehouse staff keep handwritten notes about recurring preferences, and the purchasing group has a reputation for finding practical alternatives when standard items are tight. The office culture is friendly but unsentimental; people help one another, then document what happened so the next order goes more smoothly.
+
+Today, Cascade Supply Partners is an ordinary going concern focused on steady service and disciplined operations. The team is completing the June close while managing routine customer orders, vendor relationships, and fulfillment work. Leadership is also tightening expense coding, refreshing marketing materials, and reviewing internal processes that grew informally with the business. The aim is not reinvention, but a cleaner operating rhythm: reliable inventory decisions, clearer handoffs, timely accounting, and the personal service customers have come to expect.

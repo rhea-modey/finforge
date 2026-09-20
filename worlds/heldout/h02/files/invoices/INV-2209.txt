@@ -1,0 +1,14 @@
+Saltbox Mercantile Co.
+MERCANTILE INVOICE
+
+INV-2209
+Sold to: Eastgate Collective
+Date: 2026-04-17
+
+LINE ITEM
+Assorted mercantile goods supplied for the current billing period.
+
+Amount due: $21,405.00
+
+Terms: Due upon receipt.
+Remit with INV-2209 clearly noted.

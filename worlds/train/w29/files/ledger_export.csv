@@ -1,0 +1,136 @@
+date,Account,dr,Credit,memo
+04/01/2026,1000 Cash,150362.09,,Opening balances
+04/01/2026,1300 Prepaid Insurance,1674.0,,Opening balances
+04/01/2026,1500 Equipment,159464.0,,Opening balances
+04/01/2026,1590 Accumulated Depreciation,,18604.11,Opening balances
+04/01/2026,2000 Accounts Payable,,14877.84,Opening balances
+04/01/2026,3000 Retained Earnings,,278018.14,Opening balances
+04/03/2026,1000 Cash,,5660.0,Rent - Amberfield Property Group
+04/03/2026,6100 Rent Expense,5660.0,,Rent - Amberfield Property Group
+04/05/2026,2000 Accounts Payable,,4480.0,BILL-3144 Delta Facility Services
+04/05/2026,6700 Office Supplies,4480.0,,BILL-3144 Delta Facility Services
+04/06/2026,1000 Cash,,7438.92,Payment on account - opening payables
+04/06/2026,2000 Accounts Payable,7438.92,,Payment on account - opening payables
+04/07/2026,1100 Accounts Receivable,9538.0,,Invoice INV-2227 - Wexford Group
+04/07/2026,4100 Professional Services Revenue,,9538.0,Invoice INV-2227 - Wexford Group
+04/12/2026,1100 Accounts Receivable,16087.0,,Invoice INV-2224 - Hartwell Group
+04/12/2026,4000 Subscription Revenue,,16087.0,Invoice INV-2224 - Hartwell Group
+04/15/2026,2000 Accounts Payable,,1692.0,BILL-3143 Helix IT Solutions
+04/15/2026,6450 Software Expense,1692.0,,BILL-3143 Helix IT Solutions
+04/15/2026,1000 Cash,,18915.0,Payroll 2026-04/01-04/15
+04/15/2026,2300 Payroll Liabilities,,5335.0,Payroll 2026-04/01-04/15
+04/15/2026,6000 Salaries Expense,24250.0,,Payroll 2026-04/01-04/15
+04/19/2026,2000 Accounts Payable,,4068.0,BILL-3142 Meridian Legal LLP
+04/19/2026,6600 Professional Fees,4068.0,,BILL-3142 Meridian Legal LLP
+04/20/2026,1100 Accounts Receivable,6745.0,,Invoice INV-2225 - Jasper Analytics
+04/20/2026,4100 Professional Services Revenue,,6745.0,Invoice INV-2225 - Jasper Analytics
+04/21/2026,1000 Cash,9538.0,,Deposit - Wexford Group INV-2227
+04/21/2026,1100 Accounts Receivable,,9538.0,Deposit - Wexford Group INV-2227
+04/21/2026,2000 Accounts Payable,,3888.0,BILL-3141 Ridgeline Telecom
+04/21/2026,6500 Utilities Expense,3888.0,,BILL-3141 Ridgeline Telecom
+04/22/2026,1100 Accounts Receivable,9433.0,,Invoice INV-2226 - Eastgate Collective
+04/22/2026,4000 Subscription Revenue,,9433.0,Invoice INV-2226 - Eastgate Collective
+04/23/2026,1000 Cash,,4068.0,Pay BILL-3142 Meridian Legal LLP CHK#1003
+04/23/2026,2000 Accounts Payable,4068.0,,Pay BILL-3142 Meridian Legal LLP CHK#1003
+04/28/2026,1000 Cash,,3888.0,Pay BILL-3141 Ridgeline Telecom CHK#1004
+04/28/2026,2000 Accounts Payable,3888.0,,Pay BILL-3141 Ridgeline Telecom CHK#1004
+04/28/2026,1000 Cash,,18876.0,Payroll 2026-04/16-04/30
+04/28/2026,2300 Payroll Liabilities,,5324.0,Payroll 2026-04/16-04/30
+04/28/2026,6000 Salaries Expense,24200.0,,Payroll 2026-04/16-04/30
+04/28/2026,1300 Prepaid Insurance,,186.0,Monthly insurance amortization
+04/28/2026,6400 Insurance Expense,186.0,,Monthly insurance amortization
+04/28/2026,1590 Accumulated Depreciation,,2657.73,Monthly depreciation
+04/28/2026,6800 Depreciation Expense,2657.73,,Monthly depreciation
+05/03/2026,1000 Cash,,5660.0,Rent - Amberfield Property Group
+05/03/2026,6100 Rent Expense,5660.0,,Rent - Amberfield Property Group
+05/03/2026,2000 Accounts Payable,,1124.0,BILL-3149 Bright Harbor Media
+05/03/2026,6200 Advertising & Marketing,1124.0,,BILL-3149 Bright Harbor Media
+05/05/2026,1100 Accounts Receivable,14986.0,,Invoice INV-2230 - Hartwell Group
+05/05/2026,4000 Subscription Revenue,,14986.0,Invoice INV-2230 - Hartwell Group
+05/06/2026,1100 Accounts Receivable,12051.0,,Invoice INV-2228 - Atlas Verde LLC
+05/06/2026,4000 Subscription Revenue,,12051.0,Invoice INV-2228 - Atlas Verde LLC
+05/10/2026,2000 Accounts Payable,,2935.0,BILL-3148 Meridian Legal LLP
+05/10/2026,6600 Professional Fees,2935.0,,BILL-3148 Meridian Legal LLP
+05/11/2026,1000 Cash,,1124.0,Pay BILL-3149 Bright Harbor Media CHK#1006
+05/11/2026,2000 Accounts Payable,1124.0,,Pay BILL-3149 Bright Harbor Media CHK#1006
+05/12/2026,2000 Accounts Payable,,709.0,BILL-3146 Kite Digital Ads
+05/12/2026,6200 Advertising & Marketing,709.0,,BILL-3146 Kite Digital Ads
+05/13/2026,1100 Accounts Receivable,14558.0,,Invoice INV-2229 - Wexford Group
+05/13/2026,4000 Subscription Revenue,,14558.0,Invoice INV-2229 - Wexford Group
+05/15/2026,2000 Accounts Payable,,1682.0,BILL-3147 Ridgeline Telecom
+05/15/2026,6500 Utilities Expense,1682.0,,BILL-3147 Ridgeline Telecom
+05/15/2026,1000 Cash,,14761.0,Payroll 2026-05/01-05/15
+05/15/2026,2300 Payroll Liabilities,,4163.0,Payroll 2026-05/01-05/15
+05/15/2026,6000 Salaries Expense,18924.0,,Payroll 2026-05/01-05/15
+05/16/2026,1100 Accounts Receivable,17114.0,,Invoice INV-2232 - Eastgate Collective
+05/16/2026,4000 Subscription Revenue,,17114.0,Invoice INV-2232 - Eastgate Collective
+05/17/2026,1100 Accounts Receivable,11154.0,,Invoice INV-2231 - Hartwell Group
+05/17/2026,4100 Professional Services Revenue,,11154.0,Invoice INV-2231 - Hartwell Group
+05/17/2026,1000 Cash,,709.0,Pay BILL-3146 Kite Digital Ads CHK#1007
+05/17/2026,2000 Accounts Payable,709.0,,Pay BILL-3146 Kite Digital Ads CHK#1007
+05/17/2026,2000 Accounts Payable,,4340.0,BILL-3145 Kite Digital Ads
+05/17/2026,6200 Advertising & Marketing,4340.0,,BILL-3145 Kite Digital Ads
+05/22/2026,1000 Cash,16087.0,,Deposit - Hartwell Group INV-2224
+05/22/2026,1100 Accounts Receivable,,16087.0,Deposit - Hartwell Group INV-2224
+05/22/2026,1000 Cash,9433.0,,Deposit - Eastgate Collective INV-2226
+05/22/2026,1100 Accounts Receivable,,9433.0,Deposit - Eastgate Collective INV-2226
+05/27/2026,1000 Cash,12051.0,,Deposit - Atlas Verde LLC INV-2228
+05/27/2026,1100 Accounts Receivable,,12051.0,Deposit - Atlas Verde LLC INV-2228
+05/28/2026,1000 Cash,,14847.0,Payroll 2026-05/16-05/30
+05/28/2026,2300 Payroll Liabilities,,4187.0,Payroll 2026-05/16-05/30
+05/28/2026,6000 Salaries Expense,19034.0,,Payroll 2026-05/16-05/30
+05/28/2026,1300 Prepaid Insurance,,186.0,Monthly insurance amortization
+05/28/2026,6400 Insurance Expense,186.0,,Monthly insurance amortization
+05/28/2026,1590 Accumulated Depreciation,,2657.73,Monthly depreciation
+05/28/2026,6800 Depreciation Expense,2657.73,,Monthly depreciation
+06/01/2026,1100 Accounts Receivable,18897.0,,Invoice INV-2233 - Eastgate Collective
+06/01/2026,4000 Subscription Revenue,,18897.0,Invoice INV-2233 - Eastgate Collective
+06/02/2026,1000 Cash,6745.0,,Deposit - Jasper Analytics INV-2225
+06/02/2026,1100 Accounts Receivable,,6745.0,Deposit - Jasper Analytics INV-2225
+06/03/2026,1000 Cash,,5660.0,Rent - Amberfield Property Group
+06/03/2026,6100 Rent Expense,5660.0,,Rent - Amberfield Property Group
+06/04/2026,1100 Accounts Receivable,9813.0,,Invoice INV-2235 - Atlas Verde LLC
+06/04/2026,4000 Subscription Revenue,,9813.0,Invoice INV-2235 - Atlas Verde LLC
+06/04/2026,2000 Accounts Payable,,1871.0,BILL-3152 Clearbyte Cloud Services
+06/04/2026,6300 Software Subscriptions,1871.0,,BILL-3152 Clearbyte Cloud Services
+06/05/2026,1000 Cash,,564.0,Prepaid software - 12 month license (Nimbus Apps Inc.)
+06/05/2026,1310 Prepaid Software,564.0,,Prepaid software - 12 month license (Nimbus Apps Inc.)
+06/06/2026,1000 Cash,14986.0,,Deposit - Hartwell Group INV-2230
+06/06/2026,1100 Accounts Receivable,,14986.0,Deposit - Hartwell Group INV-2230
+06/06/2026,2000 Accounts Payable,,12773.41,BILL-3155 Meridian Legal LLP
+06/06/2026,6600 Professional Fees,12773.41,,BILL-3155 Meridian Legal LLP
+06/10/2026,1000 Cash,11154.0,,Deposit - Hartwell Group INV-2231
+06/10/2026,1100 Accounts Receivable,,11154.0,Deposit - Hartwell Group INV-2231
+06/11/2026,1100 Accounts Receivable,3467.0,,Invoice INV-2236 - Hartwell Group
+06/11/2026,4000 Subscription Revenue,,3467.0,Invoice INV-2236 - Hartwell Group
+06/11/2026,1000 Cash,,12773.41,Pay BILL-3155 Meridian Legal LLP CHK#1009
+06/11/2026,2000 Accounts Payable,12773.41,,Pay BILL-3155 Meridian Legal LLP CHK#1009
+06/12/2026,1000 Cash,14384.0,,Owner capital contribution
+06/12/2026,3000 Retained Earnings,,14384.0,Owner capital contribution
+06/14/2026,2000 Accounts Payable,,2164.0,BILL-3156 Kite Digital Ads
+06/14/2026,6700 Office Supplies,2164.0,,BILL-3156 Kite Digital Ads
+06/15/2026,1000 Cash,,15962.0,Payroll 2026-06/01-06/15
+06/15/2026,2300 Payroll Liabilities,,4501.0,Payroll 2026-06/01-06/15
+06/15/2026,6000 Salaries Expense,20463.0,,Payroll 2026-06/01-06/15
+06/16/2026,1100 Accounts Receivable,20300.0,,Invoice INV-2237 - Longmont Systems
+06/16/2026,4000 Subscription Revenue,,20300.0,Invoice INV-2237 - Longmont Systems
+06/16/2026,2000 Accounts Payable,,9734.73,BILL-3154 Bright Harbor Media
+06/16/2026,6200 Advertising & Marketing,9734.73,,BILL-3154 Bright Harbor Media
+06/17/2026,2000 Accounts Payable,,4463.0,BILL-3153 Uptown Catering Co.
+06/17/2026,6700 Office Supplies,4463.0,,BILL-3153 Uptown Catering Co.
+06/18/2026,1000 Cash,,2164.0,Pay BILL-3156 Kite Digital Ads CHK#1010
+06/18/2026,2000 Accounts Payable,2164.0,,Pay BILL-3156 Kite Digital Ads CHK#1010
+06/18/2026,2000 Accounts Payable,,4043.0,BILL-3150 Uptown Catering Co.
+06/18/2026,6700 Office Supplies,4043.0,,BILL-3150 Uptown Catering Co.
+06/19/2026,2000 Accounts Payable,,1143.0,BILL-3151 Ridgeline Telecom
+06/19/2026,6500 Utilities Expense,1143.0,,BILL-3151 Ridgeline Telecom
+06/20/2026,1000 Cash,14558.0,,Deposit - Wexford Group INV-2229
+06/20/2026,1100 Accounts Receivable,,14558.0,Deposit - Wexford Group INV-2229
+06/21/2026,1000 Cash,17114.0,,Deposit - Eastgate Collective INV-2232
+06/21/2026,1100 Accounts Receivable,,17114.0,Deposit - Eastgate Collective INV-2232
+06/22/2026,1100 Accounts Receivable,15139.0,,Invoice INV-2234 - Jasper Analytics
+06/22/2026,4100 Professional Services Revenue,,15139.0,Invoice INV-2234 - Jasper Analytics
+06/24/2026,1000 Cash,,4463.0,Pay BILL-3153 Uptown Catering Co. CHK#1011
+06/24/2026,2000 Accounts Payable,4463.0,,Pay BILL-3153 Uptown Catering Co. CHK#1011
+06/25/2026,1000 Cash,,1143.0,Pay BILL-3151 Ridgeline Telecom CHK#1012
+06/25/2026,2000 Accounts Payable,1143.0,,Pay BILL-3151 Ridgeline Telecom CHK#1012

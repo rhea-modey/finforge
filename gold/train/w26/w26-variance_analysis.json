@@ -1,0 +1,79 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 13417.53,
+   "keywords": [
+    "harvest",
+    "willow"
+   ]
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 15966.59,
+   "keywords": [
+    "bloom",
+    "trellis"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 16896.8,
+   "keywords": [
+    "harvest",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 16792.53,
+   "budget": 3217.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 13417.53,
+     "description": "Non-recurring Harvest program billed by Willow Creek Packaging (BILL-3148)",
+     "evidence": [
+      "bills/BILL-3148.txt"
+     ]
+    }
+   ],
+   "variance": 13575.53
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 20895.59,
+   "budget": 4648.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 15966.59,
+     "description": "Bloom launch sprint (one-time) billed by Trellis Marketing Group (BILL-3149)",
+     "evidence": [
+      "bills/BILL-3149.txt"
+     ]
+    }
+   ],
+   "variance": 16247.59
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 19223.8,
+   "budget": 2698.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 16896.8,
+     "description": "Harvest launch sprint (one-time) billed by Pillar Accounting Services (BILL-3150)",
+     "evidence": [
+      "bills/BILL-3150.txt"
+     ]
+    }
+   ],
+   "variance": 16525.8
+  }
+ ]
+}

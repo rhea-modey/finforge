@@ -1,0 +1,241 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Inventory",
+   "number": "1400"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Wholesale Sales",
+   "number": "4000"
+  },
+  {
+   "name": "Delivery Fees",
+   "number": "4100"
+  },
+  {
+   "name": "Cost of Goods Sold",
+   "number": "5000"
+  },
+  {
+   "name": "Freight & Shipping",
+   "number": "5100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Keystone Freight & Supply",
+ "files_tree_hash": "bdc62c5f8cfc7207693c1021abba716626b23096da7a0dc189e70a4ed854efcb",
+ "industry": "wholesale",
+ "split": "train",
+ "truth_records": [
+  {
+   "amount": 2777.0,
+   "detail": {
+    "bill_id": "BILL-3150",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Trellis Marketing Group"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 2825.5,
+   "detail": {
+    "asset": "Equipment (aggregate)"
+   },
+   "kind": "missing_depreciation"
+  },
+  {
+   "amount": 149.0,
+   "detail": {
+    "item": "Bellhaven Insurance Agency annual policy"
+   },
+   "kind": "missing_prepaid_amort"
+  },
+  {
+   "amount": 5761.0,
+   "detail": {
+    "bill_id": "BILL-3144",
+    "check_no": "CHK-1018",
+    "date": "2026-06-25",
+    "vendor": "Helix IT Solutions"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 14908.31,
+   "detail": {
+    "bill_id": "BILL-3147",
+    "check_no": "CHK-1017",
+    "date": "2026-06-18",
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 726.0,
+   "detail": {
+    "bill_id": "BILL-3146",
+    "check_no": "CHK-1013",
+    "date": "2026-06-08",
+    "vendor": "CloudSpan Hosting"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 4771.0,
+   "detail": {
+    "desc": "DEPOSIT ALDERGATE IN"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 61.42,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 43.32,
+   "detail": {
+    "desc": "WIRE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 34.64,
+   "detail": {},
+   "kind": "interest_unrecorded"
+  },
+  {
+   "amount": 14908.31,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3147",
+    "campaign": "Anchor",
+    "desc": "Non-recurring Anchor program",
+    "keywords": [
+     "anchor",
+     "kite"
+    ],
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 7159.27,
+   "detail": {
+    "account": "5100",
+    "bill_id": "BILL-3148",
+    "campaign": "Anchor",
+    "desc": "Non-recurring Anchor program",
+    "keywords": [
+     "anchor",
+     "willow"
+    ],
+    "vendor": "Willow Creek Packaging"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 13631.11,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3149",
+    "campaign": "Harvest",
+    "desc": "One-time Harvest initiative",
+    "keywords": [
+     "harvest",
+     "pillar"
+    ],
+    "vendor": "Pillar Accounting Services"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "w23"
+}

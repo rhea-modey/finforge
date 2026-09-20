@@ -1,0 +1,14 @@
+KEYSTONE FREIGHT & SUPPLY
+Keystone Freight & Supply
+Wholesale freight supplies and fulfillment
+
+CUSTOMER INVOICE
+Invoice: INV-2230
+Bill to: Longmont Systems
+Date: 2026-04-13
+
+Line item: Single-period freight-supply fulfillment and handling service.
+Amount due: $11,394.00
+
+Terms: Due upon receipt.
+Remit: Please reference the invoice id with payment.

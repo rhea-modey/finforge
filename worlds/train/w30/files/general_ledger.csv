@@ -1,0 +1,183 @@
+posting_date;Account;debit;credit;description
+01-Apr-2026;1000 Cash;279629.16;;Opening balances
+01-Apr-2026;1300 Prepaid Insurance;684.0;;Opening balances
+01-Apr-2026;1400 Inventory;98844.91;;Opening balances
+01-Apr-2026;1500 Equipment;147117.0;;Opening balances
+01-Apr-2026;1590 Accumulated Depreciation;;19615.6;Opening balances
+01-Apr-2026;2000 Accounts Payable;;38204.85;Opening balances
+01-Apr-2026;3000 Retained Earnings;;468454.62;Opening balances
+01-Apr-2026;1100 Accounts Receivable;33950.0;;Invoice INV-2225 - Rosewood Retail
+01-Apr-2026;4000 Product Sales;;33950.0;Invoice INV-2225 - Rosewood Retail
+01-Apr-2026;1400 Inventory;;17978.0;COGS - INV-2225
+01-Apr-2026;5000 Cost of Goods Sold;17978.0;;COGS - INV-2225
+03-Apr-2026;1100 Accounts Receivable;16631.0;;Invoice INV-2223 - Rosewood Retail
+03-Apr-2026;4000 Product Sales;;16631.0;Invoice INV-2223 - Rosewood Retail
+03-Apr-2026;1400 Inventory;;8490.0;COGS - INV-2223
+03-Apr-2026;5000 Cost of Goods Sold;8490.0;;COGS - INV-2223
+03-Apr-2026;1000 Cash;;6775.0;Rent - Grandview Properties LLC
+03-Apr-2026;6100 Rent Expense;6775.0;;Rent - Grandview Properties LLC
+04-Apr-2026;2000 Accounts Payable;;8116.0;BILL-3130 Delta Facility Services
+04-Apr-2026;6700 Office Supplies;8116.0;;BILL-3130 Delta Facility Services
+04-Apr-2026;2000 Accounts Payable;;3818.0;BILL-3134 Lumen Office Supply
+04-Apr-2026;6700 Office Supplies;3818.0;;BILL-3134 Lumen Office Supply
+06-Apr-2026;1000 Cash;;19102.42;Payment on account - opening payables
+06-Apr-2026;2000 Accounts Payable;19102.42;;Payment on account - opening payables
+09-Apr-2026;2000 Accounts Payable;;933.0;BILL-3132 Bright Harbor Media
+09-Apr-2026;6200 Advertising & Marketing;933.0;;BILL-3132 Bright Harbor Media
+12-Apr-2026;1100 Accounts Receivable;18592.0;;Invoice INV-2226 - Brockman & Hale
+12-Apr-2026;4000 Product Sales;;18592.0;Invoice INV-2226 - Brockman & Hale
+12-Apr-2026;1400 Inventory;;9066.0;COGS - INV-2226
+12-Apr-2026;5000 Cost of Goods Sold;9066.0;;COGS - INV-2226
+12-Apr-2026;1000 Cash;;8116.0;Pay BILL-3130 Delta Facility Services CHK#1003
+12-Apr-2026;2000 Accounts Payable;8116.0;;Pay BILL-3130 Delta Facility Services CHK#1003
+15-Apr-2026;1000 Cash;;50475.0;Payroll 2026-04/01-04/15
+15-Apr-2026;2300 Payroll Liabilities;;14236.0;Payroll 2026-04/01-04/15
+15-Apr-2026;6000 Salaries Expense;64711.0;;Payroll 2026-04/01-04/15
+16-Apr-2026;1000 Cash;;933.0;Pay BILL-3132 Bright Harbor Media CHK#1004
+16-Apr-2026;2000 Accounts Payable;933.0;;Pay BILL-3132 Bright Harbor Media CHK#1004
+16-Apr-2026;2000 Accounts Payable;;7714.0;BILL-3131 Inkwell Print Co.
+16-Apr-2026;6700 Office Supplies;7714.0;;BILL-3131 Inkwell Print Co.
+18-Apr-2026;1100 Accounts Receivable;13690.0;;Invoice INV-2224 - Zephyr Dynamics
+18-Apr-2026;4000 Product Sales;;13690.0;Invoice INV-2224 - Zephyr Dynamics
+18-Apr-2026;1400 Inventory;;5848.0;COGS - INV-2224
+18-Apr-2026;5000 Cost of Goods Sold;5848.0;;COGS - INV-2224
+19-Apr-2026;2000 Accounts Payable;;7484.0;BILL-3133 Zenith Freight Lines
+19-Apr-2026;5100 Freight & Shipping;7484.0;;BILL-3133 Zenith Freight Lines
+20-Apr-2026;1000 Cash;33950.0;;Deposit - Rosewood Retail INV-2225
+20-Apr-2026;1100 Accounts Receivable;;33950.0;Deposit - Rosewood Retail INV-2225
+22-Apr-2026;2000 Accounts Payable;;2954.0;BILL-3135 Meridian Legal LLP
+22-Apr-2026;6600 Professional Fees;2954.0;;BILL-3135 Meridian Legal LLP
+25-Apr-2026;1000 Cash;;7714.0;Pay BILL-3131 Inkwell Print Co. CHK#1005
+25-Apr-2026;2000 Accounts Payable;7714.0;;Pay BILL-3131 Inkwell Print Co. CHK#1005
+28-Apr-2026;1000 Cash;;50296.0;Payroll 2026-04/16-04/30
+28-Apr-2026;2300 Payroll Liabilities;;14185.0;Payroll 2026-04/16-04/30
+28-Apr-2026;6000 Salaries Expense;64481.0;;Payroll 2026-04/16-04/30
+28-Apr-2026;1300 Prepaid Insurance;;76.0;Monthly insurance amortization
+28-Apr-2026;6400 Insurance Expense;76.0;;Monthly insurance amortization
+28-Apr-2026;1590 Accumulated Depreciation;;2451.95;Monthly depreciation
+28-Apr-2026;6800 Depreciation Expense;2451.95;;Monthly depreciation
+02-May-2026;2000 Accounts Payable;;2470.0;BILL-3140 Zenith Freight Lines
+02-May-2026;5100 Freight & Shipping;2470.0;;BILL-3140 Zenith Freight Lines
+03-May-2026;1000 Cash;;6775.0;Rent - Grandview Properties LLC
+03-May-2026;6100 Rent Expense;6775.0;;Rent - Grandview Properties LLC
+03-May-2026;2000 Accounts Payable;;560.0;BILL-3138 Willow Creek Packaging
+03-May-2026;5100 Freight & Shipping;560.0;;BILL-3138 Willow Creek Packaging
+04-May-2026;1100 Accounts Receivable;14987.0;;Invoice INV-2230 - Brockman & Hale
+04-May-2026;4000 Product Sales;;14987.0;Invoice INV-2230 - Brockman & Hale
+04-May-2026;1400 Inventory;;7713.0;COGS - INV-2230
+04-May-2026;5000 Cost of Goods Sold;7713.0;;COGS - INV-2230
+05-May-2026;1000 Cash;13690.0;;Deposit - Zephyr Dynamics INV-2224
+05-May-2026;1100 Accounts Receivable;;13690.0;Deposit - Zephyr Dynamics INV-2224
+05-May-2026;1000 Cash;18592.0;;Deposit - Brockman & Hale INV-2226
+05-May-2026;1100 Accounts Receivable;;18592.0;Deposit - Brockman & Hale INV-2226
+06-May-2026;2000 Accounts Payable;;6541.0;BILL-3136 Pillar Accounting Services
+06-May-2026;6600 Professional Fees;6541.0;;BILL-3136 Pillar Accounting Services
+08-May-2026;1000 Cash;;2470.0;Pay BILL-3140 Zenith Freight Lines CHK#1007
+08-May-2026;2000 Accounts Payable;2470.0;;Pay BILL-3140 Zenith Freight Lines CHK#1007
+09-May-2026;1000 Cash;16631.0;;Deposit - Rosewood Retail INV-2223
+09-May-2026;1100 Accounts Receivable;;16631.0;Deposit - Rosewood Retail INV-2223
+13-May-2026;1100 Accounts Receivable;17946.0;;Invoice INV-2228 - Crestline Partners
+13-May-2026;4000 Product Sales;;17946.0;Invoice INV-2228 - Crestline Partners
+13-May-2026;1400 Inventory;;8659.0;COGS - INV-2228
+13-May-2026;5000 Cost of Goods Sold;8659.0;;COGS - INV-2228
+13-May-2026;1100 Accounts Receivable;23020.0;;Invoice INV-2229 - Zephyr Dynamics
+13-May-2026;4000 Product Sales;;23020.0;Invoice INV-2229 - Zephyr Dynamics
+13-May-2026;1400 Inventory;;11246.0;COGS - INV-2229
+13-May-2026;5000 Cost of Goods Sold;11246.0;;COGS - INV-2229
+13-May-2026;2000 Accounts Payable;;7628.0;BILL-3137 Meridian Legal LLP
+13-May-2026;6600 Professional Fees;7628.0;;BILL-3137 Meridian Legal LLP
+15-May-2026;1000 Cash;;47399.0;Payroll 2026-05/01-05/15
+15-May-2026;2300 Payroll Liabilities;;13368.0;Payroll 2026-05/01-05/15
+15-May-2026;6000 Salaries Expense;60767.0;;Payroll 2026-05/01-05/15
+19-May-2026;1100 Accounts Receivable;15114.0;;Invoice INV-2231 - Yardley Supply
+19-May-2026;4000 Product Sales;;15114.0;Invoice INV-2231 - Yardley Supply
+19-May-2026;1400 Inventory;;6361.0;COGS - INV-2231
+19-May-2026;5000 Cost of Goods Sold;6361.0;;COGS - INV-2231
+19-May-2026;1000 Cash;;7628.0;Pay BILL-3137 Meridian Legal LLP CHK#1008
+19-May-2026;2000 Accounts Payable;7628.0;;Pay BILL-3137 Meridian Legal LLP CHK#1008
+20-May-2026;2000 Accounts Payable;;7137.0;BILL-3139 Lumen Office Supply
+20-May-2026;6700 Office Supplies;7137.0;;BILL-3139 Lumen Office Supply
+21-May-2026;1100 Accounts Receivable;22271.0;;Invoice INV-2227 - Nordica Labs
+21-May-2026;4000 Product Sales;;22271.0;Invoice INV-2227 - Nordica Labs
+21-May-2026;1400 Inventory;;10718.0;COGS - INV-2227
+21-May-2026;5000 Cost of Goods Sold;10718.0;;COGS - INV-2227
+22-May-2026;1100 Accounts Receivable;30357.0;;Invoice INV-2232 - Brockman & Hale
+22-May-2026;4000 Product Sales;;30357.0;Invoice INV-2232 - Brockman & Hale
+22-May-2026;1400 Inventory;;16446.0;COGS - INV-2232
+22-May-2026;5000 Cost of Goods Sold;16446.0;;COGS - INV-2232
+24-May-2026;1000 Cash;;7137.0;Pay BILL-3139 Lumen Office Supply CHK#1009
+24-May-2026;2000 Accounts Payable;7137.0;;Pay BILL-3139 Lumen Office Supply CHK#1009
+28-May-2026;1000 Cash;;47469.0;Payroll 2026-05/16-05/30
+28-May-2026;2300 Payroll Liabilities;;13388.0;Payroll 2026-05/16-05/30
+28-May-2026;6000 Salaries Expense;60857.0;;Payroll 2026-05/16-05/30
+28-May-2026;1300 Prepaid Insurance;;76.0;Monthly insurance amortization
+28-May-2026;6400 Insurance Expense;76.0;;Monthly insurance amortization
+28-May-2026;1590 Accumulated Depreciation;;2451.95;Monthly depreciation
+28-May-2026;6800 Depreciation Expense;2451.95;;Monthly depreciation
+01-Jun-2026;1000 Cash;14987.0;;Deposit - Brockman & Hale INV-2230
+01-Jun-2026;1100 Accounts Receivable;;14987.0;Deposit - Brockman & Hale INV-2230
+03-Jun-2026;1000 Cash;;6775.0;Rent - Grandview Properties LLC
+03-Jun-2026;6100 Rent Expense;6775.0;;Rent - Grandview Properties LLC
+03-Jun-2026;2000 Accounts Payable;;4947.0;BILL-3144 Helix IT Solutions
+03-Jun-2026;6450 Software Expense;4947.0;;BILL-3144 Helix IT Solutions
+04-Jun-2026;1100 Accounts Receivable;27466.0;;Invoice INV-2237 - Yardley Supply
+04-Jun-2026;4000 Product Sales;;27466.0;Invoice INV-2237 - Yardley Supply
+04-Jun-2026;1400 Inventory;;14963.0;COGS - INV-2237
+04-Jun-2026;5000 Cost of Goods Sold;14963.0;;COGS - INV-2237
+05-Jun-2026;1100 Accounts Receivable;17895.0;;Invoice INV-2235 - Yardley Supply
+05-Jun-2026;4000 Product Sales;;17895.0;Invoice INV-2235 - Yardley Supply
+05-Jun-2026;1400 Inventory;;9533.0;COGS - INV-2235
+05-Jun-2026;5000 Cost of Goods Sold;9533.0;;COGS - INV-2235
+05-Jun-2026;2000 Accounts Payable;;8729.0;BILL-3143 Pillar Accounting Services
+05-Jun-2026;6600 Professional Fees;8729.0;;BILL-3143 Pillar Accounting Services
+07-Jun-2026;1000 Cash;30357.0;;Deposit - Brockman & Hale INV-2232
+07-Jun-2026;1100 Accounts Receivable;;30357.0;Deposit - Brockman & Hale INV-2232
+08-Jun-2026;2000 Accounts Payable;;19196.74;BILL-3146 Zenith Freight Lines
+08-Jun-2026;5100 Freight & Shipping;19196.74;;BILL-3146 Zenith Freight Lines
+09-Jun-2026;1000 Cash;22271.0;;Deposit - Nordica Labs INV-2227
+09-Jun-2026;1100 Accounts Receivable;;22271.0;Deposit - Nordica Labs INV-2227
+10-Jun-2026;1000 Cash;;8729.0;Pay BILL-3143 Pillar Accounting Services CHK#1011
+10-Jun-2026;2000 Accounts Payable;8729.0;;Pay BILL-3143 Pillar Accounting Services CHK#1011
+11-Jun-2026;1000 Cash;17946.0;;Deposit - Crestline Partners INV-2228
+11-Jun-2026;1100 Accounts Receivable;;17946.0;Deposit - Crestline Partners INV-2228
+11-Jun-2026;1100 Accounts Receivable;37068.0;;Invoice INV-2236 - Kelso Brands
+11-Jun-2026;4000 Product Sales;;37068.0;Invoice INV-2236 - Kelso Brands
+11-Jun-2026;1400 Inventory;;15897.0;COGS - INV-2236
+11-Jun-2026;5000 Cost of Goods Sold;15897.0;;COGS - INV-2236
+11-Jun-2026;2000 Accounts Payable;;3213.0;BILL-3148 Kite Digital Ads
+11-Jun-2026;6700 Office Supplies;3213.0;;BILL-3148 Kite Digital Ads
+12-Jun-2026;1000 Cash;19100.0;;Owner capital contribution
+12-Jun-2026;3000 Retained Earnings;;19100.0;Owner capital contribution
+13-Jun-2026;2000 Accounts Payable;;1284.0;BILL-3142 Bright Harbor Media
+13-Jun-2026;6200 Advertising & Marketing;1284.0;;BILL-3142 Bright Harbor Media
+15-Jun-2026;1000 Cash;23020.0;;Deposit - Zephyr Dynamics INV-2229
+15-Jun-2026;1100 Accounts Receivable;;23020.0;Deposit - Zephyr Dynamics INV-2229
+15-Jun-2026;1000 Cash;;19196.74;Pay BILL-3146 Zenith Freight Lines CHK#1012
+15-Jun-2026;2000 Accounts Payable;19196.74;;Pay BILL-3146 Zenith Freight Lines CHK#1012
+15-Jun-2026;1000 Cash;;42356.0;Payroll 2026-06/01-06/15
+15-Jun-2026;2300 Payroll Liabilities;;11946.0;Payroll 2026-06/01-06/15
+15-Jun-2026;6000 Salaries Expense;54302.0;;Payroll 2026-06/01-06/15
+16-Jun-2026;2000 Accounts Payable;;8523.0;BILL-3145 Ridgeline Telecom
+16-Jun-2026;6500 Utilities Expense;8523.0;;BILL-3145 Ridgeline Telecom
+17-Jun-2026;1100 Accounts Receivable;31133.0;;Invoice INV-2233 - Zephyr Dynamics
+17-Jun-2026;4100 Shipping Income;;31133.0;Invoice INV-2233 - Zephyr Dynamics
+17-Jun-2026;2000 Accounts Payable;;16038.13;BILL-3147 Meridian Legal LLP
+17-Jun-2026;6600 Professional Fees;16038.13;;BILL-3147 Meridian Legal LLP
+20-Jun-2026;1000 Cash;;8523.0;Pay BILL-3145 Ridgeline Telecom CHK#1013
+20-Jun-2026;2000 Accounts Payable;8523.0;;Pay BILL-3145 Ridgeline Telecom CHK#1013
+22-Jun-2026;1100 Accounts Receivable;36748.0;;Invoice INV-2234 - Rosewood Retail
+22-Jun-2026;4000 Product Sales;;36748.0;Invoice INV-2234 - Rosewood Retail
+22-Jun-2026;1400 Inventory;;17748.0;COGS - INV-2234
+22-Jun-2026;5000 Cost of Goods Sold;17748.0;;COGS - INV-2234
+22-Jun-2026;2000 Accounts Payable;;6759.0;BILL-3141 Willow Creek Packaging
+22-Jun-2026;5100 Freight & Shipping;6759.0;;BILL-3141 Willow Creek Packaging
+25-Jun-2026;1000 Cash;27466.0;;Deposit - Yardley Supply INV-2237
+25-Jun-2026;1100 Accounts Receivable;;27466.0;Deposit - Yardley Supply INV-2237
+25-Jun-2026;1000 Cash;;16038.13;Pay BILL-3147 Meridian Legal LLP CHK#1014
+25-Jun-2026;2000 Accounts Payable;16038.13;;Pay BILL-3147 Meridian Legal LLP CHK#1014
+28-Jun-2026;1000 Cash;15114.0;;Deposit - Yardley Supply INV-2231
+28-Jun-2026;1100 Accounts Receivable;;15114.0;Deposit - Yardley Supply INV-2231
+28-Jun-2026;1000 Cash;;6759.0;Pay BILL-3141 Willow Creek Packaging CHK#1015
+28-Jun-2026;2000 Accounts Payable;6759.0;;Pay BILL-3141 Willow Creek Packaging CHK#1015
+28-Jun-2026;1590 Accumulated Depreciation;;2451.95;Monthly depreciation
+28-Jun-2026;6800 Depreciation Expense;2451.95;;Monthly depreciation

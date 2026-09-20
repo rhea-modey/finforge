@@ -1,0 +1,248 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Subscription Revenue",
+   "number": "4000"
+  },
+  {
+   "name": "Professional Services Revenue",
+   "number": "4100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Software Subscriptions",
+   "number": "6300"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Northlight Systems Inc.",
+ "files_tree_hash": "19272a65c462b12350939feb667f0acce25b5683389250f8ede5ab8f119cbf4c",
+ "industry": "saas",
+ "split": "train",
+ "truth_records": [
+  {
+   "amount": 4246.0,
+   "detail": {
+    "bill_id": "BILL-3143",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Trellis Marketing Group"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 46524.0,
+   "detail": {
+    "pay_date": "2026-07-02",
+    "period": "2026-06/16-06/30"
+   },
+   "kind": "missing_payroll_accrual"
+  },
+  {
+   "amount": 2843.1,
+   "detail": {
+    "asset": "Equipment (aggregate)"
+   },
+   "kind": "missing_depreciation"
+  },
+  {
+   "amount": 13971.55,
+   "detail": {
+    "bill_id": "BILL-3142",
+    "check_no": "CHK-1013",
+    "date": "2026-06-20",
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 1990.0,
+   "detail": {
+    "bill_id": "BILL-3136",
+    "check_no": "CHK-1014",
+    "date": "2026-06-19",
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 9907.0,
+   "detail": {
+    "bill_id": "BILL-3138",
+    "check_no": "CHK-1011",
+    "date": "2026-06-17",
+    "vendor": "Stackline SaaS Tools"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 6108.0,
+   "detail": {
+    "bill_id": "BILL-3139",
+    "check_no": "CHK-1015",
+    "date": "2026-06-25",
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 54.0,
+   "detail": {
+    "bank_amount": 9617.0,
+    "bill_id": "BILL-3140",
+    "check_no": "CHK-1010",
+    "direction": "gl_overstated_payment",
+    "expense_acct": "6600",
+    "gl_amount": 9671.0
+   },
+   "kind": "gl_amount_error"
+  },
+  {
+   "amount": 39899.0,
+   "detail": {
+    "desc": "DEPOSIT BROCKMAN  HALE INV-2248"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 22180.0,
+   "detail": {
+    "desc": "DEPOSIT GLENROCK SOLUTIONS"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 31.61,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 48.24,
+   "detail": {
+    "desc": "WIRE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 32.79,
+   "detail": {},
+   "kind": "interest_unrecorded"
+  },
+  {
+   "amount": 25177.96,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3141",
+    "campaign": "Lighthouse",
+    "desc": "Lighthouse launch sprint (one-time)",
+    "keywords": [
+     "lighthouse",
+     "meridian"
+    ],
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 13971.55,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3142",
+    "campaign": "Velocity",
+    "desc": "Special Velocity initiative - one-off fees",
+    "keywords": [
+     "velocity",
+     "bright"
+    ],
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "w09"
+}

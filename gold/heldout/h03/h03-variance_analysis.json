@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 7448.94,
+   "keywords": [
+    "harvest",
+    "kite"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 12346.91,
+   "keywords": [
+    "catalyst",
+    "meridian"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 15957.94,
+   "budget": 8611.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 7448.94,
+     "description": "Harvest project - one-off engagement billed by Kite Digital Ads (BILL-3121)",
+     "evidence": [
+      "bills/BILL-3121.txt"
+     ]
+    }
+   ],
+   "variance": 7346.94
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 18779.91,
+   "budget": 6518.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 12346.91,
+     "description": "Catalyst project - one-off engagement billed by Meridian Legal LLP (BILL-3120)",
+     "evidence": [
+      "bills/BILL-3120.txt"
+     ]
+    }
+   ],
+   "variance": 12261.91
+  }
+ ]
+}

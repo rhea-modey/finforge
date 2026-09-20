@@ -1,0 +1,79 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 6423.52,
+   "keywords": [
+    "horizon",
+    "willow"
+   ]
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 7660.63,
+   "keywords": [
+    "momentum",
+    "kite"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 5050.55,
+   "keywords": [
+    "velocity",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 6423.52,
+   "budget": 0.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 6423.52,
+     "description": "Horizon project - one-off engagement billed by Willow Creek Packaging (BILL-3156)",
+     "evidence": [
+      "bills/BILL-3156.txt"
+     ]
+    }
+   ],
+   "variance": 6423.52
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 16243.63,
+   "budget": 8651.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 7660.63,
+     "description": "One-time Momentum initiative billed by Kite Digital Ads (BILL-3155)",
+     "evidence": [
+      "bills/BILL-3155.txt"
+     ]
+    }
+   ],
+   "variance": 7592.63
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 9583.55,
+   "budget": 4398.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 5050.55,
+     "description": "Velocity launch sprint (one-time) billed by Pillar Accounting Services (BILL-3154)",
+     "evidence": [
+      "bills/BILL-3154.txt"
+     ]
+    }
+   ],
+   "variance": 5185.55
+  }
+ ]
+}

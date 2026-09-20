@@ -1,0 +1,15 @@
+BEACON LEDGER
+Software for clear, dependable books
+
+Beacon Ledger Software
+
+INVOICE INV-2235
+Invoice date: 2026-04-07
+Prepared for: Hartwell Group
+
+Line item
+Single-period use of the Beacon Ledger cloud platform, including support.
+
+Amount due: $27,835.00
+
+Terms: Net 30. Remittance must reference the invoice identifier.

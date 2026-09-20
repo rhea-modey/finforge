@@ -1,0 +1,224 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Inventory",
+   "number": "1400"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Product Sales",
+   "number": "4000"
+  },
+  {
+   "name": "Shipping Income",
+   "number": "4100"
+  },
+  {
+   "name": "Cost of Goods Sold",
+   "number": "5000"
+  },
+  {
+   "name": "Freight & Shipping",
+   "number": "5100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Foxglove Market Inc.",
+ "files_tree_hash": "2b2bae2941d0863e777e47992c0fd3beb1168d9bad7bf3c837364b90d447a54c",
+ "industry": "ecommerce",
+ "split": "train",
+ "truth_records": [
+  {
+   "amount": 3213.0,
+   "detail": {
+    "bill_id": "BILL-3148",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 54422.0,
+   "detail": {
+    "pay_date": "2026-07-02",
+    "period": "2026-06/16-06/30"
+   },
+   "kind": "missing_payroll_accrual"
+  },
+  {
+   "amount": 76.0,
+   "detail": {
+    "item": "Hartline Mutual Insurance annual policy"
+   },
+   "kind": "missing_prepaid_amort"
+  },
+  {
+   "amount": 6759.0,
+   "detail": {
+    "bill_id": "BILL-3141",
+    "check_no": "CHK-1015",
+    "date": "2026-06-28",
+    "vendor": "Willow Creek Packaging"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 8729.0,
+   "detail": {
+    "bill_id": "BILL-3143",
+    "check_no": "CHK-1011",
+    "date": "2026-06-10",
+    "vendor": "Pillar Accounting Services"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 270.0,
+   "detail": {
+    "bank_amount": 8253.0,
+    "bill_id": "BILL-3145",
+    "check_no": "CHK-1013",
+    "direction": "gl_overstated_payment",
+    "expense_acct": "6500",
+    "gl_amount": 8523.0
+   },
+   "kind": "gl_amount_error"
+  },
+  {
+   "amount": 27466.0,
+   "detail": {
+    "desc": "DEPOSIT YARDLEY SUPP INV-2237"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 15114.0,
+   "detail": {
+    "desc": "DEPOSIT YARDLEY SUPPLY INV-2231"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 61.77,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 19196.74,
+   "detail": {
+    "account": "5100",
+    "bill_id": "BILL-3146",
+    "campaign": "Anchor",
+    "desc": "Special Anchor initiative - one-off fees",
+    "keywords": [
+     "anchor",
+     "zenith"
+    ],
+    "vendor": "Zenith Freight Lines"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 16038.13,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3147",
+    "campaign": "Summit",
+    "desc": "Special Summit initiative - one-off fees",
+    "keywords": [
+     "summit",
+     "meridian"
+    ],
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "w30"
+}

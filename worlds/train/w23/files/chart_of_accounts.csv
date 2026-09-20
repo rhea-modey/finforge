@@ -1,0 +1,27 @@
+account_number,account_name
+1000,Cash
+1100,Accounts Receivable
+1300,Prepaid Insurance
+1310,Prepaid Software
+1400,Inventory
+1500,Equipment
+1590,Accumulated Depreciation
+2000,Accounts Payable
+2100,Accrued Liabilities
+2300,Payroll Liabilities
+3000,Retained Earnings
+4000,Wholesale Sales
+4100,Delivery Fees
+5000,Cost of Goods Sold
+5100,Freight & Shipping
+6000,Salaries Expense
+6100,Rent Expense
+6200,Advertising & Marketing
+6400,Insurance Expense
+6450,Software Expense
+6500,Utilities Expense
+6600,Professional Fees
+6700,Office Supplies
+6800,Depreciation Expense
+6900,Bank Fees
+7100,Interest Income

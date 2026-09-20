@@ -1,0 +1,14 @@
+account_number,account_name,apr_budget,may_budget,jun_budget
+4000,Consulting Revenue,26973.0,63844.0,64656.0
+4100,Retainer Revenue,56734.0,0.0,21851.0
+6000,Salaries Expense,60421.0,57636.0,95458.0
+6100,Rent Expense,6362.0,6227.0,6290.0
+6200,Advertising & Marketing,0.0,4718.0,8611.0
+6400,Insurance Expense,83.0,79.0,79.0
+6450,Software Expense,0.0,0.0,0.0
+6500,Utilities Expense,0.0,873.0,0.0
+6600,Professional Fees,8598.0,11516.0,6518.0
+6700,Office Supplies,4403.0,0.0,5331.0
+6800,Depreciation Expense,1848.96,1876.96,1918.96
+6900,Bank Fees,0.0,0.0,0.0
+7100,Interest Income,0.0,0.0,0.0

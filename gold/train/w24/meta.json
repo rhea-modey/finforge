@@ -1,0 +1,209 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Consulting Revenue",
+   "number": "4000"
+  },
+  {
+   "name": "Retainer Revenue",
+   "number": "4100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Stonebridge Professional Services",
+ "files_tree_hash": "0c0b2da54a88e19469fe130b170c8618576125abc4cfc2a8ef0d2820cdf8e554",
+ "industry": "services",
+ "split": "train",
+ "truth_records": [
+  {
+   "amount": 2677.0,
+   "detail": {
+    "bill_id": "BILL-3124",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 180.0,
+   "detail": {
+    "item": "Crestwell Coverage Co. annual policy"
+   },
+   "kind": "missing_prepaid_amort"
+  },
+  {
+   "amount": 1622.0,
+   "detail": {
+    "bill_id": "BILL-3121",
+    "check_no": "CHK-1010",
+    "date": "2026-06-09",
+    "vendor": "Pillar Accounting Services"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 12365.59,
+   "detail": {
+    "bill_id": "BILL-3123",
+    "check_no": "CHK-1014",
+    "date": "2026-06-21",
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 900.0,
+   "detail": {
+    "bank_amount": 4335.0,
+    "bill_id": "BILL-3116",
+    "check_no": "CHK-1011",
+    "direction": "gl_understated_payment",
+    "expense_acct": "6500",
+    "gl_amount": 3435.0
+   },
+   "kind": "gl_amount_error"
+  },
+  {
+   "amount": 8787.0,
+   "detail": {
+    "desc": "DEPOSIT JASPER ANALY INV-2247"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 27.5,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 30.98,
+   "detail": {
+    "desc": "WIRE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 29.92,
+   "detail": {},
+   "kind": "interest_unrecorded"
+  },
+  {
+   "amount": 6011.0,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3122",
+    "campaign": "Harvest",
+    "desc": "Harvest launch sprint (one-time)",
+    "keywords": [
+     "harvest",
+     "trellis"
+    ],
+    "vendor": "Trellis Marketing Group"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 12365.59,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3123",
+    "campaign": "Anchor",
+    "desc": "One-time Anchor initiative",
+    "keywords": [
+     "anchor",
+     "meridian"
+    ],
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "w24"
+}

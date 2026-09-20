@@ -1,0 +1,57 @@
+{
+ "fallback_reasons": {
+  "bills/BILL-3126.txt": [
+   "names month 'june' but the document is dated in month(s) [4] \u2014 period confusion"
+  ],
+  "bills/BILL-3127.txt": [
+   "names month 'june' but the document is dated in month(s) [4] \u2014 period confusion"
+  ],
+  "bills/BILL-3128.txt": [
+   "names month 'june' but the document is dated in month(s) [4] \u2014 period confusion"
+  ],
+  "bills/BILL-3129.txt": [
+   "names month 'june' but the document is dated in month(s) [4] \u2014 period confusion"
+  ],
+  "invoices/INV-2237.txt": [
+   "names month 'june' but the document is dated in month(s) [4] \u2014 period confusion"
+  ],
+  "invoices/INV-2238.txt": [
+   "names month 'june' but the document is dated in month(s) [4] \u2014 period confusion"
+  ],
+  "invoices/INV-2239.txt": [
+   "names month 'june' but the document is dated in month(s) [4] \u2014 period confusion"
+  ],
+  "invoices/INV-2240.txt": [
+   "names month 'june' but the document is dated in month(s) [4] \u2014 period confusion"
+  ],
+  "invoices/INV-2241.txt": [
+   "names month 'june' but the document is dated in month(s) [4] \u2014 period confusion"
+  ]
+ },
+ "fallbacks": [
+  "bills/BILL-3126.txt",
+  "bills/BILL-3127.txt",
+  "bills/BILL-3128.txt",
+  "bills/BILL-3129.txt",
+  "invoices/INV-2237.txt",
+  "invoices/INV-2238.txt",
+  "invoices/INV-2239.txt",
+  "invoices/INV-2240.txt",
+  "invoices/INV-2241.txt"
+ ],
+ "files": {
+  "bills/BILL-3136.txt": "Meridian Legal LLP\nCounselors at law\n\nSTATEMENT FOR PROFESSIONAL SERVICES\nDocument: BILL-3136\nClient: Northlight Systems Inc.\nDate: 2026-06-15\n\nProfessional services: June general corporate legal counsel\nAmount: $1,990.00\n\nTerms: Payment shall be remitted pursuant to the engagement terms.",
+  "bills/BILL-3138.txt": "Stackline SaaS Tools\nCloud software for operating teams\n\nSERVICE BILL\nDocument: BILL-3138\nCustomer: Northlight Systems Inc.\nDate: 2026-06-09\n\nService detail: June access to hosted software tools\nAmount: $9,907.00\n\nRemittance: Please pay under the customer terms on file.",
+  "bills/BILL-3139.txt": "Meridian Legal LLP\nAttorneys and business advisers\n\nSTATEMENT OF LEGAL SERVICES\nDocument: BILL-3139\nRendered to: Northlight Systems Inc.\nDate: 2026-06-18\n\nProfessional services: June contract review and corporate advice\nAmount: $6,108.00\n\nTerms: Due in accordance with the governing engagement letter.",
+  "bills/BILL-3140.txt": "Meridian Legal LLP\nLegal counsel\n\nPROFESSIONAL SERVICES BILL\nDocument: BILL-3140\nClient: Northlight Systems Inc.\nDate: 2026-06-02\n\nProfessional services: June commercial and corporate legal work\nAmount: $9,617.00\n\nRemittance: Please remit in accordance with agreed client terms.",
+  "bills/BILL-3141.txt": "Meridian Legal LLP\nCounselors at law\n\nSPECIAL PROJECT STATEMENT\nDocument: BILL-3141\nClient: Northlight Systems Inc.\nDate: 2026-06-14\n\nProfessional services: One-time June legal support for the Lighthouse launch sprint\nAmount: $25,177.96\n\nTerms: This statement is payable pursuant to the applicable engagement terms.",
+  "bills/BILL-3142.txt": "Bright Harbor Media\nCampaign strategy and creative production\n\nPROJECT BILL\nDocument: BILL-3142\nPrepared for: Northlight Systems Inc.\nDate: 2026-06-11\n\nProject services: One-off June media and creative work for the Velocity initiative\nAmount: $13,971.55\n\nRemittance: Please pay using the client payment instructions on file.",
+  "bills/BILL-3143.txt": "Trellis Marketing Group\nEvents, field marketing and brand activation\n\nCLIENT BILL\nDocument: BILL-3143\nBill to: Northlight Systems Inc.\nDate: 2026-06-10\n\nTrade-show booth build-out and staffing - June expo\nAmount: $4,246.00\n\nTerms: Remit according to the approved client terms.",
+  "contracts/insurance_policy.txt": "COMMERCIAL PACKAGE POLICY\nDECLARATIONS\n\nNamed insured: Northlight Systems Inc.\nBroker of record: Copperfield Risk Partners\n\nPOLICY TERM\nFrom 2026-01-01 through 2026-12-31\n\nPREMIUM\nTotal policy premium: $1,524.00\nThe premium is paid in full at inception.\n\nACCOUNTING TREATMENT\nFor accounting purposes, the premium is amortized straight-line over the term, with a full month recognized in each month in force.\n\nThese declarations summarize the named insured, broker, policy term and premium. Coverage remains subject to all applicable policy forms, conditions, limitations and exclusions.",
+  "notes/close_checklist.md": "# June 2026 close \u2014 controller checklist\n\nPrepared by J. Prather. Complete in sequence; no shortcuts.\n\n1. Reconcile operating cash to the June bank statement. For every book-side item identified by the reconciliation, prepare one correcting journal entry per item.\n2. Review the payroll register for any pay period ending after 6/30 that pays in July. If one exists, accrue the full gross wages to Accrued Liabilities; some months all payroll runs pay in-month.\n3. Confirm June prepaid amortization against the prepaid schedule and supporting contracts. Check the GL first to prevent duplication. If the amortization is missing, book ONE combined journal entry. Apply the convention that a full month is taken in the month each prepaid item begins.\n4. Book June depreciation per the fixed asset register, after verifying the GL to ensure it has not already been recorded.\n5. Compare the June vendor-bill documents with the GL coding. Verify that each bill is charged to the correct expense account and reclass anything miscoded.\n6. Prepare June budget-vs-actual variance commentary on an as-closed basis, after all entries and corrections from steps 1-5 have been booked.",
+  "notes/company_background.md": "# Company background\n\nNorthlight Systems Inc. began in 2018 when a product manager and a software engineer grew tired of watching small operating teams coordinate important work through scattered spreadsheets, inbox threads, and improvised checklists. They built a lightweight internal tool, shared it with a few former colleagues, and found that the same problem appeared across many service businesses.\n\nToday, Northlight Systems Inc. sells a hosted workflow platform that helps customers organize recurring processes, assign ownership, collect approvals, and keep a clear record of completed work. The product is designed for teams that need structure without the overhead of a large enterprise system. Implementation is intentionally practical, with templates, guided setup, and responsive customer support.\n\nThe company remains small and hands-on. Engineers regularly join customer calls, the support team contributes product ideas, and sales works closely with marketing rather than operating as a separate silo. Internal communication tends to be direct, friendly, and rich in shorthand developed over years of working together.\n\nThe current focus is steady execution: improving onboarding, refining reporting, strengthening partner relationships, and making the platform easier to adopt across customer departments. Leadership is also tightening routine operating processes as the business matures, while preserving the approachable culture that shaped the original product.",
+  "notes/marketing_plan_h2.md": "# H2 marketing plan \u2014 working draft\n\n## Direction\n\nPosition Northlight Systems Inc. as the practical workflow platform for teams that have outgrown shared spreadsheets but do not want a heavy enterprise rollout. Keep the voice clear, useful, and grounded in day-to-day operating problems.\n\n## Priorities\n\n- Refresh core messaging and visual presentation across the website, sales materials, and product tours.\n- Run two educational webinars per quarter, built around real workflow challenges rather than broad product demonstrations.\n- Pilot partner co-marketing with a small group of implementation advisers and complementary software providers.\n- Develop customer stories that show faster handoffs, clearer ownership, and more consistent process completion.\n- Create a reusable campaign kit for sales, including short guides, email copy, webinar follow-up, and role-specific landing pages.\n\n## Audience\n\nConcentrate on operations leaders, department managers, and growing service teams that need repeatable processes without extensive administration.\n\n## Measurement\n\nTrack qualified engagement, webinar participation, partner-sourced conversations, content-assisted opportunities, and movement from initial interest to product evaluation. Review results with sales each quarter and adjust topics based on customer questions.\n\n## Open items\n\nConfirm campaign sequencing after the Q2 close, identify willing customer storytellers, and select the first partner pilot. Final channel mix remains subject to team capacity.",
+  "notes/prior_accountant_memo.md": "# Handoff from the prior staff accountant\n\nJ. Prather \u2014 a few things worth knowing before you finish the close:\n\n- The bank's own service fees and charges usually appear near the end of the statement. They have historically been picked up and booked during the close, so check the final statement activity carefully.\n- June moved fast, and some vendor-bill expense coding may be off. Compare the GL with the source documents in `bills/`; those documents are authoritative. Reclass anything that landed in the wrong account.\n- The budget was fixed early, at the start of Q2. The one-off June items were never planned, and they should explain most of the larger budget-to-actual variances.\n- Payroll timing matters this month: the back half of June pays out in early July. Use the payroll register for the exact timing."
+ },
+ "model": "gpt-5.6-sol"
+}

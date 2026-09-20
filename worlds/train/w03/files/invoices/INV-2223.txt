@@ -1,0 +1,14 @@
+Granite Peak Distribution
+WHOLESALE INVOICE
+
+Invoice: INV-2223
+Customer: Nordica Labs
+Date: 2026-04-14
+
+DESCRIPTION
+Wholesale product fulfillment and distribution for one billing period.
+
+Amount due: $39,786.00
+
+Terms: Net 30.
+Remittance: Reference INV-2223 on payment advice.

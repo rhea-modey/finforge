@@ -1,0 +1,16 @@
+Copper Kettle Trading
+ECOMMERCE SALES INVOICE
+
+Document: INV-2219
+Date: 2026-04-10
+
+Sold to:
+Vesper Technologies
+
+Description:
+Merchandise supply, packing, and fulfillment for the current trading period.
+
+Amount due: $40,259.00
+
+Terms: Net 30
+Please remit under the agreed account terms and quote the document id.

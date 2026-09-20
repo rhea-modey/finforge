@@ -1,0 +1,27 @@
+account_number,account_name,debit_balance,credit_balance
+1000,Cash,493127.0,
+1100,Accounts Receivable,189375.0,
+1300,Prepaid Insurance,762.0,
+1310,Prepaid Software,,
+1400,Inventory,,39484.78
+1500,Equipment,142654.0,
+1590,Accumulated Depreciation,,35663.4
+2000,Accounts Payable,,55072.49
+2100,Accrued Liabilities,,
+2300,Payroll Liabilities,,65789.0
+3000,Retained Earnings,,692832.01
+4000,Product Revenue,,254401.0
+4100,Tooling & Setup Fees,,278444.0
+5000,Cost of Goods Sold,132275.0,
+5200,Shop Supplies,8145.0,
+6000,Salaries Expense,299051.0,
+6100,Rent Expense,26913.0,
+6200,Advertising & Marketing,24451.36,
+6400,Insurance Expense,381.0,
+6450,Software Expense,10348.0,
+6500,Utilities Expense,10280.0,
+6600,Professional Fees,57716.2,
+6700,Office Supplies,21453.0,
+6800,Depreciation Expense,4755.12,
+6900,Bank Fees,,
+7100,Interest Income,,

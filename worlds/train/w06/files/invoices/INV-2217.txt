@@ -1,0 +1,18 @@
+COPPER KETTLE TRADING
+Copper Kettle Trading
+Commerce Supply & Fulfillment
+
+SALES INVOICE
+Document: INV-2217
+Date: 2026-04-24
+
+Bill to:
+Vesper Technologies
+
+Line item:
+Merchandise supply and order fulfillment for the current trading period.
+
+Amount due: $20,155.00
+
+Terms: Net 30
+Remit to Copper Kettle Trading and include the document id with payment.

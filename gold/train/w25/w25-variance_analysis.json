@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 10957.31,
+   "keywords": [
+    "northstar",
+    "trellis"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 9821.81,
+   "keywords": [
+    "summit",
+    "meridian"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 16522.31,
+   "budget": 5480.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 10957.31,
+     "description": "Special Northstar initiative - one-off fees billed by Trellis Marketing Group (BILL-3150)",
+     "evidence": [
+      "bills/BILL-3150.txt"
+     ]
+    }
+   ],
+   "variance": 11042.31
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 9821.81,
+   "budget": 0.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 9821.81,
+     "description": "One-time Summit initiative billed by Meridian Legal LLP (BILL-3149)",
+     "evidence": [
+      "bills/BILL-3149.txt"
+     ]
+    }
+   ],
+   "variance": 9821.81
+  }
+ ]
+}

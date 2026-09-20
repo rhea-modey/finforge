@@ -1,0 +1,164 @@
+Date;gl_account;dr;Credit;Memo
+04/01/2026;1000 Cash;342231.96;;Opening balances
+04/01/2026;1300 Prepaid Insurance;1287.0;;Opening balances
+04/01/2026;1500 Equipment;123560.0;;Opening balances
+04/01/2026;1590 Accumulated Depreciation;;20593.3;Opening balances
+04/01/2026;2000 Accounts Payable;;39859.08;Opening balances
+04/01/2026;3000 Retained Earnings;;406626.58;Opening balances
+04/02/2026;1100 Accounts Receivable;13813.0;;Invoice INV-2237 - Nordica Labs
+04/02/2026;4000 Subscription Revenue;;13813.0;Invoice INV-2237 - Nordica Labs
+04/03/2026;1000 Cash;;9469.0;Rent - Grandview Properties LLC
+04/03/2026;6100 Rent Expense;9469.0;;Rent - Grandview Properties LLC
+04/06/2026;1000 Cash;;19929.54;Payment on account - opening payables
+04/06/2026;2000 Accounts Payable;19929.54;;Payment on account - opening payables
+04/06/2026;2000 Accounts Payable;;642.0;BILL-3120 Meridian Legal LLP
+04/06/2026;6600 Professional Fees;642.0;;BILL-3120 Meridian Legal LLP
+04/07/2026;1100 Accounts Receivable;6068.0;;Invoice INV-2234 - Rosewood Retail
+04/07/2026;4100 Professional Services Revenue;;6068.0;Invoice INV-2234 - Rosewood Retail
+04/07/2026;1100 Accounts Receivable;27835.0;;Invoice INV-2235 - Hartwell Group
+04/07/2026;4000 Subscription Revenue;;27835.0;Invoice INV-2235 - Hartwell Group
+04/11/2026;1100 Accounts Receivable;17893.0;;Invoice INV-2233 - Ferrell Industries
+04/11/2026;4100 Professional Services Revenue;;17893.0;Invoice INV-2233 - Ferrell Industries
+04/12/2026;1100 Accounts Receivable;12238.0;;Invoice INV-2236 - Dunmore Holdings
+04/12/2026;4000 Subscription Revenue;;12238.0;Invoice INV-2236 - Dunmore Holdings
+04/13/2026;1000 Cash;;642.0;Pay BILL-3120 Meridian Legal LLP CHK#1003
+04/13/2026;2000 Accounts Payable;642.0;;Pay BILL-3120 Meridian Legal LLP CHK#1003
+04/15/2026;2000 Accounts Payable;;1797.0;BILL-3116 Trellis Marketing Group
+04/15/2026;6200 Advertising & Marketing;1797.0;;BILL-3116 Trellis Marketing Group
+04/15/2026;1000 Cash;;24670.0;Payroll 2026-04/01-04/15
+04/15/2026;2300 Payroll Liabilities;;6957.0;Payroll 2026-04/01-04/15
+04/15/2026;6000 Salaries Expense;31627.0;;Payroll 2026-04/01-04/15
+04/17/2026;1100 Accounts Receivable;19147.0;;Invoice INV-2238 - Rosewood Retail
+04/17/2026;4000 Subscription Revenue;;19147.0;Invoice INV-2238 - Rosewood Retail
+04/21/2026;2000 Accounts Payable;;3800.0;BILL-3115 Stackline SaaS Tools
+04/21/2026;6300 Software Subscriptions;3800.0;;BILL-3115 Stackline SaaS Tools
+04/21/2026;2000 Accounts Payable;;2744.0;BILL-3118 Junction Utility Co-op
+04/21/2026;6500 Utilities Expense;2744.0;;BILL-3118 Junction Utility Co-op
+04/21/2026;2000 Accounts Payable;;6310.0;BILL-3119 Delta Facility Services
+04/21/2026;6700 Office Supplies;6310.0;;BILL-3119 Delta Facility Services
+04/22/2026;1100 Accounts Receivable;26067.0;;Invoice INV-2239 - Hartwell Group
+04/22/2026;4100 Professional Services Revenue;;26067.0;Invoice INV-2239 - Hartwell Group
+04/22/2026;2000 Accounts Payable;;7403.0;BILL-3117 Helix IT Solutions
+04/22/2026;6450 Software Expense;7403.0;;BILL-3117 Helix IT Solutions
+04/23/2026;1000 Cash;13813.0;;Deposit - Nordica Labs INV-2237
+04/23/2026;1100 Accounts Receivable;;13813.0;Deposit - Nordica Labs INV-2237
+04/28/2026;1000 Cash;;3800.0;Pay BILL-3115 Stackline SaaS Tools CHK#1004
+04/28/2026;2000 Accounts Payable;3800.0;;Pay BILL-3115 Stackline SaaS Tools CHK#1004
+04/28/2026;1000 Cash;;2744.0;Pay BILL-3118 Junction Utility Co-op CHK#1005
+04/28/2026;2000 Accounts Payable;2744.0;;Pay BILL-3118 Junction Utility Co-op CHK#1005
+04/28/2026;1000 Cash;;6310.0;Pay BILL-3119 Delta Facility Services CHK#1006
+04/28/2026;2000 Accounts Payable;6310.0;;Pay BILL-3119 Delta Facility Services CHK#1006
+04/28/2026;1000 Cash;;24740.0;Payroll 2026-04/16-04/30
+04/28/2026;2300 Payroll Liabilities;;6977.0;Payroll 2026-04/16-04/30
+04/28/2026;6000 Salaries Expense;31717.0;;Payroll 2026-04/16-04/30
+04/28/2026;1300 Prepaid Insurance;;143.0;Monthly insurance amortization
+04/28/2026;6400 Insurance Expense;143.0;;Monthly insurance amortization
+04/28/2026;1590 Accumulated Depreciation;;2059.33;Monthly depreciation
+04/28/2026;6800 Depreciation Expense;2059.33;;Monthly depreciation
+05/03/2026;1100 Accounts Receivable;10994.0;;Invoice INV-2243 - Ferrell Industries
+05/03/2026;4000 Subscription Revenue;;10994.0;Invoice INV-2243 - Ferrell Industries
+05/03/2026;1000 Cash;;9469.0;Rent - Grandview Properties LLC
+05/03/2026;6100 Rent Expense;9469.0;;Rent - Grandview Properties LLC
+05/04/2026;1000 Cash;6068.0;;Deposit - Rosewood Retail INV-2234
+05/04/2026;1100 Accounts Receivable;;6068.0;Deposit - Rosewood Retail INV-2234
+05/04/2026;2000 Accounts Payable;;2648.0;BILL-3123 Stackline SaaS Tools
+05/04/2026;6300 Software Subscriptions;2648.0;;BILL-3123 Stackline SaaS Tools
+05/05/2026;1000 Cash;17893.0;;Deposit - Ferrell Industries INV-2233
+05/05/2026;1100 Accounts Receivable;;17893.0;Deposit - Ferrell Industries INV-2233
+05/06/2026;1100 Accounts Receivable;22658.0;;Invoice INV-2240 - Hartwell Group
+05/06/2026;4100 Professional Services Revenue;;22658.0;Invoice INV-2240 - Hartwell Group
+05/08/2026;1000 Cash;27835.0;;Deposit - Hartwell Group INV-2235
+05/08/2026;1100 Accounts Receivable;;27835.0;Deposit - Hartwell Group INV-2235
+05/08/2026;1100 Accounts Receivable;23981.0;;Invoice INV-2241 - Hartwell Group
+05/08/2026;4000 Subscription Revenue;;23981.0;Invoice INV-2241 - Hartwell Group
+05/09/2026;1000 Cash;12238.0;;Deposit - Dunmore Holdings INV-2236
+05/09/2026;1100 Accounts Receivable;;12238.0;Deposit - Dunmore Holdings INV-2236
+05/12/2026;2000 Accounts Payable;;1192.0;BILL-3122 Pillar Accounting Services
+05/12/2026;6600 Professional Fees;1192.0;;BILL-3122 Pillar Accounting Services
+05/13/2026;1000 Cash;19147.0;;Deposit - Rosewood Retail INV-2238
+05/13/2026;1100 Accounts Receivable;;19147.0;Deposit - Rosewood Retail INV-2238
+05/13/2026;2000 Accounts Payable;;3174.0;BILL-3121 Clearbyte Cloud Services
+05/13/2026;6300 Software Subscriptions;3174.0;;BILL-3121 Clearbyte Cloud Services
+05/15/2026;1100 Accounts Receivable;22822.0;;Invoice INV-2242 - Rosewood Retail
+05/15/2026;4000 Subscription Revenue;;22822.0;Invoice INV-2242 - Rosewood Retail
+05/15/2026;1000 Cash;;49564.0;Payroll 2026-05/01-05/15
+05/15/2026;2300 Payroll Liabilities;;13979.0;Payroll 2026-05/01-05/15
+05/15/2026;6000 Salaries Expense;63543.0;;Payroll 2026-05/01-05/15
+05/16/2026;2000 Accounts Payable;;2846.0;BILL-3124 Lumen Office Supply
+05/16/2026;6700 Office Supplies;2846.0;;BILL-3124 Lumen Office Supply
+05/21/2026;1000 Cash;22658.0;;Deposit - Hartwell Group INV-2240
+05/21/2026;1100 Accounts Receivable;;22658.0;Deposit - Hartwell Group INV-2240
+05/22/2026;1100 Accounts Receivable;26317.0;;Invoice INV-2244 - Birchfield Foods
+05/22/2026;4000 Subscription Revenue;;26317.0;Invoice INV-2244 - Birchfield Foods
+05/22/2026;1100 Accounts Receivable;8092.0;;Invoice INV-2245 - Birchfield Foods
+05/22/2026;4000 Subscription Revenue;;8092.0;Invoice INV-2245 - Birchfield Foods
+05/28/2026;1000 Cash;;49595.0;Payroll 2026-05/16-05/30
+05/28/2026;2300 Payroll Liabilities;;13988.0;Payroll 2026-05/16-05/30
+05/28/2026;6000 Salaries Expense;63583.0;;Payroll 2026-05/16-05/30
+05/28/2026;1300 Prepaid Insurance;;143.0;Monthly insurance amortization
+05/28/2026;6400 Insurance Expense;143.0;;Monthly insurance amortization
+05/28/2026;1590 Accumulated Depreciation;;2059.33;Monthly depreciation
+05/28/2026;6800 Depreciation Expense;2059.33;;Monthly depreciation
+06/02/2026;1000 Cash;10994.0;;Deposit - Ferrell Industries INV-2243
+06/02/2026;1100 Accounts Receivable;;10994.0;Deposit - Ferrell Industries INV-2243
+06/03/2026;1000 Cash;;9469.0;Rent - Grandview Properties LLC
+06/03/2026;6100 Rent Expense;9469.0;;Rent - Grandview Properties LLC
+06/04/2026;1000 Cash;26067.0;;Deposit - Hartwell Group INV-2239
+06/04/2026;1100 Accounts Receivable;;26067.0;Deposit - Hartwell Group INV-2239
+06/04/2026;1000 Cash;23981.0;;Deposit - Hartwell Group INV-2241
+06/04/2026;1100 Accounts Receivable;;23981.0;Deposit - Hartwell Group INV-2241
+06/05/2026;1000 Cash;;1056.0;Prepaid software - 12 month license (Bytefield Systems LLC)
+06/05/2026;1310 Prepaid Software;1056.0;;Prepaid software - 12 month license (Bytefield Systems LLC)
+06/07/2026;1100 Accounts Receivable;19608.0;;Invoice INV-2248 - Ferrell Industries
+06/07/2026;4000 Subscription Revenue;;19608.0;Invoice INV-2248 - Ferrell Industries
+06/07/2026;2000 Accounts Payable;;5798.0;BILL-3133 Trellis Marketing Group
+06/07/2026;6700 Office Supplies;5798.0;;BILL-3133 Trellis Marketing Group
+06/08/2026;1100 Accounts Receivable;21140.0;;Invoice INV-2247 - Kelso Brands
+06/08/2026;4000 Subscription Revenue;;21140.0;Invoice INV-2247 - Kelso Brands
+06/08/2026;2000 Accounts Payable;;6918.0;BILL-3126 Stackline SaaS Tools
+06/08/2026;6300 Software Subscriptions;6918.0;;BILL-3126 Stackline SaaS Tools
+06/09/2026;1100 Accounts Receivable;13065.0;;Invoice INV-2246 - Kelso Brands
+06/09/2026;4100 Professional Services Revenue;;13065.0;Invoice INV-2246 - Kelso Brands
+06/12/2026;1000 Cash;15438.0;;Owner capital contribution
+06/12/2026;3000 Retained Earnings;;15438.0;Owner capital contribution
+06/13/2026;1100 Accounts Receivable;32571.0;;Invoice INV-2250 - Kelso Brands
+06/13/2026;4000 Subscription Revenue;;32571.0;Invoice INV-2250 - Kelso Brands
+06/13/2026;2000 Accounts Payable;;2637.0;BILL-3128 Meridian Legal LLP
+06/13/2026;6600 Professional Fees;2637.0;;BILL-3128 Meridian Legal LLP
+06/13/2026;2000 Accounts Payable;;736.0;BILL-3129 Helix IT Solutions
+06/13/2026;6450 Software Expense;736.0;;BILL-3129 Helix IT Solutions
+06/15/2026;2000 Accounts Payable;;10231.84;BILL-3132 Pillar Accounting Services
+06/15/2026;6600 Professional Fees;10231.84;;BILL-3132 Pillar Accounting Services
+06/15/2026;1000 Cash;;45745.0;Payroll 2026-06/01-06/15
+06/15/2026;2300 Payroll Liabilities;;12902.0;Payroll 2026-06/01-06/15
+06/15/2026;6000 Salaries Expense;58647.0;;Payroll 2026-06/01-06/15
+06/16/2026;1000 Cash;;5798.0;Pay BILL-3133 Trellis Marketing Group CHK#1009
+06/16/2026;2000 Accounts Payable;5798.0;;Pay BILL-3133 Trellis Marketing Group CHK#1009
+06/17/2026;1100 Accounts Receivable;29890.0;;Invoice INV-2249 - Ferrell Industries
+06/17/2026;4000 Subscription Revenue;;29890.0;Invoice INV-2249 - Ferrell Industries
+06/17/2026;2000 Accounts Payable;;5692.0;BILL-3125 Junction Utility Co-op
+06/17/2026;6500 Utilities Expense;5692.0;;BILL-3125 Junction Utility Co-op
+06/18/2026;1000 Cash;;2637.0;Pay BILL-3128 Meridian Legal LLP CHK#1010
+06/18/2026;2000 Accounts Payable;2637.0;;Pay BILL-3128 Meridian Legal LLP CHK#1010
+06/18/2026;1000 Cash;;736.0;Pay BILL-3129 Helix IT Solutions CHK#1011
+06/18/2026;2000 Accounts Payable;736.0;;Pay BILL-3129 Helix IT Solutions CHK#1011
+06/18/2026;2000 Accounts Payable;;12081.17;BILL-3131 Trellis Marketing Group
+06/18/2026;6200 Advertising & Marketing;12081.17;;BILL-3131 Trellis Marketing Group
+06/19/2026;1000 Cash;22822.0;;Deposit - Rosewood Retail INV-2242
+06/19/2026;1100 Accounts Receivable;;22822.0;Deposit - Rosewood Retail INV-2242
+06/21/2026;1000 Cash;;10231.84;Pay BILL-3132 Pillar Accounting Services CHK#1012
+06/21/2026;2000 Accounts Payable;10231.84;;Pay BILL-3132 Pillar Accounting Services CHK#1012
+06/22/2026;1000 Cash;8092.0;;Deposit - Birchfield Foods INV-2245
+06/22/2026;1100 Accounts Receivable;;8092.0;Deposit - Birchfield Foods INV-2245
+06/22/2026;2000 Accounts Payable;;6915.0;BILL-3127 Uptown Catering Co.
+06/22/2026;6700 Office Supplies;6915.0;;BILL-3127 Uptown Catering Co.
+06/22/2026;2000 Accounts Payable;;6989.0;BILL-3130 Helix IT Solutions
+06/22/2026;6450 Software Expense;6989.0;;BILL-3130 Helix IT Solutions
+06/23/2026;1000 Cash;;12081.17;Pay BILL-3131 Trellis Marketing Group CHK#1014
+06/23/2026;2000 Accounts Payable;12081.17;;Pay BILL-3131 Trellis Marketing Group CHK#1014
+06/24/2026;1000 Cash;;5692.0;Pay BILL-3125 Junction Utility Co-op CHK#1013
+06/24/2026;2000 Accounts Payable;5692.0;;Pay BILL-3125 Junction Utility Co-op CHK#1013
+06/28/2026;1000 Cash;19608.0;;Deposit - Ferrell Industries INV-2248
+06/28/2026;1100 Accounts Receivable;;19608.0;Deposit - Ferrell Industries INV-2248
+06/28/2026;1000 Cash;;6915.0;Pay BILL-3127 Uptown Catering Co. CHK#1015
+06/28/2026;2000 Accounts Payable;6915.0;;Pay BILL-3127 Uptown Catering Co. CHK#1015

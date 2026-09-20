@@ -1,0 +1,172 @@
+Date,Account,debit,credit,memo
+01-Apr-2026,1000 Cash,241651.81,,Opening balances
+01-Apr-2026,1300 Prepaid Insurance,765.0,,Opening balances
+01-Apr-2026,1500 Equipment,108496.0,,Opening balances
+01-Apr-2026,1590 Accumulated Depreciation,,28932.16,Opening balances
+01-Apr-2026,2000 Accounts Payable,,54146.29,Opening balances
+01-Apr-2026,3000 Retained Earnings,,267834.36,Opening balances
+03-Apr-2026,1000 Cash,,11672.0,Rent - Harborstone Realty Partners
+03-Apr-2026,6100 Rent Expense,11672.0,,Rent - Harborstone Realty Partners
+04-Apr-2026,2000 Accounts Payable,,5597.0,BILL-3131 Bright Harbor Media
+04-Apr-2026,6200 Advertising & Marketing,5597.0,,BILL-3131 Bright Harbor Media
+05-Apr-2026,1100 Accounts Receivable,35456.0,,Invoice INV-2219 - Kelso Brands
+05-Apr-2026,4000 Subscription Revenue,,35456.0,Invoice INV-2219 - Kelso Brands
+05-Apr-2026,1100 Accounts Receivable,30969.0,,Invoice INV-2221 - Kelso Brands
+05-Apr-2026,4100 Professional Services Revenue,,30969.0,Invoice INV-2221 - Kelso Brands
+06-Apr-2026,1000 Cash,,27073.14,Payment on account - opening payables
+06-Apr-2026,2000 Accounts Payable,27073.14,,Payment on account - opening payables
+07-Apr-2026,2000 Accounts Payable,,5761.0,BILL-3130 Ridgeline Telecom
+07-Apr-2026,6500 Utilities Expense,5761.0,,BILL-3130 Ridgeline Telecom
+08-Apr-2026,2000 Accounts Payable,,2267.0,BILL-3133 Bright Harbor Media
+08-Apr-2026,6200 Advertising & Marketing,2267.0,,BILL-3133 Bright Harbor Media
+09-Apr-2026,1100 Accounts Receivable,13216.0,,Invoice INV-2220 - Longmont Systems
+09-Apr-2026,4000 Subscription Revenue,,13216.0,Invoice INV-2220 - Longmont Systems
+09-Apr-2026,1100 Accounts Receivable,10985.0,,Invoice INV-2222 - Jasper Analytics
+09-Apr-2026,4000 Subscription Revenue,,10985.0,Invoice INV-2222 - Jasper Analytics
+09-Apr-2026,2000 Accounts Payable,,2214.0,BILL-3129 Kite Digital Ads
+09-Apr-2026,6200 Advertising & Marketing,2214.0,,BILL-3129 Kite Digital Ads
+11-Apr-2026,2000 Accounts Payable,,1962.0,BILL-3128 Uptown Catering Co.
+11-Apr-2026,6700 Office Supplies,1962.0,,BILL-3128 Uptown Catering Co.
+12-Apr-2026,1000 Cash,,5597.0,Pay BILL-3131 Bright Harbor Media CHK#1003
+12-Apr-2026,2000 Accounts Payable,5597.0,,Pay BILL-3131 Bright Harbor Media CHK#1003
+13-Apr-2026,1000 Cash,,2214.0,Pay BILL-3129 Kite Digital Ads CHK#1005
+13-Apr-2026,2000 Accounts Payable,2214.0,,Pay BILL-3129 Kite Digital Ads CHK#1005
+15-Apr-2026,1100 Accounts Receivable,13981.0,,Invoice INV-2223 - Hartwell Group
+15-Apr-2026,4000 Subscription Revenue,,13981.0,Invoice INV-2223 - Hartwell Group
+15-Apr-2026,1000 Cash,,41495.0,Payroll 2026-04/01-04/15
+15-Apr-2026,2300 Payroll Liabilities,,11703.0,Payroll 2026-04/01-04/15
+15-Apr-2026,6000 Salaries Expense,53198.0,,Payroll 2026-04/01-04/15
+16-Apr-2026,1000 Cash,,2267.0,Pay BILL-3133 Bright Harbor Media CHK#1004
+16-Apr-2026,2000 Accounts Payable,2267.0,,Pay BILL-3133 Bright Harbor Media CHK#1004
+17-Apr-2026,1000 Cash,,1962.0,Pay BILL-3128 Uptown Catering Co. CHK#1006
+17-Apr-2026,2000 Accounts Payable,1962.0,,Pay BILL-3128 Uptown Catering Co. CHK#1006
+17-Apr-2026,2000 Accounts Payable,,5883.0,BILL-3132 Pillar Accounting Services
+17-Apr-2026,6600 Professional Fees,5883.0,,BILL-3132 Pillar Accounting Services
+19-Apr-2026,1000 Cash,35456.0,,Deposit - Kelso Brands INV-2219
+19-Apr-2026,1100 Accounts Receivable,,35456.0,Deposit - Kelso Brands INV-2219
+19-Apr-2026,1000 Cash,30969.0,,Deposit - Kelso Brands INV-2221
+19-Apr-2026,1100 Accounts Receivable,,30969.0,Deposit - Kelso Brands INV-2221
+22-Apr-2026,1000 Cash,10985.0,,Deposit - Jasper Analytics INV-2222
+22-Apr-2026,1100 Accounts Receivable,,10985.0,Deposit - Jasper Analytics INV-2222
+26-Apr-2026,1000 Cash,,5883.0,Pay BILL-3132 Pillar Accounting Services CHK#1007
+26-Apr-2026,2000 Accounts Payable,5883.0,,Pay BILL-3132 Pillar Accounting Services CHK#1007
+28-Apr-2026,1000 Cash,,41472.0,Payroll 2026-04/16-04/30
+28-Apr-2026,2300 Payroll Liabilities,,11696.0,Payroll 2026-04/16-04/30
+28-Apr-2026,6000 Salaries Expense,53168.0,,Payroll 2026-04/16-04/30
+28-Apr-2026,1300 Prepaid Insurance,,85.0,Monthly insurance amortization
+28-Apr-2026,6400 Insurance Expense,85.0,,Monthly insurance amortization
+28-Apr-2026,1590 Accumulated Depreciation,,1808.26,Monthly depreciation
+28-Apr-2026,6800 Depreciation Expense,1808.26,,Monthly depreciation
+02-May-2026,2000 Accounts Payable,,7458.0,BILL-3136 Junction Utility Co-op
+02-May-2026,6500 Utilities Expense,7458.0,,BILL-3136 Junction Utility Co-op
+03-May-2026,1100 Accounts Receivable,7274.0,,Invoice INV-2228 - Aldergate Insurance
+03-May-2026,4000 Subscription Revenue,,7274.0,Invoice INV-2228 - Aldergate Insurance
+03-May-2026,1000 Cash,,11672.0,Rent - Harborstone Realty Partners
+03-May-2026,6100 Rent Expense,11672.0,,Rent - Harborstone Realty Partners
+03-May-2026,2000 Accounts Payable,,1834.0,BILL-3138 Inkwell Print Co.
+03-May-2026,6700 Office Supplies,1834.0,,BILL-3138 Inkwell Print Co.
+05-May-2026,2000 Accounts Payable,,2663.0,BILL-3139 Trellis Marketing Group
+05-May-2026,6200 Advertising & Marketing,2663.0,,BILL-3139 Trellis Marketing Group
+09-May-2026,1100 Accounts Receivable,32198.0,,Invoice INV-2227 - Longmont Systems
+09-May-2026,4000 Subscription Revenue,,32198.0,Invoice INV-2227 - Longmont Systems
+09-May-2026,1000 Cash,,1834.0,Pay BILL-3138 Inkwell Print Co. CHK#1009
+09-May-2026,2000 Accounts Payable,1834.0,,Pay BILL-3138 Inkwell Print Co. CHK#1009
+10-May-2026,1100 Accounts Receivable,36345.0,,Invoice INV-2229 - Jasper Analytics
+10-May-2026,4100 Professional Services Revenue,,36345.0,Invoice INV-2229 - Jasper Analytics
+11-May-2026,2000 Accounts Payable,,587.0,BILL-3137 Kite Digital Ads
+11-May-2026,6200 Advertising & Marketing,587.0,,BILL-3137 Kite Digital Ads
+14-May-2026,1000 Cash,,587.0,Pay BILL-3137 Kite Digital Ads CHK#1010
+14-May-2026,2000 Accounts Payable,587.0,,Pay BILL-3137 Kite Digital Ads CHK#1010
+15-May-2026,1000 Cash,13216.0,,Deposit - Longmont Systems INV-2220
+15-May-2026,1100 Accounts Receivable,,13216.0,Deposit - Longmont Systems INV-2220
+15-May-2026,2000 Accounts Payable,,7212.0,BILL-3134 CloudSpan Hosting
+15-May-2026,6450 Software Expense,7212.0,,BILL-3134 CloudSpan Hosting
+15-May-2026,1000 Cash,,54422.0,Payroll 2026-05/01-05/15
+15-May-2026,2300 Payroll Liabilities,,15349.0,Payroll 2026-05/01-05/15
+15-May-2026,6000 Salaries Expense,69771.0,,Payroll 2026-05/01-05/15
+16-May-2026,1000 Cash,7274.0,,Deposit - Aldergate Insurance INV-2228
+16-May-2026,1100 Accounts Receivable,,7274.0,Deposit - Aldergate Insurance INV-2228
+18-May-2026,1100 Accounts Receivable,8497.0,,Invoice INV-2225 - Hartwell Group
+18-May-2026,4100 Professional Services Revenue,,8497.0,Invoice INV-2225 - Hartwell Group
+19-May-2026,1100 Accounts Receivable,26479.0,,Invoice INV-2224 - Underhill Logistics
+19-May-2026,4000 Subscription Revenue,,26479.0,Invoice INV-2224 - Underhill Logistics
+20-May-2026,1100 Accounts Receivable,24965.0,,Invoice INV-2226 - Jasper Analytics
+20-May-2026,4000 Subscription Revenue,,24965.0,Invoice INV-2226 - Jasper Analytics
+20-May-2026,2000 Accounts Payable,,6123.0,BILL-3135 Lumen Office Supply
+20-May-2026,6700 Office Supplies,6123.0,,BILL-3135 Lumen Office Supply
+23-May-2026,1000 Cash,13981.0,,Deposit - Hartwell Group INV-2223
+23-May-2026,1100 Accounts Receivable,,13981.0,Deposit - Hartwell Group INV-2223
+23-May-2026,1000 Cash,,6123.0,Pay BILL-3135 Lumen Office Supply CHK#1012
+23-May-2026,2000 Accounts Payable,6123.0,,Pay BILL-3135 Lumen Office Supply CHK#1012
+24-May-2026,1000 Cash,,7212.0,Pay BILL-3134 CloudSpan Hosting CHK#1011
+24-May-2026,2000 Accounts Payable,7212.0,,Pay BILL-3134 CloudSpan Hosting CHK#1011
+27-May-2026,1000 Cash,36345.0,,Deposit - Jasper Analytics INV-2229
+27-May-2026,1100 Accounts Receivable,,36345.0,Deposit - Jasper Analytics INV-2229
+28-May-2026,1000 Cash,,54476.0,Payroll 2026-05/16-05/30
+28-May-2026,2300 Payroll Liabilities,,15365.0,Payroll 2026-05/16-05/30
+28-May-2026,6000 Salaries Expense,69841.0,,Payroll 2026-05/16-05/30
+28-May-2026,1300 Prepaid Insurance,,85.0,Monthly insurance amortization
+28-May-2026,6400 Insurance Expense,85.0,,Monthly insurance amortization
+28-May-2026,1590 Accumulated Depreciation,,1808.26,Monthly depreciation
+28-May-2026,6800 Depreciation Expense,1808.26,,Monthly depreciation
+03-Jun-2026,1000 Cash,8497.0,,Deposit - Hartwell Group INV-2225
+03-Jun-2026,1100 Accounts Receivable,,8497.0,Deposit - Hartwell Group INV-2225
+03-Jun-2026,1000 Cash,,11672.0,Rent - Harborstone Realty Partners
+03-Jun-2026,6100 Rent Expense,11672.0,,Rent - Harborstone Realty Partners
+03-Jun-2026,2000 Accounts Payable,,3545.0,BILL-3148 Trellis Marketing Group
+03-Jun-2026,6700 Office Supplies,3545.0,,BILL-3148 Trellis Marketing Group
+05-Jun-2026,1000 Cash,26479.0,,Deposit - Underhill Logistics INV-2224
+05-Jun-2026,1100 Accounts Receivable,,26479.0,Deposit - Underhill Logistics INV-2224
+06-Jun-2026,2000 Accounts Payable,,4230.0,BILL-3143 Lumen Office Supply
+06-Jun-2026,6700 Office Supplies,4230.0,,BILL-3143 Lumen Office Supply
+06-Jun-2026,2000 Accounts Payable,,1447.0,BILL-3145 Clearbyte Cloud Services
+06-Jun-2026,6300 Software Subscriptions,1447.0,,BILL-3145 Clearbyte Cloud Services
+08-Jun-2026,1000 Cash,,3545.0,Pay BILL-3148 Trellis Marketing Group CHK#1014
+08-Jun-2026,2000 Accounts Payable,3545.0,,Pay BILL-3148 Trellis Marketing Group CHK#1014
+09-Jun-2026,2000 Accounts Payable,,6877.0,BILL-3144 Trellis Marketing Group
+09-Jun-2026,6200 Advertising & Marketing,6877.0,,BILL-3144 Trellis Marketing Group
+12-Jun-2026,1000 Cash,,4230.0,Pay BILL-3143 Lumen Office Supply CHK#1015
+12-Jun-2026,2000 Accounts Payable,4230.0,,Pay BILL-3143 Lumen Office Supply CHK#1015
+12-Jun-2026,1000 Cash,7622.0,,Owner capital contribution
+12-Jun-2026,3000 Retained Earnings,,7622.0,Owner capital contribution
+13-Jun-2026,1100 Accounts Receivable,19715.0,,Invoice INV-2231 - Kelso Brands
+13-Jun-2026,4000 Subscription Revenue,,19715.0,Invoice INV-2231 - Kelso Brands
+13-Jun-2026,2000 Accounts Payable,,18430.09,BILL-3147 Meridian Legal LLP
+13-Jun-2026,6600 Professional Fees,18430.09,,BILL-3147 Meridian Legal LLP
+14-Jun-2026,1000 Cash,,6877.0,Pay BILL-3144 Trellis Marketing Group CHK#1017
+14-Jun-2026,2000 Accounts Payable,6877.0,,Pay BILL-3144 Trellis Marketing Group CHK#1017
+14-Jun-2026,2000 Accounts Payable,,7339.0,BILL-3142 Stanton Cleaning Crew
+14-Jun-2026,6700 Office Supplies,7339.0,,BILL-3142 Stanton Cleaning Crew
+15-Jun-2026,1000 Cash,,1447.0,Pay BILL-3145 Clearbyte Cloud Services CHK#1016
+15-Jun-2026,2000 Accounts Payable,1447.0,,Pay BILL-3145 Clearbyte Cloud Services CHK#1016
+15-Jun-2026,1000 Cash,,44375.0,Payroll 2026-06/01-06/15
+15-Jun-2026,2300 Payroll Liabilities,,12516.0,Payroll 2026-06/01-06/15
+15-Jun-2026,6000 Salaries Expense,56891.0,,Payroll 2026-06/01-06/15
+16-Jun-2026,1000 Cash,32198.0,,Deposit - Longmont Systems INV-2227
+16-Jun-2026,1100 Accounts Receivable,,32198.0,Deposit - Longmont Systems INV-2227
+16-Jun-2026,1100 Accounts Receivable,34574.0,,Invoice INV-2233 - Jasper Analytics
+16-Jun-2026,4000 Subscription Revenue,,34574.0,Invoice INV-2233 - Jasper Analytics
+17-Jun-2026,2000 Accounts Payable,,5886.0,BILL-3140 Stanton Cleaning Crew
+17-Jun-2026,6700 Office Supplies,5886.0,,BILL-3140 Stanton Cleaning Crew
+17-Jun-2026,2000 Accounts Payable,,7214.0,BILL-3141 Stackline SaaS Tools
+17-Jun-2026,6300 Software Subscriptions,7214.0,,BILL-3141 Stackline SaaS Tools
+17-Jun-2026,2000 Accounts Payable,,9236.54,BILL-3146 Kite Digital Ads
+17-Jun-2026,6200 Advertising & Marketing,9236.54,,BILL-3146 Kite Digital Ads
+18-Jun-2026,1100 Accounts Receivable,10061.0,,Invoice INV-2234 - Jasper Analytics
+18-Jun-2026,4100 Professional Services Revenue,,10061.0,Invoice INV-2234 - Jasper Analytics
+18-Jun-2026,1100 Accounts Receivable,27239.0,,Invoice INV-2235 - Crestline Partners
+18-Jun-2026,4000 Subscription Revenue,,27239.0,Invoice INV-2235 - Crestline Partners
+19-Jun-2026,1100 Accounts Receivable,5896.0,,Invoice INV-2232 - Hartwell Group
+19-Jun-2026,4000 Subscription Revenue,,5896.0,Invoice INV-2232 - Hartwell Group
+19-Jun-2026,1000 Cash,,18430.09,Pay BILL-3147 Meridian Legal LLP CHK#1018
+19-Jun-2026,2000 Accounts Payable,18430.09,,Pay BILL-3147 Meridian Legal LLP CHK#1018
+20-Jun-2026,1000 Cash,,7339.0,Pay BILL-3142 Stanton Cleaning Crew CHK#1019
+20-Jun-2026,2000 Accounts Payable,7339.0,,Pay BILL-3142 Stanton Cleaning Crew CHK#1019
+22-Jun-2026,1000 Cash,,5886.0,Pay BILL-3140 Stanton Cleaning Crew CHK#1020
+22-Jun-2026,2000 Accounts Payable,5886.0,,Pay BILL-3140 Stanton Cleaning Crew CHK#1020
+24-Jun-2026,1100 Accounts Receivable,33582.0,,Invoice INV-2230 - Crestline Partners
+24-Jun-2026,4100 Professional Services Revenue,,33582.0,Invoice INV-2230 - Crestline Partners
+25-Jun-2026,1000 Cash,19715.0,,Deposit - Kelso Brands INV-2231
+25-Jun-2026,1100 Accounts Receivable,,19715.0,Deposit - Kelso Brands INV-2231
+26-Jun-2026,1000 Cash,,7214.0,Pay BILL-3141 Stackline SaaS Tools CHK#1021
+26-Jun-2026,2000 Accounts Payable,7214.0,,Pay BILL-3141 Stackline SaaS Tools CHK#1021

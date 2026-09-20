@@ -1,0 +1,15 @@
+Wildwood Supply Co.
+Wholesale Supply Desk
+
+INVOICE INV-2231
+Date: 2026-04-20
+
+Bill to:
+Pinehurst Digital
+
+Service detail:
+Supply procurement, handling, and fulfillment for the current service period
+
+Amount due: $28,050.00
+
+Terms: Net 30. Include the invoice identifier with payment.

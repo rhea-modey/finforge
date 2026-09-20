@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 250468.57,
+    "gold": 250468.57,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 249290.75,
+    "gold": 249290.75,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $19,417.00, while the trial balance reports Accounts Payable of $35,623.36. The $16,206.36 difference corresponds to the unpaid remainder of opening AP in the ledger but is omitted from the aging, so the aging is incomplete and does not reconcile to the control account.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w25-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract uniquely establish the June opening balance, monthly amortization, and closing balance, while the ledger confirms June amortization has not yet been booked.",
+    "solvable": true
+   },
+   "w25-bank_rec": {
+    "reason": "The bank statement, cash ledger, and trial balance provide enough information to identify outstanding checks, deposits in transit, unrecorded bank fees, and unrecorded interest and to reconcile both sides.",
+    "solvable": true
+   },
+   "w25-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed asset register, ledger, and June bill documents support the required payroll accrual, insurance amortization, and advertising reclassification; June depreciation is already posted.",
+    "solvable": true
+   },
+   "w25-variance_analysis": {
+    "reason": "June actuals can be derived from the ledger after the specified close adjustments and compared with the June budget. The payroll register and vendor bills provide evidence for the principal variances.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

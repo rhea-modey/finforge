@@ -1,0 +1,15 @@
+JUNCTION UTILITY CO-OP
+Junction Utility Co-op
+
+UTILITY SERVICE BILL
+Document: BILL-3110
+Customer: Prairie State Goods Co.
+Date: 2026-04-03
+
+Service detail:
+Final operating-period electric and facility utility service.
+
+Amount: $9,633.00
+
+Terms: Please remit upon receipt.
+Remit to: Junction Utility Co-op

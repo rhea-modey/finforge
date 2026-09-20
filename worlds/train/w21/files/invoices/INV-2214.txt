@@ -1,0 +1,15 @@
+HALCYON GRID SOFTWARE
+Halcyon Grid Software
+Hosted tools for grid operations
+
+INVOICE INV-2214
+Customer: Vesper Technologies
+Date: 2026-05-06
+
+Line item
+Hosted grid-management platform service for the service period.
+
+Amount due: $16,151.00
+
+Terms: Payable upon receipt.
+Remittance: Quote the invoice id when submitting payment.

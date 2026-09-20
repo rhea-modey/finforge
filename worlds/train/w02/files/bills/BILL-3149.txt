@@ -1,0 +1,13 @@
+RIDGELINE TELECOM
+Ridgeline Telecom
+
+TELECOMMUNICATIONS BILL
+Document: BILL-3149
+Account customer: Juniper Goods Co.
+Date: 2026-06-02
+
+June voice and data service
+Amount: $1,117.00
+
+Terms: Due upon receipt.
+Remit payment quoting the document identifier.

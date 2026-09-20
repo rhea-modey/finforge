@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 244776.37,
+    "gold": 244776.37,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 257623.65,
+    "gold": 257623.65,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $9,941.00, while the trial balance reports Accounts Payable of $18,001.15. The unexplained $8,060.15 difference is the residual opening payable after the April 6 payment and is absent from the purported June 30 aging.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w02-accrual_schedule": {
+    "reason": "The May prepaid schedule, insurance and software contracts, and GL provide opening balances, additions, June amortization, closing balances, and the status of the supporting combined entry.",
+    "solvable": true
+   },
+   "w02-bank_rec": {
+    "reason": "The bank statement, cash GL, source bill, and transaction references provide enough information to identify outstanding checks, deposits in transit, unrecorded bank activity, and the $900 check-recording error and to reconcile both sides uniquely.",
+    "solvable": true
+   },
+   "w02-journal_entries": {
+    "reason": "The payroll register, prepaid records, fixed-asset register, vendor documents, GL, and checklist establish the required payroll accrual, combined prepaid amortization, depreciation, and vendor-bill reclassification without duplicating posted entries.",
+    "solvable": true
+   },
+   "w02-variance_analysis": {
+    "reason": "June activity, budget amounts, and the standard close adjustments can be derived from the files. Selection of material variances requires ordinary professional judgment but does not prevent a defensible analysis.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

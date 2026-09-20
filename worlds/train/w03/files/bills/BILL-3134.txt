@@ -1,0 +1,14 @@
+Delta Facility Services
+FACILITY SUPPLY BILL
+
+Document: BILL-3134
+Bill to: Granite Peak Distribution
+Date: 2026-04-16
+
+DESCRIPTION
+Office and facility supplies provided for one service period.
+
+Amount: $4,978.00
+
+Payment terms: Payable upon receipt.
+Remittance advice: Include BILL-3134 with payment.

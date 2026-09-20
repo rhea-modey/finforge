@@ -1,0 +1,137 @@
+{
+ "adjusted_balance": 409933.4,
+ "bank_statement_ending_balance": 399519.78,
+ "gl_cash_ending_balance": 410886.22,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6450 Software Expense",
+     "credit": 0,
+     "debit": 900.0
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 900.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Correct transposition on CHK-1020"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 30.79
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 30.79,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 35.11
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 35.11,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 13.08
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 13.08,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 12947.38,
+   "date": "2026-06-17",
+   "description": "Check to Trellis Marketing Group not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1015",
+   "side": "bank"
+  },
+  {
+   "amount": 1393.0,
+   "date": "2026-06-23",
+   "description": "Check to Quicksilver Couriers not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1016",
+   "side": "bank"
+  },
+  {
+   "amount": 9943.0,
+   "date": "2026-06-28",
+   "description": "Check to CloudSpan Hosting not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1019",
+   "side": "bank"
+  },
+  {
+   "amount": 900.0,
+   "date": "2026-06-30",
+   "description": "GL posted check at transposed amount (2371.0 vs bank 3271.0)",
+   "kind": "gl_error",
+   "ref": "CHK-1020",
+   "side": "book"
+  },
+  {
+   "amount": 34697.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT CORLISS MARINE",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 30.79,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 35.11,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 13.08,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

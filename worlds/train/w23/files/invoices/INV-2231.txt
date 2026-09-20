@@ -1,0 +1,12 @@
+Keystone Freight & Supply
+WHOLESALE CUSTOMER INVOICE
+
+Invoice: INV-2231
+Customer: Jasper Analytics
+Date: 2026-04-21
+
+Line item: Single-period wholesale freight supplies, order handling, and fulfillment.
+Amount due: $7,549.00
+
+Terms: Payment due upon receipt.
+Remit: Include the invoice id in the payment detail.

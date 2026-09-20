@@ -1,0 +1,13 @@
+FIRSTLANE LOGISTICS
+Firstlane Logistics
+Freight coordination & delivery
+
+BILL BILL-3128
+Customer: Tidewater Outfitters
+Date: 2026-04-16
+
+Line item: Freight and shipping services for the current service period.
+Amount: $3,080.00
+
+Terms: Due upon receipt.
+Remit: Please reference BILL-3128 with payment.

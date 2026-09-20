@@ -1,0 +1,4 @@
+{"iteration": 1, "candidate": "v1", "candidate_mean": 6.083, "incumbent": "v0", "incumbent_mean": 5.083, "adopted": "v1"}
+{"iteration": 2, "candidate": "v2", "candidate_mean": 5.167, "incumbent": "v1", "incumbent_mean": 5.833, "adopted": "v1"}
+{"iteration": 3, "candidate": "v3", "candidate_mean": 5.0, "incumbent": "v1", "incumbent_mean": 5.5, "adopted": "v1"}
+{"iteration": 4, "candidate": "v4", "candidate_mean": 5.875, "incumbent": "v1", "incumbent_mean": 5.25, "adopted": "v4"}

@@ -1,0 +1,9 @@
+{
+  "_comment": "Frozen before first scored run. Do not modify after results exist.",
+  "amount_tolerance": 0.01,
+  "account_fuzzy_ratio": 0.85,
+  "bank_rec": {"item_f1": 60, "balances": 20, "je_f1": 20},
+  "journal_entries": {"spam_penalty_per_extra_entry": 5},
+  "variance_analysis": {"driver_recall": 50, "numbers_accuracy": 25, "driver_precision": 25, "driver_amount_pct_tol": 0.10},
+  "accrual_schedule": {"rows": 70, "je_f1": 30, "item_fuzzy_ratio": 0.6, "spam_penalty_per_extra_row": 5}
+}

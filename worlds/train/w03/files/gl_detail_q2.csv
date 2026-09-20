@@ -1,0 +1,177 @@
+Date;account;dr;cr;Memo
+04/01/2026;1000 Cash;178490.17;;Opening balances
+04/01/2026;1300 Prepaid Insurance;1710.0;;Opening balances
+04/01/2026;1400 Inventory;115886.38;;Opening balances
+04/01/2026;1500 Equipment;162234.0;;Opening balances
+04/01/2026;1590 Accumulated Depreciation;;27039.0;Opening balances
+04/01/2026;2000 Accounts Payable;;27207.37;Opening balances
+04/01/2026;3000 Retained Earnings;;404074.18;Opening balances
+04/02/2026;1100 Accounts Receivable;20899.0;;Invoice INV-2222 - Silverthorne Media
+04/02/2026;4000 Wholesale Sales;;20899.0;Invoice INV-2222 - Silverthorne Media
+04/02/2026;1400 Inventory;;10303.0;COGS - INV-2222
+04/02/2026;5000 Cost of Goods Sold;10303.0;;COGS - INV-2222
+04/02/2026;1100 Accounts Receivable;24233.0;;Invoice INV-2227 - Vesper Technologies
+04/02/2026;4000 Wholesale Sales;;24233.0;Invoice INV-2227 - Vesper Technologies
+04/02/2026;1400 Inventory;;12702.0;COGS - INV-2227
+04/02/2026;5000 Cost of Goods Sold;12702.0;;COGS - INV-2227
+04/03/2026;1000 Cash;;8876.0;Rent - Harborstone Realty Partners
+04/03/2026;6100 Rent Expense;8876.0;;Rent - Harborstone Realty Partners
+04/05/2026;2000 Accounts Payable;;949.0;BILL-3135 Bright Harbor Media
+04/05/2026;6200 Advertising & Marketing;949.0;;BILL-3135 Bright Harbor Media
+04/06/2026;1000 Cash;;13603.68;Payment on account - opening payables
+04/06/2026;2000 Accounts Payable;13603.68;;Payment on account - opening payables
+04/13/2026;2000 Accounts Payable;;7359.0;BILL-3133 Delta Facility Services
+04/13/2026;6700 Office Supplies;7359.0;;BILL-3133 Delta Facility Services
+04/14/2026;1100 Accounts Receivable;39786.0;;Invoice INV-2223 - Nordica Labs
+04/14/2026;4000 Wholesale Sales;;39786.0;Invoice INV-2223 - Nordica Labs
+04/14/2026;1400 Inventory;;20485.0;COGS - INV-2223
+04/14/2026;5000 Cost of Goods Sold;20485.0;;COGS - INV-2223
+04/14/2026;1100 Accounts Receivable;35002.0;;Invoice INV-2225 - Crestline Partners
+04/14/2026;4000 Wholesale Sales;;35002.0;Invoice INV-2225 - Crestline Partners
+04/14/2026;1400 Inventory;;15149.0;COGS - INV-2225
+04/14/2026;5000 Cost of Goods Sold;15149.0;;COGS - INV-2225
+04/15/2026;1000 Cash;;54196.0;Payroll 2026-04/01-04/15
+04/15/2026;2300 Payroll Liabilities;;15286.0;Payroll 2026-04/01-04/15
+04/15/2026;6000 Salaries Expense;69482.0;;Payroll 2026-04/01-04/15
+04/16/2026;2000 Accounts Payable;;4978.0;BILL-3134 Delta Facility Services
+04/16/2026;6700 Office Supplies;4978.0;;BILL-3134 Delta Facility Services
+04/17/2026;1100 Accounts Receivable;10086.0;;Invoice INV-2226 - Vesper Technologies
+04/17/2026;4000 Wholesale Sales;;10086.0;Invoice INV-2226 - Vesper Technologies
+04/17/2026;1400 Inventory;;5729.0;COGS - INV-2226
+04/17/2026;5000 Cost of Goods Sold;5729.0;;COGS - INV-2226
+04/18/2026;1100 Accounts Receivable;25246.0;;Invoice INV-2228 - Tamarack Health
+04/18/2026;4100 Delivery Fees;;25246.0;Invoice INV-2228 - Tamarack Health
+04/20/2026;1000 Cash;;4978.0;Pay BILL-3134 Delta Facility Services CHK#1003
+04/20/2026;2000 Accounts Payable;4978.0;;Pay BILL-3134 Delta Facility Services CHK#1003
+04/21/2026;2000 Accounts Payable;;7964.0;BILL-3132 CloudSpan Hosting
+04/21/2026;6450 Software Expense;7964.0;;BILL-3132 CloudSpan Hosting
+04/24/2026;1100 Accounts Receivable;11781.0;;Invoice INV-2224 - Tamarack Health
+04/24/2026;4000 Wholesale Sales;;11781.0;Invoice INV-2224 - Tamarack Health
+04/24/2026;1400 Inventory;;5100.0;COGS - INV-2224
+04/24/2026;5000 Cost of Goods Sold;5100.0;;COGS - INV-2224
+04/28/2026;1000 Cash;35002.0;;Deposit - Crestline Partners INV-2225
+04/28/2026;1100 Accounts Receivable;;35002.0;Deposit - Crestline Partners INV-2225
+04/28/2026;1000 Cash;;7964.0;Pay BILL-3132 CloudSpan Hosting CHK#1004
+04/28/2026;2000 Accounts Payable;7964.0;;Pay BILL-3132 CloudSpan Hosting CHK#1004
+04/28/2026;1000 Cash;;54298.0;Payroll 2026-04/16-04/30
+04/28/2026;2300 Payroll Liabilities;;15314.0;Payroll 2026-04/16-04/30
+04/28/2026;6000 Salaries Expense;69612.0;;Payroll 2026-04/16-04/30
+04/28/2026;1300 Prepaid Insurance;;190.0;Monthly insurance amortization
+04/28/2026;6400 Insurance Expense;190.0;;Monthly insurance amortization
+04/28/2026;1590 Accumulated Depreciation;;2703.9;Monthly depreciation
+04/28/2026;6800 Depreciation Expense;2703.9;;Monthly depreciation
+05/03/2026;1000 Cash;10086.0;;Deposit - Vesper Technologies INV-2226
+05/03/2026;1100 Accounts Receivable;;10086.0;Deposit - Vesper Technologies INV-2226
+05/03/2026;1000 Cash;;8876.0;Rent - Harborstone Realty Partners
+05/03/2026;6100 Rent Expense;8876.0;;Rent - Harborstone Realty Partners
+05/04/2026;1100 Accounts Receivable;14673.0;;Invoice INV-2230 - Wexford Group
+05/04/2026;4100 Delivery Fees;;14673.0;Invoice INV-2230 - Wexford Group
+05/04/2026;2000 Accounts Payable;;2519.0;BILL-3137 CloudSpan Hosting
+05/04/2026;6450 Software Expense;2519.0;;BILL-3137 CloudSpan Hosting
+05/05/2026;1100 Accounts Receivable;29484.0;;Invoice INV-2229 - Tamarack Health
+05/05/2026;4000 Wholesale Sales;;29484.0;Invoice INV-2229 - Tamarack Health
+05/05/2026;1400 Inventory;;13325.0;COGS - INV-2229
+05/05/2026;5000 Cost of Goods Sold;13325.0;;COGS - INV-2229
+05/06/2026;1000 Cash;20899.0;;Deposit - Silverthorne Media INV-2222
+05/06/2026;1100 Accounts Receivable;;20899.0;Deposit - Silverthorne Media INV-2222
+05/06/2026;1100 Accounts Receivable;17799.0;;Invoice INV-2232 - Wexford Group
+05/06/2026;4000 Wholesale Sales;;17799.0;Invoice INV-2232 - Wexford Group
+05/06/2026;1400 Inventory;;8092.0;COGS - INV-2232
+05/06/2026;5000 Cost of Goods Sold;8092.0;;COGS - INV-2232
+05/08/2026;1000 Cash;39786.0;;Deposit - Nordica Labs INV-2223
+05/08/2026;1100 Accounts Receivable;;39786.0;Deposit - Nordica Labs INV-2223
+05/08/2026;1000 Cash;24233.0;;Deposit - Vesper Technologies INV-2227
+05/08/2026;1100 Accounts Receivable;;24233.0;Deposit - Vesper Technologies INV-2227
+05/09/2026;1000 Cash;;2519.0;Pay BILL-3137 CloudSpan Hosting CHK#1006
+05/09/2026;2000 Accounts Payable;2519.0;;Pay BILL-3137 CloudSpan Hosting CHK#1006
+05/09/2026;2000 Accounts Payable;;4695.0;BILL-3136 Junction Utility Co-op
+05/09/2026;6500 Utilities Expense;4695.0;;BILL-3136 Junction Utility Co-op
+05/11/2026;2000 Accounts Payable;;8383.0;BILL-3139 Helix IT Solutions
+05/11/2026;6450 Software Expense;8383.0;;BILL-3139 Helix IT Solutions
+05/12/2026;1000 Cash;11781.0;;Deposit - Tamarack Health INV-2224
+05/12/2026;1100 Accounts Receivable;;11781.0;Deposit - Tamarack Health INV-2224
+05/12/2026;1000 Cash;;4695.0;Pay BILL-3136 Junction Utility Co-op CHK#1007
+05/12/2026;2000 Accounts Payable;4695.0;;Pay BILL-3136 Junction Utility Co-op CHK#1007
+05/15/2026;2000 Accounts Payable;;7474.0;BILL-3138 Meridian Legal LLP
+05/15/2026;6600 Professional Fees;7474.0;;BILL-3138 Meridian Legal LLP
+05/15/2026;1000 Cash;;30917.0;Payroll 2026-05/01-05/15
+05/15/2026;2300 Payroll Liabilities;;8719.0;Payroll 2026-05/01-05/15
+05/15/2026;6000 Salaries Expense;39636.0;;Payroll 2026-05/01-05/15
+05/16/2026;1000 Cash;;8383.0;Pay BILL-3139 Helix IT Solutions CHK#1008
+05/16/2026;2000 Accounts Payable;8383.0;;Pay BILL-3139 Helix IT Solutions CHK#1008
+05/17/2026;1000 Cash;29484.0;;Deposit - Tamarack Health INV-2229
+05/17/2026;1100 Accounts Receivable;;29484.0;Deposit - Tamarack Health INV-2229
+05/19/2026;1000 Cash;14673.0;;Deposit - Wexford Group INV-2230
+05/19/2026;1100 Accounts Receivable;;14673.0;Deposit - Wexford Group INV-2230
+05/21/2026;1100 Accounts Receivable;6139.0;;Invoice INV-2231 - Jasper Analytics
+05/21/2026;4000 Wholesale Sales;;6139.0;Invoice INV-2231 - Jasper Analytics
+05/21/2026;1400 Inventory;;2965.0;COGS - INV-2231
+05/21/2026;5000 Cost of Goods Sold;2965.0;;COGS - INV-2231
+05/25/2026;1000 Cash;25246.0;;Deposit - Tamarack Health INV-2228
+05/25/2026;1100 Accounts Receivable;;25246.0;Deposit - Tamarack Health INV-2228
+05/28/2026;1000 Cash;;31049.0;Payroll 2026-05/16-05/30
+05/28/2026;2300 Payroll Liabilities;;8757.0;Payroll 2026-05/16-05/30
+05/28/2026;6000 Salaries Expense;39806.0;;Payroll 2026-05/16-05/30
+05/28/2026;1300 Prepaid Insurance;;190.0;Monthly insurance amortization
+05/28/2026;6400 Insurance Expense;190.0;;Monthly insurance amortization
+05/28/2026;1590 Accumulated Depreciation;;2703.9;Monthly depreciation
+05/28/2026;6800 Depreciation Expense;2703.9;;Monthly depreciation
+06/01/2026;1000 Cash;17799.0;;Deposit - Wexford Group INV-2232
+06/01/2026;1100 Accounts Receivable;;17799.0;Deposit - Wexford Group INV-2232
+06/02/2026;2000 Accounts Payable;;9484.0;BILL-3140 Pillar Accounting Services
+06/02/2026;6600 Professional Fees;9484.0;;BILL-3140 Pillar Accounting Services
+06/02/2026;2000 Accounts Payable;;1197.0;BILL-3143 Firstlane Logistics
+06/02/2026;5100 Freight & Shipping;1197.0;;BILL-3143 Firstlane Logistics
+06/03/2026;1000 Cash;;8876.0;Rent - Harborstone Realty Partners
+06/03/2026;6100 Rent Expense;8876.0;;Rent - Harborstone Realty Partners
+06/05/2026;1100 Accounts Receivable;39301.0;;Invoice INV-2236 - Tamarack Health
+06/05/2026;4000 Wholesale Sales;;39301.0;Invoice INV-2236 - Tamarack Health
+06/05/2026;1400 Inventory;;22589.0;COGS - INV-2236
+06/05/2026;5000 Cost of Goods Sold;22589.0;;COGS - INV-2236
+06/05/2026;1000 Cash;;288.0;Prepaid software - 12 month license (Orchard Software Ltd.)
+06/05/2026;1310 Prepaid Software;288.0;;Prepaid software - 12 month license (Orchard Software Ltd.)
+06/06/2026;1000 Cash;;1197.0;Pay BILL-3143 Firstlane Logistics CHK#1010
+06/06/2026;2000 Accounts Payable;1197.0;;Pay BILL-3143 Firstlane Logistics CHK#1010
+06/09/2026;2000 Accounts Payable;;23258.06;BILL-3146 Kite Digital Ads
+06/09/2026;6200 Advertising & Marketing;23258.06;;BILL-3146 Kite Digital Ads
+06/11/2026;1100 Accounts Receivable;11246.0;;Invoice INV-2233 - Silverthorne Media
+06/11/2026;4100 Delivery Fees;;11246.0;Invoice INV-2233 - Silverthorne Media
+06/11/2026;1100 Accounts Receivable;27031.0;;Invoice INV-2235 - Tamarack Health
+06/11/2026;4000 Wholesale Sales;;27031.0;Invoice INV-2235 - Tamarack Health
+06/11/2026;1400 Inventory;;12904.0;COGS - INV-2235
+06/11/2026;5000 Cost of Goods Sold;12904.0;;COGS - INV-2235
+06/12/2026;2000 Accounts Payable;;8939.39;BILL-3145 Quicksilver Couriers
+06/12/2026;5100 Freight & Shipping;8939.39;;BILL-3145 Quicksilver Couriers
+06/12/2026;2000 Accounts Payable;;4872.0;BILL-3148 Bright Harbor Media
+06/12/2026;6700 Office Supplies;4872.0;;BILL-3148 Bright Harbor Media
+06/12/2026;1000 Cash;9082.0;;Owner capital contribution
+06/12/2026;3000 Retained Earnings;;9082.0;Owner capital contribution
+06/13/2026;2000 Accounts Payable;;7883.0;BILL-3144 Trellis Marketing Group
+06/13/2026;6200 Advertising & Marketing;7883.0;;BILL-3144 Trellis Marketing Group
+06/15/2026;1100 Accounts Receivable;38577.0;;Invoice INV-2234 - Nordica Labs
+06/15/2026;4000 Wholesale Sales;;38577.0;Invoice INV-2234 - Nordica Labs
+06/15/2026;1400 Inventory;;17729.0;COGS - INV-2234
+06/15/2026;5000 Cost of Goods Sold;17729.0;;COGS - INV-2234
+06/15/2026;2000 Accounts Payable;;23546.99;BILL-3147 Meridian Legal LLP
+06/15/2026;6600 Professional Fees;23546.99;;BILL-3147 Meridian Legal LLP
+06/15/2026;1000 Cash;;59295.0;Payroll 2026-06/01-06/15
+06/15/2026;2300 Payroll Liabilities;;16723.0;Payroll 2026-06/01-06/15
+06/15/2026;6000 Salaries Expense;76018.0;;Payroll 2026-06/01-06/15
+06/16/2026;1000 Cash;;23258.06;Pay BILL-3146 Kite Digital Ads CHK#1011
+06/16/2026;2000 Accounts Payable;23258.06;;Pay BILL-3146 Kite Digital Ads CHK#1011
+06/16/2026;1000 Cash;;4872.0;Pay BILL-3148 Bright Harbor Media CHK#1013
+06/16/2026;2000 Accounts Payable;4872.0;;Pay BILL-3148 Bright Harbor Media CHK#1013
+06/17/2026;1000 Cash;6139.0;;Deposit - Jasper Analytics INV-2231
+06/17/2026;1100 Accounts Receivable;;6139.0;Deposit - Jasper Analytics INV-2231
+06/17/2026;1000 Cash;;8939.39;Pay BILL-3145 Quicksilver Couriers CHK#1012
+06/17/2026;2000 Accounts Payable;8939.39;;Pay BILL-3145 Quicksilver Couriers CHK#1012
+06/18/2026;2000 Accounts Payable;;2167.0;BILL-3141 CloudSpan Hosting
+06/18/2026;6450 Software Expense;2167.0;;BILL-3141 CloudSpan Hosting
+06/18/2026;2000 Accounts Payable;;7964.0;BILL-3142 Junction Utility Co-op
+06/18/2026;6500 Utilities Expense;7964.0;;BILL-3142 Junction Utility Co-op
+06/21/2026;1000 Cash;;7964.0;Pay BILL-3142 Junction Utility Co-op CHK#1015
+06/21/2026;2000 Accounts Payable;7964.0;;Pay BILL-3142 Junction Utility Co-op CHK#1015
+06/24/2026;1000 Cash;;2167.0;Pay BILL-3141 CloudSpan Hosting CHK#1014
+06/24/2026;2000 Accounts Payable;2167.0;;Pay BILL-3141 CloudSpan Hosting CHK#1014
+06/28/2026;1000 Cash;27031.0;;Deposit - Tamarack Health INV-2235
+06/28/2026;1100 Accounts Receivable;;27031.0;Deposit - Tamarack Health INV-2235

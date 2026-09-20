@@ -1,0 +1,45 @@
+{
+ "journal_entry": {
+  "date": "2026-06-30",
+  "lines": [
+   {
+    "account": "6400 Insurance Expense",
+    "credit": 0,
+    "debit": 113.0
+   },
+   {
+    "account": "1300 Prepaid Insurance",
+    "credit": 113.0,
+    "debit": 0
+   },
+   {
+    "account": "6450 Software Expense",
+    "credit": 0,
+    "debit": 88.0
+   },
+   {
+    "account": "1310 Prepaid Software",
+    "credit": 88.0,
+    "debit": 0
+   }
+  ],
+  "memo": "June prepaid amortization"
+ },
+ "journal_entry_status": "to_book",
+ "schedule": [
+  {
+   "additions": 0.0,
+   "amortization": 113.0,
+   "closing_balance": 678.0,
+   "item": "Bellhaven Insurance Agency annual policy",
+   "opening_balance": 791.0
+  },
+  {
+   "additions": 1056.0,
+   "amortization": 88.0,
+   "closing_balance": 968.0,
+   "item": "Prepaid software - 12 month license (Quillware Technologies)",
+   "opening_balance": 0.0
+  }
+ ]
+}

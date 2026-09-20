@@ -1,0 +1,28 @@
+{
+ "journal_entry": {
+  "date": "2026-06-30",
+  "lines": [
+   {
+    "account": "6400 Insurance Expense",
+    "credit": 0,
+    "debit": 187.0
+   },
+   {
+    "account": "1300 Prepaid Insurance",
+    "credit": 187.0,
+    "debit": 0
+   }
+  ],
+  "memo": "June prepaid amortization"
+ },
+ "journal_entry_status": "to_book",
+ "schedule": [
+  {
+   "additions": 0.0,
+   "amortization": 187.0,
+   "closing_balance": 1122.0,
+   "item": "Stately Assurance Group annual policy",
+   "opening_balance": 1309.0
+  }
+ ]
+}

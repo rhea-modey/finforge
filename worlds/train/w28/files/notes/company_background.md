@@ -1,0 +1,7 @@
+# Company background
+
+Ashworth & Bell Advisors began in 2018 when former colleagues Mara Ashworth and Simon Bell started helping owner-led companies untangle operating problems that sat awkwardly between strategy, finance, and day-to-day execution. Their first engagements came through professional referrals: a planning workshop here, a process review there, followed by practical implementation support when clients needed more than a slide deck.
+
+Today, the firm sells management advisory services, operating-model reviews, planning facilitation, performance reporting, and project-based support for growing businesses. Its clients tend to value plain language and usable recommendations. The team is small and deliberately mixed: analytical consultants work alongside strong project coordinators, while the founders remain close to client delivery. Internal discussions are candid, calendars are crowded, and draft documents often carry margin notes from several hands before reaching a client.
+
+The company has matured without losing its workshop-like feel. Repeat clients provide a dependable base of work, supplemented by focused assignments and referral-led opportunities. The current priority is to sharpen how services are packaged, improve handoffs between sales and delivery, and make month-end administration less dependent on individual memory. Ashworth & Bell Advisors remains an ordinary going concern, balancing active client work with steady improvements to its own systems and market presence.

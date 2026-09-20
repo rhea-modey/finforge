@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 13971.55,
+   "keywords": [
+    "velocity",
+    "bright"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 25177.96,
+   "keywords": [
+    "lighthouse",
+    "meridian"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 18217.55,
+   "budget": 3854.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 13971.55,
+     "description": "Special Velocity initiative - one-off fees billed by Bright Harbor Media (BILL-3142)",
+     "evidence": [
+      "bills/BILL-3142.txt"
+     ]
+    }
+   ],
+   "variance": 14363.55
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 42892.96,
+   "budget": 18354.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 25177.96,
+     "description": "Lighthouse launch sprint (one-time) billed by Meridian Legal LLP (BILL-3141)",
+     "evidence": [
+      "bills/BILL-3141.txt"
+     ]
+    }
+   ],
+   "variance": 24538.96
+  }
+ ]
+}

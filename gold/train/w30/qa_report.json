@@ -1,0 +1,49 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 135203.1,
+    "gold": 135203.1,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 162086.87,
+    "gold": 162086.87,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "BILL-3145 and the June bank statement report Ridgeline Telecom at $8,253.00, while the general ledger records both the utility expense and cash payment at $8,523.00. This is a $270.00 GL error, although the authoritative bill and bank clearing amount make the required correction determinable.",
+    "severity": "medium"
+   },
+   {
+    "description": "The 2026-06-30 AP aging totals $30,801.00, but the trial balance reports Accounts Payable of $49,903.43, leaving an unexplained $19,102.43 difference. This appears to be the residual opening payable balance, but no vendor-level aging support is provided for it.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w30-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract define the prepaid population and support June amortization of $76.00; the GL confirms June amortization has not yet been booked.",
+    "solvable": true
+   },
+   "w30-bank_rec": {
+    "reason": "The statement arithmetic ties, all bank and book reconciling items can be identified, and the BILL-3145 document plus bank clearing amount resolves the $270 GL error.",
+    "solvable": true
+   },
+   "w30-journal_entries": {
+    "reason": "The files support a June payroll accrual, one insurance amortization entry, and the BILL-3148 expense reclassification; June depreciation is already posted and bank-side corrections are expressly excluded.",
+    "solvable": true
+   },
+   "w30-variance_analysis": {
+    "reason": "June GL activity, budget data, payroll accrual, prepaid amortization, posted depreciation, and supported vendor-bill reclasses are sufficient to calculate as-closed actuals and explain material variances using professional judgment.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

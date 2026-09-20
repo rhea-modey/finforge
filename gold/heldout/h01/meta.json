@@ -1,0 +1,229 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Subscription Revenue",
+   "number": "4000"
+  },
+  {
+   "name": "Professional Services Revenue",
+   "number": "4100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Software Subscriptions",
+   "number": "6300"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Ember Signal Inc.",
+ "files_tree_hash": "dac8624cd4598b7f6f28bff496f2f50cc28ebb7acdb1bd363f1081042941692e",
+ "industry": "saas",
+ "split": "heldout",
+ "truth_records": [
+  {
+   "amount": 6435.0,
+   "detail": {
+    "bill_id": "BILL-3138",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 69244.0,
+   "detail": {
+    "pay_date": "2026-07-02",
+    "period": "2026-06/16-06/30"
+   },
+   "kind": "missing_payroll_accrual"
+  },
+  {
+   "amount": 1369.23,
+   "detail": {
+    "asset": "Equipment (aggregate)"
+   },
+   "kind": "missing_depreciation"
+  },
+  {
+   "amount": 82.0,
+   "detail": {
+    "item": "Stately Assurance Group annual policy"
+   },
+   "kind": "missing_prepaid_amort"
+  },
+  {
+   "amount": 6435.0,
+   "detail": {
+    "bill_id": "BILL-3138",
+    "check_no": "CHK-1013",
+    "date": "2026-06-16",
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 7590.0,
+   "detail": {
+    "bill_id": "BILL-3133",
+    "check_no": "CHK-1012",
+    "date": "2026-06-08",
+    "vendor": "Ridgeline Telecom"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 15698.68,
+   "detail": {
+    "bill_id": "BILL-3137",
+    "check_no": "CHK-1014",
+    "date": "2026-06-18",
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 948.0,
+   "detail": {
+    "bill_id": "BILL-3134",
+    "check_no": "CHK-1015",
+    "date": "2026-06-20",
+    "vendor": "CloudSpan Hosting"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 15087.0,
+   "detail": {
+    "desc": "DEPOSIT ALDERGATE IN INV-2240"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 43.64,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 28.78,
+   "detail": {},
+   "kind": "interest_unrecorded"
+  },
+  {
+   "amount": 19324.75,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3136",
+    "campaign": "Horizon",
+    "desc": "Horizon project - one-off engagement",
+    "keywords": [
+     "horizon",
+     "kite"
+    ],
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 15698.68,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3137",
+    "campaign": "Northstar",
+    "desc": "Northstar project - one-off engagement",
+    "keywords": [
+     "northstar",
+     "meridian"
+    ],
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "h01"
+}

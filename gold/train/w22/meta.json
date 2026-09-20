@@ -1,0 +1,251 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Inventory",
+   "number": "1400"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Product Sales",
+   "number": "4000"
+  },
+  {
+   "name": "Shipping Income",
+   "number": "4100"
+  },
+  {
+   "name": "Cost of Goods Sold",
+   "number": "5000"
+  },
+  {
+   "name": "Freight & Shipping",
+   "number": "5100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Tidewater Outfitters",
+ "files_tree_hash": "9a9b4ef291361a90f2686420e2da2c1ee9d64fe006d742b44cf328fd3f960e80",
+ "industry": "ecommerce",
+ "split": "train",
+ "truth_records": [
+  {
+   "amount": 3189.0,
+   "detail": {
+    "bill_id": "BILL-3142",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 38019.0,
+   "detail": {
+    "pay_date": "2026-07-02",
+    "period": "2026-06/16-06/30"
+   },
+   "kind": "missing_payroll_accrual"
+  },
+  {
+   "amount": 95.0,
+   "detail": {
+    "item": "Hartline Mutual Insurance annual policy"
+   },
+   "kind": "missing_prepaid_amort"
+  },
+  {
+   "amount": 8168.5,
+   "detail": {
+    "bill_id": "BILL-3139",
+    "check_no": "CHK-1010",
+    "date": "2026-06-15",
+    "vendor": "Willow Creek Packaging"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 14158.5,
+   "detail": {
+    "bill_id": "BILL-3141",
+    "check_no": "CHK-1013",
+    "date": "2026-06-19",
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 18.0,
+   "detail": {
+    "bank_amount": 486.0,
+    "bill_id": "BILL-3136",
+    "check_no": "CHK-1016",
+    "direction": "gl_understated_payment",
+    "expense_acct": "6500",
+    "gl_amount": 468.0
+   },
+   "kind": "gl_amount_error"
+  },
+  {
+   "amount": 19345.0,
+   "detail": {
+    "desc": "DEPOSIT GLENROCK SOLUTIONS INV-2239"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 13241.0,
+   "detail": {
+    "desc": "DEPOSIT VESPER TECHNOLOGIES"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 52.69,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 63.55,
+   "detail": {
+    "desc": "WIRE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 40.53,
+   "detail": {},
+   "kind": "interest_unrecorded"
+  },
+  {
+   "amount": 8168.5,
+   "detail": {
+    "account": "5100",
+    "bill_id": "BILL-3139",
+    "campaign": "Horizon",
+    "desc": "Non-recurring Horizon program",
+    "keywords": [
+     "horizon",
+     "willow"
+    ],
+    "vendor": "Willow Creek Packaging"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 7393.94,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3140",
+    "campaign": "Summit",
+    "desc": "Special Summit initiative - one-off fees",
+    "keywords": [
+     "summit",
+     "bright"
+    ],
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 14158.5,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3141",
+    "campaign": "Catalyst",
+    "desc": "Special Catalyst initiative - one-off fees",
+    "keywords": [
+     "catalyst",
+     "meridian"
+    ],
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "w22"
+}

@@ -1,0 +1,53 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 20391.89,
+    "gold": 20391.89,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 16119.86,
+    "gold": 16119.86,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "BILL-3116 is recorded in the GL at $3,435, while the authoritative vendor bill and bank-cleared check are both $4,335. This is a resolvable $900 book error rather than a solvability blocker.",
+    "severity": "medium"
+   },
+   {
+    "description": "The 2026-06-30 AP aging totals $25,628.00, but the trial balance reports Accounts Payable of $37,305.30, leaving an unexplained $11,677.30 difference.",
+    "severity": "medium"
+   },
+   {
+    "description": "Source documents are absent for June bills BILL-3117, BILL-3118, BILL-3119, and BILL-3120, so the checklist instruction to verify every June vendor bill against its source cannot be performed literally. Under the stated presumption that GL coding is correct unless contradicted by an available source, the requested entries remain determinable.",
+    "severity": "low"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w24-accrual_schedule": {
+    "reason": "The May prepaid schedule and annual insurance policy uniquely support a $1,260 opening balance, no June additions, $180 June amortization, and a $1,080 closing balance; the GL confirms June amortization is missing.",
+    "solvable": true
+   },
+   "w24-bank_rec": {
+    "reason": "The bank statement, GL, trial balance, and available bill support permit a unique reconciliation, including deposits in transit, outstanding checks, unrecorded bank fees and interest, and the $900 BILL-3116 book error.",
+    "solvable": true
+   },
+   "w24-journal_entries": {
+    "reason": "The files establish that June insurance amortization is missing, depreciation is already posted, no payroll accrual is required because both June periods paid in June, and BILL-3124 requires reclassification based on its source document. Bank-side corrections are separately identifiable and excluded as instructed.",
+    "solvable": true
+   },
+   "w24-variance_analysis": {
+    "reason": "June actuals can be derived from the GL and adjusted for the determinable close entries, with the material one-off marketing and legal variances supported by vendor documents. Materiality requires ordinary professional judgment but does not make the task unsolvable.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

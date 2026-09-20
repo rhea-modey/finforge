@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 18489.93,
+   "keywords": [
+    "lighthouse",
+    "trellis"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 25041.97,
+   "keywords": [
+    "bloom",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 26103.93,
+   "budget": 7758.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 18489.93,
+     "description": "Non-recurring Lighthouse program billed by Trellis Marketing Group (BILL-3145)",
+     "evidence": [
+      "bills/BILL-3145.txt"
+     ]
+    }
+   ],
+   "variance": 18345.93
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 25792.97,
+   "budget": 1188.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 25041.97,
+     "description": "One-time Bloom initiative billed by Pillar Accounting Services (BILL-3146)",
+     "evidence": [
+      "bills/BILL-3146.txt"
+     ]
+    }
+   ],
+   "variance": 24604.97
+  }
+ ]
+}

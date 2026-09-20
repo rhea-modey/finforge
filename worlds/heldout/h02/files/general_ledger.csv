@@ -1,0 +1,183 @@
+Date;gl_account;Debit;cr;Memo
+2026-04-01;1000 Cash;260039.68;;Opening balances
+2026-04-01;1300 Prepaid Insurance;927.0;;Opening balances
+2026-04-01;1400 Inventory;75764.24;;Opening balances
+2026-04-01;1500 Equipment;91517.0;;Opening balances
+2026-04-01;1590 Accumulated Depreciation;;12202.24;Opening balances
+2026-04-01;2000 Accounts Payable;;51214.24;Opening balances
+2026-04-01;3000 Retained Earnings;;364831.44;Opening balances
+2026-04-01;1100 Accounts Receivable;20739.0;;Invoice INV-2211 - Kelso Brands
+2026-04-01;4000 Product Sales;;20739.0;Invoice INV-2211 - Kelso Brands
+2026-04-01;1400 Inventory;;11678.0;COGS - INV-2211
+2026-04-01;5000 Cost of Goods Sold;11678.0;;COGS - INV-2211
+2026-04-03;1000 Cash;;7287.0;Rent - Amberfield Property Group
+2026-04-03;6100 Rent Expense;7287.0;;Rent - Amberfield Property Group
+2026-04-06;1000 Cash;;25607.12;Payment on account - opening payables
+2026-04-06;2000 Accounts Payable;25607.12;;Payment on account - opening payables
+2026-04-15;1100 Accounts Receivable;37018.0;;Invoice INV-2212 - Nordica Labs
+2026-04-15;4000 Product Sales;;37018.0;Invoice INV-2212 - Nordica Labs
+2026-04-15;1400 Inventory;;16199.0;COGS - INV-2212
+2026-04-15;5000 Cost of Goods Sold;16199.0;;COGS - INV-2212
+2026-04-15;2000 Accounts Payable;;3628.0;BILL-3123 Helix IT Solutions
+2026-04-15;6450 Software Expense;3628.0;;BILL-3123 Helix IT Solutions
+2026-04-15;1000 Cash;;40947.0;Payroll 2026-04/01-04/15
+2026-04-15;2300 Payroll Liabilities;;11549.0;Payroll 2026-04/01-04/15
+2026-04-15;6000 Salaries Expense;52496.0;;Payroll 2026-04/01-04/15
+2026-04-16;2000 Accounts Payable;;3391.0;BILL-3124 Firstlane Logistics
+2026-04-16;5100 Freight & Shipping;3391.0;;BILL-3124 Firstlane Logistics
+2026-04-17;1100 Accounts Receivable;21405.0;;Invoice INV-2209 - Eastgate Collective
+2026-04-17;4100 Shipping Income;;21405.0;Invoice INV-2209 - Eastgate Collective
+2026-04-17;1100 Accounts Receivable;11755.0;;Invoice INV-2210 - Eastgate Collective
+2026-04-17;4100 Shipping Income;;11755.0;Invoice INV-2210 - Eastgate Collective
+2026-04-18;2000 Accounts Payable;;701.0;BILL-3122 Delta Facility Services
+2026-04-18;6700 Office Supplies;701.0;;BILL-3122 Delta Facility Services
+2026-04-19;1100 Accounts Receivable;25361.0;;Invoice INV-2208 - Zephyr Dynamics
+2026-04-19;4100 Shipping Income;;25361.0;Invoice INV-2208 - Zephyr Dynamics
+2026-04-20;2000 Accounts Payable;;1400.0;BILL-3125 Bright Harbor Media
+2026-04-20;6200 Advertising & Marketing;1400.0;;BILL-3125 Bright Harbor Media
+2026-04-23;1000 Cash;;3628.0;Pay BILL-3123 Helix IT Solutions CHK#1003
+2026-04-23;2000 Accounts Payable;3628.0;;Pay BILL-3123 Helix IT Solutions CHK#1003
+2026-04-24;1100 Accounts Receivable;34357.0;;Invoice INV-2207 - Hartwell Group
+2026-04-24;4000 Product Sales;;34357.0;Invoice INV-2207 - Hartwell Group
+2026-04-24;1400 Inventory;;14657.0;COGS - INV-2207
+2026-04-24;5000 Cost of Goods Sold;14657.0;;COGS - INV-2207
+2026-04-28;1000 Cash;;41025.0;Payroll 2026-04/16-04/30
+2026-04-28;2300 Payroll Liabilities;;11571.0;Payroll 2026-04/16-04/30
+2026-04-28;6000 Salaries Expense;52596.0;;Payroll 2026-04/16-04/30
+2026-04-28;1300 Prepaid Insurance;;103.0;Monthly insurance amortization
+2026-04-28;6400 Insurance Expense;103.0;;Monthly insurance amortization
+2026-04-28;1590 Accumulated Depreciation;;1525.28;Monthly depreciation
+2026-04-28;6800 Depreciation Expense;1525.28;;Monthly depreciation
+2026-05-02;2000 Accounts Payable;;6929.0;BILL-3126 Meridian Legal LLP
+2026-05-02;6600 Professional Fees;6929.0;;BILL-3126 Meridian Legal LLP
+2026-05-03;1000 Cash;21405.0;;Deposit - Eastgate Collective INV-2209
+2026-05-03;1100 Accounts Receivable;;21405.0;Deposit - Eastgate Collective INV-2209
+2026-05-03;1000 Cash;20739.0;;Deposit - Kelso Brands INV-2211
+2026-05-03;1100 Accounts Receivable;;20739.0;Deposit - Kelso Brands INV-2211
+2026-05-03;1000 Cash;;7287.0;Rent - Amberfield Property Group
+2026-05-03;6100 Rent Expense;7287.0;;Rent - Amberfield Property Group
+2026-05-05;2000 Accounts Payable;;5905.0;BILL-3128 Pillar Accounting Services
+2026-05-05;6600 Professional Fees;5905.0;;BILL-3128 Pillar Accounting Services
+2026-05-05;2000 Accounts Payable;;6065.0;BILL-3130 CloudSpan Hosting
+2026-05-05;6450 Software Expense;6065.0;;BILL-3130 CloudSpan Hosting
+2026-05-06;1000 Cash;;6929.0;Pay BILL-3126 Meridian Legal LLP CHK#1005
+2026-05-06;2000 Accounts Payable;6929.0;;Pay BILL-3126 Meridian Legal LLP CHK#1005
+2026-05-09;1000 Cash;;6065.0;Pay BILL-3130 CloudSpan Hosting CHK#1007
+2026-05-09;2000 Accounts Payable;6065.0;;Pay BILL-3130 CloudSpan Hosting CHK#1007
+2026-05-10;1100 Accounts Receivable;22047.0;;Invoice INV-2216 - Eastgate Collective
+2026-05-10;4000 Product Sales;;22047.0;Invoice INV-2216 - Eastgate Collective
+2026-05-10;1400 Inventory;;10832.0;COGS - INV-2216
+2026-05-10;5000 Cost of Goods Sold;10832.0;;COGS - INV-2216
+2026-05-11;1000 Cash;11755.0;;Deposit - Eastgate Collective INV-2210
+2026-05-11;1100 Accounts Receivable;;11755.0;Deposit - Eastgate Collective INV-2210
+2026-05-11;1100 Accounts Receivable;13652.0;;Invoice INV-2213 - Zephyr Dynamics
+2026-05-11;4000 Product Sales;;13652.0;Invoice INV-2213 - Zephyr Dynamics
+2026-05-11;1400 Inventory;;6445.0;COGS - INV-2213
+2026-05-11;5000 Cost of Goods Sold;6445.0;;COGS - INV-2213
+2026-05-13;1000 Cash;;5905.0;Pay BILL-3128 Pillar Accounting Services CHK#1006
+2026-05-13;2000 Accounts Payable;5905.0;;Pay BILL-3128 Pillar Accounting Services CHK#1006
+2026-05-14;1100 Accounts Receivable;15326.0;;Invoice INV-2214 - Brockman & Hale
+2026-05-14;4000 Product Sales;;15326.0;Invoice INV-2214 - Brockman & Hale
+2026-05-14;1400 Inventory;;6878.0;COGS - INV-2214
+2026-05-14;5000 Cost of Goods Sold;6878.0;;COGS - INV-2214
+2026-05-15;1000 Cash;;53528.0;Payroll 2026-05/01-05/15
+2026-05-15;2300 Payroll Liabilities;;15097.0;Payroll 2026-05/01-05/15
+2026-05-15;6000 Salaries Expense;68625.0;;Payroll 2026-05/01-05/15
+2026-05-16;1100 Accounts Receivable;16779.0;;Invoice INV-2218 - Brockman & Hale
+2026-05-16;4100 Shipping Income;;16779.0;Invoice INV-2218 - Brockman & Hale
+2026-05-20;1100 Accounts Receivable;30085.0;;Invoice INV-2215 - Ferrell Industries
+2026-05-20;4000 Product Sales;;30085.0;Invoice INV-2215 - Ferrell Industries
+2026-05-20;1400 Inventory;;13152.0;COGS - INV-2215
+2026-05-20;5000 Cost of Goods Sold;13152.0;;COGS - INV-2215
+2026-05-20;2000 Accounts Payable;;5381.0;BILL-3129 Stanton Cleaning Crew
+2026-05-20;6700 Office Supplies;5381.0;;BILL-3129 Stanton Cleaning Crew
+2026-05-22;1000 Cash;37018.0;;Deposit - Nordica Labs INV-2212
+2026-05-22;1100 Accounts Receivable;;37018.0;Deposit - Nordica Labs INV-2212
+2026-05-22;2000 Accounts Payable;;5878.0;BILL-3127 Helix IT Solutions
+2026-05-22;6450 Software Expense;5878.0;;BILL-3127 Helix IT Solutions
+2026-05-23;1000 Cash;25361.0;;Deposit - Zephyr Dynamics INV-2208
+2026-05-23;1100 Accounts Receivable;;25361.0;Deposit - Zephyr Dynamics INV-2208
+2026-05-23;1100 Accounts Receivable;22556.0;;Invoice INV-2217 - Zephyr Dynamics
+2026-05-23;4100 Shipping Income;;22556.0;Invoice INV-2217 - Zephyr Dynamics
+2026-05-24;1000 Cash;13652.0;;Deposit - Zephyr Dynamics INV-2213
+2026-05-24;1100 Accounts Receivable;;13652.0;Deposit - Zephyr Dynamics INV-2213
+2026-05-26;1000 Cash;22047.0;;Deposit - Eastgate Collective INV-2216
+2026-05-26;1100 Accounts Receivable;;22047.0;Deposit - Eastgate Collective INV-2216
+2026-05-28;1000 Cash;34357.0;;Deposit - Hartwell Group INV-2207
+2026-05-28;1100 Accounts Receivable;;34357.0;Deposit - Hartwell Group INV-2207
+2026-05-28;1000 Cash;;5381.0;Pay BILL-3129 Stanton Cleaning Crew CHK#1008
+2026-05-28;2000 Accounts Payable;5381.0;;Pay BILL-3129 Stanton Cleaning Crew CHK#1008
+2026-05-28;1000 Cash;;5878.0;Pay BILL-3127 Helix IT Solutions CHK#1009
+2026-05-28;2000 Accounts Payable;5878.0;;Pay BILL-3127 Helix IT Solutions CHK#1009
+2026-05-28;1000 Cash;;53419.0;Payroll 2026-05/16-05/30
+2026-05-28;2300 Payroll Liabilities;;15066.0;Payroll 2026-05/16-05/30
+2026-05-28;6000 Salaries Expense;68485.0;;Payroll 2026-05/16-05/30
+2026-05-28;1300 Prepaid Insurance;;103.0;Monthly insurance amortization
+2026-05-28;6400 Insurance Expense;103.0;;Monthly insurance amortization
+2026-05-28;1590 Accumulated Depreciation;;1525.28;Monthly depreciation
+2026-05-28;6800 Depreciation Expense;1525.28;;Monthly depreciation
+2026-06-02;1000 Cash;15326.0;;Deposit - Brockman & Hale INV-2214
+2026-06-02;1100 Accounts Receivable;;15326.0;Deposit - Brockman & Hale INV-2214
+2026-06-03;1000 Cash;;7287.0;Rent - Amberfield Property Group
+2026-06-03;6100 Rent Expense;7287.0;;Rent - Amberfield Property Group
+2026-06-04;2000 Accounts Payable;;5892.0;BILL-3131 Firstlane Logistics
+2026-06-04;5100 Freight & Shipping;5892.0;;BILL-3131 Firstlane Logistics
+2026-06-05;2000 Accounts Payable;;3101.0;BILL-3138 Bright Harbor Media
+2026-06-05;6700 Office Supplies;3101.0;;BILL-3138 Bright Harbor Media
+2026-06-09;1000 Cash;;3101.0;Pay BILL-3138 Bright Harbor Media CHK#1011
+2026-06-09;2000 Accounts Payable;3101.0;;Pay BILL-3138 Bright Harbor Media CHK#1011
+2026-06-10;1100 Accounts Receivable;31306.0;;Invoice INV-2220 - Eastgate Collective
+2026-06-10;4000 Product Sales;;31306.0;Invoice INV-2220 - Eastgate Collective
+2026-06-10;1400 Inventory;;17378.0;COGS - INV-2220
+2026-06-10;5000 Cost of Goods Sold;17378.0;;COGS - INV-2220
+2026-06-12;1000 Cash;8497.0;;Owner capital contribution
+2026-06-12;3000 Retained Earnings;;8497.0;Owner capital contribution
+2026-06-13;1000 Cash;16779.0;;Deposit - Brockman & Hale INV-2218
+2026-06-13;1100 Accounts Receivable;;16779.0;Deposit - Brockman & Hale INV-2218
+2026-06-14;2000 Accounts Payable;;8079.0;BILL-3133 Meridian Legal LLP
+2026-06-14;6600 Professional Fees;8079.0;;BILL-3133 Meridian Legal LLP
+2026-06-14;2000 Accounts Payable;;6575.0;BILL-3134 Uptown Catering Co.
+2026-06-14;6700 Office Supplies;6575.0;;BILL-3134 Uptown Catering Co.
+2026-06-14;2000 Accounts Payable;;21887.11;BILL-3137 Quicksilver Couriers
+2026-06-14;5100 Freight & Shipping;21887.11;;BILL-3137 Quicksilver Couriers
+2026-06-15;1000 Cash;22556.0;;Deposit - Zephyr Dynamics INV-2217
+2026-06-15;1100 Accounts Receivable;;22556.0;Deposit - Zephyr Dynamics INV-2217
+2026-06-15;2000 Accounts Payable;;8744.22;BILL-3136 Bright Harbor Media
+2026-06-15;6200 Advertising & Marketing;8744.22;;BILL-3136 Bright Harbor Media
+2026-06-15;1000 Cash;;52336.0;Payroll 2026-06/01-06/15
+2026-06-15;2300 Payroll Liabilities;;14761.0;Payroll 2026-06/01-06/15
+2026-06-15;6000 Salaries Expense;67097.0;;Payroll 2026-06/01-06/15
+2026-06-16;1100 Accounts Receivable;24528.0;;Invoice INV-2221 - Ferrell Industries
+2026-06-16;4000 Product Sales;;24528.0;Invoice INV-2221 - Ferrell Industries
+2026-06-16;1400 Inventory;;13480.0;COGS - INV-2221
+2026-06-16;5000 Cost of Goods Sold;13480.0;;COGS - INV-2221
+2026-06-16;2000 Accounts Payable;;2796.0;BILL-3132 CloudSpan Hosting
+2026-06-16;6450 Software Expense;2796.0;;BILL-3132 CloudSpan Hosting
+2026-06-17;2000 Accounts Payable;;6145.0;BILL-3135 CloudSpan Hosting
+2026-06-17;6450 Software Expense;6145.0;;BILL-3135 CloudSpan Hosting
+2026-06-18;1000 Cash;;8079.0;Pay BILL-3133 Meridian Legal LLP CHK#1012
+2026-06-18;2000 Accounts Payable;8079.0;;Pay BILL-3133 Meridian Legal LLP CHK#1012
+2026-06-18;1000 Cash;;21887.11;Pay BILL-3137 Quicksilver Couriers CHK#1014
+2026-06-18;2000 Accounts Payable;21887.11;;Pay BILL-3137 Quicksilver Couriers CHK#1014
+2026-06-19;1100 Accounts Receivable;33548.0;;Invoice INV-2222 - Nordica Labs
+2026-06-19;4100 Shipping Income;;33548.0;Invoice INV-2222 - Nordica Labs
+2026-06-19;1000 Cash;;6575.0;Pay BILL-3134 Uptown Catering Co. CHK#1013
+2026-06-19;2000 Accounts Payable;6575.0;;Pay BILL-3134 Uptown Catering Co. CHK#1013
+2026-06-19;1000 Cash;;8744.22;Pay BILL-3136 Bright Harbor Media CHK#1015
+2026-06-19;2000 Accounts Payable;8744.22;;Pay BILL-3136 Bright Harbor Media CHK#1015
+2026-06-20;1100 Accounts Receivable;14965.0;;Invoice INV-2223 - Kelso Brands
+2026-06-20;4100 Shipping Income;;14965.0;Invoice INV-2223 - Kelso Brands
+2026-06-21;1000 Cash;;2796.0;Pay BILL-3132 CloudSpan Hosting CHK#1016
+2026-06-21;2000 Accounts Payable;2796.0;;Pay BILL-3132 CloudSpan Hosting CHK#1016
+2026-06-22;1100 Accounts Receivable;26721.0;;Invoice INV-2224 - Ivywood Enterprises
+2026-06-22;4000 Product Sales;;26721.0;Invoice INV-2224 - Ivywood Enterprises
+2026-06-22;1400 Inventory;;13793.0;COGS - INV-2224
+2026-06-22;5000 Cost of Goods Sold;13793.0;;COGS - INV-2224
+2026-06-24;1100 Accounts Receivable;12531.0;;Invoice INV-2219 - Zephyr Dynamics
+2026-06-24;4000 Product Sales;;12531.0;Invoice INV-2219 - Zephyr Dynamics
+2026-06-24;1400 Inventory;;5704.0;COGS - INV-2219
+2026-06-24;5000 Cost of Goods Sold;5704.0;;COGS - INV-2219
+2026-06-26;1000 Cash;;6145.0;Pay BILL-3135 CloudSpan Hosting CHK#1017
+2026-06-26;2000 Accounts Payable;6145.0;;Pay BILL-3135 CloudSpan Hosting CHK#1017
+2026-06-28;1000 Cash;30085.0;;Deposit - Ferrell Industries INV-2215
+2026-06-28;1100 Accounts Receivable;;30085.0;Deposit - Ferrell Industries INV-2215

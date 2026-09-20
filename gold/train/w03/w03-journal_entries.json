@@ -1,0 +1,78 @@
+{
+ "entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6000 Salaries Expense",
+     "credit": 0,
+     "debit": 75818.0
+    },
+    {
+     "account": "2100 Accrued Liabilities",
+     "credit": 75818.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Accrue payroll for period 2026-06/16-06/30 paid 2026-07-02"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6400 Insurance Expense",
+     "credit": 0,
+     "debit": 190.0
+    },
+    {
+     "account": "1300 Prepaid Insurance",
+     "credit": 190.0,
+     "debit": 0
+    },
+    {
+     "account": "6450 Software Expense",
+     "credit": 0,
+     "debit": 24.0
+    },
+    {
+     "account": "1310 Prepaid Software",
+     "credit": 24.0,
+     "debit": 0
+    }
+   ],
+   "memo": "June prepaid amortization"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6200 Advertising & Marketing",
+     "credit": 0,
+     "debit": 4872.0
+    },
+    {
+     "account": "6700 Office Supplies",
+     "credit": 4872.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Reclass BILL-3148 (Bright Harbor Media) to correct account"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6800 Depreciation Expense",
+     "credit": 0,
+     "debit": 2703.9
+    },
+    {
+     "account": "1590 Accumulated Depreciation",
+     "credit": 2703.9,
+     "debit": 0
+    }
+   ],
+   "memo": "June depreciation"
+  }
+ ]
+}

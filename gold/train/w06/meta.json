@@ -1,0 +1,246 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Inventory",
+   "number": "1400"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Product Sales",
+   "number": "4000"
+  },
+  {
+   "name": "Shipping Income",
+   "number": "4100"
+  },
+  {
+   "name": "Cost of Goods Sold",
+   "number": "5000"
+  },
+  {
+   "name": "Freight & Shipping",
+   "number": "5100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Copper Kettle Trading",
+ "files_tree_hash": "34d552af4334fd4427aa88871689e15e1735c56ea33821f082d6aef70cecda9a",
+ "industry": "ecommerce",
+ "split": "train",
+ "truth_records": [
+  {
+   "amount": 4608.0,
+   "detail": {
+    "bill_id": "BILL-3146",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 56715.0,
+   "detail": {
+    "pay_date": "2026-07-02",
+    "period": "2026-06/16-06/30"
+   },
+   "kind": "missing_payroll_accrual"
+  },
+  {
+   "amount": 1633.38,
+   "detail": {
+    "asset": "Equipment (aggregate)"
+   },
+   "kind": "missing_depreciation"
+  },
+  {
+   "amount": 4453.0,
+   "detail": {
+    "bill_id": "BILL-3141",
+    "check_no": "CHK-1014",
+    "date": "2026-06-18",
+    "vendor": "Inkwell Print Co."
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 6099.0,
+   "detail": {
+    "bill_id": "BILL-3140",
+    "check_no": "CHK-1010",
+    "date": "2026-06-14",
+    "vendor": "Trellis Marketing Group"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 11007.12,
+   "detail": {
+    "bill_id": "BILL-3144",
+    "check_no": "CHK-1013",
+    "date": "2026-06-16",
+    "vendor": "Pillar Accounting Services"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 36.0,
+   "detail": {
+    "bank_amount": 1626.0,
+    "bill_id": "BILL-3139",
+    "check_no": "CHK-1011",
+    "direction": "gl_overstated_payment",
+    "expense_acct": "6450",
+    "gl_amount": 1662.0
+   },
+   "kind": "gl_amount_error"
+  },
+  {
+   "amount": 47485.0,
+   "detail": {
+    "desc": "DEPOSIT CORLISS MARINE"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 13309.0,
+   "detail": {
+    "desc": "DEPOSIT ROSEWOOD RETAIL INV-2226"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 58.78,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 43.78,
+   "detail": {
+    "desc": "WIRE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 19.39,
+   "detail": {},
+   "kind": "interest_unrecorded"
+  },
+  {
+   "amount": 11007.12,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3144",
+    "campaign": "Harvest",
+    "desc": "Harvest launch sprint (one-time)",
+    "keywords": [
+     "harvest",
+     "pillar"
+    ],
+    "vendor": "Pillar Accounting Services"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 25457.38,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3145",
+    "campaign": "Lighthouse",
+    "desc": "One-time Lighthouse initiative",
+    "keywords": [
+     "lighthouse",
+     "trellis"
+    ],
+    "vendor": "Trellis Marketing Group"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "w06"
+}

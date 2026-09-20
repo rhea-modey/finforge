@@ -1,0 +1,12 @@
+Keystone Freight & Supply
+WHOLESALE FREIGHT SUPPLY INVOICE
+
+Invoice: INV-2233
+Bill to: Underhill Logistics
+Date: 2026-04-13
+
+Line item: Single-period freight supplies, warehouse handling, and order fulfillment.
+Amount due: $24,753.00
+
+Terms: Payment is due upon receipt.
+Remit: Please include the invoice id with remittance.

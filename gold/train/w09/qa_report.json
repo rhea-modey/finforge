@@ -1,0 +1,49 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 168536.73,
+    "gold": 168536.73,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 198632.24,
+    "gold": 198632.24,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $59,763.96, while the trial balance and detailed GL show Accounts Payable of $77,753.02, leaving $17,989.06 of residual opening payables absent from the aging detail.",
+    "severity": "medium"
+   },
+   {
+    "description": "BILL-3140 is $9,617.00 in bills/BILL-3140.txt and on the bank statement, but both the bill posting and payment in the GL use $9,671.00. The source bill and bank evidence make the intended amount determinable, so this is a correctable GL transposition rather than a task-blocking ambiguity.",
+    "severity": "low"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w09-accrual_schedule": {
+    "reason": "The May prepaid schedule, insurance contract, and June GL establish the opening balance, June amortization, closing balance, and that the June amortization entry is already booked.",
+    "solvable": true
+   },
+   "w09-bank_rec": {
+    "reason": "The bank statement, GL, trial balance, bill support, and transaction references permit all timing differences and book-side corrections to be identified and produce a unique adjusted cash balance.",
+    "solvable": true
+   },
+   "w09-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed-asset register, bill documents, and GL provide sufficient evidence to identify the missing payroll accrual and depreciation entry, avoid duplicating booked amortization, and reclass the miscoded vendor bill.",
+    "solvable": true
+   },
+   "w09-variance_analysis": {
+    "reason": "June actual activity can be adjusted for the supported close entries and compared with the June budget. Selection of material variances requires ordinary professional judgment but is not prevented by missing information.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

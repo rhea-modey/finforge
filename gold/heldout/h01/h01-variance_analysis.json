@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 19324.75,
+   "keywords": [
+    "horizon",
+    "kite"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 15698.68,
+   "keywords": [
+    "northstar",
+    "meridian"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 28970.75,
+   "budget": 9887.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 19324.75,
+     "description": "Horizon project - one-off engagement billed by Kite Digital Ads (BILL-3136)",
+     "evidence": [
+      "bills/BILL-3136.txt"
+     ]
+    }
+   ],
+   "variance": 19083.75
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 15698.68,
+   "budget": 0.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 15698.68,
+     "description": "Northstar project - one-off engagement billed by Meridian Legal LLP (BILL-3137)",
+     "evidence": [
+      "bills/BILL-3137.txt"
+     ]
+    }
+   ],
+   "variance": 15698.68
+  }
+ ]
+}

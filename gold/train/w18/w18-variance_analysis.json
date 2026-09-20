@@ -1,0 +1,79 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 12988.69,
+   "keywords": [
+    "catalyst",
+    "zenith"
+   ]
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 23909.92,
+   "keywords": [
+    "lighthouse",
+    "trellis"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 17472.96,
+   "keywords": [
+    "harvest",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 12988.69,
+   "budget": 0.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 12988.69,
+     "description": "Non-recurring Catalyst program billed by Zenith Freight Lines (BILL-3139)",
+     "evidence": [
+      "bills/BILL-3139.txt"
+     ]
+    }
+   ],
+   "variance": 12988.69
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 44468.92,
+   "budget": 21249.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 23909.92,
+     "description": "One-time Lighthouse initiative billed by Trellis Marketing Group (BILL-3137)",
+     "evidence": [
+      "bills/BILL-3137.txt"
+     ]
+    }
+   ],
+   "variance": 23219.92
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 17472.96,
+   "budget": 290.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 17472.96,
+     "description": "One-time Harvest initiative billed by Pillar Accounting Services (BILL-3138)",
+     "evidence": [
+      "bills/BILL-3138.txt"
+     ]
+    }
+   ],
+   "variance": 17182.96
+  }
+ ]
+}

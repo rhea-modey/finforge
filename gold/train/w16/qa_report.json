@@ -1,0 +1,49 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 181618.52,
+    "gold": 181618.52,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 207761.45,
+    "gold": 207761.45,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "BILL-3132 is $2,473.00 in bills/BILL-3132.txt and on the bank statement, but the ledger records both the bill and its payment as $4,273.00. The $1,800.00 discrepancy requires correction; the supporting bill is authoritative under the close instructions.",
+    "severity": "medium"
+   },
+   {
+    "description": "The 2026-06-30 AP aging totals $23,678.00, while the trial balance reports Accounts Payable of $39,549.69, leaving an unexplained $15,871.69 control-account difference. The ledger indicates this is residual opening payables, but the amount is absent from the aging detail.",
+    "severity": "low"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w16-accrual_schedule": {
+    "reason": "The May prepaid schedule, insurance contract, and June ledger provide the opening balance, June amortization, closing balance, and evidence that the June amortization entry is already booked.",
+    "solvable": true
+   },
+   "w16-bank_rec": {
+    "reason": "The bank statement, cash ledger, and trial balance provide sufficient data to identify deposits in transit, outstanding checks, unrecorded fees and interest, and the BILL-3132 payment error. Both sides reconcile uniquely to an adjusted balance.",
+    "solvable": true
+   },
+   "w16-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed-asset register, vendor documents, and ledger establish which entries are missing, already posted, or require correction. The BILL-3132 conflict is resolvable because the supporting bill is designated authoritative.",
+    "solvable": true
+   },
+   "w16-variance_analysis": {
+    "reason": "June actuals can be derived from the ledger and adjusted for the required close entries and corrections, while the June budget and supporting documents provide the amounts and drivers. Selection of material variances requires ordinary professional judgment but does not prevent completion.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

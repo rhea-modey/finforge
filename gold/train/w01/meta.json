@@ -1,0 +1,231 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Subscription Revenue",
+   "number": "4000"
+  },
+  {
+   "name": "Professional Services Revenue",
+   "number": "4100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Software Subscriptions",
+   "number": "6300"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Cirrus Metrics Inc.",
+ "files_tree_hash": "c31e1b3cc3a14b660c40b6be416c6e1d3a1faa33007c272e7ba7bdef11b6f5a9",
+ "industry": "saas",
+ "split": "train",
+ "truth_records": [
+  {
+   "amount": 3840.0,
+   "detail": {
+    "bill_id": "BILL-3147",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Trellis Marketing Group"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 38065.0,
+   "detail": {
+    "pay_date": "2026-07-02",
+    "period": "2026-06/16-06/30"
+   },
+   "kind": "missing_payroll_accrual"
+  },
+  {
+   "amount": 189.0,
+   "detail": {
+    "item": "Hartline Mutual Insurance annual policy"
+   },
+   "kind": "missing_prepaid_amort"
+  },
+  {
+   "amount": 14840.2,
+   "detail": {
+    "bill_id": "BILL-3146",
+    "check_no": "CHK-1008",
+    "date": "2026-06-10",
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 5631.0,
+   "detail": {
+    "bill_id": "BILL-3141",
+    "check_no": "CHK-1013",
+    "date": "2026-06-23",
+    "vendor": "Meridian Legal LLP"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 7277.0,
+   "detail": {
+    "bill_id": "BILL-3140",
+    "check_no": "CHK-1011",
+    "date": "2026-06-13",
+    "vendor": "Clearbyte Cloud Services"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 180.0,
+   "detail": {
+    "bank_amount": 3200.0,
+    "bill_id": "BILL-3143",
+    "check_no": "CHK-1012",
+    "direction": "gl_understated_payment",
+    "expense_acct": "6600",
+    "gl_amount": 3020.0
+   },
+   "kind": "gl_amount_error"
+  },
+  {
+   "amount": 11737.0,
+   "detail": {
+    "desc": "DEPOSIT GLENROCK SOLUTIONS INV-2236"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 41.25,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 57.04,
+   "detail": {
+    "desc": "WIRE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 36.69,
+   "detail": {},
+   "kind": "interest_unrecorded"
+  },
+  {
+   "amount": 15120.56,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3145",
+    "campaign": "Summit",
+    "desc": "Summit launch sprint (one-time)",
+    "keywords": [
+     "summit",
+     "pillar"
+    ],
+    "vendor": "Pillar Accounting Services"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 14840.2,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3146",
+    "campaign": "Horizon",
+    "desc": "Special Horizon initiative - one-off fees",
+    "keywords": [
+     "horizon",
+     "bright"
+    ],
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "w01"
+}

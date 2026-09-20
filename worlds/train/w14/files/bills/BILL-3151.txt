@@ -1,0 +1,13 @@
+FIRSTLANE LOGISTICS
+Firstlane Logistics
+Project Freight Billing
+
+BILL-3151
+Customer: Meridian Basket Inc.
+Date: 2026-06-13
+
+One-off June logistics work for the Harvest program
+Amount: $11,471.44
+
+Terms: Payable upon receipt.
+Remit with the bill identifier shown above.

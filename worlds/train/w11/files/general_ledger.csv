@@ -1,0 +1,201 @@
+txn_date,account,dr,cr,Memo
+01-Apr-2026,1000 Cash,194240.28,,Opening balances
+01-Apr-2026,1300 Prepaid Insurance,1566.0,,Opening balances
+01-Apr-2026,1400 Inventory,78249.43,,Opening balances
+01-Apr-2026,1500 Equipment,113610.0,,Opening balances
+01-Apr-2026,1590 Accumulated Depreciation,,30296.0,Opening balances
+01-Apr-2026,2000 Accounts Payable,,29002.47,Opening balances
+01-Apr-2026,3000 Retained Earnings,,328367.24,Opening balances
+02-Apr-2026,1100 Accounts Receivable,22512.0,,Invoice INV-2229 - Quimby Ventures
+02-Apr-2026,4100 Delivery Fees,,22512.0,Invoice INV-2229 - Quimby Ventures
+03-Apr-2026,1100 Accounts Receivable,6625.0,,Invoice INV-2225 - Quimby Ventures
+03-Apr-2026,4000 Wholesale Sales,,6625.0,Invoice INV-2225 - Quimby Ventures
+03-Apr-2026,1400 Inventory,,3493.0,COGS - INV-2225
+03-Apr-2026,5000 Cost of Goods Sold,3493.0,,COGS - INV-2225
+03-Apr-2026,1000 Cash,,7547.0,Rent - Harborstone Realty Partners
+03-Apr-2026,6100 Rent Expense,7547.0,,Rent - Harborstone Realty Partners
+04-Apr-2026,2000 Accounts Payable,,2834.0,BILL-3102 Uptown Catering Co.
+04-Apr-2026,6700 Office Supplies,2834.0,,BILL-3102 Uptown Catering Co.
+04-Apr-2026,2000 Accounts Payable,,2978.0,BILL-3105 Delta Facility Services
+04-Apr-2026,6700 Office Supplies,2978.0,,BILL-3105 Delta Facility Services
+05-Apr-2026,1100 Accounts Receivable,29823.0,,Invoice INV-2228 - Tamarack Health
+05-Apr-2026,4100 Delivery Fees,,29823.0,Invoice INV-2228 - Tamarack Health
+06-Apr-2026,1000 Cash,,14501.23,Payment on account - opening payables
+06-Apr-2026,2000 Accounts Payable,14501.23,,Payment on account - opening payables
+06-Apr-2026,1100 Accounts Receivable,19698.0,,Invoice INV-2226 - Quimby Ventures
+06-Apr-2026,4000 Wholesale Sales,,19698.0,Invoice INV-2226 - Quimby Ventures
+06-Apr-2026,1400 Inventory,,8660.0,COGS - INV-2226
+06-Apr-2026,5000 Cost of Goods Sold,8660.0,,COGS - INV-2226
+08-Apr-2026,1000 Cash,,2834.0,Pay BILL-3102 Uptown Catering Co. CHK#1003
+08-Apr-2026,2000 Accounts Payable,2834.0,,Pay BILL-3102 Uptown Catering Co. CHK#1003
+09-Apr-2026,1000 Cash,,2978.0,Pay BILL-3105 Delta Facility Services CHK#1004
+09-Apr-2026,2000 Accounts Payable,2978.0,,Pay BILL-3105 Delta Facility Services CHK#1004
+11-Apr-2026,1100 Accounts Receivable,11114.0,,Invoice INV-2231 - Nordica Labs
+11-Apr-2026,4000 Wholesale Sales,,11114.0,Invoice INV-2231 - Nordica Labs
+11-Apr-2026,1400 Inventory,,4723.0,COGS - INV-2231
+11-Apr-2026,5000 Cost of Goods Sold,4723.0,,COGS - INV-2231
+13-Apr-2026,2000 Accounts Payable,,6807.0,BILL-3103 Bright Harbor Media
+13-Apr-2026,6200 Advertising & Marketing,6807.0,,BILL-3103 Bright Harbor Media
+14-Apr-2026,1100 Accounts Receivable,9955.0,,Invoice INV-2230 - Brockman & Hale
+14-Apr-2026,4000 Wholesale Sales,,9955.0,Invoice INV-2230 - Brockman & Hale
+14-Apr-2026,1400 Inventory,,4407.0,COGS - INV-2230
+14-Apr-2026,5000 Cost of Goods Sold,4407.0,,COGS - INV-2230
+14-Apr-2026,2000 Accounts Payable,,5775.0,BILL-3106 Ridgeline Telecom
+14-Apr-2026,6500 Utilities Expense,5775.0,,BILL-3106 Ridgeline Telecom
+15-Apr-2026,2000 Accounts Payable,,3312.0,BILL-3104 CloudSpan Hosting
+15-Apr-2026,6450 Software Expense,3312.0,,BILL-3104 CloudSpan Hosting
+15-Apr-2026,1000 Cash,,42490.0,Payroll 2026-04/01-04/15
+15-Apr-2026,2300 Payroll Liabilities,,11984.0,Payroll 2026-04/01-04/15
+15-Apr-2026,6000 Salaries Expense,54474.0,,Payroll 2026-04/01-04/15
+16-Apr-2026,2000 Accounts Payable,,2609.0,BILL-3107 Meridian Legal LLP
+16-Apr-2026,6600 Professional Fees,2609.0,,BILL-3107 Meridian Legal LLP
+19-Apr-2026,1100 Accounts Receivable,29139.0,,Invoice INV-2227 - Nordica Labs
+19-Apr-2026,4000 Wholesale Sales,,29139.0,Invoice INV-2227 - Nordica Labs
+19-Apr-2026,1400 Inventory,,16661.0,COGS - INV-2227
+19-Apr-2026,5000 Cost of Goods Sold,16661.0,,COGS - INV-2227
+21-Apr-2026,1000 Cash,,2609.0,Pay BILL-3107 Meridian Legal LLP CHK#1006
+21-Apr-2026,2000 Accounts Payable,2609.0,,Pay BILL-3107 Meridian Legal LLP CHK#1006
+23-Apr-2026,1000 Cash,29823.0,,Deposit - Tamarack Health INV-2228
+23-Apr-2026,1100 Accounts Receivable,,29823.0,Deposit - Tamarack Health INV-2228
+23-Apr-2026,1000 Cash,,5775.0,Pay BILL-3106 Ridgeline Telecom CHK#1005
+23-Apr-2026,2000 Accounts Payable,5775.0,,Pay BILL-3106 Ridgeline Telecom CHK#1005
+26-Apr-2026,1000 Cash,22512.0,,Deposit - Quimby Ventures INV-2229
+26-Apr-2026,1100 Accounts Receivable,,22512.0,Deposit - Quimby Ventures INV-2229
+28-Apr-2026,1000 Cash,,42412.0,Payroll 2026-04/16-04/30
+28-Apr-2026,2300 Payroll Liabilities,,11962.0,Payroll 2026-04/16-04/30
+28-Apr-2026,6000 Salaries Expense,54374.0,,Payroll 2026-04/16-04/30
+28-Apr-2026,1300 Prepaid Insurance,,174.0,Monthly insurance amortization
+28-Apr-2026,6400 Insurance Expense,174.0,,Monthly insurance amortization
+28-Apr-2026,1590 Accumulated Depreciation,,1893.5,Monthly depreciation
+28-Apr-2026,6800 Depreciation Expense,1893.5,,Monthly depreciation
+03-May-2026,1000 Cash,,7547.0,Rent - Harborstone Realty Partners
+03-May-2026,6100 Rent Expense,7547.0,,Rent - Harborstone Realty Partners
+06-May-2026,1000 Cash,9955.0,,Deposit - Brockman & Hale INV-2230
+06-May-2026,1100 Accounts Receivable,,9955.0,Deposit - Brockman & Hale INV-2230
+06-May-2026,1100 Accounts Receivable,15927.0,,Invoice INV-2236 - Tamarack Health
+06-May-2026,4100 Delivery Fees,,15927.0,Invoice INV-2236 - Tamarack Health
+06-May-2026,2000 Accounts Payable,,1961.0,BILL-3111 Zenith Freight Lines
+06-May-2026,5100 Freight & Shipping,1961.0,,BILL-3111 Zenith Freight Lines
+07-May-2026,1000 Cash,6625.0,,Deposit - Quimby Ventures INV-2225
+07-May-2026,1100 Accounts Receivable,,6625.0,Deposit - Quimby Ventures INV-2225
+08-May-2026,1100 Accounts Receivable,24616.0,,Invoice INV-2234 - Quimby Ventures
+08-May-2026,4000 Wholesale Sales,,24616.0,Invoice INV-2234 - Quimby Ventures
+08-May-2026,1400 Inventory,,14137.0,COGS - INV-2234
+08-May-2026,5000 Cost of Goods Sold,14137.0,,COGS - INV-2234
+09-May-2026,2000 Accounts Payable,,4788.0,BILL-3110 Helix IT Solutions
+09-May-2026,6450 Software Expense,4788.0,,BILL-3110 Helix IT Solutions
+10-May-2026,1000 Cash,19698.0,,Deposit - Quimby Ventures INV-2226
+10-May-2026,1100 Accounts Receivable,,19698.0,Deposit - Quimby Ventures INV-2226
+12-May-2026,1100 Accounts Receivable,6369.0,,Invoice INV-2235 - Brockman & Hale
+12-May-2026,4000 Wholesale Sales,,6369.0,Invoice INV-2235 - Brockman & Hale
+12-May-2026,1400 Inventory,,3446.0,COGS - INV-2235
+12-May-2026,5000 Cost of Goods Sold,3446.0,,COGS - INV-2235
+15-May-2026,1100 Accounts Receivable,9093.0,,Invoice INV-2237 - Eastgate Collective
+15-May-2026,4100 Delivery Fees,,9093.0,Invoice INV-2237 - Eastgate Collective
+15-May-2026,1000 Cash,,1961.0,Pay BILL-3111 Zenith Freight Lines CHK#1008
+15-May-2026,2000 Accounts Payable,1961.0,,Pay BILL-3111 Zenith Freight Lines CHK#1008
+15-May-2026,1000 Cash,,35955.0,Payroll 2026-05/01-05/15
+15-May-2026,2300 Payroll Liabilities,,10141.0,Payroll 2026-05/01-05/15
+15-May-2026,6000 Salaries Expense,46096.0,,Payroll 2026-05/01-05/15
+16-May-2026,1100 Accounts Receivable,22643.0,,Invoice INV-2238 - Nordica Labs
+16-May-2026,4000 Wholesale Sales,,22643.0,Invoice INV-2238 - Nordica Labs
+16-May-2026,1400 Inventory,,11671.0,COGS - INV-2238
+16-May-2026,5000 Cost of Goods Sold,11671.0,,COGS - INV-2238
+18-May-2026,1100 Accounts Receivable,6533.0,,Invoice INV-2232 - Longmont Systems
+18-May-2026,4100 Delivery Fees,,6533.0,Invoice INV-2232 - Longmont Systems
+18-May-2026,1100 Accounts Receivable,20258.0,,Invoice INV-2233 - Hartwell Group
+18-May-2026,4000 Wholesale Sales,,20258.0,Invoice INV-2233 - Hartwell Group
+18-May-2026,1400 Inventory,,10484.0,COGS - INV-2233
+18-May-2026,5000 Cost of Goods Sold,10484.0,,COGS - INV-2233
+18-May-2026,1000 Cash,,4788.0,Pay BILL-3110 Helix IT Solutions CHK#1009
+18-May-2026,2000 Accounts Payable,4788.0,,Pay BILL-3110 Helix IT Solutions CHK#1009
+18-May-2026,2000 Accounts Payable,,768.0,BILL-3108 Stanton Cleaning Crew
+18-May-2026,6700 Office Supplies,768.0,,BILL-3108 Stanton Cleaning Crew
+18-May-2026,2000 Accounts Payable,,2603.0,BILL-3109 Helix IT Solutions
+18-May-2026,6450 Software Expense,2603.0,,BILL-3109 Helix IT Solutions
+21-May-2026,1000 Cash,11114.0,,Deposit - Nordica Labs INV-2231
+21-May-2026,1100 Accounts Receivable,,11114.0,Deposit - Nordica Labs INV-2231
+22-May-2026,2000 Accounts Payable,,2051.0,BILL-3112 Meridian Legal LLP
+22-May-2026,6600 Professional Fees,2051.0,,BILL-3112 Meridian Legal LLP
+23-May-2026,1000 Cash,,2603.0,Pay BILL-3109 Helix IT Solutions CHK#1011
+23-May-2026,2000 Accounts Payable,2603.0,,Pay BILL-3109 Helix IT Solutions CHK#1011
+24-May-2026,1000 Cash,,768.0,Pay BILL-3108 Stanton Cleaning Crew CHK#1010
+24-May-2026,2000 Accounts Payable,768.0,,Pay BILL-3108 Stanton Cleaning Crew CHK#1010
+27-May-2026,1000 Cash,29139.0,,Deposit - Nordica Labs INV-2227
+27-May-2026,1100 Accounts Receivable,,29139.0,Deposit - Nordica Labs INV-2227
+28-May-2026,1000 Cash,,2051.0,Pay BILL-3112 Meridian Legal LLP CHK#1012
+28-May-2026,2000 Accounts Payable,2051.0,,Pay BILL-3112 Meridian Legal LLP CHK#1012
+28-May-2026,1000 Cash,,35792.0,Payroll 2026-05/16-05/30
+28-May-2026,2300 Payroll Liabilities,,10094.0,Payroll 2026-05/16-05/30
+28-May-2026,6000 Salaries Expense,45886.0,,Payroll 2026-05/16-05/30
+28-May-2026,1300 Prepaid Insurance,,174.0,Monthly insurance amortization
+28-May-2026,6400 Insurance Expense,174.0,,Monthly insurance amortization
+28-May-2026,1590 Accumulated Depreciation,,1893.5,Monthly depreciation
+28-May-2026,6800 Depreciation Expense,1893.5,,Monthly depreciation
+02-Jun-2026,2000 Accounts Payable,,1515.0,BILL-3114 CloudSpan Hosting
+02-Jun-2026,6450 Software Expense,1515.0,,BILL-3114 CloudSpan Hosting
+03-Jun-2026,1000 Cash,,7547.0,Rent - Harborstone Realty Partners
+03-Jun-2026,6100 Rent Expense,7547.0,,Rent - Harborstone Realty Partners
+04-Jun-2026,1000 Cash,6369.0,,Deposit - Brockman & Hale INV-2235
+04-Jun-2026,1100 Accounts Receivable,,6369.0,Deposit - Brockman & Hale INV-2235
+04-Jun-2026,2000 Accounts Payable,,14338.8,BILL-3120 Pillar Accounting Services
+04-Jun-2026,6600 Professional Fees,14338.8,,BILL-3120 Pillar Accounting Services
+08-Jun-2026,1000 Cash,,1515.0,Pay BILL-3114 CloudSpan Hosting CHK#1014
+08-Jun-2026,2000 Accounts Payable,1515.0,,Pay BILL-3114 CloudSpan Hosting CHK#1014
+08-Jun-2026,2000 Accounts Payable,,4188.0,BILL-3121 Trellis Marketing Group
+08-Jun-2026,6700 Office Supplies,4188.0,,BILL-3121 Trellis Marketing Group
+09-Jun-2026,1000 Cash,24616.0,,Deposit - Quimby Ventures INV-2234
+09-Jun-2026,1100 Accounts Receivable,,24616.0,Deposit - Quimby Ventures INV-2234
+09-Jun-2026,1000 Cash,,14338.8,Pay BILL-3120 Pillar Accounting Services CHK#1015
+09-Jun-2026,2000 Accounts Payable,14338.8,,Pay BILL-3120 Pillar Accounting Services CHK#1015
+10-Jun-2026,1000 Cash,6533.0,,Deposit - Longmont Systems INV-2232
+10-Jun-2026,1100 Accounts Receivable,,6533.0,Deposit - Longmont Systems INV-2232
+10-Jun-2026,1100 Accounts Receivable,18076.0,,Invoice INV-2242 - Ivywood Enterprises
+10-Jun-2026,4000 Wholesale Sales,,18076.0,Invoice INV-2242 - Ivywood Enterprises
+10-Jun-2026,1400 Inventory,,10368.0,COGS - INV-2242
+10-Jun-2026,5000 Cost of Goods Sold,10368.0,,COGS - INV-2242
+11-Jun-2026,2000 Accounts Payable,,19004.57,BILL-3118 Willow Creek Packaging
+11-Jun-2026,5100 Freight & Shipping,19004.57,,BILL-3118 Willow Creek Packaging
+11-Jun-2026,2000 Accounts Payable,,11666.19,BILL-3119 Kite Digital Ads
+11-Jun-2026,6200 Advertising & Marketing,11666.19,,BILL-3119 Kite Digital Ads
+12-Jun-2026,1000 Cash,9093.0,,Deposit - Eastgate Collective INV-2237
+12-Jun-2026,1100 Accounts Receivable,,9093.0,Deposit - Eastgate Collective INV-2237
+12-Jun-2026,1100 Accounts Receivable,28365.0,,Invoice INV-2239 - Nordica Labs
+12-Jun-2026,4000 Wholesale Sales,,28365.0,Invoice INV-2239 - Nordica Labs
+12-Jun-2026,1400 Inventory,,13742.0,COGS - INV-2239
+12-Jun-2026,5000 Cost of Goods Sold,13742.0,,COGS - INV-2239
+12-Jun-2026,2000 Accounts Payable,,3857.0,BILL-3116 Stanton Cleaning Crew
+12-Jun-2026,6700 Office Supplies,3857.0,,BILL-3116 Stanton Cleaning Crew
+12-Jun-2026,1000 Cash,12940.0,,Owner capital contribution
+12-Jun-2026,3000 Retained Earnings,,12940.0,Owner capital contribution
+14-Jun-2026,1000 Cash,15927.0,,Deposit - Tamarack Health INV-2236
+14-Jun-2026,1100 Accounts Receivable,,15927.0,Deposit - Tamarack Health INV-2236
+15-Jun-2026,1000 Cash,,33181.0,Payroll 2026-06/01-06/15
+15-Jun-2026,2300 Payroll Liabilities,,9358.0,Payroll 2026-06/01-06/15
+15-Jun-2026,6000 Salaries Expense,42539.0,,Payroll 2026-06/01-06/15
+16-Jun-2026,2000 Accounts Payable,,3190.0,BILL-3117 Uptown Catering Co.
+16-Jun-2026,6700 Office Supplies,3190.0,,BILL-3117 Uptown Catering Co.
+17-Jun-2026,1000 Cash,22643.0,,Deposit - Nordica Labs INV-2238
+17-Jun-2026,1100 Accounts Receivable,,22643.0,Deposit - Nordica Labs INV-2238
+18-Jun-2026,1100 Accounts Receivable,4866.0,,Invoice INV-2240 - Nordica Labs
+18-Jun-2026,4000 Wholesale Sales,,4866.0,Invoice INV-2240 - Nordica Labs
+18-Jun-2026,1400 Inventory,,2625.0,COGS - INV-2240
+18-Jun-2026,5000 Cost of Goods Sold,2625.0,,COGS - INV-2240
+18-Jun-2026,2000 Accounts Payable,,3322.0,BILL-3115 Trellis Marketing Group
+18-Jun-2026,6200 Advertising & Marketing,3322.0,,BILL-3115 Trellis Marketing Group
+19-Jun-2026,1000 Cash,,19004.57,Pay BILL-3118 Willow Creek Packaging CHK#1016
+19-Jun-2026,2000 Accounts Payable,19004.57,,Pay BILL-3118 Willow Creek Packaging CHK#1016
+19-Jun-2026,1000 Cash,,3190.0,Pay BILL-3117 Uptown Catering Co. CHK#1017
+19-Jun-2026,2000 Accounts Payable,3190.0,,Pay BILL-3117 Uptown Catering Co. CHK#1017
+22-Jun-2026,1000 Cash,20258.0,,Deposit - Hartwell Group INV-2233
+22-Jun-2026,1100 Accounts Receivable,,20258.0,Deposit - Hartwell Group INV-2233
+22-Jun-2026,2000 Accounts Payable,,3290.0,BILL-3113 Junction Utility Co-op
+22-Jun-2026,6500 Utilities Expense,3290.0,,BILL-3113 Junction Utility Co-op
+24-Jun-2026,1100 Accounts Receivable,27904.0,,Invoice INV-2241 - Hartwell Group
+24-Jun-2026,4000 Wholesale Sales,,27904.0,Invoice INV-2241 - Hartwell Group
+24-Jun-2026,1400 Inventory,,15766.0,COGS - INV-2241
+24-Jun-2026,5000 Cost of Goods Sold,15766.0,,COGS - INV-2241
+24-Jun-2026,1000 Cash,,3322.0,Pay BILL-3115 Trellis Marketing Group CHK#1018
+24-Jun-2026,2000 Accounts Payable,3322.0,,Pay BILL-3115 Trellis Marketing Group CHK#1018
+25-Jun-2026,1000 Cash,,3290.0,Pay BILL-3113 Junction Utility Co-op CHK#1019
+25-Jun-2026,2000 Accounts Payable,3290.0,,Pay BILL-3113 Junction Utility Co-op CHK#1019

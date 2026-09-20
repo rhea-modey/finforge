@@ -1,0 +1,16 @@
+HARTLINE MUTUAL INSURANCE
+Hartline Mutual Insurance
+
+COMMERCIAL PACKAGE POLICY
+DECLARATIONS
+
+Named insured: Larkspur Home Goods
+Broker: Hartline Mutual Insurance
+Policy term begins: 2026-01-01
+Policy term ends: 2026-12-31
+Premium: $1,776.00
+
+ACCOUNTING TREATMENT
+The premium is amortized straight-line over the term, with a full month recognized in each month in force.
+
+These declarations summarize the coverage record and are subject to all policy forms, conditions, limitations, and endorsements.

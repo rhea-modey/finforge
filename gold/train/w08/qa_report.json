@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 394747.68,
+    "gold": 394747.68,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 404379.13,
+    "gold": 404379.13,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $25,323.00, while the trial balance reports Accounts Payable of $53,475.24. The $28,152.24 difference is the unpaid remainder of opening AP ($56,304.47 less the $28,152.23 payment), but it is omitted from the AP aging.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w08-accrual_schedule": {
+    "reason": "The May prepaid schedule, insurance policy, software contract, and June GL postings uniquely establish opening balances, additions, amortization, closing balances, and the status of the supporting amortization entry.",
+    "solvable": true
+   },
+   "w08-bank_rec": {
+    "reason": "The bank statement, cash ledger, trial balance, and BILL-3127 source document provide enough information to identify clearing items, unrecorded bank activity, and the $360 cash-recording error and to derive a unique adjusted cash balance.",
+    "solvable": true
+   },
+   "w08-journal_entries": {
+    "reason": "The payroll register, prepaid records, fixed-asset register, ledger, and available authoritative vendor bills identify the required payroll accrual, missing depreciation, and vendor-expense reclassification without duplicating posted entries.",
+    "solvable": true
+   },
+   "w08-variance_analysis": {
+    "reason": "June ledger activity, budgets, and the close-supporting records are sufficient to calculate as-closed actuals and provide support for the material variances using ordinary professional materiality judgment.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

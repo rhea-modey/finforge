@@ -1,0 +1,79 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 8168.5,
+   "keywords": [
+    "horizon",
+    "willow"
+   ]
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 7393.94,
+   "keywords": [
+    "summit",
+    "bright"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 14158.5,
+   "keywords": [
+    "catalyst",
+    "meridian"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 13844.5,
+   "budget": 5677.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 8168.5,
+     "description": "Non-recurring Horizon program billed by Willow Creek Packaging (BILL-3139)",
+     "evidence": [
+      "bills/BILL-3139.txt"
+     ]
+    }
+   ],
+   "variance": 8167.5
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 10582.94,
+   "budget": 3329.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 7393.94,
+     "description": "Special Summit initiative - one-off fees billed by Bright Harbor Media (BILL-3140)",
+     "evidence": [
+      "bills/BILL-3140.txt"
+     ]
+    }
+   ],
+   "variance": 7253.94
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 14158.5,
+   "budget": 40.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 14158.5,
+     "description": "Special Catalyst initiative - one-off fees billed by Meridian Legal LLP (BILL-3141)",
+     "evidence": [
+      "bills/BILL-3141.txt"
+     ]
+    }
+   ],
+   "variance": 14118.5
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 200135.14,
+    "gold": 200135.14,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 236783.51,
+    "gold": 236783.51,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $12,502.00, while the general ledger and trial balance report Accounts Payable of $42,307.00. The $29,805.00 difference is the unpaid residual of opening payables and is not represented in the aging.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w20-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract uniquely establish the June opening balance, monthly amortization, and closing balance, and the GL confirms that June amortization has not yet been booked.",
+    "solvable": true
+   },
+   "w20-bank_rec": {
+    "reason": "The bank statement, general ledger, and trial balance provide sufficient information to identify deposits in transit, outstanding checks, and two unrecorded bank fees and to reconcile both sides uniquely.",
+    "solvable": true
+   },
+   "w20-journal_entries": {
+    "reason": "The payroll register, prepaid schedule and insurance contract, fixed asset register, vendor-bill documents, and GL establish which June entries are missing and which bill requires reclassification.",
+    "solvable": true
+   },
+   "w20-variance_analysis": {
+    "reason": "June actual activity can be derived from the GL and adjusted for the determinable checklist entries, while the June budget and supporting transaction evidence are provided. Selection of material variances requires ordinary professional judgment.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

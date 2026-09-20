@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 6011.0,
+   "keywords": [
+    "harvest",
+    "trellis"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 12365.59,
+   "keywords": [
+    "anchor",
+    "meridian"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 8688.0,
+   "budget": 2843.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 6011.0,
+     "description": "Harvest launch sprint (one-time) billed by Trellis Marketing Group (BILL-3122)",
+     "evidence": [
+      "bills/BILL-3122.txt"
+     ]
+    }
+   ],
+   "variance": 5845.0
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 17524.59,
+   "budget": 5168.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 12365.59,
+     "description": "One-time Anchor initiative billed by Meridian Legal LLP (BILL-3123)",
+     "evidence": [
+      "bills/BILL-3123.txt"
+     ]
+    }
+   ],
+   "variance": 12356.59
+  }
+ ]
+}

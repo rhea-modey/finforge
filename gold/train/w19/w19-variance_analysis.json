@@ -1,0 +1,79 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 10235.77,
+   "keywords": [
+    "summit",
+    "zenith"
+   ]
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 12947.38,
+   "keywords": [
+    "anchor",
+    "trellis"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 26975.69,
+   "keywords": [
+    "horizon",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 11628.77,
+   "budget": 1695.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 10235.77,
+     "description": "Summit project - one-off engagement billed by Zenith Freight Lines (BILL-3128)",
+     "evidence": [
+      "bills/BILL-3128.txt"
+     ]
+    }
+   ],
+   "variance": 9933.77
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 20446.38,
+   "budget": 7606.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 12947.38,
+     "description": "Anchor launch sprint (one-time) billed by Trellis Marketing Group (BILL-3130)",
+     "evidence": [
+      "bills/BILL-3130.txt"
+     ]
+    }
+   ],
+   "variance": 12840.38
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 26975.69,
+   "budget": 523.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 26975.69,
+     "description": "Special Horizon initiative - one-off fees billed by Pillar Accounting Services (BILL-3129)",
+     "evidence": [
+      "bills/BILL-3129.txt"
+     ]
+    }
+   ],
+   "variance": 26452.69
+  }
+ ]
+}

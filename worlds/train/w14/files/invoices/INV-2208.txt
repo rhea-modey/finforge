@@ -1,0 +1,14 @@
+MERIDIAN BASKET INC.
+Meridian Basket Inc.
+Customer Invoice
+
+INV-2208
+Sold to: Rosewood Retail
+Date: 2026-04-10
+
+Line item: Retail merchandise supplied for the current billing period.
+
+Amount due: $24,129.00
+
+Terms: Pay in accordance with established customer terms.
+Remit: Please identify payment with INV-2208.

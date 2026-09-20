@@ -1,0 +1,113 @@
+{
+ "adjusted_balance": 281292.92,
+ "bank_statement_ending_balance": 289689.93,
+ "gl_cash_ending_balance": 287592.41,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6450 Software Expense",
+     "credit": 0,
+     "debit": 6300.0
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 6300.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Correct transposition on CHK-1011"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 30.61
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 30.61,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 31.12
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 31.12,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 10231.84,
+   "date": "2026-06-21",
+   "description": "Check to Pillar Accounting Services not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1012",
+   "side": "bank"
+  },
+  {
+   "amount": 5692.0,
+   "date": "2026-06-24",
+   "description": "Check to Junction Utility Co-op not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1013",
+   "side": "bank"
+  },
+  {
+   "amount": 12081.17,
+   "date": "2026-06-23",
+   "description": "Check to Trellis Marketing Group not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1014",
+   "side": "bank"
+  },
+  {
+   "amount": 6300.0,
+   "date": "2026-06-30",
+   "description": "GL posted check at transposed amount (736.0 vs bank 7036.0)",
+   "kind": "gl_error",
+   "ref": "CHK-1011",
+   "side": "book"
+  },
+  {
+   "amount": 19608.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT FERRELL INDUSTRIES",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 30.61,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 31.12,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

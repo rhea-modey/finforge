@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 20081.25,
+   "keywords": [
+    "catalyst",
+    "trellis"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 12214.62,
+   "keywords": [
+    "momentum",
+    "meridian"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 25840.25,
+   "budget": 6250.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 20081.25,
+     "description": "Catalyst project - one-off engagement billed by Trellis Marketing Group (BILL-3136)",
+     "evidence": [
+      "bills/BILL-3136.txt"
+     ]
+    }
+   ],
+   "variance": 19590.25
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 13788.62,
+   "budget": 1588.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 12214.62,
+     "description": "One-time Momentum initiative billed by Meridian Legal LLP (BILL-3135)",
+     "evidence": [
+      "bills/BILL-3135.txt"
+     ]
+    }
+   ],
+   "variance": 12200.62
+  }
+ ]
+}

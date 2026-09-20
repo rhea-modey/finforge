@@ -1,0 +1,81 @@
+{
+ "adjusted_balance": 193505.63,
+ "bank_statement_ending_balance": 206802.16,
+ "gl_cash_ending_balance": 193488.62,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 81.0
+    },
+    {
+     "account": "5100 Freight & Shipping",
+     "credit": 81.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Correct transposition on CHK-1014"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 63.99
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 63.99,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 9882.0,
+   "date": "2026-06-11",
+   "description": "Check to CloudSpan Hosting not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1011",
+   "side": "bank"
+  },
+  {
+   "amount": 29372.53,
+   "date": "2026-06-16",
+   "description": "Check to Zenith Freight Lines not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1013",
+   "side": "bank"
+  },
+  {
+   "amount": 81.0,
+   "date": "2026-06-30",
+   "description": "GL posted check at transposed amount (4790.0 vs bank 4709.0)",
+   "kind": "gl_error",
+   "ref": "CHK-1014",
+   "side": "book"
+  },
+  {
+   "amount": 25958.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT DUNMORE HOLD INV-2236",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 63.99,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

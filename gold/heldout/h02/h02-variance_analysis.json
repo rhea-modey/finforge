@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 21887.11,
+   "keywords": [
+    "catalyst",
+    "quicksilver"
+   ]
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 8744.22,
+   "keywords": [
+    "bloom",
+    "bright"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 27779.11,
+   "budget": 5493.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 21887.11,
+     "description": "Catalyst launch sprint (one-time) billed by Quicksilver Couriers (BILL-3137)",
+     "evidence": [
+      "bills/BILL-3137.txt"
+     ]
+    }
+   ],
+   "variance": 22286.11
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 11845.22,
+   "budget": 2919.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 8744.22,
+     "description": "One-time Bloom initiative billed by Bright Harbor Media (BILL-3136)",
+     "evidence": [
+      "bills/BILL-3136.txt"
+     ]
+    }
+   ],
+   "variance": 8926.22
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+SALTBOX MERCANTILE CO.
+Saltbox Mercantile Co.
+Trade merchandise and order fulfillment
+
+INVOICE INV-2211
+Account: Kelso Brands
+Date: 2026-04-01
+
+ORDER DETAIL
+Trade goods supplied and fulfilled during the current billing period.
+
+Amount due: $20,739.00
+
+Terms: Due upon receipt.
+Remit: Please cite INV-2211 with payment.

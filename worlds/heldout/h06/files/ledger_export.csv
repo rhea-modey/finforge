@@ -1,0 +1,177 @@
+posting_date,gl_account,dr,credit,memo
+04/01/2026,1000 Cash,505369.05,,Opening balances
+04/01/2026,1300 Prepaid Insurance,1143.0,,Opening balances
+04/01/2026,1400 Inventory,92790.22,,Opening balances
+04/01/2026,1500 Equipment,142654.0,,Opening balances
+04/01/2026,1590 Accumulated Depreciation,,30908.28,Opening balances
+04/01/2026,2000 Accounts Payable,,30854.98,Opening balances
+04/01/2026,3000 Retained Earnings,,680193.01,Opening balances
+04/03/2026,1000 Cash,,8971.0,Rent - Harborstone Realty Partners
+04/03/2026,6100 Rent Expense,8971.0,,Rent - Harborstone Realty Partners
+04/06/2026,1000 Cash,,15427.49,Payment on account - opening payables
+04/06/2026,2000 Accounts Payable,15427.49,,Payment on account - opening payables
+04/07/2026,1100 Accounts Receivable,37842.0,,Invoice INV-2229 - Quimby Ventures
+04/07/2026,4000 Product Revenue,,37842.0,Invoice INV-2229 - Quimby Ventures
+04/07/2026,1400 Inventory,,19217.0,COGS - INV-2229
+04/07/2026,5000 Cost of Goods Sold,19217.0,,COGS - INV-2229
+04/08/2026,1100 Accounts Receivable,27124.0,,Invoice INV-2227 - Hartwell Group
+04/08/2026,4000 Product Revenue,,27124.0,Invoice INV-2227 - Hartwell Group
+04/08/2026,1400 Inventory,,12758.0,COGS - INV-2227
+04/08/2026,5000 Cost of Goods Sold,12758.0,,COGS - INV-2227
+04/08/2026,2000 Accounts Payable,,1174.0,BILL-3129 Uptown Catering Co.
+04/08/2026,6700 Office Supplies,1174.0,,BILL-3129 Uptown Catering Co.
+04/12/2026,1100 Accounts Receivable,32551.0,,Invoice INV-2232 - Hartwell Group
+04/12/2026,4100 Tooling & Setup Fees,,32551.0,Invoice INV-2232 - Hartwell Group
+04/14/2026,2000 Accounts Payable,,3474.0,BILL-3130 Kite Digital Ads
+04/14/2026,6200 Advertising & Marketing,3474.0,,BILL-3130 Kite Digital Ads
+04/15/2026,2000 Accounts Payable,,1500.0,BILL-3127 Helix IT Solutions
+04/15/2026,6450 Software Expense,1500.0,,BILL-3127 Helix IT Solutions
+04/15/2026,1000 Cash,,58997.0,Payroll 2026-04/01-04/15
+04/15/2026,2300 Payroll Liabilities,,16640.0,Payroll 2026-04/01-04/15
+04/15/2026,6000 Salaries Expense,75637.0,,Payroll 2026-04/01-04/15
+04/18/2026,2000 Accounts Payable,,6923.0,BILL-3128 Inkwell Print Co.
+04/18/2026,6700 Office Supplies,6923.0,,BILL-3128 Inkwell Print Co.
+04/20/2026,1100 Accounts Receivable,18454.0,,Invoice INV-2230 - Corliss Marine
+04/20/2026,4000 Product Revenue,,18454.0,Invoice INV-2230 - Corliss Marine
+04/20/2026,1400 Inventory,,8018.0,COGS - INV-2230
+04/20/2026,5000 Cost of Goods Sold,8018.0,,COGS - INV-2230
+04/21/2026,1100 Accounts Receivable,41726.0,,Invoice INV-2228 - Corliss Marine
+04/21/2026,4000 Product Revenue,,41726.0,Invoice INV-2228 - Corliss Marine
+04/21/2026,1400 Inventory,,23065.0,COGS - INV-2228
+04/21/2026,5000 Cost of Goods Sold,23065.0,,COGS - INV-2228
+04/22/2026,1000 Cash,,3474.0,Pay BILL-3130 Kite Digital Ads CHK#1003
+04/22/2026,2000 Accounts Payable,3474.0,,Pay BILL-3130 Kite Digital Ads CHK#1003
+04/22/2026,1000 Cash,,1500.0,Pay BILL-3127 Helix IT Solutions CHK#1004
+04/22/2026,2000 Accounts Payable,1500.0,,Pay BILL-3127 Helix IT Solutions CHK#1004
+04/23/2026,1100 Accounts Receivable,31481.0,,Invoice INV-2231 - Nordica Labs
+04/23/2026,4100 Tooling & Setup Fees,,31481.0,Invoice INV-2231 - Nordica Labs
+04/23/2026,1000 Cash,,6923.0,Pay BILL-3128 Inkwell Print Co. CHK#1005
+04/23/2026,2000 Accounts Payable,6923.0,,Pay BILL-3128 Inkwell Print Co. CHK#1005
+04/28/2026,1000 Cash,,59130.0,Payroll 2026-04/16-04/30
+04/28/2026,2300 Payroll Liabilities,,16677.0,Payroll 2026-04/16-04/30
+04/28/2026,6000 Salaries Expense,75807.0,,Payroll 2026-04/16-04/30
+04/28/2026,1300 Prepaid Insurance,,127.0,Monthly insurance amortization
+04/28/2026,6400 Insurance Expense,127.0,,Monthly insurance amortization
+04/28/2026,1590 Accumulated Depreciation,,2377.56,Monthly depreciation
+04/28/2026,6800 Depreciation Expense,2377.56,,Monthly depreciation
+05/03/2026,1000 Cash,27124.0,,Deposit - Hartwell Group INV-2227
+05/03/2026,1100 Accounts Receivable,,27124.0,Deposit - Hartwell Group INV-2227
+05/03/2026,1000 Cash,,8971.0,Rent - Harborstone Realty Partners
+05/03/2026,6100 Rent Expense,8971.0,,Rent - Harborstone Realty Partners
+05/05/2026,1100 Accounts Receivable,20870.0,,Invoice INV-2237 - Aldergate Insurance
+05/05/2026,4100 Tooling & Setup Fees,,20870.0,Invoice INV-2237 - Aldergate Insurance
+05/06/2026,2000 Accounts Payable,,5356.0,BILL-3134 Meridian Legal LLP
+05/06/2026,6600 Professional Fees,5356.0,,BILL-3134 Meridian Legal LLP
+05/08/2026,1100 Accounts Receivable,40186.0,,Invoice INV-2233 - Glenrock Solutions
+05/08/2026,4000 Product Revenue,,40186.0,Invoice INV-2233 - Glenrock Solutions
+05/08/2026,1400 Inventory,,19378.0,COGS - INV-2233
+05/08/2026,5000 Cost of Goods Sold,19378.0,,COGS - INV-2233
+05/11/2026,2000 Accounts Payable,,9725.0,BILL-3132 Meridian Legal LLP
+05/11/2026,6600 Professional Fees,9725.0,,BILL-3132 Meridian Legal LLP
+05/12/2026,1000 Cash,,5356.0,Pay BILL-3134 Meridian Legal LLP CHK#1007
+05/12/2026,2000 Accounts Payable,5356.0,,Pay BILL-3134 Meridian Legal LLP CHK#1007
+05/13/2026,1000 Cash,31481.0,,Deposit - Nordica Labs INV-2231
+05/13/2026,1100 Accounts Receivable,,31481.0,Deposit - Nordica Labs INV-2231
+05/13/2026,1100 Accounts Receivable,7318.0,,Invoice INV-2236 - Corliss Marine
+05/13/2026,4000 Product Revenue,,7318.0,Invoice INV-2236 - Corliss Marine
+05/13/2026,1400 Inventory,,3567.0,COGS - INV-2236
+05/13/2026,5000 Cost of Goods Sold,3567.0,,COGS - INV-2236
+05/13/2026,2000 Accounts Payable,,8848.0,BILL-3135 CloudSpan Hosting
+05/13/2026,6450 Software Expense,8848.0,,BILL-3135 CloudSpan Hosting
+05/14/2026,1000 Cash,32551.0,,Deposit - Hartwell Group INV-2232
+05/14/2026,1100 Accounts Receivable,,32551.0,Deposit - Hartwell Group INV-2232
+05/15/2026,1000 Cash,37842.0,,Deposit - Quimby Ventures INV-2229
+05/15/2026,1100 Accounts Receivable,,37842.0,Deposit - Quimby Ventures INV-2229
+05/15/2026,2000 Accounts Payable,,9225.0,BILL-3131 Pillar Accounting Services
+05/15/2026,6600 Professional Fees,9225.0,,BILL-3131 Pillar Accounting Services
+05/15/2026,1000 Cash,,39725.0,Payroll 2026-05/01-05/15
+05/15/2026,2300 Payroll Liabilities,,11204.0,Payroll 2026-05/01-05/15
+05/15/2026,6000 Salaries Expense,50929.0,,Payroll 2026-05/01-05/15
+05/17/2026,1100 Accounts Receivable,29273.0,,Invoice INV-2239 - Corliss Marine
+05/17/2026,4100 Tooling & Setup Fees,,29273.0,Invoice INV-2239 - Corliss Marine
+05/17/2026,1000 Cash,,8848.0,Pay BILL-3135 CloudSpan Hosting CHK#1008
+05/17/2026,2000 Accounts Payable,8848.0,,Pay BILL-3135 CloudSpan Hosting CHK#1008
+05/18/2026,1000 Cash,20870.0,,Deposit - Aldergate Insurance INV-2237
+05/18/2026,1100 Accounts Receivable,,20870.0,Deposit - Aldergate Insurance INV-2237
+05/19/2026,1000 Cash,,9225.0,Pay BILL-3131 Pillar Accounting Services CHK#1009
+05/19/2026,2000 Accounts Payable,9225.0,,Pay BILL-3131 Pillar Accounting Services CHK#1009
+05/19/2026,2000 Accounts Payable,,9692.0,BILL-3133 Pillar Accounting Services
+05/19/2026,6600 Professional Fees,9692.0,,BILL-3133 Pillar Accounting Services
+05/22/2026,1100 Accounts Receivable,14603.0,,Invoice INV-2234 - Corliss Marine
+05/22/2026,4100 Tooling & Setup Fees,,14603.0,Invoice INV-2234 - Corliss Marine
+05/23/2026,1100 Accounts Receivable,32498.0,,Invoice INV-2235 - Glenrock Solutions
+05/23/2026,4100 Tooling & Setup Fees,,32498.0,Invoice INV-2235 - Glenrock Solutions
+05/23/2026,1000 Cash,,9692.0,Pay BILL-3133 Pillar Accounting Services CHK#1010
+05/23/2026,2000 Accounts Payable,9692.0,,Pay BILL-3133 Pillar Accounting Services CHK#1010
+05/24/2026,1000 Cash,41726.0,,Deposit - Corliss Marine INV-2228
+05/24/2026,1100 Accounts Receivable,,41726.0,Deposit - Corliss Marine INV-2228
+05/24/2026,1000 Cash,18454.0,,Deposit - Corliss Marine INV-2230
+05/24/2026,1100 Accounts Receivable,,18454.0,Deposit - Corliss Marine INV-2230
+05/24/2026,1100 Accounts Receivable,32182.0,,Invoice INV-2238 - Pinehurst Digital
+05/24/2026,4000 Product Revenue,,32182.0,Invoice INV-2238 - Pinehurst Digital
+05/24/2026,1400 Inventory,,18291.0,COGS - INV-2238
+05/24/2026,5000 Cost of Goods Sold,18291.0,,COGS - INV-2238
+05/28/2026,1000 Cash,,39819.0,Payroll 2026-05/16-05/30
+05/28/2026,2300 Payroll Liabilities,,11230.0,Payroll 2026-05/16-05/30
+05/28/2026,6000 Salaries Expense,51049.0,,Payroll 2026-05/16-05/30
+05/28/2026,1300 Prepaid Insurance,,127.0,Monthly insurance amortization
+05/28/2026,6400 Insurance Expense,127.0,,Monthly insurance amortization
+05/28/2026,1590 Accumulated Depreciation,,2377.56,Monthly depreciation
+05/28/2026,6800 Depreciation Expense,2377.56,,Monthly depreciation
+06/01/2026,1100 Accounts Receivable,42042.0,,Invoice INV-2244 - Quimby Ventures
+06/01/2026,4100 Tooling & Setup Fees,,42042.0,Invoice INV-2244 - Quimby Ventures
+06/02/2026,1000 Cash,7318.0,,Deposit - Corliss Marine INV-2236
+06/02/2026,1100 Accounts Receivable,,7318.0,Deposit - Corliss Marine INV-2236
+06/03/2026,1000 Cash,,8971.0,Rent - Harborstone Realty Partners
+06/03/2026,6100 Rent Expense,8971.0,,Rent - Harborstone Realty Partners
+06/04/2026,2000 Accounts Payable,,8145.0,BILL-3136 Vertex Materials
+06/04/2026,5200 Shop Supplies,8145.0,,BILL-3136 Vertex Materials
+06/06/2026,1000 Cash,40186.0,,Deposit - Glenrock Solutions INV-2233
+06/06/2026,1100 Accounts Receivable,,40186.0,Deposit - Glenrock Solutions INV-2233
+06/07/2026,2000 Accounts Payable,,6581.0,BILL-3142 Kite Digital Ads
+06/07/2026,6700 Office Supplies,6581.0,,BILL-3142 Kite Digital Ads
+06/08/2026,1100 Accounts Receivable,18732.0,,Invoice INV-2245 - Hartwell Group
+06/08/2026,4000 Product Revenue,,18732.0,Invoice INV-2245 - Hartwell Group
+06/08/2026,1400 Inventory,,10600.0,COGS - INV-2245
+06/08/2026,5000 Cost of Goods Sold,10600.0,,COGS - INV-2245
+06/08/2026,2000 Accounts Payable,,3546.0,BILL-3137 Pillar Accounting Services
+06/08/2026,6600 Professional Fees,3546.0,,BILL-3137 Pillar Accounting Services
+06/12/2026,1100 Accounts Receivable,8989.0,,Invoice INV-2240 - Pinehurst Digital
+06/12/2026,4000 Product Revenue,,8989.0,Invoice INV-2240 - Pinehurst Digital
+06/12/2026,1400 Inventory,,4909.0,COGS - INV-2240
+06/12/2026,5000 Cost of Goods Sold,4909.0,,COGS - INV-2240
+06/12/2026,1000 Cash,12639.0,,Owner capital contribution
+06/12/2026,3000 Retained Earnings,,12639.0,Owner capital contribution
+06/13/2026,1000 Cash,42042.0,,Deposit - Quimby Ventures INV-2244
+06/13/2026,1100 Accounts Receivable,,42042.0,Deposit - Quimby Ventures INV-2244
+06/14/2026,2000 Accounts Payable,,20977.36,BILL-3141 Kite Digital Ads
+06/14/2026,6200 Advertising & Marketing,20977.36,,BILL-3141 Kite Digital Ads
+06/15/2026,1000 Cash,14603.0,,Deposit - Corliss Marine INV-2234
+06/15/2026,1100 Accounts Receivable,,14603.0,Deposit - Corliss Marine INV-2234
+06/15/2026,1000 Cash,29273.0,,Deposit - Corliss Marine INV-2239
+06/15/2026,1100 Accounts Receivable,,29273.0,Deposit - Corliss Marine INV-2239
+06/15/2026,1000 Cash,,35591.0,Payroll 2026-06/01-06/15
+06/15/2026,2300 Payroll Liabilities,,10038.0,Payroll 2026-06/01-06/15
+06/15/2026,6000 Salaries Expense,45629.0,,Payroll 2026-06/01-06/15
+06/16/2026,1000 Cash,,6581.0,Pay BILL-3142 Kite Digital Ads CHK#1012
+06/16/2026,2000 Accounts Payable,6581.0,,Pay BILL-3142 Kite Digital Ads CHK#1012
+06/17/2026,2000 Accounts Payable,,10280.0,BILL-3139 Ridgeline Telecom
+06/17/2026,6500 Utilities Expense,10280.0,,BILL-3139 Ridgeline Telecom
+06/17/2026,2000 Accounts Payable,,20172.2,BILL-3140 Pillar Accounting Services
+06/17/2026,6600 Professional Fees,20172.2,,BILL-3140 Pillar Accounting Services
+06/18/2026,1100 Accounts Receivable,35689.0,,Invoice INV-2242 - Hartwell Group
+06/18/2026,4100 Tooling & Setup Fees,,35689.0,Invoice INV-2242 - Hartwell Group
+06/18/2026,1100 Accounts Receivable,39437.0,,Invoice INV-2243 - Glenrock Solutions
+06/18/2026,4100 Tooling & Setup Fees,,39437.0,Invoice INV-2243 - Glenrock Solutions
+06/20/2026,1100 Accounts Receivable,21848.0,,Invoice INV-2241 - Hartwell Group
+06/20/2026,4000 Product Revenue,,21848.0,Invoice INV-2241 - Hartwell Group
+06/20/2026,1400 Inventory,,12472.0,COGS - INV-2241
+06/20/2026,5000 Cost of Goods Sold,12472.0,,COGS - INV-2241
+06/21/2026,1000 Cash,,20977.36,Pay BILL-3141 Kite Digital Ads CHK#1013
+06/21/2026,2000 Accounts Payable,20977.36,,Pay BILL-3141 Kite Digital Ads CHK#1013
+06/22/2026,2000 Accounts Payable,,6775.0,BILL-3138 Delta Facility Services
+06/22/2026,6700 Office Supplies,6775.0,,BILL-3138 Delta Facility Services
+06/24/2026,1000 Cash,,20172.2,Pay BILL-3140 Pillar Accounting Services CHK#1014
+06/24/2026,2000 Accounts Payable,20172.2,,Pay BILL-3140 Pillar Accounting Services CHK#1014
+06/28/2026,1300 Prepaid Insurance,,127.0,Monthly insurance amortization
+06/28/2026,6400 Insurance Expense,127.0,,Monthly insurance amortization

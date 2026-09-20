@@ -1,0 +1,158 @@
+date,account,dr,Credit,memo
+2026-04-01,1000 Cash,415588.62,,Opening balances
+2026-04-01,1300 Prepaid Insurance,855.0,,Opening balances
+2026-04-01,1500 Equipment,133850.0,,Opening balances
+2026-04-01,1590 Accumulated Depreciation,,22308.3,Opening balances
+2026-04-01,2000 Accounts Payable,,56304.47,Opening balances
+2026-04-01,3000 Retained Earnings,,471680.85,Opening balances
+2026-04-02,2000 Accounts Payable,,6316.0,BILL-3119 Pillar Accounting Services
+2026-04-02,6600 Professional Fees,6316.0,,BILL-3119 Pillar Accounting Services
+2026-04-03,1000 Cash,,15154.0,Rent - Harborstone Realty Partners
+2026-04-03,6100 Rent Expense,15154.0,,Rent - Harborstone Realty Partners
+2026-04-06,1000 Cash,,28152.23,Payment on account - opening payables
+2026-04-06,2000 Accounts Payable,28152.23,,Payment on account - opening payables
+2026-04-06,1100 Accounts Receivable,35374.0,,Invoice INV-2234 - Birchfield Foods
+2026-04-06,4100 Retainer Revenue,,35374.0,Invoice INV-2234 - Birchfield Foods
+2026-04-06,2000 Accounts Payable,,8135.0,BILL-3117 Pillar Accounting Services
+2026-04-06,6600 Professional Fees,8135.0,,BILL-3117 Pillar Accounting Services
+2026-04-11,1100 Accounts Receivable,35779.0,,Invoice INV-2231 - Nordica Labs
+2026-04-11,4100 Retainer Revenue,,35779.0,Invoice INV-2231 - Nordica Labs
+2026-04-11,1000 Cash,,6316.0,Pay BILL-3119 Pillar Accounting Services CHK#1003
+2026-04-11,2000 Accounts Payable,6316.0,,Pay BILL-3119 Pillar Accounting Services CHK#1003
+2026-04-11,1000 Cash,,8135.0,Pay BILL-3117 Pillar Accounting Services CHK#1004
+2026-04-11,2000 Accounts Payable,8135.0,,Pay BILL-3117 Pillar Accounting Services CHK#1004
+2026-04-15,2000 Accounts Payable,,7399.0,BILL-3121 Helix IT Solutions
+2026-04-15,6450 Software Expense,7399.0,,BILL-3121 Helix IT Solutions
+2026-04-15,1000 Cash,,60816.0,Payroll 2026-04/01-04/15
+2026-04-15,2300 Payroll Liabilities,,17152.0,Payroll 2026-04/01-04/15
+2026-04-15,6000 Salaries Expense,77968.0,,Payroll 2026-04/01-04/15
+2026-04-19,2000 Accounts Payable,,6654.0,BILL-3120 Delta Facility Services
+2026-04-19,6700 Office Supplies,6654.0,,BILL-3120 Delta Facility Services
+2026-04-20,1100 Accounts Receivable,12457.0,,Invoice INV-2230 - Nordica Labs
+2026-04-20,4100 Retainer Revenue,,12457.0,Invoice INV-2230 - Nordica Labs
+2026-04-21,1100 Accounts Receivable,15926.0,,Invoice INV-2232 - Atlas Verde LLC
+2026-04-21,4000 Consulting Revenue,,15926.0,Invoice INV-2232 - Atlas Verde LLC
+2026-04-22,1100 Accounts Receivable,46839.0,,Invoice INV-2233 - Eastgate Collective
+2026-04-22,4000 Consulting Revenue,,46839.0,Invoice INV-2233 - Eastgate Collective
+2026-04-22,2000 Accounts Payable,,9642.0,BILL-3118 Pillar Accounting Services
+2026-04-22,6600 Professional Fees,9642.0,,BILL-3118 Pillar Accounting Services
+2026-04-24,1000 Cash,35374.0,,Deposit - Birchfield Foods INV-2234
+2026-04-24,1100 Accounts Receivable,,35374.0,Deposit - Birchfield Foods INV-2234
+2026-04-27,1000 Cash,,6654.0,Pay BILL-3120 Delta Facility Services CHK#1005
+2026-04-27,2000 Accounts Payable,6654.0,,Pay BILL-3120 Delta Facility Services CHK#1005
+2026-04-27,1000 Cash,,9642.0,Pay BILL-3118 Pillar Accounting Services CHK#1006
+2026-04-27,2000 Accounts Payable,9642.0,,Pay BILL-3118 Pillar Accounting Services CHK#1006
+2026-04-28,1000 Cash,,60847.0,Payroll 2026-04/16-04/30
+2026-04-28,2300 Payroll Liabilities,,17161.0,Payroll 2026-04/16-04/30
+2026-04-28,6000 Salaries Expense,78008.0,,Payroll 2026-04/16-04/30
+2026-04-28,1300 Prepaid Insurance,,95.0,Monthly insurance amortization
+2026-04-28,6400 Insurance Expense,95.0,,Monthly insurance amortization
+2026-04-28,1590 Accumulated Depreciation,,2230.83,Monthly depreciation
+2026-04-28,6800 Depreciation Expense,2230.83,,Monthly depreciation
+2026-05-02,1100 Accounts Receivable,20138.0,,Invoice INV-2237 - Marlowe & Finch
+2026-05-02,4000 Consulting Revenue,,20138.0,Invoice INV-2237 - Marlowe & Finch
+2026-05-03,1000 Cash,,15154.0,Rent - Harborstone Realty Partners
+2026-05-03,6100 Rent Expense,15154.0,,Rent - Harborstone Realty Partners
+2026-05-06,1000 Cash,12457.0,,Deposit - Nordica Labs INV-2230
+2026-05-06,1100 Accounts Receivable,,12457.0,Deposit - Nordica Labs INV-2230
+2026-05-07,1100 Accounts Receivable,29980.0,,Invoice INV-2238 - Marlowe & Finch
+2026-05-07,4000 Consulting Revenue,,29980.0,Invoice INV-2238 - Marlowe & Finch
+2026-05-07,2000 Accounts Payable,,6719.0,BILL-3124 Pillar Accounting Services
+2026-05-07,6600 Professional Fees,6719.0,,BILL-3124 Pillar Accounting Services
+2026-05-12,1100 Accounts Receivable,19708.0,,Invoice INV-2235 - Birchfield Foods
+2026-05-12,4100 Retainer Revenue,,19708.0,Invoice INV-2235 - Birchfield Foods
+2026-05-13,2000 Accounts Payable,,4989.0,BILL-3122 Pillar Accounting Services
+2026-05-13,6600 Professional Fees,4989.0,,BILL-3122 Pillar Accounting Services
+2026-05-13,2000 Accounts Payable,,1508.0,BILL-3126 Ridgeline Telecom
+2026-05-13,6500 Utilities Expense,1508.0,,BILL-3126 Ridgeline Telecom
+2026-05-15,1000 Cash,15926.0,,Deposit - Atlas Verde LLC INV-2232
+2026-05-15,1100 Accounts Receivable,,15926.0,Deposit - Atlas Verde LLC INV-2232
+2026-05-15,1000 Cash,,36325.0,Payroll 2026-05/01-05/15
+2026-05-15,2300 Payroll Liabilities,,10245.0,Payroll 2026-05/01-05/15
+2026-05-15,6000 Salaries Expense,46570.0,,Payroll 2026-05/01-05/15
+2026-05-16,1000 Cash,35779.0,,Deposit - Nordica Labs INV-2231
+2026-05-16,1100 Accounts Receivable,,35779.0,Deposit - Nordica Labs INV-2231
+2026-05-18,1100 Accounts Receivable,26117.0,,Invoice INV-2239 - Underhill Logistics
+2026-05-18,4000 Consulting Revenue,,26117.0,Invoice INV-2239 - Underhill Logistics
+2026-05-18,2000 Accounts Payable,,543.0,BILL-3123 Lumen Office Supply
+2026-05-18,6700 Office Supplies,543.0,,BILL-3123 Lumen Office Supply
+2026-05-20,1000 Cash,20138.0,,Deposit - Marlowe & Finch INV-2237
+2026-05-20,1100 Accounts Receivable,,20138.0,Deposit - Marlowe & Finch INV-2237
+2026-05-22,1000 Cash,,1508.0,Pay BILL-3126 Ridgeline Telecom CHK#1008
+2026-05-22,2000 Accounts Payable,1508.0,,Pay BILL-3126 Ridgeline Telecom CHK#1008
+2026-05-22,1000 Cash,,543.0,Pay BILL-3123 Lumen Office Supply CHK#1009
+2026-05-22,2000 Accounts Payable,543.0,,Pay BILL-3123 Lumen Office Supply CHK#1009
+2026-05-22,2000 Accounts Payable,,2230.0,BILL-3125 Kite Digital Ads
+2026-05-22,6200 Advertising & Marketing,2230.0,,BILL-3125 Kite Digital Ads
+2026-05-23,1100 Accounts Receivable,46535.0,,Invoice INV-2236 - Kelso Brands
+2026-05-23,4000 Consulting Revenue,,46535.0,Invoice INV-2236 - Kelso Brands
+2026-05-25,1000 Cash,46839.0,,Deposit - Eastgate Collective INV-2233
+2026-05-25,1100 Accounts Receivable,,46839.0,Deposit - Eastgate Collective INV-2233
+2026-05-28,1000 Cash,,36348.0,Payroll 2026-05/16-05/30
+2026-05-28,2300 Payroll Liabilities,,10252.0,Payroll 2026-05/16-05/30
+2026-05-28,6000 Salaries Expense,46600.0,,Payroll 2026-05/16-05/30
+2026-05-28,1300 Prepaid Insurance,,95.0,Monthly insurance amortization
+2026-05-28,6400 Insurance Expense,95.0,,Monthly insurance amortization
+2026-05-28,1590 Accumulated Depreciation,,2230.83,Monthly depreciation
+2026-05-28,6800 Depreciation Expense,2230.83,,Monthly depreciation
+2026-06-03,1000 Cash,,15154.0,Rent - Harborstone Realty Partners
+2026-06-03,6100 Rent Expense,15154.0,,Rent - Harborstone Realty Partners
+2026-06-03,2000 Accounts Payable,,3199.0,BILL-3130 Uptown Catering Co.
+2026-06-03,6700 Office Supplies,3199.0,,BILL-3130 Uptown Catering Co.
+2026-06-05,1000 Cash,,324.0,Prepaid software - 12 month license (Quillware Technologies)
+2026-06-05,1310 Prepaid Software,324.0,,Prepaid software - 12 month license (Quillware Technologies)
+2026-06-06,2000 Accounts Payable,,12457.25,BILL-3132 Bright Harbor Media
+2026-06-06,6200 Advertising & Marketing,12457.25,,BILL-3132 Bright Harbor Media
+2026-06-07,2000 Accounts Payable,,10718.0,BILL-3129 Ridgeline Telecom
+2026-06-07,6500 Utilities Expense,10718.0,,BILL-3129 Ridgeline Telecom
+2026-06-08,1000 Cash,29980.0,,Deposit - Marlowe & Finch INV-2238
+2026-06-08,1100 Accounts Receivable,,29980.0,Deposit - Marlowe & Finch INV-2238
+2026-06-08,1100 Accounts Receivable,40984.0,,Invoice INV-2242 - Birchfield Foods
+2026-06-08,4000 Consulting Revenue,,40984.0,Invoice INV-2242 - Birchfield Foods
+2026-06-08,2000 Accounts Payable,,787.0,BILL-3128 Ridgeline Telecom
+2026-06-08,6500 Utilities Expense,787.0,,BILL-3128 Ridgeline Telecom
+2026-06-09,2000 Accounts Payable,,6267.0,BILL-3133 Trellis Marketing Group
+2026-06-09,6700 Office Supplies,6267.0,,BILL-3133 Trellis Marketing Group
+2026-06-11,1000 Cash,46535.0,,Deposit - Kelso Brands INV-2236
+2026-06-11,1100 Accounts Receivable,,46535.0,Deposit - Kelso Brands INV-2236
+2026-06-11,1100 Accounts Receivable,26205.0,,Invoice INV-2244 - Birchfield Foods
+2026-06-11,4000 Consulting Revenue,,26205.0,Invoice INV-2244 - Birchfield Foods
+2026-06-11,1000 Cash,,12457.25,Pay BILL-3132 Bright Harbor Media CHK#1011
+2026-06-11,2000 Accounts Payable,12457.25,,Pay BILL-3132 Bright Harbor Media CHK#1011
+2026-06-12,1100 Accounts Receivable,21629.0,,Invoice INV-2241 - Eastgate Collective
+2026-06-12,4100 Retainer Revenue,,21629.0,Invoice INV-2241 - Eastgate Collective
+2026-06-12,1000 Cash,19435.0,,Owner capital contribution
+2026-06-12,3000 Retained Earnings,,19435.0,Owner capital contribution
+2026-06-13,2000 Accounts Payable,,11774.01,BILL-3131 Pillar Accounting Services
+2026-06-13,6600 Professional Fees,11774.01,,BILL-3131 Pillar Accounting Services
+2026-06-14,1100 Accounts Receivable,22909.0,,Invoice INV-2245 - Underhill Logistics
+2026-06-14,4000 Consulting Revenue,,22909.0,Invoice INV-2245 - Underhill Logistics
+2026-06-15,1000 Cash,,6267.0,Pay BILL-3133 Trellis Marketing Group CHK#1013
+2026-06-15,2000 Accounts Payable,6267.0,,Pay BILL-3133 Trellis Marketing Group CHK#1013
+2026-06-15,1000 Cash,,41028.0,Payroll 2026-06/01-06/15
+2026-06-15,2300 Payroll Liabilities,,11572.0,Payroll 2026-06/01-06/15
+2026-06-15,6000 Salaries Expense,52600.0,,Payroll 2026-06/01-06/15
+2026-06-16,1100 Accounts Receivable,9415.0,,Invoice INV-2240 - Kelso Brands
+2026-06-16,4100 Retainer Revenue,,9415.0,Invoice INV-2240 - Kelso Brands
+2026-06-16,1000 Cash,,10718.0,Pay BILL-3129 Ridgeline Telecom CHK#1012
+2026-06-16,2000 Accounts Payable,10718.0,,Pay BILL-3129 Ridgeline Telecom CHK#1012
+2026-06-16,2000 Accounts Payable,,3370.0,BILL-3127 Lumen Office Supply
+2026-06-16,6700 Office Supplies,3370.0,,BILL-3127 Lumen Office Supply
+2026-06-19,1000 Cash,,3370.0,Pay BILL-3127 Lumen Office Supply CHK#1015
+2026-06-19,2000 Accounts Payable,3370.0,,Pay BILL-3127 Lumen Office Supply CHK#1015
+2026-06-21,1000 Cash,40984.0,,Deposit - Birchfield Foods INV-2242
+2026-06-21,1100 Accounts Receivable,,40984.0,Deposit - Birchfield Foods INV-2242
+2026-06-21,1100 Accounts Receivable,30043.0,,Invoice INV-2243 - Underhill Logistics
+2026-06-21,4100 Retainer Revenue,,30043.0,Invoice INV-2243 - Underhill Logistics
+2026-06-22,1000 Cash,19708.0,,Deposit - Birchfield Foods INV-2235
+2026-06-22,1100 Accounts Receivable,,19708.0,Deposit - Birchfield Foods INV-2235
+2026-06-22,1000 Cash,,11774.01,Pay BILL-3131 Pillar Accounting Services CHK#1014
+2026-06-22,2000 Accounts Payable,11774.01,,Pay BILL-3131 Pillar Accounting Services CHK#1014
+2026-06-24,1000 Cash,26117.0,,Deposit - Underhill Logistics INV-2239
+2026-06-24,1100 Accounts Receivable,,26117.0,Deposit - Underhill Logistics INV-2239
+2026-06-28,1000 Cash,26205.0,,Deposit - Birchfield Foods INV-2244
+2026-06-28,1100 Accounts Receivable,,26205.0,Deposit - Birchfield Foods INV-2244
+2026-06-28,1300 Prepaid Insurance,,95.0,Monthly insurance amortization
+2026-06-28,6400 Insurance Expense,95.0,,Monthly insurance amortization
+2026-06-28,1310 Prepaid Software,,27.0,Monthly amortization - Prepaid software - 12 month license (Quillware Technologies)
+2026-06-28,6450 Software Expense,27.0,,Monthly amortization - Prepaid software - 12 month license (Quillware Technologies)

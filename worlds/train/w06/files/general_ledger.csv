@@ -1,0 +1,195 @@
+posting_date;gl_account;debit;cr;description
+01-Apr-2026;1000 Cash;524543.19;;Opening balances
+01-Apr-2026;1300 Prepaid Insurance;765.0;;Opening balances
+01-Apr-2026;1400 Inventory;100998.67;;Opening balances
+01-Apr-2026;1500 Equipment;98003.0;;Opening balances
+01-Apr-2026;1590 Accumulated Depreciation;;31034.22;Opening balances
+01-Apr-2026;2000 Accounts Payable;;34609.15;Opening balances
+01-Apr-2026;3000 Retained Earnings;;658666.49;Opening balances
+03-Apr-2026;1000 Cash;;14305.0;Rent - Harborstone Realty Partners
+03-Apr-2026;6100 Rent Expense;14305.0;;Rent - Harborstone Realty Partners
+06-Apr-2026;1000 Cash;;17304.57;Payment on account - opening payables
+06-Apr-2026;2000 Accounts Payable;17304.57;;Payment on account - opening payables
+07-Apr-2026;1100 Accounts Receivable;13130.0;;Invoice INV-2220 - Dunmore Holdings
+07-Apr-2026;4000 Product Sales;;13130.0;Invoice INV-2220 - Dunmore Holdings
+07-Apr-2026;1400 Inventory;;5556.0;COGS - INV-2220
+07-Apr-2026;5000 Cost of Goods Sold;5556.0;;COGS - INV-2220
+08-Apr-2026;2000 Accounts Payable;;11010.0;BILL-3130 Willow Creek Packaging
+08-Apr-2026;5100 Freight & Shipping;11010.0;;BILL-3130 Willow Creek Packaging
+10-Apr-2026;1100 Accounts Receivable;40259.0;;Invoice INV-2219 - Vesper Technologies
+10-Apr-2026;4000 Product Sales;;40259.0;Invoice INV-2219 - Vesper Technologies
+10-Apr-2026;1400 Inventory;;22813.0;COGS - INV-2219
+10-Apr-2026;5000 Cost of Goods Sold;22813.0;;COGS - INV-2219
+10-Apr-2026;1100 Accounts Receivable;9419.0;;Invoice INV-2222 - Ivywood Enterprises
+10-Apr-2026;4000 Product Sales;;9419.0;Invoice INV-2222 - Ivywood Enterprises
+10-Apr-2026;1400 Inventory;;4001.0;COGS - INV-2222
+10-Apr-2026;5000 Cost of Goods Sold;4001.0;;COGS - INV-2222
+12-Apr-2026;2000 Accounts Payable;;4856.0;BILL-3133 Meridian Legal LLP
+12-Apr-2026;6600 Professional Fees;4856.0;;BILL-3133 Meridian Legal LLP
+15-Apr-2026;1000 Cash;;11010.0;Pay BILL-3130 Willow Creek Packaging CHK#1003
+15-Apr-2026;2000 Accounts Payable;11010.0;;Pay BILL-3130 Willow Creek Packaging CHK#1003
+15-Apr-2026;1000 Cash;;35742.0;Payroll 2026-04/01-04/15
+15-Apr-2026;2300 Payroll Liabilities;;10080.0;Payroll 2026-04/01-04/15
+15-Apr-2026;6000 Salaries Expense;45822.0;;Payroll 2026-04/01-04/15
+18-Apr-2026;2000 Accounts Payable;;9150.0;BILL-3131 Trellis Marketing Group
+18-Apr-2026;6200 Advertising & Marketing;9150.0;;BILL-3131 Trellis Marketing Group
+19-Apr-2026;2000 Accounts Payable;;6254.0;BILL-3132 Delta Facility Services
+19-Apr-2026;6700 Office Supplies;6254.0;;BILL-3132 Delta Facility Services
+22-Apr-2026;1100 Accounts Receivable;28212.0;;Invoice INV-2218 - Wexford Group
+22-Apr-2026;4000 Product Sales;;28212.0;Invoice INV-2218 - Wexford Group
+22-Apr-2026;1400 Inventory;;15121.0;COGS - INV-2218
+22-Apr-2026;5000 Cost of Goods Sold;15121.0;;COGS - INV-2218
+22-Apr-2026;1000 Cash;;9150.0;Pay BILL-3131 Trellis Marketing Group CHK#1004
+22-Apr-2026;2000 Accounts Payable;9150.0;;Pay BILL-3131 Trellis Marketing Group CHK#1004
+23-Apr-2026;1100 Accounts Receivable;14689.0;;Invoice INV-2221 - Ivywood Enterprises
+23-Apr-2026;4100 Shipping Income;;14689.0;Invoice INV-2221 - Ivywood Enterprises
+24-Apr-2026;1100 Accounts Receivable;20155.0;;Invoice INV-2217 - Vesper Technologies
+24-Apr-2026;4000 Product Sales;;20155.0;Invoice INV-2217 - Vesper Technologies
+24-Apr-2026;1400 Inventory;;10527.0;COGS - INV-2217
+24-Apr-2026;5000 Cost of Goods Sold;10527.0;;COGS - INV-2217
+25-Apr-2026;1000 Cash;9419.0;;Deposit - Ivywood Enterprises INV-2222
+25-Apr-2026;1100 Accounts Receivable;;9419.0;Deposit - Ivywood Enterprises INV-2222
+27-Apr-2026;1000 Cash;;6254.0;Pay BILL-3132 Delta Facility Services CHK#1005
+27-Apr-2026;2000 Accounts Payable;6254.0;;Pay BILL-3132 Delta Facility Services CHK#1005
+28-Apr-2026;1000 Cash;;35679.0;Payroll 2026-04/16-04/30
+28-Apr-2026;2300 Payroll Liabilities;;10063.0;Payroll 2026-04/16-04/30
+28-Apr-2026;6000 Salaries Expense;45742.0;;Payroll 2026-04/16-04/30
+28-Apr-2026;1300 Prepaid Insurance;;85.0;Monthly insurance amortization
+28-Apr-2026;6400 Insurance Expense;85.0;;Monthly insurance amortization
+28-Apr-2026;1590 Accumulated Depreciation;;1633.38;Monthly depreciation
+28-Apr-2026;6800 Depreciation Expense;1633.38;;Monthly depreciation
+02-May-2026;1000 Cash;13130.0;;Deposit - Dunmore Holdings INV-2220
+02-May-2026;1100 Accounts Receivable;;13130.0;Deposit - Dunmore Holdings INV-2220
+03-May-2026;1000 Cash;;14305.0;Rent - Harborstone Realty Partners
+03-May-2026;6100 Rent Expense;14305.0;;Rent - Harborstone Realty Partners
+07-May-2026;2000 Accounts Payable;;1945.0;BILL-3135 Meridian Legal LLP
+07-May-2026;6600 Professional Fees;1945.0;;BILL-3135 Meridian Legal LLP
+07-May-2026;2000 Accounts Payable;;9118.0;BILL-3136 Kite Digital Ads
+07-May-2026;6200 Advertising & Marketing;9118.0;;BILL-3136 Kite Digital Ads
+08-May-2026;1100 Accounts Receivable;35550.0;;Invoice INV-2225 - Birchfield Foods
+08-May-2026;4000 Product Sales;;35550.0;Invoice INV-2225 - Birchfield Foods
+08-May-2026;1400 Inventory;;17823.0;COGS - INV-2225
+08-May-2026;5000 Cost of Goods Sold;17823.0;;COGS - INV-2225
+10-May-2026;1100 Accounts Receivable;48043.0;;Invoice INV-2223 - Dunmore Holdings
+10-May-2026;4000 Product Sales;;48043.0;Invoice INV-2223 - Dunmore Holdings
+10-May-2026;1400 Inventory;;22470.0;COGS - INV-2223
+10-May-2026;5000 Cost of Goods Sold;22470.0;;COGS - INV-2223
+10-May-2026;1100 Accounts Receivable;28435.0;;Invoice INV-2227 - Rosewood Retail
+10-May-2026;4000 Product Sales;;28435.0;Invoice INV-2227 - Rosewood Retail
+10-May-2026;1400 Inventory;;15640.0;COGS - INV-2227
+10-May-2026;5000 Cost of Goods Sold;15640.0;;COGS - INV-2227
+13-May-2026;1100 Accounts Receivable;20347.0;;Invoice INV-2224 - Dunmore Holdings
+13-May-2026;4000 Product Sales;;20347.0;Invoice INV-2224 - Dunmore Holdings
+13-May-2026;1400 Inventory;;8735.0;COGS - INV-2224
+13-May-2026;5000 Cost of Goods Sold;8735.0;;COGS - INV-2224
+14-May-2026;2000 Accounts Payable;;2724.0;BILL-3134 Junction Utility Co-op
+14-May-2026;6500 Utilities Expense;2724.0;;BILL-3134 Junction Utility Co-op
+15-May-2026;2000 Accounts Payable;;6763.0;BILL-3137 Willow Creek Packaging
+15-May-2026;5100 Freight & Shipping;6763.0;;BILL-3137 Willow Creek Packaging
+15-May-2026;1000 Cash;;64957.0;Payroll 2026-05/01-05/15
+15-May-2026;2300 Payroll Liabilities;;18321.0;Payroll 2026-05/01-05/15
+15-May-2026;6000 Salaries Expense;83278.0;;Payroll 2026-05/01-05/15
+17-May-2026;1000 Cash;40259.0;;Deposit - Vesper Technologies INV-2219
+17-May-2026;1100 Accounts Receivable;;40259.0;Deposit - Vesper Technologies INV-2219
+18-May-2026;1100 Accounts Receivable;23554.0;;Invoice INV-2228 - Wexford Group
+18-May-2026;4000 Product Sales;;23554.0;Invoice INV-2228 - Wexford Group
+18-May-2026;1400 Inventory;;13337.0;COGS - INV-2228
+18-May-2026;5000 Cost of Goods Sold;13337.0;;COGS - INV-2228
+20-May-2026;1000 Cash;20155.0;;Deposit - Vesper Technologies INV-2217
+20-May-2026;1100 Accounts Receivable;;20155.0;Deposit - Vesper Technologies INV-2217
+20-May-2026;1000 Cash;14689.0;;Deposit - Ivywood Enterprises INV-2221
+20-May-2026;1100 Accounts Receivable;;14689.0;Deposit - Ivywood Enterprises INV-2221
+20-May-2026;1000 Cash;;2724.0;Pay BILL-3134 Junction Utility Co-op CHK#1007
+20-May-2026;2000 Accounts Payable;2724.0;;Pay BILL-3134 Junction Utility Co-op CHK#1007
+21-May-2026;1000 Cash;35550.0;;Deposit - Birchfield Foods INV-2225
+21-May-2026;1100 Accounts Receivable;;35550.0;Deposit - Birchfield Foods INV-2225
+22-May-2026;1100 Accounts Receivable;13309.0;;Invoice INV-2226 - Rosewood Retail
+22-May-2026;4000 Product Sales;;13309.0;Invoice INV-2226 - Rosewood Retail
+22-May-2026;1400 Inventory;;6194.0;COGS - INV-2226
+22-May-2026;5000 Cost of Goods Sold;6194.0;;COGS - INV-2226
+26-May-2026;1000 Cash;48043.0;;Deposit - Dunmore Holdings INV-2223
+26-May-2026;1100 Accounts Receivable;;48043.0;Deposit - Dunmore Holdings INV-2223
+28-May-2026;1000 Cash;28212.0;;Deposit - Wexford Group INV-2218
+28-May-2026;1100 Accounts Receivable;;28212.0;Deposit - Wexford Group INV-2218
+28-May-2026;1000 Cash;;64786.0;Payroll 2026-05/16-05/30
+28-May-2026;2300 Payroll Liabilities;;18272.0;Payroll 2026-05/16-05/30
+28-May-2026;6000 Salaries Expense;83058.0;;Payroll 2026-05/16-05/30
+28-May-2026;1300 Prepaid Insurance;;85.0;Monthly insurance amortization
+28-May-2026;6400 Insurance Expense;85.0;;Monthly insurance amortization
+28-May-2026;1590 Accumulated Depreciation;;1633.38;Monthly depreciation
+28-May-2026;6800 Depreciation Expense;1633.38;;Monthly depreciation
+02-Jun-2026;2000 Accounts Payable;;8628.0;BILL-3143 CloudSpan Hosting
+02-Jun-2026;6450 Software Expense;8628.0;;BILL-3143 CloudSpan Hosting
+03-Jun-2026;1100 Accounts Receivable;44225.0;;Invoice INV-2233 - Corliss Marine
+03-Jun-2026;4000 Product Sales;;44225.0;Invoice INV-2233 - Corliss Marine
+03-Jun-2026;1400 Inventory;;21139.0;COGS - INV-2233
+03-Jun-2026;5000 Cost of Goods Sold;21139.0;;COGS - INV-2233
+03-Jun-2026;1000 Cash;;14305.0;Rent - Harborstone Realty Partners
+03-Jun-2026;6100 Rent Expense;14305.0;;Rent - Harborstone Realty Partners
+04-Jun-2026;2000 Accounts Payable;;9972.0;BILL-3142 Ridgeline Telecom
+04-Jun-2026;6500 Utilities Expense;9972.0;;BILL-3142 Ridgeline Telecom
+05-Jun-2026;1000 Cash;;1128.0;Prepaid software - 12 month license (Quillware Technologies)
+05-Jun-2026;1310 Prepaid Software;1128.0;;Prepaid software - 12 month license (Quillware Technologies)
+06-Jun-2026;2000 Accounts Payable;;6099.0;BILL-3140 Trellis Marketing Group
+06-Jun-2026;6200 Advertising & Marketing;6099.0;;BILL-3140 Trellis Marketing Group
+07-Jun-2026;1000 Cash;;9972.0;Pay BILL-3142 Ridgeline Telecom CHK#1009
+07-Jun-2026;2000 Accounts Payable;9972.0;;Pay BILL-3142 Ridgeline Telecom CHK#1009
+07-Jun-2026;2000 Accounts Payable;;1662.0;BILL-3139 CloudSpan Hosting
+07-Jun-2026;6450 Software Expense;1662.0;;BILL-3139 CloudSpan Hosting
+08-Jun-2026;1000 Cash;28435.0;;Deposit - Rosewood Retail INV-2227
+08-Jun-2026;1100 Accounts Receivable;;28435.0;Deposit - Rosewood Retail INV-2227
+08-Jun-2026;1100 Accounts Receivable;44243.0;;Invoice INV-2230 - Wexford Group
+08-Jun-2026;4000 Product Sales;;44243.0;Invoice INV-2230 - Wexford Group
+08-Jun-2026;1400 Inventory;;20247.0;COGS - INV-2230
+08-Jun-2026;5000 Cost of Goods Sold;20247.0;;COGS - INV-2230
+08-Jun-2026;1100 Accounts Receivable;47485.0;;Invoice INV-2231 - Corliss Marine
+08-Jun-2026;4000 Product Sales;;47485.0;Invoice INV-2231 - Corliss Marine
+08-Jun-2026;1400 Inventory;;23120.0;COGS - INV-2231
+08-Jun-2026;5000 Cost of Goods Sold;23120.0;;COGS - INV-2231
+08-Jun-2026;2000 Accounts Payable;;7505.0;BILL-3138 Meridian Legal LLP
+08-Jun-2026;6600 Professional Fees;7505.0;;BILL-3138 Meridian Legal LLP
+09-Jun-2026;2000 Accounts Payable;;11007.12;BILL-3144 Pillar Accounting Services
+09-Jun-2026;6600 Professional Fees;11007.12;;BILL-3144 Pillar Accounting Services
+10-Jun-2026;2000 Accounts Payable;;4453.0;BILL-3141 Inkwell Print Co.
+10-Jun-2026;6700 Office Supplies;4453.0;;BILL-3141 Inkwell Print Co.
+12-Jun-2026;1000 Cash;;1662.0;Pay BILL-3139 CloudSpan Hosting CHK#1011
+12-Jun-2026;2000 Accounts Payable;1662.0;;Pay BILL-3139 CloudSpan Hosting CHK#1011
+12-Jun-2026;2000 Accounts Payable;;25457.38;BILL-3145 Trellis Marketing Group
+12-Jun-2026;6200 Advertising & Marketing;25457.38;;BILL-3145 Trellis Marketing Group
+12-Jun-2026;1000 Cash;10642.0;;Owner capital contribution
+12-Jun-2026;3000 Retained Earnings;;10642.0;Owner capital contribution
+13-Jun-2026;2000 Accounts Payable;;4608.0;BILL-3146 Bright Harbor Media
+13-Jun-2026;6700 Office Supplies;4608.0;;BILL-3146 Bright Harbor Media
+14-Jun-2026;1000 Cash;;6099.0;Pay BILL-3140 Trellis Marketing Group CHK#1010
+14-Jun-2026;2000 Accounts Payable;6099.0;;Pay BILL-3140 Trellis Marketing Group CHK#1010
+14-Jun-2026;1000 Cash;;7505.0;Pay BILL-3138 Meridian Legal LLP CHK#1012
+14-Jun-2026;2000 Accounts Payable;7505.0;;Pay BILL-3138 Meridian Legal LLP CHK#1012
+15-Jun-2026;1100 Accounts Receivable;16141.0;;Invoice INV-2232 - Rosewood Retail
+15-Jun-2026;4000 Product Sales;;16141.0;Invoice INV-2232 - Rosewood Retail
+15-Jun-2026;1400 Inventory;;8152.0;COGS - INV-2232
+15-Jun-2026;5000 Cost of Goods Sold;8152.0;;COGS - INV-2232
+15-Jun-2026;1000 Cash;;44215.0;Payroll 2026-06/01-06/15
+15-Jun-2026;2300 Payroll Liabilities;;12470.0;Payroll 2026-06/01-06/15
+15-Jun-2026;6000 Salaries Expense;56685.0;;Payroll 2026-06/01-06/15
+16-Jun-2026;1000 Cash;;11007.12;Pay BILL-3144 Pillar Accounting Services CHK#1013
+16-Jun-2026;2000 Accounts Payable;11007.12;;Pay BILL-3144 Pillar Accounting Services CHK#1013
+18-Jun-2026;1000 Cash;20347.0;;Deposit - Dunmore Holdings INV-2224
+18-Jun-2026;1100 Accounts Receivable;;20347.0;Deposit - Dunmore Holdings INV-2224
+18-Jun-2026;1000 Cash;;4453.0;Pay BILL-3141 Inkwell Print Co. CHK#1014
+18-Jun-2026;2000 Accounts Payable;4453.0;;Pay BILL-3141 Inkwell Print Co. CHK#1014
+19-Jun-2026;1100 Accounts Receivable;9139.0;;Invoice INV-2229 - Corliss Marine
+19-Jun-2026;4100 Shipping Income;;9139.0;Invoice INV-2229 - Corliss Marine
+20-Jun-2026;1000 Cash;;4608.0;Pay BILL-3146 Bright Harbor Media CHK#1016
+20-Jun-2026;2000 Accounts Payable;4608.0;;Pay BILL-3146 Bright Harbor Media CHK#1016
+21-Jun-2026;1000 Cash;23554.0;;Deposit - Wexford Group INV-2228
+21-Jun-2026;1100 Accounts Receivable;;23554.0;Deposit - Wexford Group INV-2228
+21-Jun-2026;1000 Cash;;25457.38;Pay BILL-3145 Trellis Marketing Group CHK#1015
+21-Jun-2026;2000 Accounts Payable;25457.38;;Pay BILL-3145 Trellis Marketing Group CHK#1015
+24-Jun-2026;1000 Cash;47485.0;;Deposit - Corliss Marine INV-2231
+24-Jun-2026;1100 Accounts Receivable;;47485.0;Deposit - Corliss Marine INV-2231
+25-Jun-2026;1000 Cash;13309.0;;Deposit - Rosewood Retail INV-2226
+25-Jun-2026;1100 Accounts Receivable;;13309.0;Deposit - Rosewood Retail INV-2226
+28-Jun-2026;1300 Prepaid Insurance;;85.0;Monthly insurance amortization
+28-Jun-2026;6400 Insurance Expense;85.0;;Monthly insurance amortization
+28-Jun-2026;1310 Prepaid Software;;94.0;Monthly amortization - Prepaid software - 12 month license (Quillware Technologies)
+28-Jun-2026;6450 Software Expense;94.0;;Monthly amortization - Prepaid software - 12 month license (Quillware Technologies)

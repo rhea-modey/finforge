@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 25457.38,
+   "keywords": [
+    "lighthouse",
+    "trellis"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 11007.12,
+   "keywords": [
+    "harvest",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 36164.38,
+   "budget": 11389.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 25457.38,
+     "description": "One-time Lighthouse initiative billed by Trellis Marketing Group (BILL-3145)",
+     "evidence": [
+      "bills/BILL-3145.txt"
+     ]
+    }
+   ],
+   "variance": 24775.38
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 18512.12,
+   "budget": 7589.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 11007.12,
+     "description": "Harvest launch sprint (one-time) billed by Pillar Accounting Services (BILL-3144)",
+     "evidence": [
+      "bills/BILL-3144.txt"
+     ]
+    }
+   ],
+   "variance": 10923.12
+  }
+ ]
+}

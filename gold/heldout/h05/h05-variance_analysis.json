@@ -1,0 +1,79 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 8677.01,
+   "keywords": [
+    "anchor",
+    "bright"
+   ]
+  },
+  {
+   "account": "6350 Medical Supplies",
+   "amount": 14004.41,
+   "keywords": [
+    "summit",
+    "caldwell"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 11400.67,
+   "keywords": [
+    "summit",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 14285.01,
+   "budget": 5589.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 8677.01,
+     "description": "Non-recurring Anchor program billed by Bright Harbor Media (BILL-3146)",
+     "evidence": [
+      "bills/BILL-3146.txt"
+     ]
+    }
+   ],
+   "variance": 8696.01
+  },
+  {
+   "account": "6350 Medical Supplies",
+   "actual": 17246.41,
+   "budget": 3095.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 14004.41,
+     "description": "One-time Summit initiative billed by Caldwell Medical Supply (BILL-3145)",
+     "evidence": [
+      "bills/BILL-3145.txt"
+     ]
+    }
+   ],
+   "variance": 14151.41
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 12117.67,
+   "budget": 499.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 11400.67,
+     "description": "Non-recurring Summit program billed by Pillar Accounting Services (BILL-3144)",
+     "evidence": [
+      "bills/BILL-3144.txt"
+     ]
+    }
+   ],
+   "variance": 11618.67
+  }
+ ]
+}

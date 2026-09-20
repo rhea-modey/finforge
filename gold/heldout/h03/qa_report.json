@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 227007.82,
+    "gold": 227007.82,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 212371.96,
+    "gold": 212371.96,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $9,305.00, while the trial balance reports Accounts Payable of $19,825.04, leaving an unreconciled $10,520.04 difference apparently related to the remaining opening payable. This does not prevent completion of the four requested tasks.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "h03-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract uniquely establish the June opening balance, monthly amortization, and closing balance, while the GL confirms that June amortization has not yet been booked.",
+    "solvable": true
+   },
+   "h03-bank_rec": {
+    "reason": "The bank statement, GL, and trial balance provide sufficient amounts and references to identify outstanding checks, the deposit in transit, and two unrecorded bank fees and to reconcile both sides uniquely.",
+    "solvable": true
+   },
+   "h03-journal_entries": {
+    "reason": "The checklist, GL, payroll register, prepaid support, fixed-asset register, and June bill documents are sufficient to determine that June insurance amortization and a vendor-bill reclassification are needed, while payroll accrual and duplicate depreciation entries are not.",
+    "solvable": true
+   },
+   "h03-variance_analysis": {
+    "reason": "June actuals can be derived from the GL after the supported close entries and compared with the June budget. Materiality requires ordinary professional judgment, but the material expense drivers are supported by the vendor bills and predecessor memo.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

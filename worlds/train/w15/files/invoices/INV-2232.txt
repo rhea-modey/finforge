@@ -1,0 +1,16 @@
+IRONLINE DISTRIBUTORS INC.
+Ironline Distributors Inc.
+Wholesale Distribution
+
+INVOICE
+INV-2232
+Date: 2026-04-13
+
+Bill to:
+Jasper Analytics
+
+Line item: Wholesale goods handling and distribution for the current service period.
+
+Amount due: $13,296.00
+
+Remit/terms: Net 30; reference the document id when submitting payment.

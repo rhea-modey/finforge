@@ -1,0 +1,153 @@
+{
+ "adjusted_balance": 123549.85,
+ "bank_statement_ending_balance": 126426.72,
+ "gl_cash_ending_balance": 121849.53,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 1800.0
+    },
+    {
+     "account": "6450 Software Expense",
+     "credit": 1800.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Correct transposition on CHK-1012"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 55.47
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 55.47,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 64.28
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 64.28,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 20.07
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 20.07,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 4686.0,
+   "date": "2026-06-28",
+   "description": "Check to Stackline SaaS Tools not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1017",
+   "side": "bank"
+  },
+  {
+   "amount": 12214.62,
+   "date": "2026-06-22",
+   "description": "Check to Meridian Legal LLP not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1013",
+   "side": "bank"
+  },
+  {
+   "amount": 6932.0,
+   "date": "2026-06-08",
+   "description": "Check to Clearbyte Cloud Services not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1009",
+   "side": "bank"
+  },
+  {
+   "amount": 20081.25,
+   "date": "2026-06-21",
+   "description": "Check to Trellis Marketing Group not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1014",
+   "side": "bank"
+  },
+  {
+   "amount": 1800.0,
+   "date": "2026-06-30",
+   "description": "GL posted check at transposed amount (7536.0 vs bank 5736.0)",
+   "kind": "gl_error",
+   "ref": "CHK-1012",
+   "side": "book"
+  },
+  {
+   "amount": 20928.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT QUIMBY VENTU",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 20109.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT FERRELL INDU",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 55.47,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 64.28,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 20.07,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 490545.2,
+    "gold": 490545.2,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 493127.0,
+    "gold": 493127.0,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $39,645.00, while the trial balance reports Accounts Payable of $55,072.49, leaving an unreconciled $15,427.49 difference. This equals the unpaid remainder of opening AP but is omitted from the dated AP aging.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "h06-accrual_schedule": {
+    "reason": "The prior prepaid schedule and insurance contract define the prepaid population and monthly amortization, while the GL confirms that June insurance amortization was already booked.",
+    "solvable": true
+   },
+   "h06-bank_rec": {
+    "reason": "The bank statement and cash ledger provide sufficient detail to identify the two outstanding checks, deposit in transit, and two unrecorded bank fees and to reconcile both sides to a unique adjusted cash balance.",
+    "solvable": true
+   },
+   "h06-journal_entries": {
+    "reason": "The payroll register, prepaid records, fixed-asset register, GL, checklist, and June bill documents support the required payroll accrual, missing depreciation entry, and vendor-bill reclassification without duplicating recorded insurance amortization.",
+    "solvable": true
+   },
+   "h06-variance_analysis": {
+    "reason": "June actual activity can be adjusted for the specified close entries and compared with the June budget. Materiality requires professional judgment, but the significant advertising and professional-fee variances have specific supporting bills and initiatives.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

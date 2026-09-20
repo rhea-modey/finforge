@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 19196.74,
+   "keywords": [
+    "anchor",
+    "zenith"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 16038.13,
+   "keywords": [
+    "summit",
+    "meridian"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 25955.74,
+   "budget": 6944.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 19196.74,
+     "description": "Special Anchor initiative - one-off fees billed by Zenith Freight Lines (BILL-3146)",
+     "evidence": [
+      "bills/BILL-3146.txt"
+     ]
+    }
+   ],
+   "variance": 19011.74
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 24767.13,
+   "budget": 9173.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 16038.13,
+     "description": "Special Summit initiative - one-off fees billed by Meridian Legal LLP (BILL-3147)",
+     "evidence": [
+      "bills/BILL-3147.txt"
+     ]
+    }
+   ],
+   "variance": 15594.13
+  }
+ ]
+}

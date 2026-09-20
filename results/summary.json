@@ -1,0 +1,135 @@
+{
+  "checkpoints": {
+    "c0": {
+      "by_group": {
+        "heldout_industry": {
+          "errors": 0,
+          "mean_gold": 68.23,
+          "mean_judge": 5.417,
+          "n": 12,
+          "usd": 0.5756
+        },
+        "train_industry": {
+          "errors": 0,
+          "mean_gold": 66.359,
+          "mean_judge": 5.25,
+          "n": 12,
+          "usd": 0.4396
+        }
+      },
+      "checkpoint": 0,
+      "errors": 0,
+      "harness_version": "v0",
+      "mean_gold": 67.295,
+      "mean_judge": 5.333,
+      "n": 24,
+      "per_category": {
+        "accrual_schedule": {
+          "mean_gold": 94.167,
+          "mean_judge": 5.333,
+          "n": 6
+        },
+        "bank_rec": {
+          "mean_gold": 60.873,
+          "mean_judge": 5.833,
+          "n": 6
+        },
+        "journal_entries": {
+          "mean_gold": 64.307,
+          "mean_judge": 5.333,
+          "n": 6
+        },
+        "variance_analysis": {
+          "mean_gold": 49.832,
+          "mean_judge": 4.833,
+          "n": 6
+        }
+      },
+      "tag": "c0",
+      "usd": 1.0152
+    },
+    "c1": {
+      "by_group": {
+        "heldout_industry": {
+          "errors": 0,
+          "mean_gold": 65.288,
+          "mean_judge": 5.75,
+          "n": 12,
+          "usd": 2.4443
+        },
+        "train_industry": {
+          "errors": 0,
+          "mean_gold": 56.528,
+          "mean_judge": 5.333,
+          "n": 12,
+          "usd": 2.6847
+        }
+      },
+      "checkpoint": 1,
+      "errors": 0,
+      "harness_version": "v1",
+      "mean_gold": 60.908,
+      "mean_judge": 5.542,
+      "n": 24,
+      "per_category": {
+        "accrual_schedule": {
+          "mean_gold": 94.167,
+          "mean_judge": 6.5,
+          "n": 6
+        },
+        "bank_rec": {
+          "mean_gold": 75.555,
+          "mean_judge": 6.667,
+          "n": 6
+        },
+        "journal_entries": {
+          "mean_gold": 61.112,
+          "mean_judge": 4.667,
+          "n": 6
+        },
+        "variance_analysis": {
+          "mean_gold": 12.798,
+          "mean_judge": 4.333,
+          "n": 6
+        }
+      },
+      "tag": "c1",
+      "usd": 5.129
+    }
+  },
+  "cost": {
+    "heldout_usd": 6.1442,
+    "tokens": {
+      "cache_r": 37258710,
+      "cache_w": 0,
+      "in": 43042159,
+      "out": 3767052
+    },
+    "total_usd": 6.5603,
+    "train_usd": 0.4161
+  },
+  "counts": {
+    "checkpoints_jsonl": 48,
+    "runs_jsonl": 12
+  },
+  "train": {
+    "errors": 0,
+    "n_runs": 12,
+    "per_iteration": {
+      "0": {
+        "errors": 0,
+        "harness_version": "v0",
+        "mean_gold": null,
+        "mean_judge": 5.333,
+        "n": 12,
+        "per_category": {
+          "accrual_schedule": 6.667,
+          "bank_rec": 4.333,
+          "journal_entries": 5.667,
+          "variance_analysis": 4.667
+        },
+        "usd": 0.4161
+      }
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+ "adjusted_balance": 293597.62,
+ "bank_statement_ending_balance": 321047.7,
+ "gl_cash_ending_balance": 293656.9,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 33.88
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 33.88,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 55.11
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 55.11,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 29.71
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 29.71,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 4705.0,
+   "date": "2026-06-18",
+   "description": "Check to Kite Digital Ads not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1014",
+   "side": "bank"
+  },
+  {
+   "amount": 14004.41,
+   "date": "2026-06-18",
+   "description": "Check to Caldwell Medical Supply not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1015",
+   "side": "bank"
+  },
+  {
+   "amount": 2859.0,
+   "date": "2026-06-28",
+   "description": "Check to Junction Utility Co-op not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1016",
+   "side": "bank"
+  },
+  {
+   "amount": 11400.67,
+   "date": "2026-06-07",
+   "description": "Check to Pillar Accounting Services not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1012",
+   "side": "bank"
+  },
+  {
+   "amount": 5519.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT PINEHURST DIGITAL INV-2247",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 33.88,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 55.11,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 29.71,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

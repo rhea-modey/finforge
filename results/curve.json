@@ -1,0 +1,152 @@
+{
+ "checkpoints": [
+  {
+   "by_category": {
+    "accrual_schedule": 94.17,
+    "bank_rec": 60.87,
+    "journal_entries": 64.31,
+    "variance_analysis": 49.83
+   },
+   "checkpoint": 0,
+   "errors": 0,
+   "gold_mean": 67.29,
+   "gold_seen_industries": 66.36,
+   "gold_unseen_industries": 68.23,
+   "judge_mean": 53.33,
+   "n": 24,
+   "tag": "c0",
+   "usd": 1.0152,
+   "usd_per_task": 0.04,
+   "version": "v0"
+  },
+  {
+   "by_category": {
+    "accrual_schedule": 94.17,
+    "bank_rec": 75.55,
+    "journal_entries": 61.11,
+    "variance_analysis": 12.8
+   },
+   "checkpoint": 1,
+   "errors": 0,
+   "gold_mean": 60.91,
+   "gold_seen_industries": 56.53,
+   "gold_unseen_industries": 65.29,
+   "judge_mean": 55.42,
+   "n": 24,
+   "tag": "c1",
+   "usd": 5.129,
+   "usd_per_task": 0.21,
+   "version": "v1"
+  },
+  {
+   "by_category": {
+    "accrual_schedule": 100.0,
+    "bank_rec": 52.22,
+    "journal_entries": 76.95,
+    "variance_analysis": 23.51
+   },
+   "checkpoint": 2,
+   "errors": 0,
+   "gold_mean": 63.17,
+   "gold_seen_industries": 49.1,
+   "gold_unseen_industries": 77.24,
+   "judge_mean": 50.0,
+   "n": 24,
+   "tag": "c2",
+   "usd": 7.6518,
+   "usd_per_task": 0.32,
+   "version": "v2"
+  },
+  {
+   "by_category": {
+    "accrual_schedule": 100.0,
+    "bank_rec": 71.81,
+    "journal_entries": 29.17,
+    "variance_analysis": 6.25
+   },
+   "checkpoint": 3,
+   "errors": 0,
+   "gold_mean": 51.81,
+   "gold_seen_industries": 55.0,
+   "gold_unseen_industries": 48.61,
+   "judge_mean": 49.17,
+   "n": 24,
+   "tag": "c3",
+   "usd": 5.0295,
+   "usd_per_task": 0.21,
+   "version": "v3"
+  },
+  {
+   "by_category": {
+    "accrual_schedule": 82.5,
+    "bank_rec": 91.27,
+    "journal_entries": 61.95,
+    "variance_analysis": 22.32
+   },
+   "checkpoint": 4,
+   "errors": 0,
+   "gold_mean": 64.51,
+   "gold_seen_industries": 64.11,
+   "gold_unseen_industries": 64.91,
+   "judge_mean": 55.42,
+   "n": 24,
+   "tag": "c4",
+   "usd": 3.7924,
+   "usd_per_task": 0.16,
+   "version": "v4"
+  },
+  {
+   "by_category": {
+    "accrual_schedule": 100.0,
+    "bank_rec": 82.5,
+    "journal_entries": 75.7,
+    "variance_analysis": 8.33
+   },
+   "checkpoint": 5,
+   "errors": 0,
+   "gold_mean": 65.19,
+   "gold_seen_industries": 63.64,
+   "gold_unseen_industries": 66.74,
+   "judge_mean": 54.55,
+   "n": 22,
+   "tag": "c5",
+   "usd": 5.4187,
+   "usd_per_task": 0.25,
+   "version": "v5"
+  }
+ ],
+ "deployed": [
+  {
+   "candidate": "v1",
+   "candidate_mean_judge": 6.083,
+   "deployed": "v1",
+   "deployed_gold": 60.91,
+   "incumbent_mean_judge": 5.083,
+   "iteration": 1
+  },
+  {
+   "candidate": "v2",
+   "candidate_mean_judge": 5.167,
+   "deployed": "v1",
+   "deployed_gold": 60.91,
+   "incumbent_mean_judge": 5.833,
+   "iteration": 2
+  },
+  {
+   "candidate": "v3",
+   "candidate_mean_judge": 5.0,
+   "deployed": "v1",
+   "deployed_gold": 60.91,
+   "incumbent_mean_judge": 5.5,
+   "iteration": 3
+  },
+  {
+   "candidate": "v4",
+   "candidate_mean_judge": 5.875,
+   "deployed": "v4",
+   "deployed_gold": 64.51,
+   "incumbent_mean_judge": 5.25,
+   "iteration": 4
+  }
+ ]
+}

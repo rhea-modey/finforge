@@ -1,0 +1,52 @@
+{
+ "entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6000 Salaries Expense",
+     "credit": 0,
+     "debit": 46524.0
+    },
+    {
+     "account": "2100 Accrued Liabilities",
+     "credit": 46524.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Accrue payroll for period 2026-06/16-06/30 paid 2026-07-02"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6200 Advertising & Marketing",
+     "credit": 0,
+     "debit": 4246.0
+    },
+    {
+     "account": "6700 Office Supplies",
+     "credit": 4246.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Reclass BILL-3143 (Trellis Marketing Group) to correct account"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6800 Depreciation Expense",
+     "credit": 0,
+     "debit": 2843.1
+    },
+    {
+     "account": "1590 Accumulated Depreciation",
+     "credit": 2843.1,
+     "debit": 0
+    }
+   ],
+   "memo": "June depreciation"
+  }
+ ]
+}

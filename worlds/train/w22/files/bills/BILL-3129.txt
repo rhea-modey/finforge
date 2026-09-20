@@ -1,0 +1,13 @@
+JUNCTION UTILITY CO-OP
+Junction Utility Co-op
+Member utility services
+
+BILL BILL-3129
+Service customer: Tidewater Outfitters
+Date: 2026-04-21
+
+Line item: Utility service for the current billing period.
+Amount: $2,032.00
+
+Terms: Payment due upon receipt.
+Remit: Return payment with BILL-3129 noted.

@@ -1,0 +1,168 @@
+Date,account,dr,cr,Memo
+04/01/2026,1000 Cash,219137.84,,Opening balances
+04/01/2026,1300 Prepaid Insurance,1107.0,,Opening balances
+04/01/2026,1500 Equipment,179218.0,,Opening balances
+04/01/2026,1590 Accumulated Depreciation,,35843.52,Opening balances
+04/01/2026,2000 Accounts Payable,,19781.88,Opening balances
+04/01/2026,3000 Retained Earnings,,343837.44,Opening balances
+04/03/2026,1100 Accounts Receivable,21729.0,,Invoice INV-2213 - Yardley Supply
+04/03/2026,4100 Retainer Revenue,,21729.0,Invoice INV-2213 - Yardley Supply
+04/03/2026,1000 Cash,,5835.0,Rent - Amberfield Property Group
+04/03/2026,6100 Rent Expense,5835.0,,Rent - Amberfield Property Group
+04/04/2026,2000 Accounts Payable,,2356.0,BILL-3108 Trellis Marketing Group
+04/04/2026,6200 Advertising & Marketing,2356.0,,BILL-3108 Trellis Marketing Group
+04/04/2026,2000 Accounts Payable,,2204.0,BILL-3111 Lumen Office Supply
+04/04/2026,6700 Office Supplies,2204.0,,BILL-3111 Lumen Office Supply
+04/06/2026,1000 Cash,,9890.94,Payment on account - opening payables
+04/06/2026,2000 Accounts Payable,9890.94,,Payment on account - opening payables
+04/07/2026,1100 Accounts Receivable,5890.0,,Invoice INV-2214 - Yardley Supply
+04/07/2026,4000 Consulting Revenue,,5890.0,Invoice INV-2214 - Yardley Supply
+04/09/2026,1100 Accounts Receivable,14950.0,,Invoice INV-2209 - Kelso Brands
+04/09/2026,4100 Retainer Revenue,,14950.0,Invoice INV-2209 - Kelso Brands
+04/11/2026,1000 Cash,,2356.0,Pay BILL-3108 Trellis Marketing Group CHK#1003
+04/11/2026,2000 Accounts Payable,2356.0,,Pay BILL-3108 Trellis Marketing Group CHK#1003
+04/12/2026,1000 Cash,,2204.0,Pay BILL-3111 Lumen Office Supply CHK#1004
+04/12/2026,2000 Accounts Payable,2204.0,,Pay BILL-3111 Lumen Office Supply CHK#1004
+04/15/2026,1000 Cash,,22723.0,Payroll 2026-04/01-04/15
+04/15/2026,2300 Payroll Liabilities,,6409.0,Payroll 2026-04/01-04/15
+04/15/2026,6000 Salaries Expense,29132.0,,Payroll 2026-04/01-04/15
+04/17/2026,1100 Accounts Receivable,21308.0,,Invoice INV-2210 - Ferrell Industries
+04/17/2026,4000 Consulting Revenue,,21308.0,Invoice INV-2210 - Ferrell Industries
+04/17/2026,1000 Cash,21729.0,,Deposit - Yardley Supply INV-2213
+04/17/2026,1100 Accounts Receivable,,21729.0,Deposit - Yardley Supply INV-2213
+04/17/2026,2000 Accounts Payable,,4378.0,BILL-3110 Meridian Legal LLP
+04/17/2026,6600 Professional Fees,4378.0,,BILL-3110 Meridian Legal LLP
+04/19/2026,1100 Accounts Receivable,11498.0,,Invoice INV-2211 - Kelso Brands
+04/19/2026,4000 Consulting Revenue,,11498.0,Invoice INV-2211 - Kelso Brands
+04/19/2026,1000 Cash,5890.0,,Deposit - Yardley Supply INV-2214
+04/19/2026,1100 Accounts Receivable,,5890.0,Deposit - Yardley Supply INV-2214
+04/20/2026,1100 Accounts Receivable,27133.0,,Invoice INV-2208 - Tamarack Health
+04/20/2026,4000 Consulting Revenue,,27133.0,Invoice INV-2208 - Tamarack Health
+04/20/2026,2000 Accounts Payable,,1741.0,BILL-3109 Meridian Legal LLP
+04/20/2026,6600 Professional Fees,1741.0,,BILL-3109 Meridian Legal LLP
+04/20/2026,2000 Accounts Payable,,1609.0,BILL-3112 Trellis Marketing Group
+04/20/2026,6200 Advertising & Marketing,1609.0,,BILL-3112 Trellis Marketing Group
+04/21/2026,2000 Accounts Payable,,5210.0,BILL-3113 Uptown Catering Co.
+04/21/2026,6700 Office Supplies,5210.0,,BILL-3113 Uptown Catering Co.
+04/24/2026,1100 Accounts Receivable,21670.0,,Invoice INV-2212 - Ferrell Industries
+04/24/2026,4000 Consulting Revenue,,21670.0,Invoice INV-2212 - Ferrell Industries
+04/24/2026,1000 Cash,,1609.0,Pay BILL-3112 Trellis Marketing Group CHK#1007
+04/24/2026,2000 Accounts Payable,1609.0,,Pay BILL-3112 Trellis Marketing Group CHK#1007
+04/25/2026,1000 Cash,,4378.0,Pay BILL-3110 Meridian Legal LLP CHK#1005
+04/25/2026,2000 Accounts Payable,4378.0,,Pay BILL-3110 Meridian Legal LLP CHK#1005
+04/28/2026,1000 Cash,,1741.0,Pay BILL-3109 Meridian Legal LLP CHK#1006
+04/28/2026,2000 Accounts Payable,1741.0,,Pay BILL-3109 Meridian Legal LLP CHK#1006
+04/28/2026,1000 Cash,,5210.0,Pay BILL-3113 Uptown Catering Co. CHK#1008
+04/28/2026,2000 Accounts Payable,5210.0,,Pay BILL-3113 Uptown Catering Co. CHK#1008
+04/28/2026,1000 Cash,,22599.0,Payroll 2026-04/16-04/30
+04/28/2026,2300 Payroll Liabilities,,6373.0,Payroll 2026-04/16-04/30
+04/28/2026,6000 Salaries Expense,28972.0,,Payroll 2026-04/16-04/30
+04/28/2026,1300 Prepaid Insurance,,123.0,Monthly insurance amortization
+04/28/2026,6400 Insurance Expense,123.0,,Monthly insurance amortization
+04/28/2026,1590 Accumulated Depreciation,,2986.96,Monthly depreciation
+04/28/2026,6800 Depreciation Expense,2986.96,,Monthly depreciation
+05/03/2026,1000 Cash,,5835.0,Rent - Amberfield Property Group
+05/03/2026,6100 Rent Expense,5835.0,,Rent - Amberfield Property Group
+05/04/2026,1100 Accounts Receivable,17133.0,,Invoice INV-2216 - Ferrell Industries
+05/04/2026,4000 Consulting Revenue,,17133.0,Invoice INV-2216 - Ferrell Industries
+05/06/2026,2000 Accounts Payable,,3458.0,BILL-3116 Bright Harbor Media
+05/06/2026,6200 Advertising & Marketing,3458.0,,BILL-3116 Bright Harbor Media
+05/08/2026,1100 Accounts Receivable,22732.0,,Invoice INV-2215 - Eastgate Collective
+05/08/2026,4000 Consulting Revenue,,22732.0,Invoice INV-2215 - Eastgate Collective
+05/08/2026,2000 Accounts Payable,,5312.0,BILL-3114 Ridgeline Telecom
+05/08/2026,6500 Utilities Expense,5312.0,,BILL-3114 Ridgeline Telecom
+05/08/2026,2000 Accounts Payable,,2283.0,BILL-3115 Trellis Marketing Group
+05/08/2026,6200 Advertising & Marketing,2283.0,,BILL-3115 Trellis Marketing Group
+05/09/2026,1000 Cash,14950.0,,Deposit - Kelso Brands INV-2209
+05/09/2026,1100 Accounts Receivable,,14950.0,Deposit - Kelso Brands INV-2209
+05/10/2026,1000 Cash,27133.0,,Deposit - Tamarack Health INV-2208
+05/10/2026,1100 Accounts Receivable,,27133.0,Deposit - Tamarack Health INV-2208
+05/10/2026,1100 Accounts Receivable,23294.0,,Invoice INV-2219 - Yardley Supply
+05/10/2026,4000 Consulting Revenue,,23294.0,Invoice INV-2219 - Yardley Supply
+05/10/2026,1000 Cash,,3458.0,Pay BILL-3116 Bright Harbor Media CHK#1010
+05/10/2026,2000 Accounts Payable,3458.0,,Pay BILL-3116 Bright Harbor Media CHK#1010
+05/10/2026,2000 Accounts Payable,,1840.0,BILL-3117 Helix IT Solutions
+05/10/2026,6450 Software Expense,1840.0,,BILL-3117 Helix IT Solutions
+05/11/2026,1000 Cash,,2283.0,Pay BILL-3115 Trellis Marketing Group CHK#1011
+05/11/2026,2000 Accounts Payable,2283.0,,Pay BILL-3115 Trellis Marketing Group CHK#1011
+05/14/2026,1100 Accounts Receivable,20633.0,,Invoice INV-2218 - Eastgate Collective
+05/14/2026,4100 Retainer Revenue,,20633.0,Invoice INV-2218 - Eastgate Collective
+05/15/2026,1000 Cash,,1840.0,Pay BILL-3117 Helix IT Solutions CHK#1012
+05/15/2026,2000 Accounts Payable,1840.0,,Pay BILL-3117 Helix IT Solutions CHK#1012
+05/15/2026,1000 Cash,,23475.0,Payroll 2026-05/01-05/15
+05/15/2026,2300 Payroll Liabilities,,6620.0,Payroll 2026-05/01-05/15
+05/15/2026,6000 Salaries Expense,30095.0,,Payroll 2026-05/01-05/15
+05/18/2026,1000 Cash,21308.0,,Deposit - Ferrell Industries INV-2210
+05/18/2026,1100 Accounts Receivable,,21308.0,Deposit - Ferrell Industries INV-2210
+05/19/2026,1100 Accounts Receivable,6393.0,,Invoice INV-2217 - Tamarack Health
+05/19/2026,4000 Consulting Revenue,,6393.0,Invoice INV-2217 - Tamarack Health
+05/27/2026,1000 Cash,11498.0,,Deposit - Kelso Brands INV-2211
+05/27/2026,1100 Accounts Receivable,,11498.0,Deposit - Kelso Brands INV-2211
+05/28/2026,1000 Cash,,23592.0,Payroll 2026-05/16-05/30
+05/28/2026,2300 Payroll Liabilities,,6653.0,Payroll 2026-05/16-05/30
+05/28/2026,6000 Salaries Expense,30245.0,,Payroll 2026-05/16-05/30
+05/28/2026,1300 Prepaid Insurance,,123.0,Monthly insurance amortization
+05/28/2026,6400 Insurance Expense,123.0,,Monthly insurance amortization
+05/28/2026,1590 Accumulated Depreciation,,2986.96,Monthly depreciation
+05/28/2026,6800 Depreciation Expense,2986.96,,Monthly depreciation
+06/01/2026,1000 Cash,21670.0,,Deposit - Ferrell Industries INV-2212
+06/01/2026,1100 Accounts Receivable,,21670.0,Deposit - Ferrell Industries INV-2212
+06/03/2026,1000 Cash,,5835.0,Rent - Amberfield Property Group
+06/03/2026,6100 Rent Expense,5835.0,,Rent - Amberfield Property Group
+06/04/2026,1000 Cash,23294.0,,Deposit - Yardley Supply INV-2219
+06/04/2026,1100 Accounts Receivable,,23294.0,Deposit - Yardley Supply INV-2219
+06/04/2026,1100 Accounts Receivable,25209.0,,Invoice INV-2220 - Kelso Brands
+06/04/2026,4000 Consulting Revenue,,25209.0,Invoice INV-2220 - Kelso Brands
+06/07/2026,2000 Accounts Payable,,1046.0,BILL-3119 Trellis Marketing Group
+06/07/2026,6200 Advertising & Marketing,1046.0,,BILL-3119 Trellis Marketing Group
+06/08/2026,1100 Accounts Receivable,18931.0,,Invoice INV-2222 - Glenrock Solutions
+06/08/2026,4000 Consulting Revenue,,18931.0,Invoice INV-2222 - Glenrock Solutions
+06/09/2026,1100 Accounts Receivable,22864.0,,Invoice INV-2225 - Silverthorne Media
+06/09/2026,4000 Consulting Revenue,,22864.0,Invoice INV-2225 - Silverthorne Media
+06/10/2026,2000 Accounts Payable,,3196.0,BILL-3124 Trellis Marketing Group
+06/10/2026,6700 Office Supplies,3196.0,,BILL-3124 Trellis Marketing Group
+06/11/2026,1100 Accounts Receivable,7535.0,,Invoice INV-2223 - Eastgate Collective
+06/11/2026,4000 Consulting Revenue,,7535.0,Invoice INV-2223 - Eastgate Collective
+06/11/2026,2000 Accounts Payable,,13444.44,BILL-3123 Trellis Marketing Group
+06/11/2026,6200 Advertising & Marketing,13444.44,,BILL-3123 Trellis Marketing Group
+06/12/2026,1000 Cash,22732.0,,Deposit - Eastgate Collective INV-2215
+06/12/2026,1100 Accounts Receivable,,22732.0,Deposit - Eastgate Collective INV-2215
+06/12/2026,2000 Accounts Payable,,1488.0,BILL-3121 Lumen Office Supply
+06/12/2026,6700 Office Supplies,1488.0,,BILL-3121 Lumen Office Supply
+06/12/2026,2000 Accounts Payable,,8167.46,BILL-3122 Pillar Accounting Services
+06/12/2026,6600 Professional Fees,8167.46,,BILL-3122 Pillar Accounting Services
+06/12/2026,1000 Cash,9073.0,,Owner capital contribution
+06/12/2026,3000 Retained Earnings,,9073.0,Owner capital contribution
+06/13/2026,1000 Cash,,1046.0,Pay BILL-3119 Trellis Marketing Group CHK#1014
+06/13/2026,2000 Accounts Payable,1046.0,,Pay BILL-3119 Trellis Marketing Group CHK#1014
+06/14/2026,1000 Cash,17133.0,,Deposit - Ferrell Industries INV-2216
+06/14/2026,1100 Accounts Receivable,,17133.0,Deposit - Ferrell Industries INV-2216
+06/14/2026,1100 Accounts Receivable,21726.0,,Invoice INV-2221 - Glenrock Solutions
+06/14/2026,4000 Consulting Revenue,,21726.0,Invoice INV-2221 - Glenrock Solutions
+06/14/2026,2000 Accounts Payable,,5971.0,BILL-3118 Pillar Accounting Services
+06/14/2026,6600 Professional Fees,5971.0,,BILL-3118 Pillar Accounting Services
+06/15/2026,1000 Cash,,8167.46,Pay BILL-3122 Pillar Accounting Services CHK#1018
+06/15/2026,2000 Accounts Payable,8167.46,,Pay BILL-3122 Pillar Accounting Services CHK#1018
+06/15/2026,1000 Cash,,40853.0,Payroll 2026-06/01-06/15
+06/15/2026,2300 Payroll Liabilities,,11522.0,Payroll 2026-06/01-06/15
+06/15/2026,6000 Salaries Expense,52375.0,,Payroll 2026-06/01-06/15
+06/16/2026,1100 Accounts Receivable,7991.0,,Invoice INV-2224 - Crestline Partners
+06/16/2026,4100 Retainer Revenue,,7991.0,Invoice INV-2224 - Crestline Partners
+06/16/2026,1000 Cash,,3196.0,Pay BILL-3124 Trellis Marketing Group CHK#1015
+06/16/2026,2000 Accounts Payable,3196.0,,Pay BILL-3124 Trellis Marketing Group CHK#1015
+06/18/2026,1000 Cash,20633.0,,Deposit - Eastgate Collective INV-2218
+06/18/2026,1100 Accounts Receivable,,20633.0,Deposit - Eastgate Collective INV-2218
+06/18/2026,1000 Cash,,5971.0,Pay BILL-3118 Pillar Accounting Services CHK#1019
+06/18/2026,2000 Accounts Payable,5971.0,,Pay BILL-3118 Pillar Accounting Services CHK#1019
+06/19/2026,1000 Cash,,13444.44,Pay BILL-3123 Trellis Marketing Group CHK#1016
+06/19/2026,2000 Accounts Payable,13444.44,,Pay BILL-3123 Trellis Marketing Group CHK#1016
+06/21/2026,1000 Cash,,1488.0,Pay BILL-3121 Lumen Office Supply CHK#1017
+06/21/2026,2000 Accounts Payable,1488.0,,Pay BILL-3121 Lumen Office Supply CHK#1017
+06/21/2026,2000 Accounts Payable,,4635.0,BILL-3120 Ridgeline Telecom
+06/21/2026,6500 Utilities Expense,4635.0,,BILL-3120 Ridgeline Telecom
+06/26/2026,1000 Cash,6393.0,,Deposit - Tamarack Health INV-2217
+06/26/2026,1100 Accounts Receivable,,6393.0,Deposit - Tamarack Health INV-2217
+06/26/2026,1000 Cash,,4635.0,Pay BILL-3120 Ridgeline Telecom CHK#1020
+06/26/2026,2000 Accounts Payable,4635.0,,Pay BILL-3120 Ridgeline Telecom CHK#1020
+06/27/2026,1000 Cash,18931.0,,Deposit - Glenrock Solutions INV-2222
+06/27/2026,1100 Accounts Receivable,,18931.0,Deposit - Glenrock Solutions INV-2222

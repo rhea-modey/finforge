@@ -1,0 +1,273 @@
+<title>FinForge Improvement Curve</title>
+<style>
+.viz-root {
+  color-scheme: light;
+  --surface-1:#fcfcfb; --surface-2:#f2f1ee;
+  --text-primary:#0b0b0b; --text-secondary:#52514e; --text-muted:#8a887f;
+  --grid:#e4e2dc; --border:#d8d6cf;
+  --series-1:#2a78d6; --series-2:#eb6834; --series-3:#1baf7a; --series-4:#eda100;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) .viz-root {
+    color-scheme: dark;
+    --surface-1:#1a1a19; --surface-2:#232322;
+    --text-primary:#ffffff; --text-secondary:#c3c2b7; --text-muted:#8a887f;
+    --grid:#33332f; --border:#3c3b36;
+    --series-1:#3987e5; --series-2:#d95926; --series-3:#199e70; --series-4:#c98500;
+  }
+}
+:root[data-theme="dark"] .viz-root {
+  color-scheme: dark;
+  --surface-1:#1a1a19; --surface-2:#232322;
+  --text-primary:#ffffff; --text-secondary:#c3c2b7; --text-muted:#8a887f;
+  --grid:#33332f; --border:#3c3b36;
+  --series-1:#3987e5; --series-2:#d95926; --series-3:#199e70; --series-4:#c98500;
+}
+.viz-root { background:var(--surface-1); color:var(--text-primary);
+  font:15px/1.5 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  max-width:860px; margin:0 auto; padding:28px 20px 64px; }
+.viz-root h1 { font-size:1.5rem; margin:0 0 2px; }
+.viz-root h2 { font-size:1.05rem; margin:34px 0 6px; }
+.viz-root .sub { color:var(--text-secondary); margin:0 0 6px; }
+.viz-root .status { display:inline-block; font-size:.75rem; letter-spacing:.04em;
+  color:var(--text-secondary); border:1px solid var(--border); border-radius:99px;
+  padding:2px 10px; margin:6px 0 18px; }
+.tiles { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  gap:10px; margin:14px 0 26px; }
+.tile { background:var(--surface-2); border-radius:10px; padding:12px 14px; }
+.tile-label { font-size:.72rem; letter-spacing:.03em; color:var(--text-secondary);
+  text-transform:uppercase; }
+.tile-value { font-size:1.7rem; font-weight:650; margin-top:2px; }
+.tile-dim { color:var(--text-muted); font-size:1.1rem; }
+.tile-sub { font-size:.78rem; color:var(--text-muted); }
+.chart-block { margin:8px 0 4px; }
+.chart-wrap { position:relative; }
+.chart { width:100%; height:auto; display:block; }
+.tick { font-size:11px; fill:var(--text-muted); }
+.axis-label { font-size:11px; fill:var(--text-secondary); }
+.dlabel { font-size:11.5px; font-weight:600; }
+.legend { display:flex; gap:16px; flex-wrap:wrap; margin:4px 0 2px; }
+.key { display:inline-flex; align-items:center; gap:6px; font-size:.82rem;
+  color:var(--text-secondary); }
+.swatch { width:10px; height:10px; border-radius:3px; display:inline-block; }
+.note { font-size:.82rem; color:var(--text-secondary); margin:6px 0 0; }
+.tooltip { position:absolute; pointer-events:none; background:var(--surface-2);
+  border:1px solid var(--border); border-radius:8px; padding:7px 10px;
+  font-size:.8rem; color:var(--text-primary); box-shadow:0 2px 10px rgba(0,0,0,.12);
+  white-space:nowrap; z-index:5; }
+.mermaid-wrap { overflow-x:auto; background:var(--surface-2); border-radius:10px;
+  padding:10px 6px; margin:8px 0 4px; }
+.mermaid-wrap pre.mermaid { margin:0; }
+.table-wrap { overflow-x:auto; margin-top:10px; }
+table { border-collapse:collapse; font-size:.82rem; min-width:640px; }
+th, td { text-align:right; padding:5px 10px; border-bottom:1px solid var(--grid);
+  color:var(--text-secondary); }
+th { color:var(--text-muted); font-weight:600; }
+td:first-child, th:first-child { text-align:left; }
+</style>
+<div class="viz-root">
+  <h1>FinForge — self-improving harness</h1>
+  <p class="sub">Held-out score across harness iterations. Trained only on a gold-blind
+     judge's pseudo-reward; measured against generated ground truth it never sees.</p>
+  <span class="status">RUN IN PROGRESS — page re-renders as checkpoints land</span>
+  
+  <div class="tiles">
+    <div class="tile"><div class="tile-label">bank rec — best evolved harness</div>
+      <div class="tile-value">91.3</div>
+      <div class="tile-sub">+30.4 vs v0 (60.87)</div></div>
+    <div class="tile"><div class="tile-label">judge–gold alignment ρ</div>
+      <div class="tile-value">+0.70</div>
+      <div class="tile-sub">verifying judge (reading judge: +0.24)</div></div>
+    <div class="tile"><div class="tile-label">held-out gold (latest)</div>
+      <div class="tile-value">64.51</div>
+      <div class="tile-sub">v4 · n=24</div></div>
+    <div class="tile"><div class="tile-label">vs v0 baseline</div>
+      <div class="tile-value">-2.8</div>
+      <div class="tile-sub">baseline 67.29</div></div>
+    <div class="tile"><div class="tile-label">checkpoints done</div>
+      <div class="tile-value">5<span class="tile-dim">/11</span></div>
+      <div class="tile-sub">run in progress</div></div>
+    <div class="tile"><div class="tile-label">held-out eval spend</div>
+      <div class="tile-value">$22.62</div>
+      <div class="tile-sub">0 task errors</div></div>
+  </div>
+  
+  <h2>Architecture 1/2 — the harness itself (the artifact that evolves)</h2>
+  <p class="note">A harness is ONE markdown spec: agent roles, their tool rosters,
+  and the contracts between them. The optimizer edits this document — nothing else.
+  Shown: the evolved shape after self-improvement (v0 started with no run_python
+  anywhere and a Reviewer that could not see source data).</p>
+  <div class="mermaid-wrap"><pre class="mermaid">
+flowchart LR
+  TP["task prompt +<br/>world files (CSV/TXT/MD)"] --> O
+  subgraph SPEC["harness spec vN &mdash; markdown, rewritten each iteration"]
+    O["<b>Orchestrator</b><br/>tools: call_agent &middot; submit_answer"]
+    FS["<b>FileScout</b><br/>list_files &middot; read_file &middot; grep_files"]
+    AN["<b>Analyst</b><br/>read_file &middot; grep_files &middot; run_python"]
+    RV["<b>Reviewer</b><br/>read_file &middot; grep_files &middot; run_python"]
+    O -->|"contract: relevant files<br/>+ column layouts"| FS
+    O -->|"contract: draft with<br/>evidence per figure"| AN
+    O -->|"contract: recompute all;<br/>verdict + reasons"| RV
+    RV -->|"one-shot revision loop"| AN
+  end
+  O --> ANS["answer JSON<br/>(submit_answer)"]
+  </pre></div>
+
+  <h2>Architecture 2/2 — the self-improvement loop around it</h2>
+  <p class="note">The load-bearing component is the VERIFYING JUDGE: gold-blind, but
+  armed with the actor's own tools, it recomputes every tie-out via tool calls before
+  scoring. Alignment with hidden ground truth: &rho; = +0.24 (reading judge) &rarr;
+  +0.70 (verifying). Gold stays quarantined below the dashed boundary &mdash;
+  measurement only, never a training signal.</p>
+  <div class="mermaid-wrap"><pre class="mermaid">
+flowchart TB
+  SP["harness spec vN"] --> ACT["<b>Actor</b> (gpt-oss-120b)<br/>runs 12 tasks on 3 FRESH worlds<br/>(never reused across iterations)"]
+  ACT --> TR["answers + traces"]
+  TR --> VJ["<b>Verifying Judge</b> (deepseek-v4.1, gold-blind)<br/>tool calls: list_files &middot; read_file &middot; grep_files &middot; run_python<br/>recomputes balances, checks each claimed item exists"]
+  VJ --> CR["scores + falsification critiques<br/>(&quot;the 8,317.00 receipt is fabricated&quot;)"]
+  CR --> OPT["<b>Optimizer</b> (MiniMax-M3)<br/>full genealogy + revert rights<br/>bounded surgical edits"]
+  OPT --> NV["candidate spec v(N+1)"]
+  NV --> GATE{"<b>acceptance gate</b><br/>candidate vs incumbent,<br/>same worlds, judged blind"}
+  GATE -->|wins| DEP["deploy candidate"]
+  GATE -->|loses| KEEP["keep incumbent"]
+  DEP --> SP
+  KEEP --> SP
+  DEP -.->|"checkpoint only"| HO
+  subgraph QUAR["QUARANTINE &mdash; measurement, never training"]
+    HO["6 held-out worlds &times; 4 tasks &times; 2 rollouts<br/>(unseen companies + unseen industries)"] --> GS["deterministic gold scorer<br/>(frozen weights)"]
+  end
+  </pre></div>
+<h2>Headline: bank reconciliation under self-improvement</h2>
+<figure class="chart-block">
+  <div class="legend"><span class="key"><span class="swatch" style="background:var(--series-3)"></span>best so far</span><span class="key"><span class="swatch" style="background:var(--series-1)"></span>bank rec (raw)</span></div>
+  <div class="chart-wrap">
+    <svg id="bankrec" class="chart" viewBox="0 0 720 300" role="img"
+         data-series='[{&quot;name&quot;: &quot;best so far&quot;, &quot;points&quot;: [[0, 60.9], [1, 75.5], [2, 75.5], [3, 75.5], [4, 91.3]]}, {&quot;name&quot;: &quot;bank rec (raw)&quot;, &quot;points&quot;: [[0, 60.87], [1, 75.55], [2, 52.22], [3, 71.81], [4, 91.27]]}]' data-ylo="0" data-yhi="100">
+      <line x1="44" y1="266.0" x2="624" y2="266.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="270.0" text-anchor="end" class="tick">0</text><line x1="44" y1="204.0" x2="624" y2="204.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="208.0" text-anchor="end" class="tick">25</text><line x1="44" y1="142.0" x2="624" y2="142.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="146.0" text-anchor="end" class="tick">50</text><line x1="44" y1="80.0" x2="624" y2="80.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="84.0" text-anchor="end" class="tick">75</text><line x1="44" y1="18.0" x2="624" y2="18.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="22.0" text-anchor="end" class="tick">100</text><text x="44.0" y="284" text-anchor="middle" class="tick">0</text><text x="102.0" y="284" text-anchor="middle" class="tick">1</text><text x="160.0" y="284" text-anchor="middle" class="tick">2</text><text x="218.0" y="284" text-anchor="middle" class="tick">3</text><text x="276.0" y="284" text-anchor="middle" class="tick">4</text><text x="334.0" y="284" text-anchor="middle" class="tick">5</text><text x="392.0" y="284" text-anchor="middle" class="tick">6</text><text x="450.0" y="284" text-anchor="middle" class="tick">7</text><text x="508.0" y="284" text-anchor="middle" class="tick">8</text><text x="566.0" y="284" text-anchor="middle" class="tick">9</text><text x="624.0" y="284" text-anchor="middle" class="tick">10</text><text x="334.0" y="298" text-anchor="middle" class="axis-label">harness iteration (held-out checkpoint)</text><polyline points="44.0,115.0 102.0,78.8 160.0,78.8 218.0,78.8 276.0,39.6" fill="none" stroke="var(--series-3)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="115.0" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="102.0" cy="78.8" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="160.0" cy="78.8" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="78.8" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="39.6" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><text x="286.0" y="43.6" class="dlabel" fill="var(--series-3)">best so far</text><polyline points="44.0,115.0 102.0,78.6 160.0,136.5 218.0,87.9 276.0,39.7" fill="none" stroke="var(--series-1)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="115.0" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="102.0" cy="78.6" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="160.0" cy="136.5" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="87.9" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="39.7" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><text x="286.0" y="43.7" class="dlabel" fill="var(--series-1)">bank rec (raw)</text>
+      <line class="xh" x1="0" x2="0" y1="18" y2="266" stroke="var(--text-muted)"
+            stroke-width="1" stroke-dasharray="3,3" opacity="0"/>
+      <rect x="44" y="18" width="580" height="248"
+            fill="transparent" class="hit"/>
+    </svg>
+    <div class="tooltip" hidden></div>
+  </div>
+  <p class="note">The category where the loop demonstrably worked: iteration 1 self-invented a Calculator agent that recomputes every tie-out with run_python and rejects drafts off by more than $0.01; iteration 4 hardened it. Raw curve shown honestly — the dip at c2 is a rewrite the acceptance gate wrongly kept. Full all-category results below.</p>
+</figure><h2>Held-out score vs training signal (all 4 task categories)</h2>
+<figure class="chart-block">
+  <div class="legend"><span class="key"><span class="swatch" style="background:var(--series-3)"></span>best harness so far</span><span class="key"><span class="swatch" style="background:var(--series-4)"></span>deployed harness</span><span class="key"><span class="swatch" style="background:var(--series-1)"></span>gold (truth)</span><span class="key"><span class="swatch" style="background:var(--series-2)"></span>judge (pseudo-reward)</span></div>
+  <div class="chart-wrap">
+    <svg id="main" class="chart" viewBox="0 0 720 300" role="img"
+         data-series='[{&quot;name&quot;: &quot;best harness so far&quot;, &quot;points&quot;: [[0, 67.29], [1, 67.29], [2, 67.29], [3, 67.29], [4, 67.29]]}, {&quot;name&quot;: &quot;deployed harness&quot;, &quot;points&quot;: [[2, 60.91], [3, 60.91], [4, 60.91], [5, 64.51]]}, {&quot;name&quot;: &quot;gold (truth)&quot;, &quot;points&quot;: [[0, 67.29], [1, 60.91], [2, 63.17], [3, 51.81], [4, 64.51]]}, {&quot;name&quot;: &quot;judge (pseudo-reward)&quot;, &quot;points&quot;: [[0, 53.33], [1, 55.42], [2, 50.0], [3, 49.17], [4, 55.42]]}]' data-ylo="0" data-yhi="100">
+      <line x1="44" y1="266.0" x2="624" y2="266.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="270.0" text-anchor="end" class="tick">0</text><line x1="44" y1="204.0" x2="624" y2="204.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="208.0" text-anchor="end" class="tick">25</text><line x1="44" y1="142.0" x2="624" y2="142.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="146.0" text-anchor="end" class="tick">50</text><line x1="44" y1="80.0" x2="624" y2="80.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="84.0" text-anchor="end" class="tick">75</text><line x1="44" y1="18.0" x2="624" y2="18.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="22.0" text-anchor="end" class="tick">100</text><text x="44.0" y="284" text-anchor="middle" class="tick">0</text><text x="102.0" y="284" text-anchor="middle" class="tick">1</text><text x="160.0" y="284" text-anchor="middle" class="tick">2</text><text x="218.0" y="284" text-anchor="middle" class="tick">3</text><text x="276.0" y="284" text-anchor="middle" class="tick">4</text><text x="334.0" y="284" text-anchor="middle" class="tick">5</text><text x="392.0" y="284" text-anchor="middle" class="tick">6</text><text x="450.0" y="284" text-anchor="middle" class="tick">7</text><text x="508.0" y="284" text-anchor="middle" class="tick">8</text><text x="566.0" y="284" text-anchor="middle" class="tick">9</text><text x="624.0" y="284" text-anchor="middle" class="tick">10</text><text x="334.0" y="298" text-anchor="middle" class="axis-label">harness iteration (held-out checkpoint)</text><polyline points="44.0,99.1 102.0,99.1 160.0,99.1 218.0,99.1 276.0,99.1" fill="none" stroke="var(--series-3)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="99.1" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="102.0" cy="99.1" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="160.0" cy="99.1" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="99.1" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="99.1" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><text x="286.0" y="103.1" class="dlabel" fill="var(--series-3)">best harness so far</text><polyline points="160.0,114.9 218.0,114.9 276.0,114.9 334.0,106.0" fill="none" stroke="var(--series-4)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="160.0" cy="114.9" r="4.5" fill="var(--series-4)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="114.9" r="4.5" fill="var(--series-4)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="114.9" r="4.5" fill="var(--series-4)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="334.0" cy="106.0" r="4.5" fill="var(--series-4)" stroke="var(--surface-1)" stroke-width="2"/><text x="344.0" y="110.0" class="dlabel" fill="var(--series-4)">deployed harness</text><polyline points="44.0,99.1 102.0,114.9 160.0,109.3 218.0,137.5 276.0,106.0" fill="none" stroke="var(--series-1)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="99.1" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="102.0" cy="114.9" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="160.0" cy="109.3" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="137.5" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="106.0" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><text x="286.0" y="110.0" class="dlabel" fill="var(--series-1)">gold (truth)</text><polyline points="44.0,133.7 102.0,128.6 160.0,142.0 218.0,144.1 276.0,128.6" fill="none" stroke="var(--series-2)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="133.7" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="102.0" cy="128.6" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="160.0" cy="142.0" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="144.1" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="128.6" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><text x="286.0" y="132.6" class="dlabel" fill="var(--series-2)">judge (pseudo-reward)</text>
+      <line class="xh" x1="0" x2="0" y1="18" y2="266" stroke="var(--text-muted)"
+            stroke-width="1" stroke-dasharray="3,3" opacity="0"/>
+      <rect x="44" y="18" width="580" height="248"
+            fill="transparent" class="hit"/>
+    </svg>
+    <div class="tooltip" hidden></div>
+  </div>
+  <p class="note">Gold = deterministic score vs generated ground truth on 24 held-out tasks (6 unseen companies, 2 unseen industries). Judge = the gold-blind pseudo-reward (×10) that is the ONLY training signal. Divergence between the two measures reward hacking.</p>
+</figure><h2>By task category</h2>
+<figure class="chart-block">
+  <div class="legend"><span class="key"><span class="swatch" style="background:var(--series-1)"></span>Bank rec</span><span class="key"><span class="swatch" style="background:var(--series-2)"></span>Journal entries</span><span class="key"><span class="swatch" style="background:var(--series-3)"></span>Variance analysis</span><span class="key"><span class="swatch" style="background:var(--series-4)"></span>Accruals</span></div>
+  <div class="chart-wrap">
+    <svg id="cats" class="chart" viewBox="0 0 720 300" role="img"
+         data-series='[{&quot;name&quot;: &quot;Bank rec&quot;, &quot;points&quot;: [[0, 60.87], [1, 75.55], [2, 52.22], [3, 71.81], [4, 91.27]]}, {&quot;name&quot;: &quot;Journal entries&quot;, &quot;points&quot;: [[0, 64.31], [1, 61.11], [2, 76.95], [3, 29.17], [4, 61.95]]}, {&quot;name&quot;: &quot;Variance analysis&quot;, &quot;points&quot;: [[0, 49.83], [1, 12.8], [2, 23.51], [3, 6.25], [4, 22.32]]}, {&quot;name&quot;: &quot;Accruals&quot;, &quot;points&quot;: [[0, 94.17], [1, 94.17], [2, 100.0], [3, 100.0], [4, 82.5]]}]' data-ylo="0" data-yhi="100">
+      <line x1="44" y1="266.0" x2="624" y2="266.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="270.0" text-anchor="end" class="tick">0</text><line x1="44" y1="204.0" x2="624" y2="204.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="208.0" text-anchor="end" class="tick">25</text><line x1="44" y1="142.0" x2="624" y2="142.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="146.0" text-anchor="end" class="tick">50</text><line x1="44" y1="80.0" x2="624" y2="80.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="84.0" text-anchor="end" class="tick">75</text><line x1="44" y1="18.0" x2="624" y2="18.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="22.0" text-anchor="end" class="tick">100</text><text x="44.0" y="284" text-anchor="middle" class="tick">0</text><text x="102.0" y="284" text-anchor="middle" class="tick">1</text><text x="160.0" y="284" text-anchor="middle" class="tick">2</text><text x="218.0" y="284" text-anchor="middle" class="tick">3</text><text x="276.0" y="284" text-anchor="middle" class="tick">4</text><text x="334.0" y="284" text-anchor="middle" class="tick">5</text><text x="392.0" y="284" text-anchor="middle" class="tick">6</text><text x="450.0" y="284" text-anchor="middle" class="tick">7</text><text x="508.0" y="284" text-anchor="middle" class="tick">8</text><text x="566.0" y="284" text-anchor="middle" class="tick">9</text><text x="624.0" y="284" text-anchor="middle" class="tick">10</text><text x="334.0" y="298" text-anchor="middle" class="axis-label">harness iteration (held-out checkpoint)</text><polyline points="44.0,115.0 102.0,78.6 160.0,136.5 218.0,87.9 276.0,39.7" fill="none" stroke="var(--series-1)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="115.0" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="102.0" cy="78.6" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="160.0" cy="136.5" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="87.9" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="39.7" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><text x="286.0" y="43.7" class="dlabel" fill="var(--series-1)">Bank rec</text><polyline points="44.0,106.5 102.0,114.4 160.0,75.2 218.0,193.7 276.0,112.4" fill="none" stroke="var(--series-2)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="106.5" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="102.0" cy="114.4" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="160.0" cy="75.2" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="193.7" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="112.4" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><text x="286.0" y="116.4" class="dlabel" fill="var(--series-2)">Journal entries</text><polyline points="44.0,142.4 102.0,234.3 160.0,207.7 218.0,250.5 276.0,210.6" fill="none" stroke="var(--series-3)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="142.4" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="102.0" cy="234.3" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="160.0" cy="207.7" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="250.5" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="210.6" r="4.5" fill="var(--series-3)" stroke="var(--surface-1)" stroke-width="2"/><text x="286.0" y="214.6" class="dlabel" fill="var(--series-3)">Variance analysis</text><polyline points="44.0,32.5 102.0,32.5 160.0,18.0 218.0,18.0 276.0,61.4" fill="none" stroke="var(--series-4)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="32.5" r="4.5" fill="var(--series-4)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="102.0" cy="32.5" r="4.5" fill="var(--series-4)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="160.0" cy="18.0" r="4.5" fill="var(--series-4)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="18.0" r="4.5" fill="var(--series-4)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="61.4" r="4.5" fill="var(--series-4)" stroke="var(--surface-1)" stroke-width="2"/><text x="286.0" y="65.4" class="dlabel" fill="var(--series-4)">Accruals</text>
+      <line class="xh" x1="0" x2="0" y1="18" y2="266" stroke="var(--text-muted)"
+            stroke-width="1" stroke-dasharray="3,3" opacity="0"/>
+      <rect x="44" y="18" width="580" height="248"
+            fill="transparent" class="hit"/>
+    </svg>
+    <div class="tooltip" hidden></div>
+  </div>
+  
+</figure><h2>Experiment B — verifying judge (controlled comparison)</h2>
+<figure class="chart-block">
+  <div class="legend"><span class="key"><span class="swatch" style="background:var(--series-1)"></span>B gold (truth)</span><span class="key"><span class="swatch" style="background:var(--series-2)"></span>B judge (pseudo-reward)</span></div>
+  <div class="chart-wrap">
+    <svg id="expb" class="chart" viewBox="0 0 720 300" role="img"
+         data-series='[{&quot;name&quot;: &quot;B gold (truth)&quot;, &quot;points&quot;: [[0, 56.68]]}, {&quot;name&quot;: &quot;B judge (pseudo-reward)&quot;, &quot;points&quot;: [[0, 50.83]]}]' data-ylo="0" data-yhi="100">
+      <line x1="44" y1="266.0" x2="624" y2="266.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="270.0" text-anchor="end" class="tick">0</text><line x1="44" y1="204.0" x2="624" y2="204.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="208.0" text-anchor="end" class="tick">25</text><line x1="44" y1="142.0" x2="624" y2="142.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="146.0" text-anchor="end" class="tick">50</text><line x1="44" y1="80.0" x2="624" y2="80.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="84.0" text-anchor="end" class="tick">75</text><line x1="44" y1="18.0" x2="624" y2="18.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="22.0" text-anchor="end" class="tick">100</text><text x="44.0" y="284" text-anchor="middle" class="tick">0</text><text x="102.0" y="284" text-anchor="middle" class="tick">1</text><text x="160.0" y="284" text-anchor="middle" class="tick">2</text><text x="218.0" y="284" text-anchor="middle" class="tick">3</text><text x="276.0" y="284" text-anchor="middle" class="tick">4</text><text x="334.0" y="284" text-anchor="middle" class="tick">5</text><text x="392.0" y="284" text-anchor="middle" class="tick">6</text><text x="450.0" y="284" text-anchor="middle" class="tick">7</text><text x="508.0" y="284" text-anchor="middle" class="tick">8</text><text x="566.0" y="284" text-anchor="middle" class="tick">9</text><text x="624.0" y="284" text-anchor="middle" class="tick">10</text><text x="334.0" y="298" text-anchor="middle" class="axis-label">harness iteration (held-out checkpoint)</text><polyline points="44.0,125.4" fill="none" stroke="var(--series-1)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="125.4" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><text x="54.0" y="129.4" class="dlabel" fill="var(--series-1)">B gold (truth)</text><polyline points="44.0,139.9" fill="none" stroke="var(--series-2)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="139.9" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><text x="54.0" y="143.9" class="dlabel" fill="var(--series-2)">B judge (pseudo-reward)</text>
+      <line class="xh" x1="0" x2="0" y1="18" y2="266" stroke="var(--text-muted)"
+            stroke-width="1" stroke-dasharray="3,3" opacity="0"/>
+      <rect x="44" y="18" width="580" height="248"
+            fill="transparent" class="hit"/>
+    </svg>
+    <div class="tooltip" hidden></div>
+  </div>
+  <p class="note">One variable changed vs the main run: the gold-blind judge gets the actor's file tools and must recompute tie-outs before scoring. Judge–gold rank correlation on the identical c0 worlds: reading judge (A) ρ=+0.24 vs verifying judge (B) ρ=+0.70 — the training signal B climbs actually tracks correctness.</p>
+</figure><h2>Transfer: seen vs unseen industries</h2>
+<figure class="chart-block">
+  <div class="legend"><span class="key"><span class="swatch" style="background:var(--series-1)"></span>seen industries (h01–h03)</span><span class="key"><span class="swatch" style="background:var(--series-2)"></span>unseen industries (h04–h06)</span></div>
+  <div class="chart-wrap">
+    <svg id="transfer" class="chart" viewBox="0 0 720 300" role="img"
+         data-series='[{&quot;name&quot;: &quot;seen industries (h01\u2013h03)&quot;, &quot;points&quot;: [[0, 66.36], [1, 56.53], [2, 49.1], [3, 55.0], [4, 64.11]]}, {&quot;name&quot;: &quot;unseen industries (h04\u2013h06)&quot;, &quot;points&quot;: [[0, 68.23], [1, 65.29], [2, 77.24], [3, 48.61], [4, 64.91]]}]' data-ylo="0" data-yhi="100">
+      <line x1="44" y1="266.0" x2="624" y2="266.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="270.0" text-anchor="end" class="tick">0</text><line x1="44" y1="204.0" x2="624" y2="204.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="208.0" text-anchor="end" class="tick">25</text><line x1="44" y1="142.0" x2="624" y2="142.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="146.0" text-anchor="end" class="tick">50</text><line x1="44" y1="80.0" x2="624" y2="80.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="84.0" text-anchor="end" class="tick">75</text><line x1="44" y1="18.0" x2="624" y2="18.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="22.0" text-anchor="end" class="tick">100</text><text x="44.0" y="284" text-anchor="middle" class="tick">0</text><text x="102.0" y="284" text-anchor="middle" class="tick">1</text><text x="160.0" y="284" text-anchor="middle" class="tick">2</text><text x="218.0" y="284" text-anchor="middle" class="tick">3</text><text x="276.0" y="284" text-anchor="middle" class="tick">4</text><text x="334.0" y="284" text-anchor="middle" class="tick">5</text><text x="392.0" y="284" text-anchor="middle" class="tick">6</text><text x="450.0" y="284" text-anchor="middle" class="tick">7</text><text x="508.0" y="284" text-anchor="middle" class="tick">8</text><text x="566.0" y="284" text-anchor="middle" class="tick">9</text><text x="624.0" y="284" text-anchor="middle" class="tick">10</text><text x="334.0" y="298" text-anchor="middle" class="axis-label">harness iteration (held-out checkpoint)</text><polyline points="44.0,101.4 102.0,125.8 160.0,144.2 218.0,129.6 276.0,107.0" fill="none" stroke="var(--series-1)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="101.4" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="102.0" cy="125.8" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="160.0" cy="144.2" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="129.6" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="107.0" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><text x="286.0" y="111.0" class="dlabel" fill="var(--series-1)">seen industries (h01–h03)</text><polyline points="44.0,96.8 102.0,104.1 160.0,74.4 218.0,145.4 276.0,105.0" fill="none" stroke="var(--series-2)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="96.8" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="102.0" cy="104.1" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="160.0" cy="74.4" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="145.4" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="105.0" r="4.5" fill="var(--series-2)" stroke="var(--surface-1)" stroke-width="2"/><text x="286.0" y="109.0" class="dlabel" fill="var(--series-2)">unseen industries (h04–h06)</text>
+      <line class="xh" x1="0" x2="0" y1="18" y2="266" stroke="var(--text-muted)"
+            stroke-width="1" stroke-dasharray="3,3" opacity="0"/>
+      <rect x="44" y="18" width="580" height="248"
+            fill="transparent" class="hit"/>
+    </svg>
+    <div class="tooltip" hidden></div>
+  </div>
+  
+</figure><h2>Cost per held-out task</h2>
+<figure class="chart-block">
+  <div class="legend"><span class="key"><span class="swatch" style="background:var(--series-1)"></span>$/task</span></div>
+  <div class="chart-wrap">
+    <svg id="cost" class="chart" viewBox="0 0 720 300" role="img"
+         data-series='[{&quot;name&quot;: &quot;$/task&quot;, &quot;points&quot;: [[0, 0.04], [1, 0.21], [2, 0.32], [3, 0.21], [4, 0.16]]}]' data-ylo="0" data-yhi="0.42">
+      <line x1="44" y1="266.0" x2="624" y2="266.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="270.0" text-anchor="end" class="tick">$0.00</text><line x1="44" y1="142.0" x2="624" y2="142.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="146.0" text-anchor="end" class="tick">$0.21</text><line x1="44" y1="18.0" x2="624" y2="18.0" stroke="var(--grid)" stroke-width="1"/><text x="36" y="22.0" text-anchor="end" class="tick">$0.42</text><text x="44.0" y="284" text-anchor="middle" class="tick">0</text><text x="102.0" y="284" text-anchor="middle" class="tick">1</text><text x="160.0" y="284" text-anchor="middle" class="tick">2</text><text x="218.0" y="284" text-anchor="middle" class="tick">3</text><text x="276.0" y="284" text-anchor="middle" class="tick">4</text><text x="334.0" y="284" text-anchor="middle" class="tick">5</text><text x="392.0" y="284" text-anchor="middle" class="tick">6</text><text x="450.0" y="284" text-anchor="middle" class="tick">7</text><text x="508.0" y="284" text-anchor="middle" class="tick">8</text><text x="566.0" y="284" text-anchor="middle" class="tick">9</text><text x="624.0" y="284" text-anchor="middle" class="tick">10</text><text x="334.0" y="298" text-anchor="middle" class="axis-label">harness iteration (held-out checkpoint)</text><polyline points="44.0,242.4 102.0,142.0 160.0,77.0 218.0,142.0 276.0,171.5" fill="none" stroke="var(--series-1)" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="44.0" cy="242.4" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="102.0" cy="142.0" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="160.0" cy="77.0" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="218.0" cy="142.0" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><circle cx="276.0" cy="171.5" r="4.5" fill="var(--series-1)" stroke="var(--surface-1)" stroke-width="2"/><text x="286.0" y="175.5" class="dlabel" fill="var(--series-1)">$/task</text>
+      <line class="xh" x1="0" x2="0" y1="18" y2="266" stroke="var(--text-muted)"
+            stroke-width="1" stroke-dasharray="3,3" opacity="0"/>
+      <rect x="44" y="18" width="580" height="248"
+            fill="transparent" class="hit"/>
+    </svg>
+    <div class="tooltip" hidden></div>
+  </div>
+  
+</figure>
+  <h2>All checkpoints</h2>
+  <div class="table-wrap"><table>
+    <tr><th>cp</th><th>ver</th><th>n</th><th>gold</th><th>judge</th><th>seen-ind</th>
+        <th>unseen-ind</th><th>bank</th><th>JE</th><th>variance</th><th>accruals</th>
+        <th>$/task</th></tr>
+    <tr><td>c0</td><td>v0</td><td>24</td><td>67.29</td><td>53.33</td><td>66.36</td><td>68.23</td><td>60.87</td><td>64.31</td><td>49.83</td><td>94.17</td><td>$0.04</td></tr><tr><td>c1</td><td>v1</td><td>24</td><td>60.91</td><td>55.42</td><td>56.53</td><td>65.29</td><td>75.55</td><td>61.11</td><td>12.8</td><td>94.17</td><td>$0.21</td></tr><tr><td>c2</td><td>v2</td><td>24</td><td>63.17</td><td>50.0</td><td>49.1</td><td>77.24</td><td>52.22</td><td>76.95</td><td>23.51</td><td>100.0</td><td>$0.32</td></tr><tr><td>c3</td><td>v3</td><td>24</td><td>51.81</td><td>49.17</td><td>55.0</td><td>48.61</td><td>71.81</td><td>29.17</td><td>6.25</td><td>100.0</td><td>$0.21</td></tr><tr><td>c4</td><td>v4</td><td>24</td><td>64.51</td><td>55.42</td><td>64.11</td><td>64.91</td><td>91.27</td><td>61.95</td><td>22.32</td><td>82.5</td><td>$0.16</td></tr>
+  </table></div>
+</div>
+<script>
+(function () {
+  const X0 = 44, X1 = 720 - 96, T = 18, B = 300 - 34, XD = 10;
+  document.querySelectorAll("svg.chart").forEach(svg => {
+    const series = JSON.parse(svg.dataset.series);
+    const lo = +svg.dataset.ylo, hi = +svg.dataset.yhi;
+    const wrap = svg.closest(".chart-wrap");
+    const tip = wrap.querySelector(".tooltip");
+    const xh = svg.querySelector(".xh");
+    const cps = [...new Set(series.flatMap(s => s.points.map(p => p[0])))].sort((a, b) => a - b);
+    if (!cps.length) return;
+    svg.addEventListener("mousemove", ev => {
+      const r = svg.getBoundingClientRect();
+      const mx = (ev.clientX - r.left) / r.width * 720;
+      let best = cps[0];
+      for (const c of cps) {
+        const x = X0 + (X1 - X0) * (c / XD);
+        if (Math.abs(x - mx) < Math.abs(X0 + (X1 - X0) * (best / XD) - mx)) best = c;
+      }
+      const x = X0 + (X1 - X0) * (best / XD);
+      xh.setAttribute("x1", x); xh.setAttribute("x2", x); xh.setAttribute("opacity", .6);
+      const lines = series.map(s => {
+        const p = s.points.find(p => p[0] === best);
+        return p ? `${s.name}: <b>${p[1]}</b>` : null;
+      }).filter(Boolean);
+      tip.innerHTML = `<b>checkpoint ${best}</b><br>` + lines.join("<br>");
+      tip.hidden = false;
+      const px = x / 720 * r.width;
+      tip.style.left = Math.min(px + 14, r.width - tip.offsetWidth - 4) + "px";
+      tip.style.top = (T / 300 * r.height) + "px";
+    });
+    svg.addEventListener("mouseleave", () => { tip.hidden = true; xh.setAttribute("opacity", 0); });
+  });
+})();
+</script>

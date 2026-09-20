@@ -1,0 +1,184 @@
+date,gl_account,Debit,cr,description
+2026-04-01,1000 Cash,239417.98,,Opening balances
+2026-04-01,1300 Prepaid Insurance,1377.0,,Opening balances
+2026-04-01,1500 Equipment,129290.0,,Opening balances
+2026-04-01,1590 Accumulated Depreciation,,36632.11,Opening balances
+2026-04-01,2000 Accounts Payable,,46118.81,Opening balances
+2026-04-01,3000 Retained Earnings,,287334.06,Opening balances
+2026-04-01,1100 Accounts Receivable,41632.0,,Invoice INV-2208 - Birchfield Foods
+2026-04-01,4000 Consulting Revenue,,41632.0,Invoice INV-2208 - Birchfield Foods
+2026-04-03,1000 Cash,,12370.0,Rent - Amberfield Property Group
+2026-04-03,6100 Rent Expense,12370.0,,Rent - Amberfield Property Group
+2026-04-06,1000 Cash,,23059.4,Payment on account - opening payables
+2026-04-06,2000 Accounts Payable,23059.4,,Payment on account - opening payables
+2026-04-06,1100 Accounts Receivable,25487.0,,Invoice INV-2206 - Crestline Partners
+2026-04-06,4000 Consulting Revenue,,25487.0,Invoice INV-2206 - Crestline Partners
+2026-04-08,2000 Accounts Payable,,1379.0,BILL-3141 CloudSpan Hosting
+2026-04-08,6450 Software Expense,1379.0,,BILL-3141 CloudSpan Hosting
+2026-04-09,1100 Accounts Receivable,32581.0,,Invoice INV-2202 - Jasper Analytics
+2026-04-09,4100 Retainer Revenue,,32581.0,Invoice INV-2202 - Jasper Analytics
+2026-04-10,1100 Accounts Receivable,19082.0,,Invoice INV-2204 - Crestline Partners
+2026-04-10,4000 Consulting Revenue,,19082.0,Invoice INV-2204 - Crestline Partners
+2026-04-10,1100 Accounts Receivable,48200.0,,Invoice INV-2207 - Crestline Partners
+2026-04-10,4000 Consulting Revenue,,48200.0,Invoice INV-2207 - Crestline Partners
+2026-04-11,2000 Accounts Payable,,8507.0,BILL-3139 Meridian Legal LLP
+2026-04-11,6600 Professional Fees,8507.0,,BILL-3139 Meridian Legal LLP
+2026-04-15,2000 Accounts Payable,,1413.0,BILL-3137 Junction Utility Co-op
+2026-04-15,6500 Utilities Expense,1413.0,,BILL-3137 Junction Utility Co-op
+2026-04-15,1000 Cash,,33104.0,Payroll 2026-04/01-04/15
+2026-04-15,2300 Payroll Liabilities,,9337.0,Payroll 2026-04/01-04/15
+2026-04-15,6000 Salaries Expense,42441.0,,Payroll 2026-04/01-04/15
+2026-04-17,1100 Accounts Receivable,46159.0,,Invoice INV-2205 - Glenrock Solutions
+2026-04-17,4000 Consulting Revenue,,46159.0,Invoice INV-2205 - Glenrock Solutions
+2026-04-17,1000 Cash,,8507.0,Pay BILL-3139 Meridian Legal LLP CHK#1003
+2026-04-17,2000 Accounts Payable,8507.0,,Pay BILL-3139 Meridian Legal LLP CHK#1003
+2026-04-20,2000 Accounts Payable,,3931.0,BILL-3138 Meridian Legal LLP
+2026-04-20,6600 Professional Fees,3931.0,,BILL-3138 Meridian Legal LLP
+2026-04-20,2000 Accounts Payable,,5423.0,BILL-3140 Meridian Legal LLP
+2026-04-20,6600 Professional Fees,5423.0,,BILL-3140 Meridian Legal LLP
+2026-04-23,1100 Accounts Receivable,13063.0,,Invoice INV-2203 - Atlas Verde LLC
+2026-04-23,4000 Consulting Revenue,,13063.0,Invoice INV-2203 - Atlas Verde LLC
+2026-04-23,1000 Cash,41632.0,,Deposit - Birchfield Foods INV-2208
+2026-04-23,1100 Accounts Receivable,,41632.0,Deposit - Birchfield Foods INV-2208
+2026-04-26,1000 Cash,,5423.0,Pay BILL-3140 Meridian Legal LLP CHK#1004
+2026-04-26,2000 Accounts Payable,5423.0,,Pay BILL-3140 Meridian Legal LLP CHK#1004
+2026-04-28,1000 Cash,,32980.0,Payroll 2026-04/16-04/30
+2026-04-28,2300 Payroll Liabilities,,9301.0,Payroll 2026-04/16-04/30
+2026-04-28,6000 Salaries Expense,42281.0,,Payroll 2026-04/16-04/30
+2026-04-28,1300 Prepaid Insurance,,153.0,Monthly insurance amortization
+2026-04-28,6400 Insurance Expense,153.0,,Monthly insurance amortization
+2026-04-28,1590 Accumulated Depreciation,,2154.83,Monthly depreciation
+2026-04-28,6800 Depreciation Expense,2154.83,,Monthly depreciation
+2026-05-01,1000 Cash,25487.0,,Deposit - Crestline Partners INV-2206
+2026-05-01,1100 Accounts Receivable,,25487.0,Deposit - Crestline Partners INV-2206
+2026-05-03,1000 Cash,,12370.0,Rent - Amberfield Property Group
+2026-05-03,6100 Rent Expense,12370.0,,Rent - Amberfield Property Group
+2026-05-03,2000 Accounts Payable,,4741.0,BILL-3142 Helix IT Solutions
+2026-05-03,6450 Software Expense,4741.0,,BILL-3142 Helix IT Solutions
+2026-05-05,1100 Accounts Receivable,16017.0,,Invoice INV-2209 - Nordica Labs
+2026-05-05,4100 Retainer Revenue,,16017.0,Invoice INV-2209 - Nordica Labs
+2026-05-06,1000 Cash,32581.0,,Deposit - Jasper Analytics INV-2202
+2026-05-06,1100 Accounts Receivable,,32581.0,Deposit - Jasper Analytics INV-2202
+2026-05-06,1000 Cash,48200.0,,Deposit - Crestline Partners INV-2207
+2026-05-06,1100 Accounts Receivable,,48200.0,Deposit - Crestline Partners INV-2207
+2026-05-06,1000 Cash,,4741.0,Pay BILL-3142 Helix IT Solutions CHK#1006
+2026-05-06,2000 Accounts Payable,4741.0,,Pay BILL-3142 Helix IT Solutions CHK#1006
+2026-05-09,1000 Cash,46159.0,,Deposit - Glenrock Solutions INV-2205
+2026-05-09,1100 Accounts Receivable,,46159.0,Deposit - Glenrock Solutions INV-2205
+2026-05-11,1100 Accounts Receivable,14756.0,,Invoice INV-2213 - Crestline Partners
+2026-05-11,4000 Consulting Revenue,,14756.0,Invoice INV-2213 - Crestline Partners
+2026-05-11,1100 Accounts Receivable,35897.0,,Invoice INV-2215 - Birchfield Foods
+2026-05-11,4000 Consulting Revenue,,35897.0,Invoice INV-2215 - Birchfield Foods
+2026-05-13,2000 Accounts Payable,,3239.0,BILL-3146 Ridgeline Telecom
+2026-05-13,6500 Utilities Expense,3239.0,,BILL-3146 Ridgeline Telecom
+2026-05-14,2000 Accounts Payable,,6700.0,BILL-3144 Trellis Marketing Group
+2026-05-14,6200 Advertising & Marketing,6700.0,,BILL-3144 Trellis Marketing Group
+2026-05-14,2000 Accounts Payable,,1902.0,BILL-3147 Pillar Accounting Services
+2026-05-14,6600 Professional Fees,1902.0,,BILL-3147 Pillar Accounting Services
+2026-05-15,1100 Accounts Receivable,34923.0,,Invoice INV-2210 - Crestline Partners
+2026-05-15,4000 Consulting Revenue,,34923.0,Invoice INV-2210 - Crestline Partners
+2026-05-15,1000 Cash,,43016.0,Payroll 2026-05/01-05/15
+2026-05-15,2300 Payroll Liabilities,,12132.0,Payroll 2026-05/01-05/15
+2026-05-15,6000 Salaries Expense,55148.0,,Payroll 2026-05/01-05/15
+2026-05-16,1100 Accounts Receivable,19013.0,,Invoice INV-2211 - Glenrock Solutions
+2026-05-16,4000 Consulting Revenue,,19013.0,Invoice INV-2211 - Glenrock Solutions
+2026-05-18,1100 Accounts Receivable,31687.0,,Invoice INV-2214 - Nordica Labs
+2026-05-18,4000 Consulting Revenue,,31687.0,Invoice INV-2214 - Nordica Labs
+2026-05-19,1000 Cash,19082.0,,Deposit - Crestline Partners INV-2204
+2026-05-19,1100 Accounts Receivable,,19082.0,Deposit - Crestline Partners INV-2204
+2026-05-19,2000 Accounts Payable,,10487.0,BILL-3143 Meridian Legal LLP
+2026-05-19,6600 Professional Fees,10487.0,,BILL-3143 Meridian Legal LLP
+2026-05-20,1100 Accounts Receivable,27216.0,,Invoice INV-2212 - Nordica Labs
+2026-05-20,4000 Consulting Revenue,,27216.0,Invoice INV-2212 - Nordica Labs
+2026-05-20,1000 Cash,,6700.0,Pay BILL-3144 Trellis Marketing Group CHK#1008
+2026-05-20,2000 Accounts Payable,6700.0,,Pay BILL-3144 Trellis Marketing Group CHK#1008
+2026-05-21,1000 Cash,13063.0,,Deposit - Atlas Verde LLC INV-2203
+2026-05-21,1100 Accounts Receivable,,13063.0,Deposit - Atlas Verde LLC INV-2203
+2026-05-21,1000 Cash,,3239.0,Pay BILL-3146 Ridgeline Telecom CHK#1007
+2026-05-21,2000 Accounts Payable,3239.0,,Pay BILL-3146 Ridgeline Telecom CHK#1007
+2026-05-22,2000 Accounts Payable,,6282.0,BILL-3145 Pillar Accounting Services
+2026-05-22,6600 Professional Fees,6282.0,,BILL-3145 Pillar Accounting Services
+2026-05-23,1000 Cash,16017.0,,Deposit - Nordica Labs INV-2209
+2026-05-23,1100 Accounts Receivable,,16017.0,Deposit - Nordica Labs INV-2209
+2026-05-23,1000 Cash,,10487.0,Pay BILL-3143 Meridian Legal LLP CHK#1009
+2026-05-23,2000 Accounts Payable,10487.0,,Pay BILL-3143 Meridian Legal LLP CHK#1009
+2026-05-28,1000 Cash,14756.0,,Deposit - Crestline Partners INV-2213
+2026-05-28,1100 Accounts Receivable,,14756.0,Deposit - Crestline Partners INV-2213
+2026-05-28,1000 Cash,,6282.0,Pay BILL-3145 Pillar Accounting Services CHK#1010
+2026-05-28,2000 Accounts Payable,6282.0,,Pay BILL-3145 Pillar Accounting Services CHK#1010
+2026-05-28,1000 Cash,,43172.0,Payroll 2026-05/16-05/30
+2026-05-28,2300 Payroll Liabilities,,12176.0,Payroll 2026-05/16-05/30
+2026-05-28,6000 Salaries Expense,55348.0,,Payroll 2026-05/16-05/30
+2026-05-28,1300 Prepaid Insurance,,153.0,Monthly insurance amortization
+2026-05-28,6400 Insurance Expense,153.0,,Monthly insurance amortization
+2026-05-28,1590 Accumulated Depreciation,,2154.83,Monthly depreciation
+2026-05-28,6800 Depreciation Expense,2154.83,,Monthly depreciation
+2026-06-02,2000 Accounts Payable,,8744.0,BILL-3150 Inkwell Print Co.
+2026-06-02,6700 Office Supplies,8744.0,,BILL-3150 Inkwell Print Co.
+2026-06-03,1000 Cash,,12370.0,Rent - Amberfield Property Group
+2026-06-03,6100 Rent Expense,12370.0,,Rent - Amberfield Property Group
+2026-06-03,2000 Accounts Payable,,10623.0,BILL-3149 Pillar Accounting Services
+2026-06-03,6600 Professional Fees,10623.0,,BILL-3149 Pillar Accounting Services
+2026-06-03,2000 Accounts Payable,,7298.0,BILL-3156 Kite Digital Ads
+2026-06-03,6700 Office Supplies,7298.0,,BILL-3156 Kite Digital Ads
+2026-06-05,1000 Cash,,8744.0,Pay BILL-3150 Inkwell Print Co. CHK#1012
+2026-06-05,2000 Accounts Payable,8744.0,,Pay BILL-3150 Inkwell Print Co. CHK#1012
+2026-06-06,1100 Accounts Receivable,7454.0,,Invoice INV-2219 - Glenrock Solutions
+2026-06-06,4000 Consulting Revenue,,7454.0,Invoice INV-2219 - Glenrock Solutions
+2026-06-08,1000 Cash,34923.0,,Deposit - Crestline Partners INV-2210
+2026-06-08,1100 Accounts Receivable,,34923.0,Deposit - Crestline Partners INV-2210
+2026-06-08,1000 Cash,,7298.0,Pay BILL-3156 Kite Digital Ads CHK#1014
+2026-06-08,2000 Accounts Payable,7298.0,,Pay BILL-3156 Kite Digital Ads CHK#1014
+2026-06-09,1000 Cash,,10623.0,Pay BILL-3149 Pillar Accounting Services CHK#1013
+2026-06-09,2000 Accounts Payable,10623.0,,Pay BILL-3149 Pillar Accounting Services CHK#1013
+2026-06-10,1000 Cash,35897.0,,Deposit - Birchfield Foods INV-2215
+2026-06-10,1100 Accounts Receivable,,35897.0,Deposit - Birchfield Foods INV-2215
+2026-06-10,1100 Accounts Receivable,44429.0,,Invoice INV-2216 - Nordica Labs
+2026-06-10,4000 Consulting Revenue,,44429.0,Invoice INV-2216 - Nordica Labs
+2026-06-10,2000 Accounts Payable,,1252.0,BILL-3148 Junction Utility Co-op
+2026-06-10,6500 Utilities Expense,1252.0,,BILL-3148 Junction Utility Co-op
+2026-06-12,1000 Cash,19013.0,,Deposit - Glenrock Solutions INV-2211
+2026-06-12,1100 Accounts Receivable,,19013.0,Deposit - Glenrock Solutions INV-2211
+2026-06-12,2000 Accounts Payable,,4423.0,BILL-3153 Meridian Legal LLP
+2026-06-12,6600 Professional Fees,4423.0,,BILL-3153 Meridian Legal LLP
+2026-06-12,1000 Cash,15695.0,,Owner capital contribution
+2026-06-12,3000 Retained Earnings,,15695.0,Owner capital contribution
+2026-06-14,1100 Accounts Receivable,47747.0,,Invoice INV-2218 - Crestline Partners
+2026-06-14,4000 Consulting Revenue,,47747.0,Invoice INV-2218 - Crestline Partners
+2026-06-14,1000 Cash,,1252.0,Pay BILL-3148 Junction Utility Co-op CHK#1015
+2026-06-14,2000 Accounts Payable,1252.0,,Pay BILL-3148 Junction Utility Co-op CHK#1015
+2026-06-15,1000 Cash,27216.0,,Deposit - Nordica Labs INV-2212
+2026-06-15,1100 Accounts Receivable,,27216.0,Deposit - Nordica Labs INV-2212
+2026-06-15,2000 Accounts Payable,,24979.85,BILL-3154 Bright Harbor Media
+2026-06-15,6200 Advertising & Marketing,24979.85,,BILL-3154 Bright Harbor Media
+2026-06-15,1000 Cash,,67974.0,Payroll 2026-06/01-06/15
+2026-06-15,2300 Payroll Liabilities,,19172.0,Payroll 2026-06/01-06/15
+2026-06-15,6000 Salaries Expense,87146.0,,Payroll 2026-06/01-06/15
+2026-06-16,1100 Accounts Receivable,44749.0,,Invoice INV-2221 - Longmont Systems
+2026-06-16,4000 Consulting Revenue,,44749.0,Invoice INV-2221 - Longmont Systems
+2026-06-17,1100 Accounts Receivable,18095.0,,Invoice INV-2220 - Aldergate Insurance
+2026-06-17,4000 Consulting Revenue,,18095.0,Invoice INV-2220 - Aldergate Insurance
+2026-06-17,2000 Accounts Payable,,6530.0,BILL-3152 Kite Digital Ads
+2026-06-17,6200 Advertising & Marketing,6530.0,,BILL-3152 Kite Digital Ads
+2026-06-18,1000 Cash,,24979.85,Pay BILL-3154 Bright Harbor Media CHK#1016
+2026-06-18,2000 Accounts Payable,24979.85,,Pay BILL-3154 Bright Harbor Media CHK#1016
+2026-06-18,2000 Accounts Payable,,1453.0,BILL-3151 Uptown Catering Co.
+2026-06-18,6700 Office Supplies,1453.0,,BILL-3151 Uptown Catering Co.
+2026-06-18,2000 Accounts Payable,,15514.02,BILL-3155 Pillar Accounting Services
+2026-06-18,6600 Professional Fees,15514.02,,BILL-3155 Pillar Accounting Services
+2026-06-20,1100 Accounts Receivable,42898.0,,Invoice INV-2217 - Jasper Analytics
+2026-06-20,4000 Consulting Revenue,,42898.0,Invoice INV-2217 - Jasper Analytics
+2026-06-21,1000 Cash,7454.0,,Deposit - Glenrock Solutions INV-2219
+2026-06-21,1100 Accounts Receivable,,7454.0,Deposit - Glenrock Solutions INV-2219
+2026-06-21,1000 Cash,,1453.0,Pay BILL-3151 Uptown Catering Co. CHK#1018
+2026-06-21,2000 Accounts Payable,1453.0,,Pay BILL-3151 Uptown Catering Co. CHK#1018
+2026-06-22,1000 Cash,,6530.0,Pay BILL-3152 Kite Digital Ads CHK#1017
+2026-06-22,2000 Accounts Payable,6530.0,,Pay BILL-3152 Kite Digital Ads CHK#1017
+2026-06-23,1000 Cash,31687.0,,Deposit - Nordica Labs INV-2214
+2026-06-23,1100 Accounts Receivable,,31687.0,Deposit - Nordica Labs INV-2214
+2026-06-25,1000 Cash,,15514.02,Pay BILL-3155 Pillar Accounting Services CHK#1019
+2026-06-25,2000 Accounts Payable,15514.02,,Pay BILL-3155 Pillar Accounting Services CHK#1019
+2026-06-28,1300 Prepaid Insurance,,153.0,Monthly insurance amortization
+2026-06-28,6400 Insurance Expense,153.0,,Monthly insurance amortization
+2026-06-28,1590 Accumulated Depreciation,,2154.83,Monthly depreciation
+2026-06-28,6800 Depreciation Expense,2154.83,,Monthly depreciation

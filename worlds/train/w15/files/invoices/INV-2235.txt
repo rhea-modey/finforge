@@ -1,0 +1,16 @@
+IRONLINE DISTRIBUTORS INC.
+Ironline Distributors Inc.
+Wholesale Distribution
+
+INVOICE
+INV-2235
+Date: 2026-04-03
+
+Customer:
+Nordica Labs
+
+Line item: Wholesale goods distribution and fulfillment for the current service period.
+
+Amount due: $28,612.00
+
+Terms: Net 30. Payment remittance must include the document id.

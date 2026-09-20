@@ -1,0 +1,375 @@
+<title>FinForge Deck</title>
+<style>
+:root {
+  --ground:#f7f8f6; --surface:#eef1ec; --ink:#14201c; --sub:#5c6b64;
+  --rule:#dfe4de; --green:#1e7a5a; --red:#b5372e; --green-soft:#e3efe9;
+  --red-soft:#f6e7e5; --mono-bg:#0f1a15; --mono-ink:#c9ded4;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground:#101714; --surface:#1a231e; --ink:#edf2ee; --sub:#93a49b;
+    --rule:#2a352f; --green:#35b285; --red:#e06055; --green-soft:#1c2f27;
+    --red-soft:#33211f; --mono-bg:#0b120e; --mono-ink:#b8d2c6;
+  }
+}
+:root[data-theme="dark"] {
+  --ground:#101714; --surface:#1a231e; --ink:#edf2ee; --sub:#93a49b;
+  --rule:#2a352f; --green:#35b285; --red:#e06055; --green-soft:#1c2f27;
+  --red-soft:#33211f; --mono-bg:#0b120e; --mono-ink:#b8d2c6;
+}
+html { scroll-snap-type: y mandatory; }
+body { background:var(--ground); color:var(--ink); margin:0;
+  font:400 clamp(15px,1.35vw,19px)/1.55 "Avenir Next","Avenir","Seravek",
+  "Segoe UI",system-ui,sans-serif; }
+.slide { min-height:100vh; scroll-snap-align:start; display:flex;
+  flex-direction:column; justify-content:center; box-sizing:border-box;
+  padding:5vh 7vw; border-bottom:1px solid var(--rule); position:relative; }
+.eyebrow { font:600 .72em/1 "Avenir Next",sans-serif; letter-spacing:.14em;
+  text-transform:uppercase; color:var(--green); margin:0 0 1.1rem; }
+.eyebrow .n { font-family:Menlo,"SF Mono",monospace; color:var(--sub); }
+h1,h2 { font-family:"Futura","Avenir Next",sans-serif; font-weight:600;
+  text-wrap:balance; margin:0 0 1.2rem; }
+h1 { font-size:clamp(2.6rem,6vw,4.6rem); line-height:1.04; letter-spacing:-.015em; }
+h2 { font-size:clamp(1.7rem,3.6vw,2.7rem); line-height:1.12; }
+p, li { max-width:34em; color:var(--ink); }
+.sub, .cap { color:var(--sub); }
+.lede { font-size:1.15em; }
+.cols { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:2rem 3rem; align-items:start; }
+.stat { font:600 clamp(2.4rem,5.5vw,4rem)/1 Menlo,"SF Mono",monospace;
+  font-variant-numeric:tabular-nums; margin:.2rem 0 .4rem; }
+.stat.good { color:var(--green); } .stat.bad { color:var(--red); }
+.statcap { font-size:.85em; color:var(--sub); max-width:22em; }
+.card { background:var(--surface); border-radius:12px; padding:1.2rem 1.4rem; }
+.tick { display:inline-block; font-family:Menlo,monospace; font-weight:700; }
+.tick.ok { color:var(--green); } .tick.no { color:var(--red); }
+.ledger { font-family:Menlo,"SF Mono",monospace; font-size:.82em;
+  background:var(--mono-bg); color:var(--mono-ink); border-radius:12px;
+  padding:1.1rem 1.3rem; overflow-x:auto; line-height:1.6; }
+.ledger em { color:var(--red); font-style:normal; }
+.ledger b { color:var(--green); font-weight:600; }
+ul { padding-left:1.1em; } li { margin:.45em 0; }
+li::marker { color:var(--green); }
+table { border-collapse:collapse; font-family:Menlo,monospace; font-size:.78em;
+  font-variant-numeric:tabular-nums; }
+th,td { text-align:right; padding:.45em .9em; border-bottom:1px solid var(--rule); }
+th { color:var(--sub); font-weight:600; text-transform:uppercase;
+  font-size:.85em; letter-spacing:.06em; }
+td:first-child, th:first-child { text-align:left; }
+.twrap { overflow-x:auto; }
+.q { border-left:3px solid var(--green); padding:.2rem 0 .2rem 1.2rem;
+  font-size:1.05em; max-width:32em; }
+.q .who { display:block; margin-top:.6rem; font-size:.8em; color:var(--sub); }
+.pill { display:inline-block; font:600 .68em/1 "Avenir Next",sans-serif;
+  letter-spacing:.1em; text-transform:uppercase; border-radius:99px;
+  padding:.45em 1em; }
+.pill.good { background:var(--green-soft); color:var(--green); }
+.pill.bad { background:var(--red-soft); color:var(--red); }
+.foot { position:absolute; bottom:2.2vh; left:7vw; right:7vw; display:flex;
+  justify-content:space-between; font:500 .68em/1 Menlo,monospace;
+  color:var(--sub); letter-spacing:.05em; }
+.flow { display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr));
+  gap:.9rem; }
+.fcard { background:var(--surface); border-radius:12px; padding:1rem 1.1rem;
+  font-size:.86em; line-height:1.5; }
+.fcard b { display:block; margin-bottom:.35rem; color:var(--green);
+  font-family:"Futura","Avenir Next",sans-serif; letter-spacing:.01em; }
+.fcard.quarantine { border:1.5px dashed var(--red); background:var(--red-soft); }
+.fcard.quarantine b { color:var(--red); display:inline; }
+.navdots { position:fixed; right:1.1rem; top:50%; transform:translateY(-50%);
+  display:flex; flex-direction:column; gap:.55rem; z-index:9; }
+.navdots a { width:.55rem; height:.55rem; border-radius:50%;
+  background:var(--rule); display:block; }
+.navdots a.on { background:var(--green); }
+.navdots a:focus-visible { outline:2px solid var(--green); outline-offset:2px; }
+.keyhint { position:fixed; left:1.2rem; bottom:1rem; font:500 .66rem/1 Menlo,
+  monospace; color:var(--sub); z-index:9; }
+@media (max-width:640px){ .navdots{display:none} }
+@media print { .slide{min-height:auto; page-break-after:always}
+  .navdots,.keyhint{display:none} }
+</style>
+
+<nav class="navdots" aria-label="slides"></nav>
+<div class="keyhint">↑↓ / space to navigate</div>
+
+<section class="slide" id="s1">
+  <p class="eyebrow"><span class="n">FINFORGE</span> · OFFICE-OF-THE-CFO TRACK</p>
+  <h1>An agent that taught<br>itself bank reconciliation:<br>61 → 91, no answer key</h1>
+  <p class="lede sub" style="max-width:36em">An AI team that rewrites its own playbook from a grader's
+  feedback — scored against a sealed answer key it never sees, on companies it
+  never saw — and a finding about what actually limits self-improvement.</p>
+  <div class="foot"><span>FinForge · Sept 2026</span><span>1 / 10</span></div>
+</section>
+
+<section class="slide" id="s2">
+  <p class="eyebrow"><span class="n">01</span> · BACKGROUND — THE WORK</p>
+  <h2>The month-end close is verification work</h2>
+  <div class="cols">
+    <div>
+      <p>Every month, controllers reconcile bank accounts, book accrual and
+      amortization entries, explain budget variances, and roll prepaid schedules
+      forward. The work is <b>evidence-bound</b>: every number must tie to a
+      statement line, a bill, a payroll register.</p>
+      <p>It is exactly the work firms want agents to absorb — high-volume,
+      deadline-driven, procedural. And it is work where an agent that is
+      <i>plausible but wrong</i> is worse than no agent at all.</p>
+    </div>
+    <div class="ledger">BANK REC · GL 1000 · JUNE 2026<br>
+statement ending&nbsp;&nbsp;&nbsp;256,761.82<br>
+gl cash 6/30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;241,192.00<br>
+o/s checks #1012–15&nbsp;&nbsp;<b>(30,671.68)</b><br>
+deposit in transit&nbsp;&nbsp;&nbsp;<b>11,737.00</b><br>
+svc + wire fees&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<em>98.29</em> ← unbooked<br>
+adjusted balances&nbsp;&nbsp;&nbsp;&nbsp;<b>tie to $0.01 ✓</b></div>
+  </div>
+  <div class="foot"><span>background</span><span>2 / 10</span></div>
+</section>
+
+<section class="slide" id="s3">
+  <p class="eyebrow"><span class="n">02</span> · BACKGROUND — WHAT'S KNOWN</p>
+  <h2>An agent's playbook is just a document —<br>so it can rewrite itself</h2>
+  <div class="cols">
+    <div class="card"><p class="eyebrow" style="margin-bottom:.4rem">APEX-ACCOUNTING · 2026</p>
+      <p>Dropped agents into a synthetic firm's close. Swapping in a
+      production-grade harness moved scores by <b>~1 point</b> — those tasks are
+      <b>reasoning-bound</b>; orchestration barely mattered.</p></div>
+    <div class="card"><p class="eyebrow" style="margin-bottom:.4rem">RECURSIVE HARNESS IMPROVEMENT · 2026</p>
+      <p>A harness is just a <b>text document</b> — roles, tool rosters,
+      contracts. A frontier model can rewrite it from feedback, so the scaffold
+      itself becomes the thing that learns.</p></div>
+  </div>
+  <p style="margin-top:1.6rem">Put together: on tasks where orchestration <i>is</i> the
+  bottleneck, a harness should be able to improve itself. <b>But improve against
+  what signal?</b></p>
+  <div class="foot"><span>background</span><span>3 / 10</span></div>
+</section>
+
+<section class="slide" id="s4">
+  <p class="eyebrow"><span class="n">03</span> · THE PROBLEM</p>
+  <h2>In production there is no gold at training time</h2>
+  <ul class="lede">
+    <li>Nobody grades your close. The "right answer" to a reconciliation is not
+    known until an auditor — or a restatement — finds otherwise.</li>
+    <li>So self-improvement must run on a <b>stand-in score</b>: an AI grader
+    reviewing the team's work and scoring it — without ever seeing the right
+    answer.</li>
+    <li>Danger: the loop then optimizes <i>what the judge can see</i> — polish,
+    internal consistency, verification-shaped prose — not what is true.</li>
+  </ul>
+  <p class="q">Research question: how far can harness self-improvement go on a
+  gold-blind reward — and what limits it when it stalls?
+  <span class="who">To answer it you need ground truth the loop can never touch —
+  which real books don't offer. So we built a world where it exists.</span></p>
+  <div class="foot"><span>problem</span><span>4 / 10</span></div>
+</section>
+
+<section class="slide" id="s5">
+  <p class="eyebrow"><span class="n">04</span> · METHOD — THE BENCHMARK</p>
+  <h2>FinForge: gold by construction, quarantined by design</h2>
+  <div class="cols">
+    <div>
+      <div class="stat good">36</div>
+      <p class="statcap">synthetic company worlds — 30 train, 6 held-out
+      (unseen companies <i>and</i> two unseen industries) — each with a June
+      close to reconcile: statement, GL detail, checks, deposits, fees</p>
+    </div>
+    <div>
+      <div class="stat good">100%</div>
+      <p class="statcap">of reconciliations tie by construction: a double-entry
+      engine injects every discrepancy and records it, so gold answers are exact
+      and scored deterministically to $0.01</p>
+    </div>
+    <div>
+      <div class="stat good">0</div>
+      <p class="statcap">passages copied from any existing accounting benchmark
+      — verified by an automated text-overlap audit, and certified after 5
+      adversarial QA sweeps</p>
+    </div>
+  </div>
+  <p style="margin-top:1.2rem">Anti-memorization: injections are <b>conditional</b> —
+  outstanding checks, in-transit deposits, unbooked fees, and GL errors appear in
+  different combinations per world, so the harness must <i>check the books</i>, not
+  recite a procedure. <span class="cap">(Each world also carries three other close
+  tasks — journal entries, variance, prepaid schedules; bank reconciliation is the
+  focus case throughout this deck, full results in the live chart.)</span></p>
+  <div class="foot"><span>benchmark</span><span>5 / 10</span></div>
+</section>
+
+<section class="slide" id="s6">
+  <p class="eyebrow"><span class="n">05</span> · METHOD — THE SYSTEM</p>
+  <h2>Five parts, one loop</h2>
+  <div class="flow">
+    <div class="fcard"><b>1 · The Playbook</b>A plain text document describing a
+    small AI team: who reads the files, who does the math, who double-checks —
+    and what each hands the next.</div>
+    <div class="fcard"><b>2 · The Team</b>Runs the playbook to close the books
+    of three brand-new companies each round — reading files, computing,
+    reconciling.</div>
+    <div class="fcard"><b>3 · The Grader</b>Scores the team's work using only
+    the same files the team saw. It never sees the answer key — <i>how</i> it
+    grades turns out to be the crux of this project.</div>
+    <div class="fcard"><b>4 · The Coach</b>Reads the grader's notes and makes
+    small, targeted edits to the playbook. It can also revert to any earlier
+    version.</div>
+    <div class="fcard"><b>5 · The Tryout</b>New playbook vs current playbook on
+    identical fresh books. Winner becomes the playbook for the next round.</div>
+  </div>
+  <div class="fcard quarantine" style="margin-top:1.1rem"><b>🔒 The sealed answer
+  key</b>&nbsp; Because our worlds are generated, the true answers exist — locked
+  away. They are used ONLY to measure progress on 6 never-seen companies. The
+  team, grader, and coach never see them. That's how we know real improvement
+  from convincing-looking improvement.</div>
+  <div class="foot"><span>method — the system</span><span>6 / 10</span></div>
+</section>
+
+<section class="slide" id="s6b">
+  <p class="eyebrow"><span class="n">06</span> · METHOD — THE REWARD</p>
+  <h2>A grader that only reads can't tell<br>correct from convincing</h2>
+  <div class="cols">
+    <div>
+      <p>The only signal the coach ever gets is the grader's score on each
+      round's training tasks — the <b>reward</b>. Everything hinges on whether
+      that reward tracks the truth.</p>
+      <p>We ran the loop twice: once with a grader that just <i>reads</i> the
+      work (Run A), once with a grader that must <i>redo the math</i> before
+      scoring (Run B). The verifying grader is harsher — and honest.</p>
+    </div>
+    <div>
+      <svg viewBox="0 0 640 230" role="img" aria-label="reward per iteration"
+           style="width:100%;height:auto">
+        <line x1="52" y1="20" x2="52" y2="190" stroke="var(--rule)"/>
+        <line x1="52" y1="190" x2="600" y2="190" stroke="var(--rule)"/>
+        <line x1="52" y1="105" x2="600" y2="105" stroke="var(--rule)" stroke-dasharray="3,4"/>
+        <line x1="52" y1="20" x2="600" y2="20" stroke="var(--rule)" stroke-dasharray="3,4"/>
+        <text x="44" y="194" text-anchor="end" font-size="11" fill="var(--sub)">0</text>
+        <text x="44" y="109" text-anchor="end" font-size="11" fill="var(--sub)">5</text>
+        <text x="44" y="24" text-anchor="end" font-size="11" fill="var(--sub)">10</text>
+        <text x="326" y="218" text-anchor="middle" font-size="11" fill="var(--sub)">training round</text>
+        <polyline fill="none" stroke="var(--red)" stroke-width="2.5"
+          points="60,99.4 125,86.6 190,102.1 255,105.0 320,90.1"/>
+        <circle cx="60" cy="99.4" r="4" fill="var(--red)"/>
+        <circle cx="125" cy="86.6" r="4" fill="var(--red)"/>
+        <circle cx="190" cy="102.1" r="4" fill="var(--red)"/>
+        <circle cx="255" cy="105.0" r="4" fill="var(--red)"/>
+        <circle cx="320" cy="90.1" r="4" fill="var(--red)"/>
+        <text x="332" y="88" font-size="12" font-weight="600" fill="var(--red)">A · reading grader</text>
+        <circle cx="60" cy="106.4" r="4.5" fill="var(--green)"/>
+        <text x="72" y="122" font-size="12" font-weight="600" fill="var(--green)">B · verifying grader (live)</text>
+      </svg>
+      <p class="statcap">Grader score /10 per training round. A's reward drifts
+      in a narrow band regardless of true quality — its correlation with the
+      sealed answer key is only +0.24. B's grader starts harsher (4.9) because
+      it catches real errors; its correlation with truth is +0.70.</p>
+    </div>
+  </div>
+  <div class="foot"><span>method — the reward</span><span>7 / 10</span></div>
+</section>
+
+<section class="slide" id="s7">
+  <p class="eyebrow"><span class="n">07</span> · THE RESULT <span class="pill good" style="margin-left:.6rem">EXPERIMENT A</span></p>
+  <h2>Bank reconciliation: 60.9 → 91.3 on unseen companies</h2>
+  <div class="cols">
+    <div>
+      <div class="ledger">score on 6 never-seen companies, by playbook version<br><br>
+v0&nbsp;&nbsp;60.9&nbsp;&nbsp;▍▍▍▍▍▍▍▍▍▍▍▍<br>
+v1&nbsp;&nbsp;75.6&nbsp;&nbsp;▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍&nbsp;&nbsp;← invented Calculator<br>
+v2&nbsp;&nbsp;52.2&nbsp;&nbsp;▍▍▍▍▍▍▍▍▍▍&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;← bad rewrite kept<br>
+v3&nbsp;&nbsp;71.8&nbsp;&nbsp;▍▍▍▍▍▍▍▍▍▍▍▍▍▍<br>
+v4&nbsp;&nbsp;<b>91.3</b>&nbsp;&nbsp;<b>▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍</b>&nbsp;← hardened it</div>
+    </div>
+    <div>
+      <p>Iteration 1's revision <b>self-invented a Calculator agent</b>: it
+      recomputes every tie-out with <span style="font-family:Menlo,monospace">run_python</span>
+      and rejects any draft whose adjusted balances are off by more than $0.01.
+      Iteration 4 hardened the contract. Nobody told it to — it read its own
+      failure critiques and wrote the fix into its playbook.</p>
+      <p>The dip at v2 is the honest part of the curve: a rewrite the tryout
+      wrongly kept — exactly the blindness the previous slide measured, and
+      what the next slide fixes.</p>
+    </div>
+  </div>
+  <div class="foot"><span>the result</span><span>8 / 10</span></div>
+</section>
+
+<section class="slide" id="s9">
+  <p class="eyebrow"><span class="n">08</span> · INSIGHT → SOLUTION <span class="pill good" style="margin-left:.6rem">EXPERIMENT B · LIVE</span></p>
+  <h2>Self-improvement is bounded by how well<br>its grader can verify — so we upgraded the grader</h2>
+  <div class="cols">
+    <div>
+      <p>The limit was never the coach's intelligence or the team's size. It
+      was whether the reward could tell <b>correct</b> from <b>convincing</b>.
+      So we changed one thing: the grader must redo the math — recompute the
+      statement balance, re-add the ledger, confirm every claimed item exists —
+      before it may score.</p>
+      <div class="stat good" style="margin-top:.8rem">+0.24 → +0.70</div>
+      <p class="statcap">correlation between the grader's score and the sealed
+      answer key, on identical work — a ~3× jump, at ~2¢ per grading</p>
+    </div>
+    <div class="ledger">THE GRADER'S NOTES (real, verbatim):<br><br>
+"the claimed 8,317.00 'unrecorded<br>
+&nbsp;cash receipt' is <em>fabricated</em> — no<br>
+&nbsp;such amount exists in any file"<br><br>
+"used <em>year-to-date</em> totals;<br>
+&nbsp;the task requires JUNE-only"<br><br>
+→ the coach's next playbook edit<br>
+&nbsp;&nbsp;<b>targets exactly these</b>, and keeps<br>
+&nbsp;&nbsp;what already worked <b>verbatim</b></div>
+  </div>
+  <div class="foot"><span>insight → solution</span><span>9 / 10</span></div>
+</section>
+
+<section class="slide" id="s10">
+  <p class="eyebrow"><span class="n">09</span> · WHERE IT STANDS</p>
+  <h2>The ceiling on self-improvement is<br>the grader's ability to verify</h2>
+  <div class="twrap"><table>
+    <tr><th></th><th>Run A · reading judge</th><th>Run B · verifying judge</th></tr>
+    <tr><td>bank rec, best playbook</td><td style="color:var(--green)">91.3 (+30.4 vs start)</td><td>evaluating now</td></tr>
+    <tr><td>grader–truth correlation</td><td style="color:var(--red)">+0.24</td><td style="color:var(--green)">+0.70</td></tr>
+    <tr><td>tryout picks matching truth</td><td>2 of 4</td><td>in progress</td></tr>
+    <tr><td>measurements per playbook version</td><td>24</td><td>48 (doubled to average out luck)</td></tr>
+  </table></div>
+  <ul style="margin-top:1.4rem">
+    <li>Every number is auditable: every run is logged, the scoring rules are
+    locked, the test companies are reproducible from seeds, and every playbook
+    edit is recorded with its reason.</li>
+    <li>Honest limits stated: each Run A version was measured once — re-running
+    the same playbook can swing scores by ~±10 points (we measured it), which
+    is why Run B measures everything twice.</li>
+    <li><b>A controlled experiment testing the fix is running as you read
+    this — to make agents that improve themselves, build graders that
+    verify.</b></li>
+  </ul>
+  <div class="foot"><span>finforge</span><span>10 / 10</span></div>
+</section>
+
+<script>
+(function () {
+  var slides = [].slice.call(document.querySelectorAll(".slide"));
+  var nav = document.querySelector(".navdots");
+  slides.forEach(function (s, i) {
+    var a = document.createElement("a");
+    a.href = "#" + s.id; a.setAttribute("aria-label", "slide " + (i + 1));
+    nav.appendChild(a);
+  });
+  var dots = [].slice.call(nav.children);
+  var cur = 0;
+  function mark(i) { dots.forEach(function (d, j) { d.className = j === i ? "on" : ""; }); cur = i; }
+  mark(0);
+  var io = new IntersectionObserver(function (es) {
+    es.forEach(function (e) {
+      if (e.isIntersecting) mark(slides.indexOf(e.target));
+    });
+  }, { threshold: 0.55 });
+  slides.forEach(function (s) { io.observe(s); });
+  function go(i) {
+    i = Math.max(0, Math.min(slides.length - 1, i));
+    slides[i].scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth" });
+  }
+  addEventListener("keydown", function (e) {
+    if (e.key === "ArrowDown" || e.key === "PageDown" || e.key === " ") { e.preventDefault(); go(cur + 1); }
+    if (e.key === "ArrowUp" || e.key === "PageUp") { e.preventDefault(); go(cur - 1); }
+    if (e.key === "Home") { e.preventDefault(); go(0); }
+    if (e.key === "End") { e.preventDefault(); go(slides.length - 1); }
+  });
+})();
+</script>

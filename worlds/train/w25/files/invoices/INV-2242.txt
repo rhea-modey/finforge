@@ -1,0 +1,15 @@
+Vantage Loop Inc.
+Hosted Operations Platform
+
+CUSTOMER INVOICE
+Document: INV-2242
+Bill to: Corliss Marine
+Date: 2026-04-06
+
+Current monthly service
+SaaS operations platform access and user support.
+
+Amount due: $17,934.00
+
+Terms: Payment due upon receipt.
+Remittance advice: Reference the invoice id.

@@ -1,0 +1,15 @@
+CASCADE SUPPLY PARTNERS
+Cascade Supply Partners
+Wholesale Distribution Support
+
+INVOICE INV-2229
+Date: 2026-04-02
+
+Customer: Quimby Ventures
+
+Line-item detail
+Current-period wholesale supply handling and order fulfillment service.
+
+Amount due: $22,512.00
+
+Terms/remit: Net 30; reference INV-2229 on payment correspondence.

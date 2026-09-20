@@ -1,0 +1,15 @@
+JUNCTION UTILITY CO-OP
+Junction Utility Co-op
+
+UTILITY SERVICE BILL
+BILL-3140
+
+Customer: Juniper Goods Co.
+Bill date: 2026-04-09
+
+Service detail
+Electric, water, and facility utility service for one operating period.
+
+Amount: $499.00
+
+Terms: Pay upon receipt. Remit payment with the bill identifier shown above.

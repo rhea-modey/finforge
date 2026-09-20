@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 242470.28,
+    "gold": 242470.28,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 252822.99,
+    "gold": 252822.99,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $12,638.00, while the trial balance reports Accounts Payable of $30,153.54, leaving an unexplained subledger-to-control difference of $17,515.54. The GL indicates this is residual opening AP, but the purported June 30 aging omits its vendor-level detail.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w22-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance and software contracts define the prepaid population and provide all opening balance, addition, amortization, and closing-balance information needed.",
+    "solvable": true
+   },
+   "w22-bank_rec": {
+    "reason": "The bank statement, GL, trial balance, and source bill support a complete reconciliation, including deposits in transit, outstanding checks, unrecorded fees and interest, and the $18 Ridgeline payment error.",
+    "solvable": true
+   },
+   "w22-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed-asset register, GL, and June vendor documents are sufficient to identify missing accrual and amortization entries, confirm depreciation is already posted, and determine required expense reclasses.",
+    "solvable": true
+   },
+   "w22-variance_analysis": {
+    "reason": "June actuals can be isolated from the GL and adjusted for the checklist close entries, then compared with the June budget. Materiality and expense classification require ordinary professional judgment but do not prevent a defensible analysis.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

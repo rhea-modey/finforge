@@ -1,0 +1,12 @@
+[
+ "Identifies outstanding_check of $24,979.85 (CHK-1016)",
+ "Identifies outstanding_check of $1,252.00 (CHK-1015)",
+ "Identifies outstanding_check of $6,530.00 (CHK-1017)",
+ "Identifies gl_error of $900.00 (CHK-1012)",
+ "Identifies deposit_in_transit of $7,454.00",
+ "Identifies deposit_in_transit of $31,687.00",
+ "Identifies bank_fee_unrecorded of $41.46",
+ "Identifies interest_unrecorded of $34.70",
+ "States adjusted cash balance of $266,984.95",
+ "Proposes correcting entries for all book-side items"
+]

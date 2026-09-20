@@ -1,0 +1,129 @@
+{
+ "adjusted_balance": 249220.76,
+ "bank_statement_ending_balance": 250468.57,
+ "gl_cash_ending_balance": 249290.75,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 57.28
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 57.28,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 45.13
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 45.13,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 32.42
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 32.42,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 9821.81,
+   "date": "2026-06-22",
+   "description": "Check to Meridian Legal LLP not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1012",
+   "side": "bank"
+  },
+  {
+   "amount": 2709.0,
+   "date": "2026-06-11",
+   "description": "Check to Kite Digital Ads not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1010",
+   "side": "bank"
+  },
+  {
+   "amount": 4148.0,
+   "date": "2026-06-18",
+   "description": "Check to Ridgeline Telecom not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1011",
+   "side": "bank"
+  },
+  {
+   "amount": 5602.0,
+   "date": "2026-06-24",
+   "description": "Check to Ridgeline Telecom not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1014",
+   "side": "bank"
+  },
+  {
+   "amount": 14415.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT VESPER TECHN INV-2254",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 6618.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT CORLISS MARINE INV-2255",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 57.28,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 45.13,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 32.42,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

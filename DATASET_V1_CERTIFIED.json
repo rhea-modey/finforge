@@ -1,0 +1,14 @@
+{
+ "dataset": "FinForge v1",
+ "certified": "QA sweep 5: 36/36 pass, 0 flags",
+ "audit_history_flags": [
+  12,
+  14,
+  8,
+  13,
+  0
+ ],
+ "gates": "0-2 green (determinism, integrity, oracle 144/144)",
+ "contamination": "0 shared 8-gram shingles vs APEX (reports/apex_similarity_audit.md)",
+ "combined_worlds_hash": "52bfa51b2644e4c3d37c2ad234ada1bfd23ae6b0b32a1f1c16de13a186616582"
+}

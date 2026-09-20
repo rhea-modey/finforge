@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 67416.68,
+    "gold": 67416.68,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 97412.58,
+    "gold": 97412.58,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $25,118.54, while the trial balance reports Accounts Payable of $52,191.69, leaving an unexplained $27,073.15 control-to-subledger difference. The GL indicates this is the unpaid remainder of opening payables, but it is absent from the dated AP aging.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w17-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract define the prepaid population and provide a unique June opening balance, monthly amortization, and closing balance; the GL confirms June amortization is not yet booked.",
+    "solvable": true
+   },
+   "w17-bank_rec": {
+    "reason": "The bank statement, cash GL, and clearing references provide sufficient information to identify outstanding checks, deposits in transit, unrecorded fees, and unrecorded interest and to reconcile both sides uniquely.",
+    "solvable": true
+   },
+   "w17-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed asset register, GL detail, checklist, and vendor-bill documents support the required payroll accrual, June insurance amortization, depreciation, and identifiable bill-coding reclass without duplication.",
+    "solvable": true
+   },
+   "w17-variance_analysis": {
+    "reason": "June actuals can be derived from the GL and adjusted for the supported close entries, while the June budget and supporting payroll and vendor documents permit defensible material-variance commentary. Materiality requires ordinary professional judgment but does not make the task unsolvable.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

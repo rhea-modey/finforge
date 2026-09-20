@@ -1,0 +1,79 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 19633.85,
+   "keywords": [
+    "catalyst",
+    "firstlane"
+   ]
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 18554.72,
+   "keywords": [
+    "bloom",
+    "trellis"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 13480.78,
+   "keywords": [
+    "lighthouse",
+    "meridian"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 24656.85,
+   "budget": 5273.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 19633.85,
+     "description": "Special Catalyst initiative - one-off fees billed by Firstlane Logistics (BILL-3123)",
+     "evidence": [
+      "bills/BILL-3123.txt"
+     ]
+    }
+   ],
+   "variance": 19383.85
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 18554.72,
+   "budget": 0.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 18554.72,
+     "description": "Bloom project - one-off engagement billed by Trellis Marketing Group (BILL-3124)",
+     "evidence": [
+      "bills/BILL-3124.txt"
+     ]
+    }
+   ],
+   "variance": 18554.72
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 27582.78,
+   "budget": 14269.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 13480.78,
+     "description": "Lighthouse project - one-off engagement billed by Meridian Legal LLP (BILL-3125)",
+     "evidence": [
+      "bills/BILL-3125.txt"
+     ]
+    }
+   ],
+   "variance": 13313.78
+  }
+ ]
+}

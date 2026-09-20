@@ -1,0 +1,9 @@
+account_number;account_name;debit_balance;credit_balance
+1000;Cash;;
+1100;Accounts Receivable;;
+1300;Prepaid Insurance;;
+1310;Prepaid Software;;
+1400;Inventory;;
+1500;Equipment;;
+1590;Accumulated Depreciation;;
+2000;Accounts Payable;;

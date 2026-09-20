@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 284421.24,
+    "gold": 284421.24,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 295030.97,
+    "gold": 295030.97,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $28,186.08, while the trial balance reports Accounts Payable of $44,899.86, leaving an unexplained $16,713.78 difference. This equals the unpaid remainder of opening AP after the April 6 payment, but no corresponding open item appears in the aging.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "h04-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract uniquely establish the June opening balance, monthly amortization, and closing balance, while the GL confirms that June amortization has not yet been booked.",
+    "solvable": true
+   },
+   "h04-bank_rec": {
+    "reason": "The bank statement, cash ledger, and trial balance provide sufficient information to identify outstanding checks, deposits in transit, unrecorded bank fees, and unrecorded interest and to reconcile both sides to a unique adjusted cash balance.",
+    "solvable": true
+   },
+   "h04-journal_entries": {
+    "reason": "The payroll register, prepaid schedule and policy, fixed asset register, GL, and available vendor bills support the required accrual, amortization, depreciation, and coding review. The AP aging discrepancy does not prevent determination of the requested close entries.",
+    "solvable": true
+   },
+   "h04-variance_analysis": {
+    "reason": "June ledger activity, the June budget, payroll support, fixed asset and prepaid support, and vendor documents provide sufficient information to calculate as-closed actuals and explain material variances using ordinary professional materiality judgment.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

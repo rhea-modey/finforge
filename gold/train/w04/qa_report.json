@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 241926.33,
+    "gold": 241926.33,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 237840.0,
+    "gold": 237840.0,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 6/30 AP aging lists only BILL-3114 for $5,312.00, while the trial balance reports Accounts Payable of $15,202.94. The ledger supports the difference as $9,890.94 of unpaid opening payables, so the AP aging is incomplete by that amount.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w04-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract establish the June opening balance and monthly amortization, and the GL confirms that June amortization has not yet been booked.",
+    "solvable": true
+   },
+   "w04-bank_rec": {
+    "reason": "The bank statement, cash ledger, and trial balance provide enough information to identify outstanding checks, deposits in transit, and the unrecorded bank fee and interest; both sides reconcile uniquely.",
+    "solvable": true
+   },
+   "w04-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed-asset register, June vendor documents, and GL provide sufficient evidence to identify the required payroll accrual, insurance amortization, depreciation, and expense reclassification without duplication.",
+    "solvable": true
+   },
+   "w04-variance_analysis": {
+    "reason": "June actuals can be derived from the ledger and adjusted for the supported close entries, while the June budget and underlying payroll and vendor documents support material variance commentary. Materiality requires ordinary professional judgment but does not prevent completion.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

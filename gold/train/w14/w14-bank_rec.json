@@ -1,0 +1,105 @@
+{
+ "adjusted_balance": 94515.93,
+ "bank_statement_ending_balance": 97819.93,
+ "gl_cash_ending_balance": 94550.54,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6200 Advertising & Marketing",
+     "credit": 0,
+     "debit": 36.0
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 36.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Correct transposition on CHK-1016"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 28.34
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 28.34,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 29.73
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 29.73,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 2845.0,
+   "date": "2026-06-15",
+   "description": "Check to Trellis Marketing Group not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1013",
+   "side": "bank"
+  },
+  {
+   "amount": 5803.0,
+   "date": "2026-06-18",
+   "description": "Check to Junction Utility Co-op not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1015",
+   "side": "bank"
+  },
+  {
+   "amount": 36.0,
+   "date": "2026-06-30",
+   "description": "GL posted check at transposed amount (959.0 vs bank 995.0)",
+   "kind": "gl_error",
+   "ref": "CHK-1016",
+   "side": "book"
+  },
+  {
+   "amount": 5344.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT HARTWELL GRO INV-2213",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 28.34,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 29.73,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

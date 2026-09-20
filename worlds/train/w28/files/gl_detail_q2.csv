@@ -1,0 +1,164 @@
+txn_date,Account,dr,credit,description
+01-Apr-2026,1000 Cash,257423.09,,Opening balances
+01-Apr-2026,1300 Prepaid Insurance,936.0,,Opening balances
+01-Apr-2026,1500 Equipment,130844.0,,Opening balances
+01-Apr-2026,1590 Accumulated Depreciation,,28349.49,Opening balances
+01-Apr-2026,2000 Accounts Payable,,18364.32,Opening balances
+01-Apr-2026,3000 Retained Earnings,,342489.28,Opening balances
+01-Apr-2026,1100 Accounts Receivable,10437.0,,Invoice INV-2233 - Vesper Technologies
+01-Apr-2026,4000 Consulting Revenue,,10437.0,Invoice INV-2233 - Vesper Technologies
+03-Apr-2026,1000 Cash,,7856.0,Rent - Amberfield Property Group
+03-Apr-2026,6100 Rent Expense,7856.0,,Rent - Amberfield Property Group
+04-Apr-2026,1100 Accounts Receivable,14967.0,,Invoice INV-2228 - Zephyr Dynamics
+04-Apr-2026,4000 Consulting Revenue,,14967.0,Invoice INV-2228 - Zephyr Dynamics
+05-Apr-2026,2000 Accounts Payable,,717.0,BILL-3112 Trellis Marketing Group
+05-Apr-2026,6200 Advertising & Marketing,717.0,,BILL-3112 Trellis Marketing Group
+06-Apr-2026,1000 Cash,,9182.16,Payment on account - opening payables
+06-Apr-2026,2000 Accounts Payable,9182.16,,Payment on account - opening payables
+06-Apr-2026,2000 Accounts Payable,,4346.0,BILL-3107 Helix IT Solutions
+06-Apr-2026,6450 Software Expense,4346.0,,BILL-3107 Helix IT Solutions
+10-Apr-2026,1100 Accounts Receivable,7458.0,,Invoice INV-2230 - Zephyr Dynamics
+10-Apr-2026,4000 Consulting Revenue,,7458.0,Invoice INV-2230 - Zephyr Dynamics
+10-Apr-2026,1000 Cash,,4346.0,Pay BILL-3107 Helix IT Solutions CHK#1004
+10-Apr-2026,2000 Accounts Payable,4346.0,,Pay BILL-3107 Helix IT Solutions CHK#1004
+10-Apr-2026,2000 Accounts Payable,,1799.0,BILL-3111 Kite Digital Ads
+10-Apr-2026,6200 Advertising & Marketing,1799.0,,BILL-3111 Kite Digital Ads
+11-Apr-2026,1100 Accounts Receivable,16102.0,,Invoice INV-2227 - Kelso Brands
+11-Apr-2026,4000 Consulting Revenue,,16102.0,Invoice INV-2227 - Kelso Brands
+13-Apr-2026,1000 Cash,,717.0,Pay BILL-3112 Trellis Marketing Group CHK#1003
+13-Apr-2026,2000 Accounts Payable,717.0,,Pay BILL-3112 Trellis Marketing Group CHK#1003
+14-Apr-2026,1100 Accounts Receivable,17084.0,,Invoice INV-2231 - Ivywood Enterprises
+14-Apr-2026,4000 Consulting Revenue,,17084.0,Invoice INV-2231 - Ivywood Enterprises
+15-Apr-2026,1000 Cash,,19500.0,Payroll 2026-04/01-04/15
+15-Apr-2026,2300 Payroll Liabilities,,5500.0,Payroll 2026-04/01-04/15
+15-Apr-2026,6000 Salaries Expense,25000.0,,Payroll 2026-04/01-04/15
+17-Apr-2026,1100 Accounts Receivable,5973.0,,Invoice INV-2229 - Ivywood Enterprises
+17-Apr-2026,4000 Consulting Revenue,,5973.0,Invoice INV-2229 - Ivywood Enterprises
+17-Apr-2026,2000 Accounts Payable,,1485.0,BILL-3109 CloudSpan Hosting
+17-Apr-2026,6450 Software Expense,1485.0,,BILL-3109 CloudSpan Hosting
+18-Apr-2026,2000 Accounts Payable,,3257.0,BILL-3108 Meridian Legal LLP
+18-Apr-2026,6600 Professional Fees,3257.0,,BILL-3108 Meridian Legal LLP
+20-Apr-2026,2000 Accounts Payable,,3629.0,BILL-3110 CloudSpan Hosting
+20-Apr-2026,6450 Software Expense,3629.0,,BILL-3110 CloudSpan Hosting
+22-Apr-2026,1000 Cash,14967.0,,Deposit - Zephyr Dynamics INV-2228
+22-Apr-2026,1100 Accounts Receivable,,14967.0,Deposit - Zephyr Dynamics INV-2228
+23-Apr-2026,1000 Cash,,1485.0,Pay BILL-3109 CloudSpan Hosting CHK#1005
+23-Apr-2026,2000 Accounts Payable,1485.0,,Pay BILL-3109 CloudSpan Hosting CHK#1005
+24-Apr-2026,1000 Cash,16102.0,,Deposit - Kelso Brands INV-2227
+24-Apr-2026,1100 Accounts Receivable,,16102.0,Deposit - Kelso Brands INV-2227
+24-Apr-2026,1100 Accounts Receivable,18414.0,,Invoice INV-2232 - Ivywood Enterprises
+24-Apr-2026,4000 Consulting Revenue,,18414.0,Invoice INV-2232 - Ivywood Enterprises
+24-Apr-2026,1000 Cash,,3257.0,Pay BILL-3108 Meridian Legal LLP CHK#1006
+24-Apr-2026,2000 Accounts Payable,3257.0,,Pay BILL-3108 Meridian Legal LLP CHK#1006
+26-Apr-2026,1000 Cash,10437.0,,Deposit - Vesper Technologies INV-2233
+26-Apr-2026,1100 Accounts Receivable,,10437.0,Deposit - Vesper Technologies INV-2233
+27-Apr-2026,1000 Cash,7458.0,,Deposit - Zephyr Dynamics INV-2230
+27-Apr-2026,1100 Accounts Receivable,,7458.0,Deposit - Zephyr Dynamics INV-2230
+27-Apr-2026,1000 Cash,,3629.0,Pay BILL-3110 CloudSpan Hosting CHK#1007
+27-Apr-2026,2000 Accounts Payable,3629.0,,Pay BILL-3110 CloudSpan Hosting CHK#1007
+28-Apr-2026,1000 Cash,,19305.0,Payroll 2026-04/16-04/30
+28-Apr-2026,2300 Payroll Liabilities,,5445.0,Payroll 2026-04/16-04/30
+28-Apr-2026,6000 Salaries Expense,24750.0,,Payroll 2026-04/16-04/30
+28-Apr-2026,1300 Prepaid Insurance,,104.0,Monthly insurance amortization
+28-Apr-2026,6400 Insurance Expense,104.0,,Monthly insurance amortization
+28-Apr-2026,1590 Accumulated Depreciation,,2180.73,Monthly depreciation
+28-Apr-2026,6800 Depreciation Expense,2180.73,,Monthly depreciation
+02-May-2026,2000 Accounts Payable,,4293.0,BILL-3113 Meridian Legal LLP
+02-May-2026,6600 Professional Fees,4293.0,,BILL-3113 Meridian Legal LLP
+03-May-2026,1000 Cash,,7856.0,Rent - Amberfield Property Group
+03-May-2026,6100 Rent Expense,7856.0,,Rent - Amberfield Property Group
+04-May-2026,1100 Accounts Receivable,7316.0,,Invoice INV-2234 - Kelso Brands
+04-May-2026,4000 Consulting Revenue,,7316.0,Invoice INV-2234 - Kelso Brands
+04-May-2026,1100 Accounts Receivable,7431.0,,Invoice INV-2236 - Birchfield Foods
+04-May-2026,4000 Consulting Revenue,,7431.0,Invoice INV-2236 - Birchfield Foods
+05-May-2026,2000 Accounts Payable,,3980.0,BILL-3114 Helix IT Solutions
+05-May-2026,6450 Software Expense,3980.0,,BILL-3114 Helix IT Solutions
+06-May-2026,2000 Accounts Payable,,644.0,BILL-3117 Junction Utility Co-op
+06-May-2026,6500 Utilities Expense,644.0,,BILL-3117 Junction Utility Co-op
+08-May-2026,1000 Cash,,4293.0,Pay BILL-3113 Meridian Legal LLP CHK#1009
+08-May-2026,2000 Accounts Payable,4293.0,,Pay BILL-3113 Meridian Legal LLP CHK#1009
+09-May-2026,1000 Cash,18414.0,,Deposit - Ivywood Enterprises INV-2232
+09-May-2026,1100 Accounts Receivable,,18414.0,Deposit - Ivywood Enterprises INV-2232
+10-May-2026,1000 Cash,,3980.0,Pay BILL-3114 Helix IT Solutions CHK#1010
+10-May-2026,2000 Accounts Payable,3980.0,,Pay BILL-3114 Helix IT Solutions CHK#1010
+13-May-2026,1100 Accounts Receivable,13517.0,,Invoice INV-2235 - Ivywood Enterprises
+13-May-2026,4000 Consulting Revenue,,13517.0,Invoice INV-2235 - Ivywood Enterprises
+14-May-2026,1000 Cash,,644.0,Pay BILL-3117 Junction Utility Co-op CHK#1011
+14-May-2026,2000 Accounts Payable,644.0,,Pay BILL-3117 Junction Utility Co-op CHK#1011
+15-May-2026,2000 Accounts Payable,,5433.0,BILL-3116 Pillar Accounting Services
+15-May-2026,6600 Professional Fees,5433.0,,BILL-3116 Pillar Accounting Services
+15-May-2026,1000 Cash,,26293.0,Payroll 2026-05/01-05/15
+15-May-2026,2300 Payroll Liabilities,,7415.0,Payroll 2026-05/01-05/15
+15-May-2026,6000 Salaries Expense,33708.0,,Payroll 2026-05/01-05/15
+18-May-2026,1000 Cash,5973.0,,Deposit - Ivywood Enterprises INV-2229
+18-May-2026,1100 Accounts Receivable,,5973.0,Deposit - Ivywood Enterprises INV-2229
+18-May-2026,1000 Cash,,5433.0,Pay BILL-3116 Pillar Accounting Services CHK#1012
+18-May-2026,2000 Accounts Payable,5433.0,,Pay BILL-3116 Pillar Accounting Services CHK#1012
+19-May-2026,1100 Accounts Receivable,12379.0,,Invoice INV-2237 - Atlas Verde LLC
+19-May-2026,4100 Retainer Revenue,,12379.0,Invoice INV-2237 - Atlas Verde LLC
+19-May-2026,1100 Accounts Receivable,19875.0,,Invoice INV-2238 - Birchfield Foods
+19-May-2026,4100 Retainer Revenue,,19875.0,Invoice INV-2238 - Birchfield Foods
+20-May-2026,1100 Accounts Receivable,5184.0,,Invoice INV-2239 - Hartwell Group
+20-May-2026,4100 Retainer Revenue,,5184.0,Invoice INV-2239 - Hartwell Group
+22-May-2026,2000 Accounts Payable,,2636.0,BILL-3115 CloudSpan Hosting
+22-May-2026,6450 Software Expense,2636.0,,BILL-3115 CloudSpan Hosting
+23-May-2026,1000 Cash,17084.0,,Deposit - Ivywood Enterprises INV-2231
+23-May-2026,1100 Accounts Receivable,,17084.0,Deposit - Ivywood Enterprises INV-2231
+24-May-2026,1000 Cash,7431.0,,Deposit - Birchfield Foods INV-2236
+24-May-2026,1100 Accounts Receivable,,7431.0,Deposit - Birchfield Foods INV-2236
+26-May-2026,1000 Cash,,2636.0,Pay BILL-3115 CloudSpan Hosting CHK#1013
+26-May-2026,2000 Accounts Payable,2636.0,,Pay BILL-3115 CloudSpan Hosting CHK#1013
+28-May-2026,1000 Cash,,26293.0,Payroll 2026-05/16-05/30
+28-May-2026,2300 Payroll Liabilities,,7415.0,Payroll 2026-05/16-05/30
+28-May-2026,6000 Salaries Expense,33708.0,,Payroll 2026-05/16-05/30
+28-May-2026,1300 Prepaid Insurance,,104.0,Monthly insurance amortization
+28-May-2026,6400 Insurance Expense,104.0,,Monthly insurance amortization
+28-May-2026,1590 Accumulated Depreciation,,2180.73,Monthly depreciation
+28-May-2026,6800 Depreciation Expense,2180.73,,Monthly depreciation
+02-Jun-2026,2000 Accounts Payable,,865.0,BILL-3119 Inkwell Print Co.
+02-Jun-2026,6700 Office Supplies,865.0,,BILL-3119 Inkwell Print Co.
+03-Jun-2026,1000 Cash,,7856.0,Rent - Amberfield Property Group
+03-Jun-2026,6100 Rent Expense,7856.0,,Rent - Amberfield Property Group
+04-Jun-2026,2000 Accounts Payable,,771.0,BILL-3118 Bright Harbor Media
+04-Jun-2026,6200 Advertising & Marketing,771.0,,BILL-3118 Bright Harbor Media
+04-Jun-2026,2000 Accounts Payable,,11701.22,BILL-3124 Meridian Legal LLP
+04-Jun-2026,6600 Professional Fees,11701.22,,BILL-3124 Meridian Legal LLP
+06-Jun-2026,2000 Accounts Payable,,695.0,BILL-3122 Meridian Legal LLP
+06-Jun-2026,6600 Professional Fees,695.0,,BILL-3122 Meridian Legal LLP
+07-Jun-2026,1000 Cash,,771.0,Pay BILL-3118 Bright Harbor Media CHK#1016
+07-Jun-2026,2000 Accounts Payable,771.0,,Pay BILL-3118 Bright Harbor Media CHK#1016
+08-Jun-2026,1100 Accounts Receivable,14915.0,,Invoice INV-2243 - Ivywood Enterprises
+08-Jun-2026,4000 Consulting Revenue,,14915.0,Invoice INV-2243 - Ivywood Enterprises
+08-Jun-2026,1000 Cash,,865.0,Pay BILL-3119 Inkwell Print Co. CHK#1015
+08-Jun-2026,2000 Accounts Payable,865.0,,Pay BILL-3119 Inkwell Print Co. CHK#1015
+09-Jun-2026,1000 Cash,12379.0,,Deposit - Atlas Verde LLC INV-2237
+09-Jun-2026,1100 Accounts Receivable,,12379.0,Deposit - Atlas Verde LLC INV-2237
+11-Jun-2026,1000 Cash,13517.0,,Deposit - Ivywood Enterprises INV-2235
+11-Jun-2026,1100 Accounts Receivable,,13517.0,Deposit - Ivywood Enterprises INV-2235
+12-Jun-2026,1000 Cash,13604.0,,Owner capital contribution
+12-Jun-2026,3000 Retained Earnings,,13604.0,Owner capital contribution
+13-Jun-2026,1000 Cash,7316.0,,Deposit - Kelso Brands INV-2234
+13-Jun-2026,1100 Accounts Receivable,,7316.0,Deposit - Kelso Brands INV-2234
+15-Jun-2026,2000 Accounts Payable,,3577.0,BILL-3121 Pillar Accounting Services
+15-Jun-2026,6600 Professional Fees,3577.0,,BILL-3121 Pillar Accounting Services
+15-Jun-2026,1000 Cash,,22078.0,Payroll 2026-06/01-06/15
+15-Jun-2026,2300 Payroll Liabilities,,6226.0,Payroll 2026-06/01-06/15
+15-Jun-2026,6000 Salaries Expense,28304.0,,Payroll 2026-06/01-06/15
+16-Jun-2026,2000 Accounts Payable,,646.0,BILL-3120 Inkwell Print Co.
+16-Jun-2026,6700 Office Supplies,646.0,,BILL-3120 Inkwell Print Co.
+18-Jun-2026,1100 Accounts Receivable,16913.0,,Invoice INV-2241 - Hartwell Group
+18-Jun-2026,4000 Consulting Revenue,,16913.0,Invoice INV-2241 - Hartwell Group
+18-Jun-2026,2000 Accounts Payable,,14592.06,BILL-3123 Trellis Marketing Group
+18-Jun-2026,6200 Advertising & Marketing,14592.06,,BILL-3123 Trellis Marketing Group
+19-Jun-2026,1100 Accounts Receivable,16998.0,,Invoice INV-2240 - Ivywood Enterprises
+19-Jun-2026,4000 Consulting Revenue,,16998.0,Invoice INV-2240 - Ivywood Enterprises
+19-Jun-2026,1100 Accounts Receivable,4123.0,,Invoice INV-2242 - Zephyr Dynamics
+19-Jun-2026,4000 Consulting Revenue,,4123.0,Invoice INV-2242 - Zephyr Dynamics
+23-Jun-2026,1000 Cash,,3577.0,Pay BILL-3121 Pillar Accounting Services CHK#1017
+23-Jun-2026,2000 Accounts Payable,3577.0,,Pay BILL-3121 Pillar Accounting Services CHK#1017
+24-Jun-2026,1000 Cash,,646.0,Pay BILL-3120 Inkwell Print Co. CHK#1018
+24-Jun-2026,2000 Accounts Payable,646.0,,Pay BILL-3120 Inkwell Print Co. CHK#1018
+28-Jun-2026,1000 Cash,19875.0,,Deposit - Birchfield Foods INV-2238
+28-Jun-2026,1100 Accounts Receivable,,19875.0,Deposit - Birchfield Foods INV-2238
+28-Jun-2026,1590 Accumulated Depreciation,,2180.73,Monthly depreciation
+28-Jun-2026,6800 Depreciation Expense,2180.73,,Monthly depreciation

@@ -1,0 +1,209 @@
+date;Account;Debit;cr;memo
+2026-04-01;1000 Cash;204848.49;;Opening balances
+2026-04-01;1300 Prepaid Insurance;1134.0;;Opening balances
+2026-04-01;1400 Inventory;54145.35;;Opening balances
+2026-04-01;1500 Equipment;71683.0;;Opening balances
+2026-04-01;1590 Accumulated Depreciation;;20310.07;Opening balances
+2026-04-01;2000 Accounts Payable;;16120.29;Opening balances
+2026-04-01;3000 Retained Earnings;;295380.48;Opening balances
+2026-04-03;1000 Cash;;5205.0;Rent - Grandview Properties LLC
+2026-04-03;6100 Rent Expense;5205.0;;Rent - Grandview Properties LLC
+2026-04-03;2000 Accounts Payable;;2219.0;BILL-3142 Delta Facility Services
+2026-04-03;6700 Office Supplies;2219.0;;BILL-3142 Delta Facility Services
+2026-04-04;1100 Accounts Receivable;9380.0;;Invoice INV-2204 - Brockman & Hale
+2026-04-04;4000 Product Sales;;9380.0;Invoice INV-2204 - Brockman & Hale
+2026-04-04;1400 Inventory;;4847.0;COGS - INV-2204
+2026-04-04;5000 Cost of Goods Sold;4847.0;;COGS - INV-2204
+2026-04-05;1100 Accounts Receivable;12883.0;;Invoice INV-2203 - Tamarack Health
+2026-04-05;4000 Product Sales;;12883.0;Invoice INV-2203 - Tamarack Health
+2026-04-05;1400 Inventory;;5931.0;COGS - INV-2203
+2026-04-05;5000 Cost of Goods Sold;5931.0;;COGS - INV-2203
+2026-04-05;1100 Accounts Receivable;15525.0;;Invoice INV-2207 - Corliss Marine
+2026-04-05;4000 Product Sales;;15525.0;Invoice INV-2207 - Corliss Marine
+2026-04-05;1400 Inventory;;7109.0;COGS - INV-2207
+2026-04-05;5000 Cost of Goods Sold;7109.0;;COGS - INV-2207
+2026-04-06;1000 Cash;;8060.14;Payment on account - opening payables
+2026-04-06;2000 Accounts Payable;8060.14;;Payment on account - opening payables
+2026-04-06;1100 Accounts Receivable;22385.0;;Invoice INV-2206 - Corliss Marine
+2026-04-06;4000 Product Sales;;22385.0;Invoice INV-2206 - Corliss Marine
+2026-04-06;1400 Inventory;;9513.0;COGS - INV-2206
+2026-04-06;5000 Cost of Goods Sold;9513.0;;COGS - INV-2206
+2026-04-06;2000 Accounts Payable;;1079.0;BILL-3144 Junction Utility Co-op
+2026-04-06;6500 Utilities Expense;1079.0;;BILL-3144 Junction Utility Co-op
+2026-04-07;2000 Accounts Payable;;2603.0;BILL-3141 Pillar Accounting Services
+2026-04-07;6600 Professional Fees;2603.0;;BILL-3141 Pillar Accounting Services
+2026-04-09;2000 Accounts Payable;;499.0;BILL-3140 Junction Utility Co-op
+2026-04-09;6500 Utilities Expense;499.0;;BILL-3140 Junction Utility Co-op
+2026-04-12;1000 Cash;;2219.0;Pay BILL-3142 Delta Facility Services CHK#1003
+2026-04-12;2000 Accounts Payable;2219.0;;Pay BILL-3142 Delta Facility Services CHK#1003
+2026-04-12;1000 Cash;;1079.0;Pay BILL-3144 Junction Utility Co-op CHK#1004
+2026-04-12;2000 Accounts Payable;1079.0;;Pay BILL-3144 Junction Utility Co-op CHK#1004
+2026-04-15;1100 Accounts Receivable;12675.0;;Invoice INV-2208 - Brockman & Hale
+2026-04-15;4000 Product Sales;;12675.0;Invoice INV-2208 - Brockman & Hale
+2026-04-15;1400 Inventory;;6068.0;COGS - INV-2208
+2026-04-15;5000 Cost of Goods Sold;6068.0;;COGS - INV-2208
+2026-04-15;1000 Cash;;2603.0;Pay BILL-3141 Pillar Accounting Services CHK#1005
+2026-04-15;2000 Accounts Payable;2603.0;;Pay BILL-3141 Pillar Accounting Services CHK#1005
+2026-04-15;1000 Cash;;16122.0;Payroll 2026-04/01-04/15
+2026-04-15;2300 Payroll Liabilities;;4547.0;Payroll 2026-04/01-04/15
+2026-04-15;6000 Salaries Expense;20669.0;;Payroll 2026-04/01-04/15
+2026-04-17;1100 Accounts Receivable;16731.0;;Invoice INV-2209 - Quimby Ventures
+2026-04-17;4000 Product Sales;;16731.0;Invoice INV-2209 - Quimby Ventures
+2026-04-17;1400 Inventory;;9580.0;COGS - INV-2209
+2026-04-17;5000 Cost of Goods Sold;9580.0;;COGS - INV-2209
+2026-04-19;1100 Accounts Receivable;11938.0;;Invoice INV-2205 - Zephyr Dynamics
+2026-04-19;4000 Product Sales;;11938.0;Invoice INV-2205 - Zephyr Dynamics
+2026-04-19;1400 Inventory;;5942.0;COGS - INV-2205
+2026-04-19;5000 Cost of Goods Sold;5942.0;;COGS - INV-2205
+2026-04-20;2000 Accounts Payable;;4638.0;BILL-3143 Meridian Legal LLP
+2026-04-20;6600 Professional Fees;4638.0;;BILL-3143 Meridian Legal LLP
+2026-04-28;1000 Cash;15525.0;;Deposit - Corliss Marine INV-2207
+2026-04-28;1100 Accounts Receivable;;15525.0;Deposit - Corliss Marine INV-2207
+2026-04-28;1000 Cash;;16083.0;Payroll 2026-04/16-04/30
+2026-04-28;2300 Payroll Liabilities;;4536.0;Payroll 2026-04/16-04/30
+2026-04-28;6000 Salaries Expense;20619.0;;Payroll 2026-04/16-04/30
+2026-04-28;1300 Prepaid Insurance;;126.0;Monthly insurance amortization
+2026-04-28;6400 Insurance Expense;126.0;;Monthly insurance amortization
+2026-04-28;1590 Accumulated Depreciation;;1194.71;Monthly depreciation
+2026-04-28;6800 Depreciation Expense;1194.71;;Monthly depreciation
+2026-05-01;1000 Cash;9380.0;;Deposit - Brockman & Hale INV-2204
+2026-05-01;1100 Accounts Receivable;;9380.0;Deposit - Brockman & Hale INV-2204
+2026-05-03;1100 Accounts Receivable;19160.0;;Invoice INV-2216 - Quimby Ventures
+2026-05-03;4100 Shipping Income;;19160.0;Invoice INV-2216 - Quimby Ventures
+2026-05-03;1000 Cash;;5205.0;Rent - Grandview Properties LLC
+2026-05-03;6100 Rent Expense;5205.0;;Rent - Grandview Properties LLC
+2026-05-03;2000 Accounts Payable;;5098.0;BILL-3147 Meridian Legal LLP
+2026-05-03;6600 Professional Fees;5098.0;;BILL-3147 Meridian Legal LLP
+2026-05-04;1000 Cash;11938.0;;Deposit - Zephyr Dynamics INV-2205
+2026-05-04;1100 Accounts Receivable;;11938.0;Deposit - Zephyr Dynamics INV-2205
+2026-05-04;2000 Accounts Payable;;3279.0;BILL-3145 Trellis Marketing Group
+2026-05-04;6200 Advertising & Marketing;3279.0;;BILL-3145 Trellis Marketing Group
+2026-05-04;2000 Accounts Payable;;4154.0;BILL-3148 Willow Creek Packaging
+2026-05-04;5100 Freight & Shipping;4154.0;;BILL-3148 Willow Creek Packaging
+2026-05-06;1000 Cash;16731.0;;Deposit - Quimby Ventures INV-2209
+2026-05-06;1100 Accounts Receivable;;16731.0;Deposit - Quimby Ventures INV-2209
+2026-05-09;1100 Accounts Receivable;16113.0;;Invoice INV-2211 - Longmont Systems
+2026-05-09;4000 Product Sales;;16113.0;Invoice INV-2211 - Longmont Systems
+2026-05-09;1400 Inventory;;8880.0;COGS - INV-2211
+2026-05-09;5000 Cost of Goods Sold;8880.0;;COGS - INV-2211
+2026-05-09;1000 Cash;;3279.0;Pay BILL-3145 Trellis Marketing Group CHK#1008
+2026-05-09;2000 Accounts Payable;3279.0;;Pay BILL-3145 Trellis Marketing Group CHK#1008
+2026-05-10;1000 Cash;;5098.0;Pay BILL-3147 Meridian Legal LLP CHK#1007
+2026-05-10;2000 Accounts Payable;5098.0;;Pay BILL-3147 Meridian Legal LLP CHK#1007
+2026-05-10;1000 Cash;;4154.0;Pay BILL-3148 Willow Creek Packaging CHK#1009
+2026-05-10;2000 Accounts Payable;4154.0;;Pay BILL-3148 Willow Creek Packaging CHK#1009
+2026-05-13;1000 Cash;12883.0;;Deposit - Tamarack Health INV-2203
+2026-05-13;1100 Accounts Receivable;;12883.0;Deposit - Tamarack Health INV-2203
+2026-05-15;1100 Accounts Receivable;22241.0;;Invoice INV-2214 - Tamarack Health
+2026-05-15;4100 Shipping Income;;22241.0;Invoice INV-2214 - Tamarack Health
+2026-05-15;1000 Cash;;17763.0;Payroll 2026-05/01-05/15
+2026-05-15;2300 Payroll Liabilities;;5009.0;Payroll 2026-05/01-05/15
+2026-05-15;6000 Salaries Expense;22772.0;;Payroll 2026-05/01-05/15
+2026-05-16;1000 Cash;22385.0;;Deposit - Corliss Marine INV-2206
+2026-05-16;1100 Accounts Receivable;;22385.0;Deposit - Corliss Marine INV-2206
+2026-05-18;1000 Cash;12675.0;;Deposit - Brockman & Hale INV-2208
+2026-05-18;1100 Accounts Receivable;;12675.0;Deposit - Brockman & Hale INV-2208
+2026-05-18;1100 Accounts Receivable;16647.0;;Invoice INV-2210 - Pinehurst Digital
+2026-05-18;4100 Shipping Income;;16647.0;Invoice INV-2210 - Pinehurst Digital
+2026-05-18;2000 Accounts Payable;;2411.0;BILL-3146 CloudSpan Hosting
+2026-05-18;6450 Software Expense;2411.0;;BILL-3146 CloudSpan Hosting
+2026-05-22;1100 Accounts Receivable;22094.0;;Invoice INV-2215 - Pinehurst Digital
+2026-05-22;4000 Product Sales;;22094.0;Invoice INV-2215 - Pinehurst Digital
+2026-05-22;1400 Inventory;;11203.0;COGS - INV-2215
+2026-05-22;5000 Cost of Goods Sold;11203.0;;COGS - INV-2215
+2026-05-23;1100 Accounts Receivable;4347.0;;Invoice INV-2212 - Ferrell Industries
+2026-05-23;4000 Product Sales;;4347.0;Invoice INV-2212 - Ferrell Industries
+2026-05-23;1400 Inventory;;1986.0;COGS - INV-2212
+2026-05-23;5000 Cost of Goods Sold;1986.0;;COGS - INV-2212
+2026-05-24;1100 Accounts Receivable;9732.0;;Invoice INV-2213 - Quimby Ventures
+2026-05-24;4100 Shipping Income;;9732.0;Invoice INV-2213 - Quimby Ventures
+2026-05-27;1000 Cash;16113.0;;Deposit - Longmont Systems INV-2211
+2026-05-27;1100 Accounts Receivable;;16113.0;Deposit - Longmont Systems INV-2211
+2026-05-28;1000 Cash;;17919.0;Payroll 2026-05/16-05/30
+2026-05-28;2300 Payroll Liabilities;;5053.0;Payroll 2026-05/16-05/30
+2026-05-28;6000 Salaries Expense;22972.0;;Payroll 2026-05/16-05/30
+2026-05-28;1300 Prepaid Insurance;;126.0;Monthly insurance amortization
+2026-05-28;6400 Insurance Expense;126.0;;Monthly insurance amortization
+2026-05-28;1590 Accumulated Depreciation;;1194.71;Monthly depreciation
+2026-05-28;6800 Depreciation Expense;1194.71;;Monthly depreciation
+2026-06-01;1000 Cash;19160.0;;Deposit - Quimby Ventures INV-2216
+2026-06-01;1100 Accounts Receivable;;19160.0;Deposit - Quimby Ventures INV-2216
+2026-06-02;2000 Accounts Payable;;1117.0;BILL-3149 Ridgeline Telecom
+2026-06-02;6500 Utilities Expense;1117.0;;BILL-3149 Ridgeline Telecom
+2026-06-03;1000 Cash;;5205.0;Rent - Grandview Properties LLC
+2026-06-03;6100 Rent Expense;5205.0;;Rent - Grandview Properties LLC
+2026-06-03;2000 Accounts Payable;;3814.0;BILL-3152 Bright Harbor Media
+2026-06-03;6200 Advertising & Marketing;3814.0;;BILL-3152 Bright Harbor Media
+2026-06-04;2000 Accounts Payable;;7660.63;BILL-3155 Kite Digital Ads
+2026-06-04;6200 Advertising & Marketing;7660.63;;BILL-3155 Kite Digital Ads
+2026-06-05;1100 Accounts Receivable;6388.0;;Invoice INV-2219 - Longmont Systems
+2026-06-05;4000 Product Sales;;6388.0;Invoice INV-2219 - Longmont Systems
+2026-06-05;1400 Inventory;;3596.0;COGS - INV-2219
+2026-06-05;5000 Cost of Goods Sold;3596.0;;COGS - INV-2219
+2026-06-05;2000 Accounts Payable;;5433.0;BILL-3150 Pillar Accounting Services
+2026-06-05;6600 Professional Fees;5433.0;;BILL-3150 Pillar Accounting Services
+2026-06-05;2000 Accounts Payable;;5050.55;BILL-3154 Pillar Accounting Services
+2026-06-05;6600 Professional Fees;5050.55;;BILL-3154 Pillar Accounting Services
+2026-06-05;1000 Cash;;372.0;Prepaid software - 12 month license (Orchard Software Ltd.)
+2026-06-05;1310 Prepaid Software;372.0;;Prepaid software - 12 month license (Orchard Software Ltd.)
+2026-06-06;1100 Accounts Receivable;6559.0;;Invoice INV-2221 - Brockman & Hale
+2026-06-06;4000 Product Sales;;6559.0;Invoice INV-2221 - Brockman & Hale
+2026-06-06;1400 Inventory;;3497.0;COGS - INV-2221
+2026-06-06;5000 Cost of Goods Sold;3497.0;;COGS - INV-2221
+2026-06-10;1000 Cash;;5050.55;Pay BILL-3154 Pillar Accounting Services CHK#1015
+2026-06-10;2000 Accounts Payable;5050.55;;Pay BILL-3154 Pillar Accounting Services CHK#1015
+2026-06-11;1100 Accounts Receivable;4906.0;;Invoice INV-2222 - Zephyr Dynamics
+2026-06-11;4000 Product Sales;;4906.0;Invoice INV-2222 - Zephyr Dynamics
+2026-06-11;1400 Inventory;;2312.0;COGS - INV-2222
+2026-06-11;5000 Cost of Goods Sold;2312.0;;COGS - INV-2222
+2026-06-11;1000 Cash;;1117.0;Pay BILL-3149 Ridgeline Telecom CHK#1011
+2026-06-11;2000 Accounts Payable;1117.0;;Pay BILL-3149 Ridgeline Telecom CHK#1011
+2026-06-11;1000 Cash;;3814.0;Pay BILL-3152 Bright Harbor Media CHK#1012
+2026-06-11;2000 Accounts Payable;3814.0;;Pay BILL-3152 Bright Harbor Media CHK#1012
+2026-06-12;1100 Accounts Receivable;11922.0;;Invoice INV-2217 - Brockman & Hale
+2026-06-12;4000 Product Sales;;11922.0;Invoice INV-2217 - Brockman & Hale
+2026-06-12;1400 Inventory;;6437.0;COGS - INV-2217
+2026-06-12;5000 Cost of Goods Sold;6437.0;;COGS - INV-2217
+2026-06-12;1000 Cash;;7660.63;Pay BILL-3155 Kite Digital Ads CHK#1013
+2026-06-12;2000 Accounts Payable;7660.63;;Pay BILL-3155 Kite Digital Ads CHK#1013
+2026-06-12;1000 Cash;;5433.0;Pay BILL-3150 Pillar Accounting Services CHK#1014
+2026-06-12;2000 Accounts Payable;5433.0;;Pay BILL-3150 Pillar Accounting Services CHK#1014
+2026-06-12;2000 Accounts Payable;;1602.0;BILL-3157 Kite Digital Ads
+2026-06-12;6700 Office Supplies;1602.0;;BILL-3157 Kite Digital Ads
+2026-06-12;1000 Cash;18594.0;;Owner capital contribution
+2026-06-12;3000 Retained Earnings;;18594.0;Owner capital contribution
+2026-06-13;2000 Accounts Payable;;774.0;BILL-3151 Kite Digital Ads
+2026-06-13;6200 Advertising & Marketing;774.0;;BILL-3151 Kite Digital Ads
+2026-06-14;1100 Accounts Receivable;17287.0;;Invoice INV-2218 - Longmont Systems
+2026-06-14;4100 Shipping Income;;17287.0;Invoice INV-2218 - Longmont Systems
+2026-06-15;1000 Cash;;19723.0;Payroll 2026-06/01-06/15
+2026-06-15;2300 Payroll Liabilities;;5562.0;Payroll 2026-06/01-06/15
+2026-06-15;6000 Salaries Expense;25285.0;;Payroll 2026-06/01-06/15
+2026-06-17;1000 Cash;22241.0;;Deposit - Tamarack Health INV-2214
+2026-06-17;1100 Accounts Receivable;;22241.0;Deposit - Tamarack Health INV-2214
+2026-06-17;1100 Accounts Receivable;19585.0;;Invoice INV-2223 - Corliss Marine
+2026-06-17;4000 Product Sales;;19585.0;Invoice INV-2223 - Corliss Marine
+2026-06-17;1400 Inventory;;10204.0;COGS - INV-2223
+2026-06-17;5000 Cost of Goods Sold;10204.0;;COGS - INV-2223
+2026-06-17;2000 Accounts Payable;;6423.52;BILL-3156 Willow Creek Packaging
+2026-06-17;5100 Freight & Shipping;6423.52;;BILL-3156 Willow Creek Packaging
+2026-06-18;1000 Cash;6388.0;;Deposit - Longmont Systems INV-2219
+2026-06-18;1100 Accounts Receivable;;6388.0;Deposit - Longmont Systems INV-2219
+2026-06-18;2000 Accounts Payable;;2393.0;BILL-3153 Bright Harbor Media
+2026-06-18;6200 Advertising & Marketing;2393.0;;BILL-3153 Bright Harbor Media
+2026-06-19;1000 Cash;;774.0;Pay BILL-3151 Kite Digital Ads CHK#1017
+2026-06-19;2000 Accounts Payable;774.0;;Pay BILL-3151 Kite Digital Ads CHK#1017
+2026-06-20;1000 Cash;9732.0;;Deposit - Quimby Ventures INV-2213
+2026-06-20;1100 Accounts Receivable;;9732.0;Deposit - Quimby Ventures INV-2213
+2026-06-20;1100 Accounts Receivable;4318.0;;Invoice INV-2220 - Quimby Ventures
+2026-06-20;4000 Product Sales;;4318.0;Invoice INV-2220 - Quimby Ventures
+2026-06-20;1400 Inventory;;2053.0;COGS - INV-2220
+2026-06-20;5000 Cost of Goods Sold;2053.0;;COGS - INV-2220
+2026-06-20;1000 Cash;;1602.0;Pay BILL-3157 Kite Digital Ads CHK#1016
+2026-06-20;2000 Accounts Payable;1602.0;;Pay BILL-3157 Kite Digital Ads CHK#1016
+2026-06-21;1000 Cash;16647.0;;Deposit - Pinehurst Digital INV-2210
+2026-06-21;1100 Accounts Receivable;;16647.0;Deposit - Pinehurst Digital INV-2210
+2026-06-23;1000 Cash;4347.0;;Deposit - Ferrell Industries INV-2212
+2026-06-23;1100 Accounts Receivable;;4347.0;Deposit - Ferrell Industries INV-2212
+2026-06-25;1000 Cash;;6423.52;Pay BILL-3156 Willow Creek Packaging CHK#1018
+2026-06-25;2000 Accounts Payable;6423.52;;Pay BILL-3156 Willow Creek Packaging CHK#1018

@@ -1,0 +1,62 @@
+{
+ "entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6400 Insurance Expense",
+     "credit": 0,
+     "debit": 113.0
+    },
+    {
+     "account": "1300 Prepaid Insurance",
+     "credit": 113.0,
+     "debit": 0
+    },
+    {
+     "account": "6450 Software Expense",
+     "credit": 0,
+     "debit": 88.0
+    },
+    {
+     "account": "1310 Prepaid Software",
+     "credit": 88.0,
+     "debit": 0
+    }
+   ],
+   "memo": "June prepaid amortization"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6200 Advertising & Marketing",
+     "credit": 0,
+     "debit": 4864.0
+    },
+    {
+     "account": "6700 Office Supplies",
+     "credit": 4864.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Reclass BILL-3149 (Kite Digital Ads) to correct account"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6800 Depreciation Expense",
+     "credit": 0,
+     "debit": 1790.51
+    },
+    {
+     "account": "1590 Accumulated Depreciation",
+     "credit": 1790.51,
+     "debit": 0
+    }
+   ],
+   "memo": "June depreciation"
+  }
+ ]
+}

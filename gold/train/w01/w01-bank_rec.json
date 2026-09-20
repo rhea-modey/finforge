@@ -1,0 +1,137 @@
+{
+ "adjusted_balance": 152509.65,
+ "bank_statement_ending_balance": 168520.85,
+ "gl_cash_ending_balance": 152751.25,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6600 Professional Fees",
+     "credit": 0,
+     "debit": 180.0
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 180.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Correct transposition on CHK-1012"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 41.25
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 41.25,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 57.04
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 57.04,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 36.69
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 36.69,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 14840.2,
+   "date": "2026-06-10",
+   "description": "Check to Bright Harbor Media not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1008",
+   "side": "bank"
+  },
+  {
+   "amount": 5631.0,
+   "date": "2026-06-23",
+   "description": "Check to Meridian Legal LLP not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1013",
+   "side": "bank"
+  },
+  {
+   "amount": 7277.0,
+   "date": "2026-06-13",
+   "description": "Check to Clearbyte Cloud Services not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1011",
+   "side": "bank"
+  },
+  {
+   "amount": 180.0,
+   "date": "2026-06-30",
+   "description": "GL posted check at transposed amount (3020.0 vs bank 3200.0)",
+   "kind": "gl_error",
+   "ref": "CHK-1012",
+   "side": "book"
+  },
+  {
+   "amount": 11737.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT GLENROCK SOLUTIONS INV-2236",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 41.25,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 57.04,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 36.69,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

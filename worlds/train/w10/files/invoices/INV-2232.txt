@@ -1,0 +1,15 @@
+Wildwood Supply Co.
+Order Fulfillment
+
+INVOICE INV-2232
+Date: 2026-04-24
+
+Customer account:
+Pinehurst Digital
+
+Line item:
+Merchandise handling and supply fulfillment for the current service period
+
+Amount due: $14,431.00
+
+Terms: Net 30. Please cite the invoice identifier on remittance.

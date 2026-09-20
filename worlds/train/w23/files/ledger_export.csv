@@ -1,0 +1,206 @@
+posting_date,account,debit,credit,Memo
+01-Apr-2026,1000 Cash,119944.86,,Opening balances
+01-Apr-2026,1300 Prepaid Insurance,1341.0,,Opening balances
+01-Apr-2026,1400 Inventory,40540.03,,Opening balances
+01-Apr-2026,1500 Equipment,169530.0,,Opening balances
+01-Apr-2026,1590 Accumulated Depreciation,,45208.0,Opening balances
+01-Apr-2026,2000 Accounts Payable,,18962.68,Opening balances
+01-Apr-2026,3000 Retained Earnings,,267185.21,Opening balances
+03-Apr-2026,1000 Cash,,6740.0,Rent - Grandview Properties LLC
+03-Apr-2026,6100 Rent Expense,6740.0,,Rent - Grandview Properties LLC
+04-Apr-2026,1100 Accounts Receivable,16969.0,,Invoice INV-2232 - Jasper Analytics
+04-Apr-2026,4000 Wholesale Sales,,16969.0,Invoice INV-2232 - Jasper Analytics
+04-Apr-2026,1400 Inventory,,9435.0,COGS - INV-2232
+04-Apr-2026,5000 Cost of Goods Sold,9435.0,,COGS - INV-2232
+06-Apr-2026,1000 Cash,,9481.34,Payment on account - opening payables
+06-Apr-2026,2000 Accounts Payable,9481.34,,Payment on account - opening payables
+07-Apr-2026,1100 Accounts Receivable,17181.0,,Invoice INV-2234 - Crestline Partners
+07-Apr-2026,4000 Wholesale Sales,,17181.0,Invoice INV-2234 - Crestline Partners
+07-Apr-2026,1400 Inventory,,7290.0,COGS - INV-2234
+07-Apr-2026,5000 Cost of Goods Sold,7290.0,,COGS - INV-2234
+10-Apr-2026,2000 Accounts Payable,,4593.0,BILL-3129 Trellis Marketing Group
+10-Apr-2026,6200 Advertising & Marketing,4593.0,,BILL-3129 Trellis Marketing Group
+11-Apr-2026,2000 Accounts Payable,,3336.0,BILL-3132 Trellis Marketing Group
+11-Apr-2026,6200 Advertising & Marketing,3336.0,,BILL-3132 Trellis Marketing Group
+12-Apr-2026,2000 Accounts Payable,,2764.0,BILL-3130 Pillar Accounting Services
+12-Apr-2026,6600 Professional Fees,2764.0,,BILL-3130 Pillar Accounting Services
+13-Apr-2026,1100 Accounts Receivable,11394.0,,Invoice INV-2230 - Longmont Systems
+13-Apr-2026,4100 Delivery Fees,,11394.0,Invoice INV-2230 - Longmont Systems
+13-Apr-2026,1100 Accounts Receivable,24753.0,,Invoice INV-2233 - Underhill Logistics
+13-Apr-2026,4000 Wholesale Sales,,24753.0,Invoice INV-2233 - Underhill Logistics
+13-Apr-2026,1400 Inventory,,11425.0,COGS - INV-2233
+13-Apr-2026,5000 Cost of Goods Sold,11425.0,,COGS - INV-2233
+14-Apr-2026,2000 Accounts Payable,,3792.0,BILL-3134 CloudSpan Hosting
+14-Apr-2026,6450 Software Expense,3792.0,,BILL-3134 CloudSpan Hosting
+15-Apr-2026,1000 Cash,,19163.0,Payroll 2026-04/01-04/15
+15-Apr-2026,2300 Payroll Liabilities,,5404.0,Payroll 2026-04/01-04/15
+15-Apr-2026,6000 Salaries Expense,24567.0,,Payroll 2026-04/01-04/15
+17-Apr-2026,2000 Accounts Payable,,3714.0,BILL-3131 Bright Harbor Media
+17-Apr-2026,6200 Advertising & Marketing,3714.0,,BILL-3131 Bright Harbor Media
+18-Apr-2026,1000 Cash,,3792.0,Pay BILL-3134 CloudSpan Hosting CHK#1005
+18-Apr-2026,2000 Accounts Payable,3792.0,,Pay BILL-3134 CloudSpan Hosting CHK#1005
+19-Apr-2026,1000 Cash,,4593.0,Pay BILL-3129 Trellis Marketing Group CHK#1003
+19-Apr-2026,2000 Accounts Payable,4593.0,,Pay BILL-3129 Trellis Marketing Group CHK#1003
+20-Apr-2026,1000 Cash,,3336.0,Pay BILL-3132 Trellis Marketing Group CHK#1004
+20-Apr-2026,2000 Accounts Payable,3336.0,,Pay BILL-3132 Trellis Marketing Group CHK#1004
+20-Apr-2026,2000 Accounts Payable,,4657.0,BILL-3133 Zenith Freight Lines
+20-Apr-2026,5100 Freight & Shipping,4657.0,,BILL-3133 Zenith Freight Lines
+21-Apr-2026,1100 Accounts Receivable,7549.0,,Invoice INV-2231 - Jasper Analytics
+21-Apr-2026,4000 Wholesale Sales,,7549.0,Invoice INV-2231 - Jasper Analytics
+21-Apr-2026,1400 Inventory,,4344.0,COGS - INV-2231
+21-Apr-2026,5000 Cost of Goods Sold,4344.0,,COGS - INV-2231
+21-Apr-2026,1000 Cash,16969.0,,Deposit - Jasper Analytics INV-2232
+21-Apr-2026,1100 Accounts Receivable,,16969.0,Deposit - Jasper Analytics INV-2232
+21-Apr-2026,1000 Cash,,3714.0,Pay BILL-3131 Bright Harbor Media CHK#1006
+21-Apr-2026,2000 Accounts Payable,3714.0,,Pay BILL-3131 Bright Harbor Media CHK#1006
+25-Apr-2026,1000 Cash,,4657.0,Pay BILL-3133 Zenith Freight Lines CHK#1007
+25-Apr-2026,2000 Accounts Payable,4657.0,,Pay BILL-3133 Zenith Freight Lines CHK#1007
+27-Apr-2026,1000 Cash,17181.0,,Deposit - Crestline Partners INV-2234
+27-Apr-2026,1100 Accounts Receivable,,17181.0,Deposit - Crestline Partners INV-2234
+28-Apr-2026,1000 Cash,,19155.0,Payroll 2026-04/16-04/30
+28-Apr-2026,2300 Payroll Liabilities,,5402.0,Payroll 2026-04/16-04/30
+28-Apr-2026,6000 Salaries Expense,24557.0,,Payroll 2026-04/16-04/30
+28-Apr-2026,1300 Prepaid Insurance,,149.0,Monthly insurance amortization
+28-Apr-2026,6400 Insurance Expense,149.0,,Monthly insurance amortization
+28-Apr-2026,1590 Accumulated Depreciation,,2825.5,Monthly depreciation
+28-Apr-2026,6800 Depreciation Expense,2825.5,,Monthly depreciation
+02-May-2026,1100 Accounts Receivable,9468.0,,Invoice INV-2236 - Vesper Technologies
+02-May-2026,4100 Delivery Fees,,9468.0,Invoice INV-2236 - Vesper Technologies
+03-May-2026,1000 Cash,,6740.0,Rent - Grandview Properties LLC
+03-May-2026,6100 Rent Expense,6740.0,,Rent - Grandview Properties LLC
+05-May-2026,1100 Accounts Receivable,14930.0,,Invoice INV-2237 - Marlowe & Finch
+05-May-2026,4100 Delivery Fees,,14930.0,Invoice INV-2237 - Marlowe & Finch
+05-May-2026,1100 Accounts Receivable,25514.0,,Invoice INV-2240 - Longmont Systems
+05-May-2026,4000 Wholesale Sales,,25514.0,Invoice INV-2240 - Longmont Systems
+05-May-2026,1400 Inventory,,12746.0,COGS - INV-2240
+05-May-2026,5000 Cost of Goods Sold,12746.0,,COGS - INV-2240
+09-May-2026,1000 Cash,7549.0,,Deposit - Jasper Analytics INV-2231
+09-May-2026,1100 Accounts Receivable,,7549.0,Deposit - Jasper Analytics INV-2231
+09-May-2026,1100 Accounts Receivable,24384.0,,Invoice INV-2235 - Longmont Systems
+09-May-2026,4000 Wholesale Sales,,24384.0,Invoice INV-2235 - Longmont Systems
+09-May-2026,1400 Inventory,,12252.0,COGS - INV-2235
+09-May-2026,5000 Cost of Goods Sold,12252.0,,COGS - INV-2235
+11-May-2026,2000 Accounts Payable,,3471.0,BILL-3140 Helix IT Solutions
+11-May-2026,6450 Software Expense,3471.0,,BILL-3140 Helix IT Solutions
+14-May-2026,1000 Cash,11394.0,,Deposit - Longmont Systems INV-2230
+14-May-2026,1100 Accounts Receivable,,11394.0,Deposit - Longmont Systems INV-2230
+15-May-2026,1000 Cash,,30706.0,Payroll 2026-05/01-05/15
+15-May-2026,2300 Payroll Liabilities,,8660.0,Payroll 2026-05/01-05/15
+15-May-2026,6000 Salaries Expense,39366.0,,Payroll 2026-05/01-05/15
+16-May-2026,1100 Accounts Receivable,23700.0,,Invoice INV-2239 - Marlowe & Finch
+16-May-2026,4100 Delivery Fees,,23700.0,Invoice INV-2239 - Marlowe & Finch
+16-May-2026,2000 Accounts Payable,,598.0,BILL-3135 Quicksilver Couriers
+16-May-2026,5100 Freight & Shipping,598.0,,BILL-3135 Quicksilver Couriers
+17-May-2026,2000 Accounts Payable,,2409.0,BILL-3138 Helix IT Solutions
+17-May-2026,6450 Software Expense,2409.0,,BILL-3138 Helix IT Solutions
+18-May-2026,2000 Accounts Payable,,5735.0,BILL-3136 Junction Utility Co-op
+18-May-2026,6500 Utilities Expense,5735.0,,BILL-3136 Junction Utility Co-op
+20-May-2026,1000 Cash,24753.0,,Deposit - Underhill Logistics INV-2233
+20-May-2026,1100 Accounts Receivable,,24753.0,Deposit - Underhill Logistics INV-2233
+20-May-2026,2000 Accounts Payable,,1761.0,BILL-3137 Inkwell Print Co.
+20-May-2026,6700 Office Supplies,1761.0,,BILL-3137 Inkwell Print Co.
+20-May-2026,2000 Accounts Payable,,4781.0,BILL-3139 Ridgeline Telecom
+20-May-2026,6500 Utilities Expense,4781.0,,BILL-3139 Ridgeline Telecom
+21-May-2026,1100 Accounts Receivable,4771.0,,Invoice INV-2238 - Aldergate Insurance
+21-May-2026,4100 Delivery Fees,,4771.0,Invoice INV-2238 - Aldergate Insurance
+22-May-2026,1000 Cash,,2409.0,Pay BILL-3138 Helix IT Solutions CHK#1009
+22-May-2026,2000 Accounts Payable,2409.0,,Pay BILL-3138 Helix IT Solutions CHK#1009
+24-May-2026,1000 Cash,,5735.0,Pay BILL-3136 Junction Utility Co-op CHK#1010
+24-May-2026,2000 Accounts Payable,5735.0,,Pay BILL-3136 Junction Utility Co-op CHK#1010
+24-May-2026,1000 Cash,,4781.0,Pay BILL-3139 Ridgeline Telecom CHK#1011
+24-May-2026,2000 Accounts Payable,4781.0,,Pay BILL-3139 Ridgeline Telecom CHK#1011
+25-May-2026,1000 Cash,14930.0,,Deposit - Marlowe & Finch INV-2237
+25-May-2026,1100 Accounts Receivable,,14930.0,Deposit - Marlowe & Finch INV-2237
+28-May-2026,1000 Cash,,30667.0,Payroll 2026-05/16-05/30
+28-May-2026,2300 Payroll Liabilities,,8649.0,Payroll 2026-05/16-05/30
+28-May-2026,6000 Salaries Expense,39316.0,,Payroll 2026-05/16-05/30
+28-May-2026,1300 Prepaid Insurance,,149.0,Monthly insurance amortization
+28-May-2026,6400 Insurance Expense,149.0,,Monthly insurance amortization
+28-May-2026,1590 Accumulated Depreciation,,2825.5,Monthly depreciation
+28-May-2026,6800 Depreciation Expense,2825.5,,Monthly depreciation
+03-Jun-2026,1000 Cash,,6740.0,Rent - Grandview Properties LLC
+03-Jun-2026,6100 Rent Expense,6740.0,,Rent - Grandview Properties LLC
+05-Jun-2026,1000 Cash,24384.0,,Deposit - Longmont Systems INV-2235
+05-Jun-2026,1100 Accounts Receivable,,24384.0,Deposit - Longmont Systems INV-2235
+05-Jun-2026,2000 Accounts Payable,,726.0,BILL-3146 CloudSpan Hosting
+05-Jun-2026,6450 Software Expense,726.0,,BILL-3146 CloudSpan Hosting
+05-Jun-2026,2000 Accounts Payable,,2777.0,BILL-3150 Trellis Marketing Group
+05-Jun-2026,6700 Office Supplies,2777.0,,BILL-3150 Trellis Marketing Group
+06-Jun-2026,1100 Accounts Receivable,8902.0,,Invoice INV-2247 - Jasper Analytics
+06-Jun-2026,4000 Wholesale Sales,,8902.0,Invoice INV-2247 - Jasper Analytics
+06-Jun-2026,1400 Inventory,,5077.0,COGS - INV-2247
+06-Jun-2026,5000 Cost of Goods Sold,5077.0,,COGS - INV-2247
+06-Jun-2026,2000 Accounts Payable,,7159.27,BILL-3148 Willow Creek Packaging
+06-Jun-2026,5100 Freight & Shipping,7159.27,,BILL-3148 Willow Creek Packaging
+08-Jun-2026,1000 Cash,9468.0,,Deposit - Vesper Technologies INV-2236
+08-Jun-2026,1100 Accounts Receivable,,9468.0,Deposit - Vesper Technologies INV-2236
+08-Jun-2026,1000 Cash,,726.0,Pay BILL-3146 CloudSpan Hosting CHK#1013
+08-Jun-2026,2000 Accounts Payable,726.0,,Pay BILL-3146 CloudSpan Hosting CHK#1013
+08-Jun-2026,2000 Accounts Payable,,2727.0,BILL-3143 Junction Utility Co-op
+08-Jun-2026,6500 Utilities Expense,2727.0,,BILL-3143 Junction Utility Co-op
+10-Jun-2026,1100 Accounts Receivable,21856.0,,Invoice INV-2245 - Eastgate Collective
+10-Jun-2026,4100 Delivery Fees,,21856.0,Invoice INV-2245 - Eastgate Collective
+11-Jun-2026,1000 Cash,,7159.27,Pay BILL-3148 Willow Creek Packaging CHK#1014
+11-Jun-2026,2000 Accounts Payable,7159.27,,Pay BILL-3148 Willow Creek Packaging CHK#1014
+12-Jun-2026,1100 Accounts Receivable,12385.0,,Invoice INV-2244 - Marlowe & Finch
+12-Jun-2026,4000 Wholesale Sales,,12385.0,Invoice INV-2244 - Marlowe & Finch
+12-Jun-2026,1400 Inventory,,6203.0,COGS - INV-2244
+12-Jun-2026,5000 Cost of Goods Sold,6203.0,,COGS - INV-2244
+12-Jun-2026,1000 Cash,17274.0,,Owner capital contribution
+12-Jun-2026,3000 Retained Earnings,,17274.0,Owner capital contribution
+13-Jun-2026,1100 Accounts Receivable,14720.0,,Invoice INV-2246 - Longmont Systems
+13-Jun-2026,4000 Wholesale Sales,,14720.0,Invoice INV-2246 - Longmont Systems
+13-Jun-2026,1400 Inventory,,7984.0,COGS - INV-2246
+13-Jun-2026,5000 Cost of Goods Sold,7984.0,,COGS - INV-2246
+14-Jun-2026,2000 Accounts Payable,,1978.0,BILL-3141 Delta Facility Services
+14-Jun-2026,6700 Office Supplies,1978.0,,BILL-3141 Delta Facility Services
+15-Jun-2026,1000 Cash,25514.0,,Deposit - Longmont Systems INV-2240
+15-Jun-2026,1100 Accounts Receivable,,25514.0,Deposit - Longmont Systems INV-2240
+15-Jun-2026,2000 Accounts Payable,,14908.31,BILL-3147 Kite Digital Ads
+15-Jun-2026,6200 Advertising & Marketing,14908.31,,BILL-3147 Kite Digital Ads
+15-Jun-2026,1000 Cash,,27437.0,Payroll 2026-06/01-06/15
+15-Jun-2026,2300 Payroll Liabilities,,7738.0,Payroll 2026-06/01-06/15
+15-Jun-2026,6000 Salaries Expense,35175.0,,Payroll 2026-06/01-06/15
+16-Jun-2026,1000 Cash,,2727.0,Pay BILL-3143 Junction Utility Co-op CHK#1015
+16-Jun-2026,2000 Accounts Payable,2727.0,,Pay BILL-3143 Junction Utility Co-op CHK#1015
+16-Jun-2026,2000 Accounts Payable,,5761.0,BILL-3144 Helix IT Solutions
+16-Jun-2026,6450 Software Expense,5761.0,,BILL-3144 Helix IT Solutions
+18-Jun-2026,1000 Cash,,14908.31,Pay BILL-3147 Kite Digital Ads CHK#1017
+18-Jun-2026,2000 Accounts Payable,14908.31,,Pay BILL-3147 Kite Digital Ads CHK#1017
+18-Jun-2026,2000 Accounts Payable,,13631.11,BILL-3149 Pillar Accounting Services
+18-Jun-2026,6600 Professional Fees,13631.11,,BILL-3149 Pillar Accounting Services
+20-Jun-2026,1000 Cash,23700.0,,Deposit - Marlowe & Finch INV-2239
+20-Jun-2026,1100 Accounts Receivable,,23700.0,Deposit - Marlowe & Finch INV-2239
+20-Jun-2026,1100 Accounts Receivable,18754.0,,Invoice INV-2243 - Longmont Systems
+20-Jun-2026,4000 Wholesale Sales,,18754.0,Invoice INV-2243 - Longmont Systems
+20-Jun-2026,1400 Inventory,,10604.0,COGS - INV-2243
+20-Jun-2026,5000 Cost of Goods Sold,10604.0,,COGS - INV-2243
+21-Jun-2026,1000 Cash,,1978.0,Pay BILL-3141 Delta Facility Services CHK#1016
+21-Jun-2026,2000 Accounts Payable,1978.0,,Pay BILL-3141 Delta Facility Services CHK#1016
+21-Jun-2026,2000 Accounts Payable,,2883.0,BILL-3145 Trellis Marketing Group
+21-Jun-2026,6200 Advertising & Marketing,2883.0,,BILL-3145 Trellis Marketing Group
+22-Jun-2026,1100 Accounts Receivable,22038.0,,Invoice INV-2241 - Eastgate Collective
+22-Jun-2026,4000 Wholesale Sales,,22038.0,Invoice INV-2241 - Eastgate Collective
+22-Jun-2026,1400 Inventory,,9257.0,COGS - INV-2241
+22-Jun-2026,5000 Cost of Goods Sold,9257.0,,COGS - INV-2241
+22-Jun-2026,1000 Cash,,13631.11,Pay BILL-3149 Pillar Accounting Services CHK#1019
+22-Jun-2026,2000 Accounts Payable,13631.11,,Pay BILL-3149 Pillar Accounting Services CHK#1019
+22-Jun-2026,2000 Accounts Payable,,1581.0,BILL-3142 Pillar Accounting Services
+22-Jun-2026,6600 Professional Fees,1581.0,,BILL-3142 Pillar Accounting Services
+23-Jun-2026,1100 Accounts Receivable,11081.0,,Invoice INV-2242 - Underhill Logistics
+23-Jun-2026,4000 Wholesale Sales,,11081.0,Invoice INV-2242 - Underhill Logistics
+23-Jun-2026,1400 Inventory,,6078.0,COGS - INV-2242
+23-Jun-2026,5000 Cost of Goods Sold,6078.0,,COGS - INV-2242
+24-Jun-2026,1000 Cash,12385.0,,Deposit - Marlowe & Finch INV-2244
+24-Jun-2026,1100 Accounts Receivable,,12385.0,Deposit - Marlowe & Finch INV-2244
+24-Jun-2026,1000 Cash,,2883.0,Pay BILL-3145 Trellis Marketing Group CHK#1020
+24-Jun-2026,2000 Accounts Payable,2883.0,,Pay BILL-3145 Trellis Marketing Group CHK#1020
+25-Jun-2026,1000 Cash,,5761.0,Pay BILL-3144 Helix IT Solutions CHK#1018
+25-Jun-2026,2000 Accounts Payable,5761.0,,Pay BILL-3144 Helix IT Solutions CHK#1018
+27-Jun-2026,1000 Cash,4771.0,,Deposit - Aldergate Insurance INV-2238
+27-Jun-2026,1100 Accounts Receivable,,4771.0,Deposit - Aldergate Insurance INV-2238
+27-Jun-2026,1000 Cash,14720.0,,Deposit - Longmont Systems INV-2246
+27-Jun-2026,1100 Accounts Receivable,,14720.0,Deposit - Longmont Systems INV-2246
+28-Jun-2026,1000 Cash,,27343.0,Payroll 2026-06/16-06/30
+28-Jun-2026,2300 Payroll Liabilities,,7712.0,Payroll 2026-06/16-06/30
+28-Jun-2026,6000 Salaries Expense,35055.0,,Payroll 2026-06/16-06/30

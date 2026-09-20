@@ -1,0 +1,89 @@
+{
+ "adjusted_balance": 162295.1,
+ "bank_statement_ending_balance": 135203.1,
+ "gl_cash_ending_balance": 162086.87,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 270.0
+    },
+    {
+     "account": "6500 Utilities Expense",
+     "credit": 270.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Correct transposition on CHK-1013"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 61.77
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 61.77,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 6759.0,
+   "date": "2026-06-28",
+   "description": "Check to Willow Creek Packaging not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1015",
+   "side": "bank"
+  },
+  {
+   "amount": 8729.0,
+   "date": "2026-06-10",
+   "description": "Check to Pillar Accounting Services not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1011",
+   "side": "bank"
+  },
+  {
+   "amount": 270.0,
+   "date": "2026-06-30",
+   "description": "GL posted check at transposed amount (8523.0 vs bank 8253.0)",
+   "kind": "gl_error",
+   "ref": "CHK-1013",
+   "side": "book"
+  },
+  {
+   "amount": 27466.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT YARDLEY SUPP INV-2237",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 15114.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT YARDLEY SUPPLY INV-2231",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 61.77,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

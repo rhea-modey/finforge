@@ -1,0 +1,14 @@
+MERIDIAN BASKET INC.
+Meridian Basket Inc.
+Commercial Invoice
+
+INV-2205
+Bill to: Underhill Logistics
+Date: 2026-04-15
+
+Line item: Ecommerce merchandise supplied for the current billing period.
+
+Amount due: $21,006.00
+
+Terms: Payment due under agreed customer terms.
+Remit: Reference INV-2205 when submitting payment.

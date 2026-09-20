@@ -1,0 +1,45 @@
+{
+ "journal_entry": {
+  "date": "2026-06-30",
+  "lines": [
+   {
+    "account": "6400 Insurance Expense",
+    "credit": 0,
+    "debit": 98.0
+   },
+   {
+    "account": "1300 Prepaid Insurance",
+    "credit": 98.0,
+    "debit": 0
+   },
+   {
+    "account": "6450 Software Expense",
+    "credit": 0,
+    "debit": 73.0
+   },
+   {
+    "account": "1310 Prepaid Software",
+    "credit": 73.0,
+    "debit": 0
+   }
+  ],
+  "memo": "June prepaid amortization"
+ },
+ "journal_entry_status": "to_book",
+ "schedule": [
+  {
+   "additions": 0.0,
+   "amortization": 98.0,
+   "closing_balance": 588.0,
+   "item": "Copperfield Risk Partners annual policy",
+   "opening_balance": 686.0
+  },
+  {
+   "additions": 876.0,
+   "amortization": 73.0,
+   "closing_balance": 803.0,
+   "item": "Prepaid software - 12 month license (Lattice Desk Software)",
+   "opening_balance": 0.0
+  }
+ ]
+}

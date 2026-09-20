@@ -1,0 +1,16 @@
+ZENITH FREIGHT LINES
+Zenith Freight Lines
+Freight Handling & Delivery
+
+FREIGHT BILL
+BILL-3135
+Date: 2026-04-19
+
+Bill to:
+Ironline Distributors Inc.
+
+Line item: Freight and shipping service for the current service period.
+
+Amount: $7,454.00
+
+Remit/terms: Payment due upon receipt; identify the document id with payment.

@@ -1,0 +1,49 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 206802.16,
+    "gold": 206802.16,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 193488.62,
+    "gold": 193488.62,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 6/30 AP aging totals $22,626.00, while the trial balance reports Accounts Payable of $61,758.46. The $39,132.46 difference is the unpaid portion of opening payables, but no vendor-level aging detail is provided for it. This does not prevent completion of the four requested tasks.",
+    "severity": "medium"
+   },
+   {
+    "description": "BILL-3146 is $4,709.00 in bills/BILL-3146.txt and cleared the bank for $4,709.00, but the GL records both the bill and payment as $4,790.00. The authoritative bill and corroborating bank amount make the required $81.00 book correction determinable.",
+    "severity": "low"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w15-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance and software contracts define the prepaid population, opening balances, additions, and monthly amortization. The GL confirms that June amortization has not yet been booked.",
+    "solvable": true
+   },
+   "w15-bank_rec": {
+    "reason": "The statement and GL provide sufficient detail to identify the deposit in transit, outstanding checks, unrecorded bank fee, and $81.00 BILL-3146 book error, producing a unique adjusted cash balance.",
+    "solvable": true
+   },
+   "w15-journal_entries": {
+    "reason": "The GL, payroll register, prepaid support, fixed asset register, and vendor bills establish the required prepaid amortization, depreciation, and expense reclassification entries. The payroll register shows no required June payroll accrual, and cash corrections are explicitly excluded.",
+    "solvable": true
+   },
+   "w15-variance_analysis": {
+    "reason": "June actuals can be derived from the GL after the supported close entries, and the material one-off advertising and freight variances are supported by identified vendor bills. Selection of material gaps requires ordinary professional judgment but is not precluded by missing information.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

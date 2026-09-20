@@ -1,0 +1,234 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Patient Service Revenue",
+   "number": "4000"
+  },
+  {
+   "name": "Lab & Imaging Revenue",
+   "number": "4100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Medical Supplies",
+   "number": "6350"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Lakeside Family Health LLC",
+ "files_tree_hash": "cd109d0e7ef9e0a867e980ed1edd69eda73b6b17f996aa8c6e9dad579b521bac",
+ "industry": "clinic",
+ "split": "heldout",
+ "truth_records": [
+  {
+   "amount": 28997.0,
+   "detail": {
+    "pay_date": "2026-07-02",
+    "period": "2026-06/16-06/30"
+   },
+   "kind": "missing_payroll_accrual"
+  },
+  {
+   "amount": 187.0,
+   "detail": {
+    "item": "Stately Assurance Group annual policy"
+   },
+   "kind": "missing_prepaid_amort"
+  },
+  {
+   "amount": 4705.0,
+   "detail": {
+    "bill_id": "BILL-3142",
+    "check_no": "CHK-1014",
+    "date": "2026-06-18",
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 14004.41,
+   "detail": {
+    "bill_id": "BILL-3145",
+    "check_no": "CHK-1015",
+    "date": "2026-06-18",
+    "vendor": "Caldwell Medical Supply"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 2859.0,
+   "detail": {
+    "bill_id": "BILL-3139",
+    "check_no": "CHK-1016",
+    "date": "2026-06-28",
+    "vendor": "Junction Utility Co-op"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 11400.67,
+   "detail": {
+    "bill_id": "BILL-3144",
+    "check_no": "CHK-1012",
+    "date": "2026-06-07",
+    "vendor": "Pillar Accounting Services"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 5519.0,
+   "detail": {
+    "desc": "DEPOSIT PINEHURST DIGITAL INV-2247"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 33.88,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 55.11,
+   "detail": {
+    "desc": "WIRE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 29.71,
+   "detail": {},
+   "kind": "interest_unrecorded"
+  },
+  {
+   "amount": 11400.67,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3144",
+    "campaign": "Summit",
+    "desc": "Non-recurring Summit program",
+    "keywords": [
+     "summit",
+     "pillar"
+    ],
+    "vendor": "Pillar Accounting Services"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 14004.41,
+   "detail": {
+    "account": "6350",
+    "bill_id": "BILL-3145",
+    "campaign": "Summit",
+    "desc": "One-time Summit initiative",
+    "keywords": [
+     "summit",
+     "caldwell"
+    ],
+    "vendor": "Caldwell Medical Supply"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 8677.01,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3146",
+    "campaign": "Anchor",
+    "desc": "Non-recurring Anchor program",
+    "keywords": [
+     "anchor",
+     "bright"
+    ],
+    "vendor": "Bright Harbor Media"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "h05"
+}

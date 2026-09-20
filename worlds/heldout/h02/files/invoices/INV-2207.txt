@@ -1,0 +1,15 @@
+SALTBOX MERCANTILE CO.
+Saltbox Mercantile Co.
+Goods selected for useful, well-made spaces
+
+INVOICE INV-2207
+Bill to: Hartwell Group
+Date: 2026-04-24
+
+ORDER DETAIL
+Mercantile goods supplied during the current billing period.
+
+Amount due: $34,357.00
+
+Terms: Due upon receipt.
+Remittance: Include INV-2207 with payment.

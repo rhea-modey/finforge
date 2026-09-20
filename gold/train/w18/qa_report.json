@@ -1,0 +1,49 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 395168.77,
+    "gold": 395168.77,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 412175.76,
+    "gold": 412175.76,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "CloudSpan BILL-3135 is $4,332.00 in bills/BILL-3135.txt and cleared the bank for $4,332.00, but the ledger records both the software expense/AP invoice and cash payment at $3,432.00, a $900.00 book error.",
+    "severity": "medium"
+   },
+   {
+    "description": "The 2026-06-30 AP aging totals $29,477.00, while the trial balance AP control account is $59,796.04. The $30,319.04 difference is the unpaid remainder of opening payables but is absent from the AP aging detail.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w18-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract uniquely establish the June opening balance, monthly amortization, and closing balance; the ledger confirms June amortization has not yet been posted.",
+    "solvable": true
+   },
+   "w18-bank_rec": {
+    "reason": "The statement, ledger, trial balance, and CloudSpan source bill provide enough information to identify outstanding checks, the deposit in transit, unrecorded fee and interest, and the $900 CloudSpan cash-posting error, producing a unique adjusted cash balance.",
+    "solvable": true
+   },
+   "w18-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed-asset register, ledger, and vendor bills establish the missing payroll accrual and insurance amortization, confirm depreciation is already posted, and identify the BILL-3140 expense reclassification. Bank-side corrections are separately identifiable and expressly excluded.",
+    "solvable": true
+   },
+   "w18-variance_analysis": {
+    "reason": "June ledger activity can be adjusted for the supported close entries and reclassification and compared with the June budget. Selection of material variances requires ordinary professional judgment but does not prevent a defensible analysis.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

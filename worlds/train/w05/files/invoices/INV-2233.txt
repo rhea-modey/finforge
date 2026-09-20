@@ -1,0 +1,15 @@
+BEACON LEDGER
+Practical accounting software for growing teams
+
+Beacon Ledger Software
+
+INVOICE INV-2233
+Date: 2026-04-11
+Bill to: Ferrell Industries
+
+Description
+Single-period access to the hosted ledger platform and customer support.
+
+Amount due: $17,893.00
+
+Terms: Net 30. Please include the invoice identifier with remittance.

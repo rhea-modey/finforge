@@ -1,0 +1,121 @@
+{
+ "adjusted_balance": 266984.95,
+ "bank_statement_ending_balance": 260605.8,
+ "gl_cash_ending_balance": 266091.71,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 900.0
+    },
+    {
+     "account": "6700 Office Supplies",
+     "credit": 900.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Correct transposition on CHK-1012"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 41.46
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 41.46,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 34.7
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 34.7,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 24979.85,
+   "date": "2026-06-18",
+   "description": "Check to Bright Harbor Media not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1016",
+   "side": "bank"
+  },
+  {
+   "amount": 1252.0,
+   "date": "2026-06-14",
+   "description": "Check to Junction Utility Co-op not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1015",
+   "side": "bank"
+  },
+  {
+   "amount": 6530.0,
+   "date": "2026-06-22",
+   "description": "Check to Kite Digital Ads not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1017",
+   "side": "bank"
+  },
+  {
+   "amount": 900.0,
+   "date": "2026-06-30",
+   "description": "GL posted check at transposed amount (8744.0 vs bank 7844.0)",
+   "kind": "gl_error",
+   "ref": "CHK-1012",
+   "side": "book"
+  },
+  {
+   "amount": 7454.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT GLENROCK SOL INV-2219",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 31687.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT NORDICA LABS",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 41.46,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 34.7,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

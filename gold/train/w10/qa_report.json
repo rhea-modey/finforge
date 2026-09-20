@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 87107.62,
+    "gold": 87107.62,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 98424.14,
+    "gold": 98424.14,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $28,873.00, while the trial balance reports Accounts Payable of $66,163.57, leaving an unexplained $37,290.57 difference. The GL indicates this is a residual opening-payables balance, but it is absent from the dated AP aging.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w10-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance and software contracts provide the opening balances, additions, amortization terms, and closing balances, while the GL establishes that June amortization remains unbooked.",
+    "solvable": true
+   },
+   "w10-bank_rec": {
+    "reason": "The bank statement, GL cash detail, and trial balance provide enough information to identify outstanding checks, deposits in transit, and the unrecorded service fee and to reconcile both sides uniquely.",
+    "solvable": true
+   },
+   "w10-journal_entries": {
+    "reason": "The payroll register, prepaid schedule, contracts, fixed-asset register, bill documents, and GL provide sufficient support to determine the required payroll accrual and combined prepaid amortization entry, confirm depreciation is already posted, and assess reclassifications.",
+    "solvable": true
+   },
+   "w10-variance_analysis": {
+    "reason": "June GL activity, the June budget, payroll accrual data, prepaid contracts, fixed-asset register, and supporting vendor bills are sufficient to calculate as-closed actuals and support material variance commentary using professional judgment.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

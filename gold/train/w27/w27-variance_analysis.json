@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 10941.19,
+   "keywords": [
+    "harvest",
+    "quicksilver"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 17039.58,
+   "keywords": [
+    "bloom",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 10941.19,
+   "budget": 101.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 10941.19,
+     "description": "Non-recurring Harvest program billed by Quicksilver Couriers (BILL-3119)",
+     "evidence": [
+      "bills/BILL-3119.txt"
+     ]
+    }
+   ],
+   "variance": 10840.19
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 17039.58,
+   "budget": 493.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 17039.58,
+     "description": "Bloom launch sprint (one-time) billed by Pillar Accounting Services (BILL-3120)",
+     "evidence": [
+      "bills/BILL-3120.txt"
+     ]
+    }
+   ],
+   "variance": 16546.58
+  }
+ ]
+}

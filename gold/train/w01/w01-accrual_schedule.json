@@ -1,0 +1,28 @@
+{
+ "journal_entry": {
+  "date": "2026-06-30",
+  "lines": [
+   {
+    "account": "6400 Insurance Expense",
+    "credit": 0,
+    "debit": 189.0
+   },
+   {
+    "account": "1300 Prepaid Insurance",
+    "credit": 189.0,
+    "debit": 0
+   }
+  ],
+  "memo": "June prepaid amortization"
+ },
+ "journal_entry_status": "to_book",
+ "schedule": [
+  {
+   "additions": 0.0,
+   "amortization": 189.0,
+   "closing_balance": 1134.0,
+   "item": "Hartline Mutual Insurance annual policy",
+   "opening_balance": 1323.0
+  }
+ ]
+}

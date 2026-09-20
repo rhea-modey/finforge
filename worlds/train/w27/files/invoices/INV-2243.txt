@@ -1,0 +1,15 @@
+HARBORLINE SUPPLY CO.
+Harborline Supply Co.
+Wholesale Goods & Distribution
+
+CUSTOMER INVOICE
+Invoice: INV-2243
+Sold to: Ivywood Enterprises
+Date: 2026-04-24
+
+Wholesale inventory supplied for the current billing period.
+
+Amount due: $31,626.00
+
+Terms: Standard commercial account terms apply.
+Remittance must reference the invoice id shown above.

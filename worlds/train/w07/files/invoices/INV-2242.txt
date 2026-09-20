@@ -1,0 +1,13 @@
+BLUEBIRD WHOLESALE CO.
+Bluebird Wholesale Co.
+
+SALES INVOICE
+Invoice: INV-2242
+Bill to: Hartwell Group
+Date: 2026-05-11
+
+Line item: Wholesale order handling and account service for the current service period.
+Amount due: $9,432.00
+
+Terms: Due upon receipt.
+Remit: Please include the invoice id with payment.

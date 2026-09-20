@@ -1,0 +1,15 @@
+MAPLE & MAIN RETAIL CO.
+Maple & Main Retail Co.
+Business Customer Invoice
+
+INVOICE INV-2225
+Date: 2026-04-21
+Bill to: Dunmore Holdings
+
+SALES DETAIL
+Retail merchandise and order processing for one sales period.
+
+Amount due: $7,948.00
+
+Terms: Net 30
+Remit: Please cite INV-2225 when paying.

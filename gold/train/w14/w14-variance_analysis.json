@@ -1,0 +1,79 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 11471.44,
+   "keywords": [
+    "harvest",
+    "firstlane"
+   ]
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 14805.19,
+   "keywords": [
+    "lighthouse",
+    "trellis"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 14615.61,
+   "keywords": [
+    "anchor",
+    "meridian"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 14019.44,
+   "budget": 2852.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 11471.44,
+     "description": "Non-recurring Harvest program billed by Firstlane Logistics (BILL-3151)",
+     "evidence": [
+      "bills/BILL-3151.txt"
+     ]
+    }
+   ],
+   "variance": 11167.44
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 18645.19,
+   "budget": 3569.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 14805.19,
+     "description": "Non-recurring Lighthouse program billed by Trellis Marketing Group (BILL-3152)",
+     "evidence": [
+      "bills/BILL-3152.txt"
+     ]
+    }
+   ],
+   "variance": 15076.19
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 17620.61,
+   "budget": 2896.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 14615.61,
+     "description": "Special Anchor initiative - one-off fees billed by Meridian Legal LLP (BILL-3150)",
+     "evidence": [
+      "bills/BILL-3150.txt"
+     ]
+    }
+   ],
+   "variance": 14724.61
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+RIDGELINE TELECOM
+Ridgeline Telecom
+Business Communications Services
+
+SERVICE BILL
+Document: BILL-3106
+Customer: Harborline Supply Co.
+Date: 2026-04-15
+
+Telecommunications utility service for the current service period.
+
+Amount: $7,592.00
+
+Terms: Payment due upon receipt.
+Please include the document id with remittance.

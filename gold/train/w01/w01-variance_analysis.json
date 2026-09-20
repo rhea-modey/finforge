@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 14840.2,
+   "keywords": [
+    "horizon",
+    "bright"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 15120.56,
+   "keywords": [
+    "summit",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 18680.2,
+   "budget": 3899.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 14840.2,
+     "description": "Special Horizon initiative - one-off fees billed by Bright Harbor Media (BILL-3146)",
+     "evidence": [
+      "bills/BILL-3146.txt"
+     ]
+    }
+   ],
+   "variance": 14781.2
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 31955.56,
+   "budget": 16795.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 15120.56,
+     "description": "Summit launch sprint (one-time) billed by Pillar Accounting Services (BILL-3145)",
+     "evidence": [
+      "bills/BILL-3145.txt"
+     ]
+    }
+   ],
+   "variance": 15160.56
+  }
+ ]
+}

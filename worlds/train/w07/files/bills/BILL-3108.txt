@@ -1,0 +1,13 @@
+HELIX IT SOLUTIONS
+Helix IT Solutions
+
+SERVICE BILL
+Document: BILL-3108
+Customer: Bluebird Wholesale Co.
+Date: 2026-04-04
+
+Service detail: Software support and systems service for the current service period.
+Amount: $10,084.00
+
+Terms: Due upon receipt.
+Remit: Please reference the document id when paying.

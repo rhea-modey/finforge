@@ -1,0 +1,49 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 126426.72,
+    "gold": 126426.72,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 121849.53,
+    "gold": 121849.53,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "BILL-3133 is $5,736.00 in bills/BILL-3133.txt and cleared the bank for $5,736.00, but gl_detail_q2.csv records both the expense and cash payment as $7,536.00. The $1,800.00 GL overstatement is resolvable using the authoritative bill and bank evidence.",
+    "severity": "medium"
+   },
+   {
+    "description": "ap_aging_2026-06-30.csv totals $9,411.00, while the 6/30 trial balance reports Accounts Payable of $33,699.94. The $24,288.94 difference corresponds to residual opening payables but is absent from the purported 6/30 AP aging.",
+    "severity": "low"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w21-accrual_schedule": {
+    "reason": "The May prepaid schedule supplies the insurance opening balance, the contracts define both amortization terms, and the GL identifies the June software addition and confirms that June amortization has not yet been posted.",
+    "solvable": true
+   },
+   "w21-bank_rec": {
+    "reason": "The statement, GL, trial balance, bill support, and transaction references permit identification of outstanding checks, deposits in transit, unrecorded fees and interest, and the $1,800 BILL-3133 cash error, producing a unique adjusted cash balance.",
+    "solvable": true
+   },
+   "w21-journal_entries": {
+    "reason": "The payroll register, prepaid support, fixed-asset register, bill documents, GL, and checklist provide sufficient evidence to identify the required payroll accrual, combined prepaid amortization, and expense reclassification while avoiding duplicate depreciation and bank-reconciliation entries.",
+    "solvable": true
+   },
+   "w21-variance_analysis": {
+    "reason": "June activity can be isolated from the GL and adjusted for the supported close entries. The budget and underlying payroll, contract, and vendor documents support reasonable material-variance commentary; selection of material gaps requires ordinary professional judgment.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

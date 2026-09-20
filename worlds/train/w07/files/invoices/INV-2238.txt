@@ -1,0 +1,13 @@
+BLUEBIRD WHOLESALE CO.
+Bluebird Wholesale Co.
+
+SALES INVOICE
+Invoice: INV-2238
+Bill to: Longmont Systems
+Date: 2026-04-16
+
+Line item: Wholesale fulfillment and account service for the current service period.
+Amount due: $43,684.00
+
+Terms: Payment due upon receipt.
+Remit: Please identify the invoice on your remittance.

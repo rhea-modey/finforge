@@ -1,0 +1,49 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 168520.85,
+    "gold": 168520.85,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 152751.25,
+    "gold": 152751.25,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "BILL-3143 is $3,200.00 in bills/BILL-3143.txt and cleared the bank for $3,200.00, but gl_detail_q2.csv records both the bill and payment as $3,020.00. The source document and bank evidence support a $180.00 book correction.",
+    "severity": "medium"
+   },
+   {
+    "description": "ap_aging_2026-06-30.csv totals $46,955.00, while Accounts Payable in trial_balance_2026-06-30.csv is $75,314.27. The $28,359.27 difference equals the unpaid remainder of opening payables and is absent from the aging detail.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "w01-accrual_schedule": {
+    "reason": "The May prepaid schedule establishes the June opening balance, the insurance contract establishes monthly amortization of $189.00, and the GL confirms that June amortization has not yet been recorded.",
+    "solvable": true
+   },
+   "w01-bank_rec": {
+    "reason": "The bank statement, cash GL, source bill, and transaction references provide sufficient evidence to identify outstanding checks, the deposit in transit, unrecorded fees and interest, and the $180 BILL-3143 book error.",
+    "solvable": true
+   },
+   "w01-journal_entries": {
+    "reason": "The payroll register supports the June payroll accrual, the prepaid records support June insurance amortization, the GL confirms depreciation is already posted, and the available bill documents identify the required coding reclassifications. The BILL-3143 cash-related correction belongs to the separate bank reconciliation task.",
+    "solvable": true
+   },
+   "w01-variance_analysis": {
+    "reason": "June actuals can be derived from the GL and adjusted for the supported close entries, then compared with the June budget. Materiality and classification commentary require ordinary professional judgment but do not prevent a defensible analysis.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

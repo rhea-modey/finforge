@@ -1,0 +1,45 @@
+{
+ "journal_entry": {
+  "date": "2026-06-30",
+  "lines": [
+   {
+    "account": "6400 Insurance Expense",
+    "credit": 0,
+    "debit": 186.0
+   },
+   {
+    "account": "1300 Prepaid Insurance",
+    "credit": 186.0,
+    "debit": 0
+   },
+   {
+    "account": "6450 Software Expense",
+    "credit": 0,
+    "debit": 47.0
+   },
+   {
+    "account": "1310 Prepaid Software",
+    "credit": 47.0,
+    "debit": 0
+   }
+  ],
+  "memo": "June prepaid amortization"
+ },
+ "journal_entry_status": "to_book",
+ "schedule": [
+  {
+   "additions": 0.0,
+   "amortization": 186.0,
+   "closing_balance": 1116.0,
+   "item": "Bellhaven Insurance Agency annual policy",
+   "opening_balance": 1302.0
+  },
+  {
+   "additions": 564.0,
+   "amortization": 47.0,
+   "closing_balance": 517.0,
+   "item": "Prepaid software - 12 month license (Nimbus Apps Inc.)",
+   "opening_balance": 0.0
+  }
+ ]
+}

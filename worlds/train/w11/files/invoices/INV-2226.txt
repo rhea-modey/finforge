@@ -1,0 +1,16 @@
+Cascade Supply Partners
+WHOLESALE OPERATIONS
+
+SALES INVOICE
+Document: INV-2226
+Date: 2026-04-06
+
+Customer
+Quimby Ventures
+
+Line item
+Current-period wholesale supply and fulfillment service.
+
+Amount due: $19,698.00
+
+Remit/terms: Net 30; include INV-2226 with payment advice.

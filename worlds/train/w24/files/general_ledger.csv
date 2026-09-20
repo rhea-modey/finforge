@@ -1,0 +1,147 @@
+date;account;Debit;Credit;Memo
+2026-04-01;1000 Cash;131920.75;;Opening balances
+2026-04-01;1300 Prepaid Insurance;1620.0;;Opening balances
+2026-04-01;1500 Equipment;127850.0;;Opening balances
+2026-04-01;1590 Accumulated Depreciation;;38354.94;Opening balances
+2026-04-01;2000 Accounts Payable;;23354.6;Opening balances
+2026-04-01;3000 Retained Earnings;;199681.21;Opening balances
+2026-04-02;1100 Accounts Receivable;5151.0;;Invoice INV-2242 - Ivywood Enterprises
+2026-04-02;4000 Consulting Revenue;;5151.0;Invoice INV-2242 - Ivywood Enterprises
+2026-04-03;1000 Cash;;4581.0;Rent - Harborstone Realty Partners
+2026-04-03;6100 Rent Expense;4581.0;;Rent - Harborstone Realty Partners
+2026-04-03;2000 Accounts Payable;;2768.0;BILL-3108 Meridian Legal LLP
+2026-04-03;6600 Professional Fees;2768.0;;BILL-3108 Meridian Legal LLP
+2026-04-05;2000 Accounts Payable;;3960.0;BILL-3107 Pillar Accounting Services
+2026-04-05;6600 Professional Fees;3960.0;;BILL-3107 Pillar Accounting Services
+2026-04-06;1000 Cash;;11677.3;Payment on account - opening payables
+2026-04-06;2000 Accounts Payable;11677.3;;Payment on account - opening payables
+2026-04-07;2000 Accounts Payable;;1614.0;BILL-3110 Junction Utility Co-op
+2026-04-07;6500 Utilities Expense;1614.0;;BILL-3110 Junction Utility Co-op
+2026-04-09;1000 Cash;;3960.0;Pay BILL-3107 Pillar Accounting Services CHK#1004
+2026-04-09;2000 Accounts Payable;3960.0;;Pay BILL-3107 Pillar Accounting Services CHK#1004
+2026-04-10;1000 Cash;;2768.0;Pay BILL-3108 Meridian Legal LLP CHK#1003
+2026-04-10;2000 Accounts Payable;2768.0;;Pay BILL-3108 Meridian Legal LLP CHK#1003
+2026-04-10;1000 Cash;;1614.0;Pay BILL-3110 Junction Utility Co-op CHK#1005
+2026-04-10;2000 Accounts Payable;1614.0;;Pay BILL-3110 Junction Utility Co-op CHK#1005
+2026-04-11;1100 Accounts Receivable;7889.0;;Invoice INV-2243 - Kelso Brands
+2026-04-11;4100 Retainer Revenue;;7889.0;Invoice INV-2243 - Kelso Brands
+2026-04-12;1100 Accounts Receivable;3550.0;;Invoice INV-2241 - Wexford Group
+2026-04-12;4000 Consulting Revenue;;3550.0;Invoice INV-2241 - Wexford Group
+2026-04-15;1000 Cash;;22812.0;Payroll 2026-04/01-04/15
+2026-04-15;2300 Payroll Liabilities;;6434.0;Payroll 2026-04/01-04/15
+2026-04-15;6000 Salaries Expense;29246.0;;Payroll 2026-04/01-04/15
+2026-04-16;1100 Accounts Receivable;3944.0;;Invoice INV-2240 - Ivywood Enterprises
+2026-04-16;4000 Consulting Revenue;;3944.0;Invoice INV-2240 - Ivywood Enterprises
+2026-04-19;1100 Accounts Receivable;13290.0;;Invoice INV-2238 - Wexford Group
+2026-04-19;4000 Consulting Revenue;;13290.0;Invoice INV-2238 - Wexford Group
+2026-04-19;1100 Accounts Receivable;4836.0;;Invoice INV-2239 - Jasper Analytics
+2026-04-19;4000 Consulting Revenue;;4836.0;Invoice INV-2239 - Jasper Analytics
+2026-04-21;2000 Accounts Payable;;3726.0;BILL-3109 Helix IT Solutions
+2026-04-21;6450 Software Expense;3726.0;;BILL-3109 Helix IT Solutions
+2026-04-25;1000 Cash;3550.0;;Deposit - Wexford Group INV-2241
+2026-04-25;1100 Accounts Receivable;;3550.0;Deposit - Wexford Group INV-2241
+2026-04-28;1000 Cash;;22914.0;Payroll 2026-04/16-04/30
+2026-04-28;2300 Payroll Liabilities;;6462.0;Payroll 2026-04/16-04/30
+2026-04-28;6000 Salaries Expense;29376.0;;Payroll 2026-04/16-04/30
+2026-04-28;1300 Prepaid Insurance;;180.0;Monthly insurance amortization
+2026-04-28;6400 Insurance Expense;180.0;;Monthly insurance amortization
+2026-04-28;1590 Accumulated Depreciation;;2130.83;Monthly depreciation
+2026-04-28;6800 Depreciation Expense;2130.83;;Monthly depreciation
+2026-05-03;1000 Cash;5151.0;;Deposit - Ivywood Enterprises INV-2242
+2026-05-03;1100 Accounts Receivable;;5151.0;Deposit - Ivywood Enterprises INV-2242
+2026-05-03;1000 Cash;;4581.0;Rent - Harborstone Realty Partners
+2026-05-03;6100 Rent Expense;4581.0;;Rent - Harborstone Realty Partners
+2026-05-04;1000 Cash;7889.0;;Deposit - Kelso Brands INV-2243
+2026-05-04;1100 Accounts Receivable;;7889.0;Deposit - Kelso Brands INV-2243
+2026-05-04;1100 Accounts Receivable;12407.0;;Invoice INV-2244 - Marlowe & Finch
+2026-05-04;4000 Consulting Revenue;;12407.0;Invoice INV-2244 - Marlowe & Finch
+2026-05-05;1000 Cash;4836.0;;Deposit - Jasper Analytics INV-2239
+2026-05-05;1100 Accounts Receivable;;4836.0;Deposit - Jasper Analytics INV-2239
+2026-05-06;2000 Accounts Payable;;2256.0;BILL-3113 Meridian Legal LLP
+2026-05-06;6600 Professional Fees;2256.0;;BILL-3113 Meridian Legal LLP
+2026-05-07;2000 Accounts Payable;;3924.0;BILL-3114 Stanton Cleaning Crew
+2026-05-07;6700 Office Supplies;3924.0;;BILL-3114 Stanton Cleaning Crew
+2026-05-10;2000 Accounts Payable;;2480.0;BILL-3112 Junction Utility Co-op
+2026-05-10;6500 Utilities Expense;2480.0;;BILL-3112 Junction Utility Co-op
+2026-05-11;1100 Accounts Receivable;14642.0;;Invoice INV-2245 - Tamarack Health
+2026-05-11;4000 Consulting Revenue;;14642.0;Invoice INV-2245 - Tamarack Health
+2026-05-11;2000 Accounts Payable;;443.0;BILL-3111 CloudSpan Hosting
+2026-05-11;6450 Software Expense;443.0;;BILL-3111 CloudSpan Hosting
+2026-05-14;1100 Accounts Receivable;8787.0;;Invoice INV-2247 - Jasper Analytics
+2026-05-14;4000 Consulting Revenue;;8787.0;Invoice INV-2247 - Jasper Analytics
+2026-05-14;2000 Accounts Payable;;1917.0;BILL-3115 Ridgeline Telecom
+2026-05-14;6500 Utilities Expense;1917.0;;BILL-3115 Ridgeline Telecom
+2026-05-15;1000 Cash;13290.0;;Deposit - Wexford Group INV-2238
+2026-05-15;1100 Accounts Receivable;;13290.0;Deposit - Wexford Group INV-2238
+2026-05-15;1000 Cash;;25526.0;Payroll 2026-05/01-05/15
+2026-05-15;2300 Payroll Liabilities;;7199.0;Payroll 2026-05/01-05/15
+2026-05-15;6000 Salaries Expense;32725.0;;Payroll 2026-05/01-05/15
+2026-05-17;1000 Cash;;1917.0;Pay BILL-3115 Ridgeline Telecom CHK#1008
+2026-05-17;2000 Accounts Payable;1917.0;;Pay BILL-3115 Ridgeline Telecom CHK#1008
+2026-05-19;1000 Cash;3944.0;;Deposit - Ivywood Enterprises INV-2240
+2026-05-19;1100 Accounts Receivable;;3944.0;Deposit - Ivywood Enterprises INV-2240
+2026-05-19;1000 Cash;;443.0;Pay BILL-3111 CloudSpan Hosting CHK#1007
+2026-05-19;2000 Accounts Payable;443.0;;Pay BILL-3111 CloudSpan Hosting CHK#1007
+2026-05-21;1100 Accounts Receivable;11496.0;;Invoice INV-2246 - Hartwell Group
+2026-05-21;4100 Retainer Revenue;;11496.0;Invoice INV-2246 - Hartwell Group
+2026-05-24;1000 Cash;14642.0;;Deposit - Tamarack Health INV-2245
+2026-05-24;1100 Accounts Receivable;;14642.0;Deposit - Tamarack Health INV-2245
+2026-05-26;1000 Cash;12407.0;;Deposit - Marlowe & Finch INV-2244
+2026-05-26;1100 Accounts Receivable;;12407.0;Deposit - Marlowe & Finch INV-2244
+2026-05-28;1000 Cash;;25690.0;Payroll 2026-05/16-05/30
+2026-05-28;2300 Payroll Liabilities;;7245.0;Payroll 2026-05/16-05/30
+2026-05-28;6000 Salaries Expense;32935.0;;Payroll 2026-05/16-05/30
+2026-05-28;1300 Prepaid Insurance;;180.0;Monthly insurance amortization
+2026-05-28;6400 Insurance Expense;180.0;;Monthly insurance amortization
+2026-05-28;1590 Accumulated Depreciation;;2130.83;Monthly depreciation
+2026-05-28;6800 Depreciation Expense;2130.83;;Monthly depreciation
+2026-06-03;1000 Cash;;4581.0;Rent - Harborstone Realty Partners
+2026-06-03;6100 Rent Expense;4581.0;;Rent - Harborstone Realty Partners
+2026-06-03;2000 Accounts Payable;;1622.0;BILL-3121 Pillar Accounting Services
+2026-06-03;6600 Professional Fees;1622.0;;BILL-3121 Pillar Accounting Services
+2026-06-05;2000 Accounts Payable;;3435.0;BILL-3116 Ridgeline Telecom
+2026-06-05;6500 Utilities Expense;3435.0;;BILL-3116 Ridgeline Telecom
+2026-06-06;1100 Accounts Receivable;11908.0;;Invoice INV-2249 - Tamarack Health
+2026-06-06;4000 Consulting Revenue;;11908.0;Invoice INV-2249 - Tamarack Health
+2026-06-08;1000 Cash;8787.0;;Deposit - Jasper Analytics INV-2247
+2026-06-08;1100 Accounts Receivable;;8787.0;Deposit - Jasper Analytics INV-2247
+2026-06-08;1100 Accounts Receivable;14306.0;;Invoice INV-2251 - Ivywood Enterprises
+2026-06-08;4000 Consulting Revenue;;14306.0;Invoice INV-2251 - Ivywood Enterprises
+2026-06-08;2000 Accounts Payable;;1314.0;BILL-3117 Meridian Legal LLP
+2026-06-08;6600 Professional Fees;1314.0;;BILL-3117 Meridian Legal LLP
+2026-06-09;1000 Cash;;1622.0;Pay BILL-3121 Pillar Accounting Services CHK#1010
+2026-06-09;2000 Accounts Payable;1622.0;;Pay BILL-3121 Pillar Accounting Services CHK#1010
+2026-06-12;1000 Cash;8229.0;;Owner capital contribution
+2026-06-12;3000 Retained Earnings;;8229.0;Owner capital contribution
+2026-06-13;2000 Accounts Payable;;6011.0;BILL-3122 Trellis Marketing Group
+2026-06-13;6200 Advertising & Marketing;6011.0;;BILL-3122 Trellis Marketing Group
+2026-06-14;1000 Cash;;3435.0;Pay BILL-3116 Ridgeline Telecom CHK#1011
+2026-06-14;2000 Accounts Payable;3435.0;;Pay BILL-3116 Ridgeline Telecom CHK#1011
+2026-06-14;1000 Cash;;1314.0;Pay BILL-3117 Meridian Legal LLP CHK#1012
+2026-06-14;2000 Accounts Payable;1314.0;;Pay BILL-3117 Meridian Legal LLP CHK#1012
+2026-06-14;2000 Accounts Payable;;1176.0;BILL-3118 Meridian Legal LLP
+2026-06-14;6600 Professional Fees;1176.0;;BILL-3118 Meridian Legal LLP
+2026-06-14;2000 Accounts Payable;;1047.0;BILL-3120 Pillar Accounting Services
+2026-06-14;6600 Professional Fees;1047.0;;BILL-3120 Pillar Accounting Services
+2026-06-15;2000 Accounts Payable;;12365.59;BILL-3123 Meridian Legal LLP
+2026-06-15;6600 Professional Fees;12365.59;;BILL-3123 Meridian Legal LLP
+2026-06-15;2000 Accounts Payable;;2677.0;BILL-3124 Bright Harbor Media
+2026-06-15;6700 Office Supplies;2677.0;;BILL-3124 Bright Harbor Media
+2026-06-15;1000 Cash;;22829.0;Payroll 2026-06/01-06/15
+2026-06-15;2300 Payroll Liabilities;;6438.0;Payroll 2026-06/01-06/15
+2026-06-15;6000 Salaries Expense;29267.0;;Payroll 2026-06/01-06/15
+2026-06-17;2000 Accounts Payable;;3507.0;BILL-3119 Uptown Catering Co.
+2026-06-17;6700 Office Supplies;3507.0;;BILL-3119 Uptown Catering Co.
+2026-06-18;1000 Cash;;1176.0;Pay BILL-3118 Meridian Legal LLP CHK#1013
+2026-06-18;2000 Accounts Payable;1176.0;;Pay BILL-3118 Meridian Legal LLP CHK#1013
+2026-06-21;1100 Accounts Receivable;12747.0;;Invoice INV-2250 - Tamarack Health
+2026-06-21;4100 Retainer Revenue;;12747.0;Invoice INV-2250 - Tamarack Health
+2026-06-21;1000 Cash;;12365.59;Pay BILL-3123 Meridian Legal LLP CHK#1014
+2026-06-21;2000 Accounts Payable;12365.59;;Pay BILL-3123 Meridian Legal LLP CHK#1014
+2026-06-22;1100 Accounts Receivable;3968.0;;Invoice INV-2248 - Tamarack Health
+2026-06-22;4000 Consulting Revenue;;3968.0;Invoice INV-2248 - Tamarack Health
+2026-06-28;1000 Cash;;22720.0;Payroll 2026-06/16-06/30
+2026-06-28;2300 Payroll Liabilities;;6407.0;Payroll 2026-06/16-06/30
+2026-06-28;6000 Salaries Expense;29127.0;;Payroll 2026-06/16-06/30
+2026-06-28;1590 Accumulated Depreciation;;2130.83;Monthly depreciation
+2026-06-28;6800 Depreciation Expense;2130.83;;Monthly depreciation

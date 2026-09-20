@@ -1,0 +1,9 @@
+SOFTWARE LICENSE AGREEMENT
+Licensee: Ironline Distributors Inc.
+Vendor: Quillware Technologies
+License: Prepaid software - 12 month license (Quillware Technologies)
+Term: 12 months beginning 2026-06-05.
+Total license fee: $1,056.00 paid in full at signing.
+For accounting purposes the fee is amortized on a straight-line
+basis over the term, with a full month recognized in the month
+of purchase.

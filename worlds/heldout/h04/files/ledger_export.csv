@@ -1,0 +1,171 @@
+posting_date,Account,Debit,Credit,memo
+01-Apr-2026,1000 Cash,298709.33,,Opening balances
+01-Apr-2026,1300 Prepaid Insurance,702.0,,Opening balances
+01-Apr-2026,1400 Inventory,45523.45,,Opening balances
+01-Apr-2026,1500 Equipment,102287.0,,Opening balances
+01-Apr-2026,1590 Accumulated Depreciation,,23866.92,Opening balances
+01-Apr-2026,2000 Accounts Payable,,33427.55,Opening balances
+01-Apr-2026,3000 Retained Earnings,,389927.31,Opening balances
+03-Apr-2026,1000 Cash,,5939.0,Rent - Harborstone Realty Partners
+03-Apr-2026,6100 Rent Expense,5939.0,,Rent - Harborstone Realty Partners
+06-Apr-2026,1000 Cash,,16713.77,Payment on account - opening payables
+06-Apr-2026,2000 Accounts Payable,16713.77,,Payment on account - opening payables
+08-Apr-2026,2000 Accounts Payable,,3615.0,BILL-3122 Trellis Marketing Group
+08-Apr-2026,6200 Advertising & Marketing,3615.0,,BILL-3122 Trellis Marketing Group
+09-Apr-2026,2000 Accounts Payable,,1229.0,BILL-3120 Meridian Legal LLP
+09-Apr-2026,6600 Professional Fees,1229.0,,BILL-3120 Meridian Legal LLP
+10-Apr-2026,1100 Accounts Receivable,27065.0,,Invoice INV-2226 - Vesper Technologies
+10-Apr-2026,4100 Tooling & Setup Fees,,27065.0,Invoice INV-2226 - Vesper Technologies
+10-Apr-2026,2000 Accounts Payable,,890.0,BILL-3121 Ironvale Tool & Abrasives
+10-Apr-2026,5200 Shop Supplies,890.0,,BILL-3121 Ironvale Tool & Abrasives
+10-Apr-2026,2000 Accounts Payable,,519.0,BILL-3123 Ironvale Tool & Abrasives
+10-Apr-2026,5200 Shop Supplies,519.0,,BILL-3123 Ironvale Tool & Abrasives
+13-Apr-2026,1000 Cash,,3615.0,Pay BILL-3122 Trellis Marketing Group CHK#1003
+13-Apr-2026,2000 Accounts Payable,3615.0,,Pay BILL-3122 Trellis Marketing Group CHK#1003
+14-Apr-2026,1100 Accounts Receivable,23345.0,,Invoice INV-2227 - Nordica Labs
+14-Apr-2026,4000 Product Revenue,,23345.0,Invoice INV-2227 - Nordica Labs
+14-Apr-2026,1400 Inventory,,12996.0,COGS - INV-2227
+14-Apr-2026,5000 Cost of Goods Sold,12996.0,,COGS - INV-2227
+15-Apr-2026,1100 Accounts Receivable,20335.0,,Invoice INV-2228 - Nordica Labs
+15-Apr-2026,4000 Product Revenue,,20335.0,Invoice INV-2228 - Nordica Labs
+15-Apr-2026,1400 Inventory,,8585.0,COGS - INV-2228
+15-Apr-2026,5000 Cost of Goods Sold,8585.0,,COGS - INV-2228
+15-Apr-2026,1000 Cash,,40171.0,Payroll 2026-04/01-04/15
+15-Apr-2026,2300 Payroll Liabilities,,11330.0,Payroll 2026-04/01-04/15
+15-Apr-2026,6000 Salaries Expense,51501.0,,Payroll 2026-04/01-04/15
+16-Apr-2026,1100 Accounts Receivable,10180.0,,Invoice INV-2225 - Vesper Technologies
+16-Apr-2026,4000 Product Revenue,,10180.0,Invoice INV-2225 - Vesper Technologies
+16-Apr-2026,1400 Inventory,,4307.0,COGS - INV-2225
+16-Apr-2026,5000 Cost of Goods Sold,4307.0,,COGS - INV-2225
+16-Apr-2026,1000 Cash,,1229.0,Pay BILL-3120 Meridian Legal LLP CHK#1004
+16-Apr-2026,2000 Accounts Payable,1229.0,,Pay BILL-3120 Meridian Legal LLP CHK#1004
+17-Apr-2026,1100 Accounts Receivable,16980.0,,Invoice INV-2224 - Birchfield Foods
+17-Apr-2026,4100 Tooling & Setup Fees,,16980.0,Invoice INV-2224 - Birchfield Foods
+19-Apr-2026,1100 Accounts Receivable,23487.0,,Invoice INV-2229 - Kelso Brands
+19-Apr-2026,4000 Product Revenue,,23487.0,Invoice INV-2229 - Kelso Brands
+19-Apr-2026,1400 Inventory,,11989.0,COGS - INV-2229
+19-Apr-2026,5000 Cost of Goods Sold,11989.0,,COGS - INV-2229
+20-Apr-2026,2000 Accounts Payable,,5587.0,BILL-3124 Helix IT Solutions
+20-Apr-2026,6450 Software Expense,5587.0,,BILL-3124 Helix IT Solutions
+28-Apr-2026,1000 Cash,27065.0,,Deposit - Vesper Technologies INV-2226
+28-Apr-2026,1100 Accounts Receivable,,27065.0,Deposit - Vesper Technologies INV-2226
+28-Apr-2026,1000 Cash,,40265.0,Payroll 2026-04/16-04/30
+28-Apr-2026,2300 Payroll Liabilities,,11356.0,Payroll 2026-04/16-04/30
+28-Apr-2026,6000 Salaries Expense,51621.0,,Payroll 2026-04/16-04/30
+28-Apr-2026,1300 Prepaid Insurance,,78.0,Monthly insurance amortization
+28-Apr-2026,6400 Insurance Expense,78.0,,Monthly insurance amortization
+28-Apr-2026,1590 Accumulated Depreciation,,1704.78,Monthly depreciation
+28-Apr-2026,6800 Depreciation Expense,1704.78,,Monthly depreciation
+03-May-2026,1000 Cash,,5939.0,Rent - Harborstone Realty Partners
+03-May-2026,6100 Rent Expense,5939.0,,Rent - Harborstone Realty Partners
+05-May-2026,1000 Cash,20335.0,,Deposit - Nordica Labs INV-2228
+05-May-2026,1100 Accounts Receivable,,20335.0,Deposit - Nordica Labs INV-2228
+05-May-2026,1000 Cash,23487.0,,Deposit - Kelso Brands INV-2229
+05-May-2026,1100 Accounts Receivable,,23487.0,Deposit - Kelso Brands INV-2229
+08-May-2026,2000 Accounts Payable,,2836.0,BILL-3126 Meridian Legal LLP
+08-May-2026,6600 Professional Fees,2836.0,,BILL-3126 Meridian Legal LLP
+08-May-2026,2000 Accounts Payable,,6565.0,BILL-3128 CloudSpan Hosting
+08-May-2026,6450 Software Expense,6565.0,,BILL-3128 CloudSpan Hosting
+10-May-2026,1100 Accounts Receivable,28604.0,,Invoice INV-2232 - Vesper Technologies
+10-May-2026,4000 Product Revenue,,28604.0,Invoice INV-2232 - Vesper Technologies
+10-May-2026,1400 Inventory,,14183.0,COGS - INV-2232
+10-May-2026,5000 Cost of Goods Sold,14183.0,,COGS - INV-2232
+10-May-2026,2000 Accounts Payable,,3891.0,BILL-3129 Lumen Office Supply
+10-May-2026,6700 Office Supplies,3891.0,,BILL-3129 Lumen Office Supply
+11-May-2026,1000 Cash,23345.0,,Deposit - Nordica Labs INV-2227
+11-May-2026,1100 Accounts Receivable,,23345.0,Deposit - Nordica Labs INV-2227
+11-May-2026,1100 Accounts Receivable,14837.0,,Invoice INV-2231 - Underhill Logistics
+11-May-2026,4100 Tooling & Setup Fees,,14837.0,Invoice INV-2231 - Underhill Logistics
+12-May-2026,2000 Accounts Payable,,3513.0,BILL-3127 CloudSpan Hosting
+12-May-2026,6450 Software Expense,3513.0,,BILL-3127 CloudSpan Hosting
+13-May-2026,1100 Accounts Receivable,7457.0,,Invoice INV-2235 - Nordica Labs
+13-May-2026,4100 Tooling & Setup Fees,,7457.0,Invoice INV-2235 - Nordica Labs
+13-May-2026,2000 Accounts Payable,,712.0,BILL-3125 Ridgeline Telecom
+13-May-2026,6500 Utilities Expense,712.0,,BILL-3125 Ridgeline Telecom
+14-May-2026,1000 Cash,,2836.0,Pay BILL-3126 Meridian Legal LLP CHK#1006
+14-May-2026,2000 Accounts Payable,2836.0,,Pay BILL-3126 Meridian Legal LLP CHK#1006
+15-May-2026,1100 Accounts Receivable,28677.0,,Invoice INV-2230 - Aldergate Insurance
+15-May-2026,4100 Tooling & Setup Fees,,28677.0,Invoice INV-2230 - Aldergate Insurance
+15-May-2026,1100 Accounts Receivable,22683.0,,Invoice INV-2233 - Kelso Brands
+15-May-2026,4100 Tooling & Setup Fees,,22683.0,Invoice INV-2233 - Kelso Brands
+15-May-2026,1000 Cash,,6565.0,Pay BILL-3128 CloudSpan Hosting CHK#1007
+15-May-2026,2000 Accounts Payable,6565.0,,Pay BILL-3128 CloudSpan Hosting CHK#1007
+15-May-2026,1000 Cash,,38033.0,Payroll 2026-05/01-05/15
+15-May-2026,2300 Payroll Liabilities,,10726.0,Payroll 2026-05/01-05/15
+15-May-2026,6000 Salaries Expense,48759.0,,Payroll 2026-05/01-05/15
+16-May-2026,1000 Cash,,3891.0,Pay BILL-3129 Lumen Office Supply CHK#1008
+16-May-2026,2000 Accounts Payable,3891.0,,Pay BILL-3129 Lumen Office Supply CHK#1008
+16-May-2026,1000 Cash,,3513.0,Pay BILL-3127 CloudSpan Hosting CHK#1009
+16-May-2026,2000 Accounts Payable,3513.0,,Pay BILL-3127 CloudSpan Hosting CHK#1009
+18-May-2026,1000 Cash,16980.0,,Deposit - Birchfield Foods INV-2224
+18-May-2026,1100 Accounts Receivable,,16980.0,Deposit - Birchfield Foods INV-2224
+19-May-2026,1000 Cash,,712.0,Pay BILL-3125 Ridgeline Telecom CHK#1010
+19-May-2026,2000 Accounts Payable,712.0,,Pay BILL-3125 Ridgeline Telecom CHK#1010
+21-May-2026,1100 Accounts Receivable,27415.0,,Invoice INV-2234 - Vesper Technologies
+21-May-2026,4000 Product Revenue,,27415.0,Invoice INV-2234 - Vesper Technologies
+21-May-2026,1400 Inventory,,15398.0,COGS - INV-2234
+21-May-2026,5000 Cost of Goods Sold,15398.0,,COGS - INV-2234
+23-May-2026,1000 Cash,10180.0,,Deposit - Vesper Technologies INV-2225
+23-May-2026,1100 Accounts Receivable,,10180.0,Deposit - Vesper Technologies INV-2225
+26-May-2026,1000 Cash,28604.0,,Deposit - Vesper Technologies INV-2232
+26-May-2026,1100 Accounts Receivable,,28604.0,Deposit - Vesper Technologies INV-2232
+28-May-2026,1000 Cash,,38111.0,Payroll 2026-05/16-05/30
+28-May-2026,2300 Payroll Liabilities,,10748.0,Payroll 2026-05/16-05/30
+28-May-2026,6000 Salaries Expense,48859.0,,Payroll 2026-05/16-05/30
+28-May-2026,1300 Prepaid Insurance,,78.0,Monthly insurance amortization
+28-May-2026,6400 Insurance Expense,78.0,,Monthly insurance amortization
+28-May-2026,1590 Accumulated Depreciation,,1704.78,Monthly depreciation
+28-May-2026,6800 Depreciation Expense,1704.78,,Monthly depreciation
+02-Jun-2026,1100 Accounts Receivable,28223.0,,Invoice INV-2239 - Birchfield Foods
+02-Jun-2026,4000 Product Revenue,,28223.0,Invoice INV-2239 - Birchfield Foods
+02-Jun-2026,1400 Inventory,,16085.0,COGS - INV-2239
+02-Jun-2026,5000 Cost of Goods Sold,16085.0,,COGS - INV-2239
+02-Jun-2026,2000 Accounts Payable,,5736.0,BILL-3130 Kite Digital Ads
+02-Jun-2026,6200 Advertising & Marketing,5736.0,,BILL-3130 Kite Digital Ads
+03-Jun-2026,1000 Cash,,5939.0,Rent - Harborstone Realty Partners
+03-Jun-2026,6100 Rent Expense,5939.0,,Rent - Harborstone Realty Partners
+06-Jun-2026,1000 Cash,14837.0,,Deposit - Underhill Logistics INV-2231
+06-Jun-2026,1100 Accounts Receivable,,14837.0,Deposit - Underhill Logistics INV-2231
+07-Jun-2026,1100 Accounts Receivable,13012.0,,Invoice INV-2237 - Vesper Technologies
+07-Jun-2026,4000 Product Revenue,,13012.0,Invoice INV-2237 - Vesper Technologies
+07-Jun-2026,1400 Inventory,,6632.0,COGS - INV-2237
+07-Jun-2026,5000 Cost of Goods Sold,6632.0,,COGS - INV-2237
+07-Jun-2026,2000 Accounts Payable,,3180.0,BILL-3132 Pillar Accounting Services
+07-Jun-2026,6600 Professional Fees,3180.0,,BILL-3132 Pillar Accounting Services
+07-Jun-2026,2000 Accounts Payable,,14927.08,BILL-3134 Pillar Accounting Services
+07-Jun-2026,6600 Professional Fees,14927.08,,BILL-3134 Pillar Accounting Services
+08-Jun-2026,1000 Cash,,5736.0,Pay BILL-3130 Kite Digital Ads CHK#1012
+08-Jun-2026,2000 Accounts Payable,5736.0,,Pay BILL-3130 Kite Digital Ads CHK#1012
+08-Jun-2026,2000 Accounts Payable,,16325.59,BILL-3135 Kite Digital Ads
+08-Jun-2026,6200 Advertising & Marketing,16325.59,,BILL-3135 Kite Digital Ads
+11-Jun-2026,1000 Cash,28677.0,,Deposit - Aldergate Insurance INV-2230
+11-Jun-2026,1100 Accounts Receivable,,28677.0,Deposit - Aldergate Insurance INV-2230
+12-Jun-2026,1000 Cash,,16325.59,Pay BILL-3135 Kite Digital Ads CHK#1013
+12-Jun-2026,2000 Accounts Payable,16325.59,,Pay BILL-3135 Kite Digital Ads CHK#1013
+12-Jun-2026,1000 Cash,11823.0,,Owner capital contribution
+12-Jun-2026,3000 Retained Earnings,,11823.0,Owner capital contribution
+14-Jun-2026,1000 Cash,27415.0,,Deposit - Vesper Technologies INV-2234
+14-Jun-2026,1100 Accounts Receivable,,27415.0,Deposit - Vesper Technologies INV-2234
+14-Jun-2026,1100 Accounts Receivable,11350.0,,Invoice INV-2238 - Vesper Technologies
+14-Jun-2026,4000 Product Revenue,,11350.0,Invoice INV-2238 - Vesper Technologies
+14-Jun-2026,1400 Inventory,,5970.0,COGS - INV-2238
+14-Jun-2026,5000 Cost of Goods Sold,5970.0,,COGS - INV-2238
+15-Jun-2026,2000 Accounts Payable,,3100.0,BILL-3131 Meridian Legal LLP
+15-Jun-2026,6600 Professional Fees,3100.0,,BILL-3131 Meridian Legal LLP
+15-Jun-2026,1000 Cash,,40945.0,Payroll 2026-06/01-06/15
+15-Jun-2026,2300 Payroll Liabilities,,11548.0,Payroll 2026-06/01-06/15
+15-Jun-2026,6000 Salaries Expense,52493.0,,Payroll 2026-06/01-06/15
+17-Jun-2026,1100 Accounts Receivable,26280.0,,Invoice INV-2236 - Tamarack Health
+17-Jun-2026,4000 Product Revenue,,26280.0,Invoice INV-2236 - Tamarack Health
+17-Jun-2026,1400 Inventory,,13613.0,COGS - INV-2236
+17-Jun-2026,5000 Cost of Goods Sold,13613.0,,COGS - INV-2236
+18-Jun-2026,1000 Cash,7457.0,,Deposit - Nordica Labs INV-2235
+18-Jun-2026,1100 Accounts Receivable,,7457.0,Deposit - Nordica Labs INV-2235
+18-Jun-2026,2000 Accounts Payable,,3083.0,BILL-3133 Ridgeline Telecom
+18-Jun-2026,6500 Utilities Expense,3083.0,,BILL-3133 Ridgeline Telecom
+19-Jun-2026,1000 Cash,,3100.0,Pay BILL-3131 Meridian Legal LLP CHK#1014
+19-Jun-2026,2000 Accounts Payable,3100.0,,Pay BILL-3131 Meridian Legal LLP CHK#1014
+20-Jun-2026,1000 Cash,13012.0,,Deposit - Vesper Technologies INV-2237
+20-Jun-2026,1100 Accounts Receivable,,13012.0,Deposit - Vesper Technologies INV-2237
+25-Jun-2026,1000 Cash,22683.0,,Deposit - Kelso Brands INV-2233
+25-Jun-2026,1100 Accounts Receivable,,22683.0,Deposit - Kelso Brands INV-2233

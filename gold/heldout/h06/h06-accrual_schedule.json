@@ -1,0 +1,28 @@
+{
+ "journal_entry": {
+  "date": "2026-06-30",
+  "lines": [
+   {
+    "account": "6400 Insurance Expense",
+    "credit": 0,
+    "debit": 127.0
+   },
+   {
+    "account": "1300 Prepaid Insurance",
+    "credit": 127.0,
+    "debit": 0
+   }
+  ],
+  "memo": "June prepaid amortization"
+ },
+ "journal_entry_status": "already_booked",
+ "schedule": [
+  {
+   "additions": 0.0,
+   "amortization": 127.0,
+   "closing_balance": 762.0,
+   "item": "Crestwell Coverage Co. annual policy",
+   "opening_balance": 889.0
+  }
+ ]
+}

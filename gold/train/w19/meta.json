@@ -1,0 +1,254 @@
+{
+ "chart_of_accounts": [
+  {
+   "name": "Cash",
+   "number": "1000"
+  },
+  {
+   "name": "Accounts Receivable",
+   "number": "1100"
+  },
+  {
+   "name": "Prepaid Insurance",
+   "number": "1300"
+  },
+  {
+   "name": "Prepaid Software",
+   "number": "1310"
+  },
+  {
+   "name": "Inventory",
+   "number": "1400"
+  },
+  {
+   "name": "Equipment",
+   "number": "1500"
+  },
+  {
+   "name": "Accumulated Depreciation",
+   "number": "1590"
+  },
+  {
+   "name": "Accounts Payable",
+   "number": "2000"
+  },
+  {
+   "name": "Accrued Liabilities",
+   "number": "2100"
+  },
+  {
+   "name": "Payroll Liabilities",
+   "number": "2300"
+  },
+  {
+   "name": "Retained Earnings",
+   "number": "3000"
+  },
+  {
+   "name": "Wholesale Sales",
+   "number": "4000"
+  },
+  {
+   "name": "Delivery Fees",
+   "number": "4100"
+  },
+  {
+   "name": "Cost of Goods Sold",
+   "number": "5000"
+  },
+  {
+   "name": "Freight & Shipping",
+   "number": "5100"
+  },
+  {
+   "name": "Salaries Expense",
+   "number": "6000"
+  },
+  {
+   "name": "Rent Expense",
+   "number": "6100"
+  },
+  {
+   "name": "Advertising & Marketing",
+   "number": "6200"
+  },
+  {
+   "name": "Insurance Expense",
+   "number": "6400"
+  },
+  {
+   "name": "Software Expense",
+   "number": "6450"
+  },
+  {
+   "name": "Utilities Expense",
+   "number": "6500"
+  },
+  {
+   "name": "Professional Fees",
+   "number": "6600"
+  },
+  {
+   "name": "Office Supplies",
+   "number": "6700"
+  },
+  {
+   "name": "Depreciation Expense",
+   "number": "6800"
+  },
+  {
+   "name": "Bank Fees",
+   "number": "6900"
+  },
+  {
+   "name": "Interest Income",
+   "number": "7100"
+  }
+ ],
+ "close_month": "2026-06",
+ "company": "Prairie State Goods Co.",
+ "files_tree_hash": "4e3cfba864f37c16a3877175804fd48948c1f108e7c6983c8b752c8ab849ea04",
+ "industry": "wholesale",
+ "split": "train",
+ "truth_records": [
+  {
+   "amount": 5245.0,
+   "detail": {
+    "bill_id": "BILL-3131",
+    "correct_acct": "6200",
+    "posted_acct": "6700",
+    "vendor": "Kite Digital Ads"
+   },
+   "kind": "misposted_expense"
+  },
+  {
+   "amount": 46467.0,
+   "detail": {
+    "pay_date": "2026-07-02",
+    "period": "2026-06/16-06/30"
+   },
+   "kind": "missing_payroll_accrual"
+  },
+  {
+   "amount": 168.0,
+   "detail": {
+    "item": "Copperfield Risk Partners annual policy"
+   },
+   "kind": "missing_prepaid_amort"
+  },
+  {
+   "amount": 12947.38,
+   "detail": {
+    "bill_id": "BILL-3130",
+    "check_no": "CHK-1015",
+    "date": "2026-06-17",
+    "vendor": "Trellis Marketing Group"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 1393.0,
+   "detail": {
+    "bill_id": "BILL-3123",
+    "check_no": "CHK-1016",
+    "date": "2026-06-23",
+    "vendor": "Quicksilver Couriers"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 9943.0,
+   "detail": {
+    "bill_id": "BILL-3127",
+    "check_no": "CHK-1019",
+    "date": "2026-06-28",
+    "vendor": "CloudSpan Hosting"
+   },
+   "kind": "outstanding_check"
+  },
+  {
+   "amount": 900.0,
+   "detail": {
+    "bank_amount": 3271.0,
+    "bill_id": "BILL-3125",
+    "check_no": "CHK-1020",
+    "direction": "gl_understated_payment",
+    "expense_acct": "6450",
+    "gl_amount": 2371.0
+   },
+   "kind": "gl_amount_error"
+  },
+  {
+   "amount": 34697.0,
+   "detail": {
+    "desc": "DEPOSIT CORLISS MARINE"
+   },
+   "kind": "deposit_in_transit"
+  },
+  {
+   "amount": 30.79,
+   "detail": {
+    "desc": "SERVICE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 35.11,
+   "detail": {
+    "desc": "WIRE FEE"
+   },
+   "kind": "bank_fee_unrecorded"
+  },
+  {
+   "amount": 13.08,
+   "detail": {},
+   "kind": "interest_unrecorded"
+  },
+  {
+   "amount": 10235.77,
+   "detail": {
+    "account": "5100",
+    "bill_id": "BILL-3128",
+    "campaign": "Summit",
+    "desc": "Summit project - one-off engagement",
+    "keywords": [
+     "summit",
+     "zenith"
+    ],
+    "vendor": "Zenith Freight Lines"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 26975.69,
+   "detail": {
+    "account": "6600",
+    "bill_id": "BILL-3129",
+    "campaign": "Horizon",
+    "desc": "Special Horizon initiative - one-off fees",
+    "keywords": [
+     "horizon",
+     "pillar"
+    ],
+    "vendor": "Pillar Accounting Services"
+   },
+   "kind": "variance_driver"
+  },
+  {
+   "amount": 12947.38,
+   "detail": {
+    "account": "6200",
+    "bill_id": "BILL-3130",
+    "campaign": "Anchor",
+    "desc": "Anchor launch sprint (one-time)",
+    "keywords": [
+     "anchor",
+     "trellis"
+    ],
+    "vendor": "Trellis Marketing Group"
+   },
+   "kind": "variance_driver"
+  }
+ ],
+ "world_id": "w19"
+}

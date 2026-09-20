@@ -1,0 +1,13 @@
+JUNCTION UTILITY CO-OP
+Junction Utility Co-op
+
+UTILITY SERVICE BILL
+Document: BILL-3110
+Date: 2026-04-07
+Customer: Stonebridge Professional Services
+
+Utility service supplied for the applicable service period.
+
+Amount: $1,614.00
+
+Terms: Due upon receipt. Reference the document id when remitting payment.

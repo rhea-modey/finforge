@@ -1,0 +1,45 @@
+{
+ "journal_entry": {
+  "date": "2026-06-30",
+  "lines": [
+   {
+    "account": "6400 Insurance Expense",
+    "credit": 0,
+    "debit": 95.0
+   },
+   {
+    "account": "1300 Prepaid Insurance",
+    "credit": 95.0,
+    "debit": 0
+   },
+   {
+    "account": "6450 Software Expense",
+    "credit": 0,
+    "debit": 80.0
+   },
+   {
+    "account": "1310 Prepaid Software",
+    "credit": 80.0,
+    "debit": 0
+   }
+  ],
+  "memo": "June prepaid amortization"
+ },
+ "journal_entry_status": "to_book",
+ "schedule": [
+  {
+   "additions": 0.0,
+   "amortization": 95.0,
+   "closing_balance": 570.0,
+   "item": "Hartline Mutual Insurance annual policy",
+   "opening_balance": 665.0
+  },
+  {
+   "additions": 960.0,
+   "amortization": 80.0,
+   "closing_balance": 880.0,
+   "item": "Prepaid software - 12 month license (Orchard Software Ltd.)",
+   "opening_balance": 0.0
+  }
+ ]
+}

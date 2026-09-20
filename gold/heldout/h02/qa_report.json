@@ -1,0 +1,45 @@
+{
+ "detail": {
+  "balance_checks": {
+   "bank_statement_ending_balance": {
+    "derived": 144796.93,
+    "gold": 144796.93,
+    "match": true
+   },
+   "gl_cash_ending_balance": {
+    "derived": 159780.23,
+    "gold": 159780.23,
+    "match": true
+   }
+  },
+  "contradictions": [
+   {
+    "description": "The 2026-06-30 AP aging totals $11,384.00, while the trial balance reports Accounts Payable of $36,991.12. The $25,607.12 difference is the unpaid remainder of opening payables and is absent from the aging, so the AP subledger does not reconcile to the control account.",
+    "severity": "medium"
+   }
+  ],
+  "gold_consistent": true,
+  "gold_mismatches": [],
+  "model": "gpt-5.6-sol",
+  "task_solvability": {
+   "h02-accrual_schedule": {
+    "reason": "The May prepaid schedule and insurance contract establish the opening balance and monthly amortization, and the GL confirms that June amortization has not yet been booked.",
+    "solvable": true
+   },
+   "h02-bank_rec": {
+    "reason": "The bank statement and cash GL provide sufficient information to identify outstanding checks, deposits in transit, and the unrecorded $50.41 bank fee and to reconcile both sides uniquely.",
+    "solvable": true
+   },
+   "h02-journal_entries": {
+    "reason": "The payroll register, prepaid schedule and contract, fixed asset register, June bill documents, GL, and checklist provide sufficient support for the missing payroll accrual, insurance amortization, depreciation, and required expense reclassification entries.",
+    "solvable": true
+   },
+   "h02-variance_analysis": {
+    "reason": "June actual activity can be derived from the GL and adjusted for the checklist close entries, while the June budget and underlying bill documents support material variance calculations and driver commentary. Materiality requires ordinary professional judgment but does not prevent completion.",
+    "solvable": true
+   }
+  }
+ },
+ "issues": [],
+ "pass": true
+}

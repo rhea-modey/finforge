@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 24979.85,
+   "keywords": [
+    "harvest",
+    "bright"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 15514.02,
+   "keywords": [
+    "northstar",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 38807.85,
+   "budget": 13975.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 24979.85,
+     "description": "Harvest project - one-off engagement billed by Bright Harbor Media (BILL-3154)",
+     "evidence": [
+      "bills/BILL-3154.txt"
+     ]
+    }
+   ],
+   "variance": 24832.85
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 30560.02,
+   "budget": 15087.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 15514.02,
+     "description": "Northstar project - one-off engagement billed by Pillar Accounting Services (BILL-3155)",
+     "evidence": [
+      "bills/BILL-3155.txt"
+     ]
+    }
+   ],
+   "variance": 15473.02
+  }
+ ]
+}

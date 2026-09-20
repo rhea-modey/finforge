@@ -1,0 +1,15 @@
+account_number,account_name,apr_budget,may_budget,jun_budget
+4000,Patient Service Revenue,97891.0,61610.0,50928.0
+4100,Lab & Imaging Revenue,12774.0,0.0,6532.0
+6000,Salaries Expense,59613.0,62023.0,58428.0
+6100,Rent Expense,4265.0,4343.0,4319.0
+6200,Advertising & Marketing,8180.0,0.0,5589.0
+6350,Medical Supplies,0.0,5620.0,3095.0
+6400,Insurance Expense,182.0,184.0,185.0
+6450,Software Expense,7255.0,0.0,0.0
+6500,Utilities Expense,0.0,5585.0,2882.0
+6600,Professional Fees,0.0,2523.0,499.0
+6700,Office Supplies,634.0,4589.0,3350.0
+6800,Depreciation Expense,1619.76,1580.76,1649.76
+6900,Bank Fees,0.0,0.0,0.0
+7100,Interest Income,0.0,0.0,0.0

@@ -1,0 +1,137 @@
+{
+ "adjusted_balance": 209488.52,
+ "bank_statement_ending_balance": 181618.52,
+ "gl_cash_ending_balance": 207761.45,
+ "proposed_journal_entries": [
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 1800.0
+    },
+    {
+     "account": "6600 Professional Fees",
+     "credit": 1800.0,
+     "debit": 0
+    }
+   ],
+   "memo": "Correct transposition on CHK-1009"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 35.31
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 35.31,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "6900 Bank Fees",
+     "credit": 0,
+     "debit": 60.48
+    },
+    {
+     "account": "1000 Cash",
+     "credit": 60.48,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June bank fees"
+  },
+  {
+   "date": "2026-06-30",
+   "lines": [
+    {
+     "account": "1000 Cash",
+     "credit": 0,
+     "debit": 22.86
+    },
+    {
+     "account": "7100 Interest Income",
+     "credit": 22.86,
+     "debit": 0
+    }
+   ],
+   "memo": "Record June interest income"
+  }
+ ],
+ "reconciling_items": [
+  {
+   "amount": 1984.0,
+   "date": "2026-06-19",
+   "description": "Check to Kite Digital Ads not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1012",
+   "side": "bank"
+  },
+  {
+   "amount": 1386.0,
+   "date": "2026-06-15",
+   "description": "Check to CloudSpan Hosting not yet cleared",
+   "kind": "outstanding_check",
+   "ref": "CHK-1010",
+   "side": "bank"
+  },
+  {
+   "amount": 1800.0,
+   "date": "2026-06-30",
+   "description": "GL posted check at transposed amount (4273.0 vs bank 2473.0)",
+   "kind": "gl_error",
+   "ref": "CHK-1009",
+   "side": "book"
+  },
+  {
+   "amount": 13430.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT PINEHURST DI INV-2226",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 17810.0,
+   "date": "2026-06-30",
+   "description": "Deposit in transit: DEPOSIT YARDLEY SUPP INV-2237",
+   "kind": "deposit_in_transit",
+   "ref": null,
+   "side": "bank"
+  },
+  {
+   "amount": 35.31,
+   "date": "2026-06-30",
+   "description": "Bank SERVICE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 60.48,
+   "date": "2026-06-30",
+   "description": "Bank WIRE FEE not booked",
+   "kind": "bank_fee_unrecorded",
+   "ref": null,
+   "side": "book"
+  },
+  {
+   "amount": 22.86,
+   "date": "2026-06-30",
+   "description": "Interest earned, not booked",
+   "kind": "interest_unrecorded",
+   "ref": null,
+   "side": "book"
+  }
+ ]
+}

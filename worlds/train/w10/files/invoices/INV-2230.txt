@@ -1,0 +1,16 @@
+Wildwood Supply Co.
+Goods supplied with care
+
+INVOICE
+INV-2230
+Date: 2026-04-08
+
+Customer:
+Marlowe & Finch
+
+Description:
+Merchandise supply and order fulfillment for the current service period
+
+Amount due: $26,392.00
+
+Terms: Net 30. Remittance should identify the invoice.

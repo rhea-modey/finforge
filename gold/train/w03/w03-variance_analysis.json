@@ -1,0 +1,79 @@
+{
+ "drivers": [
+  {
+   "account": "5100 Freight & Shipping",
+   "amount": 8939.39,
+   "keywords": [
+    "harvest",
+    "quicksilver"
+   ]
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 23258.06,
+   "keywords": [
+    "summit",
+    "kite"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 23546.99,
+   "keywords": [
+    "catalyst",
+    "meridian"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "5100 Freight & Shipping",
+   "actual": 10136.39,
+   "budget": 940.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 8939.39,
+     "description": "Non-recurring Harvest program billed by Quicksilver Couriers (BILL-3145)",
+     "evidence": [
+      "bills/BILL-3145.txt"
+     ]
+    }
+   ],
+   "variance": 9196.39
+  },
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 36013.06,
+   "budget": 13291.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 23258.06,
+     "description": "Special Summit initiative - one-off fees billed by Kite Digital Ads (BILL-3146)",
+     "evidence": [
+      "bills/BILL-3146.txt"
+     ]
+    }
+   ],
+   "variance": 22722.06
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 33030.99,
+   "budget": 10013.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 23546.99,
+     "description": "Non-recurring Catalyst program billed by Meridian Legal LLP (BILL-3147)",
+     "evidence": [
+      "bills/BILL-3147.txt"
+     ]
+    }
+   ],
+   "variance": 23017.99
+  }
+ ]
+}

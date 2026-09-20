@@ -1,0 +1,55 @@
+{
+ "drivers": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "amount": 12081.17,
+   "keywords": [
+    "catalyst",
+    "trellis"
+   ]
+  },
+  {
+   "account": "6600 Professional Fees",
+   "amount": 10231.84,
+   "keywords": [
+    "horizon",
+    "pillar"
+   ]
+  }
+ ],
+ "summary": "June overspend is concentrated in unbudgeted one-time initiatives; see drivers.",
+ "variances": [
+  {
+   "account": "6200 Advertising & Marketing",
+   "actual": 17879.17,
+   "budget": 5497.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 12081.17,
+     "description": "One-time Catalyst initiative billed by Trellis Marketing Group (BILL-3131)",
+     "evidence": [
+      "bills/BILL-3131.txt"
+     ]
+    }
+   ],
+   "variance": 12382.17
+  },
+  {
+   "account": "6600 Professional Fees",
+   "actual": 12868.84,
+   "budget": 2746.0,
+   "direction": "unfavorable",
+   "drivers": [
+    {
+     "amount": 10231.84,
+     "description": "Horizon project - one-off engagement billed by Pillar Accounting Services (BILL-3132)",
+     "evidence": [
+      "bills/BILL-3132.txt"
+     ]
+    }
+   ],
+   "variance": 10122.84
+  }
+ ]
+}
