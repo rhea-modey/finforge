@@ -334,6 +334,23 @@ def build(curve_path="results/curve.json", cert_path="DATASET_V1_CERTIFIED.json"
                        f"reading judge (A) ρ={rho_a:+.2f} vs verifying judge (B) "
                        f"ρ={rho_b:+.2f} — the training signal B climbs actually "
                        f"tracks correctness.")
+        gate_card = '''
+  <div class="flow" style="grid-template-columns:1fr 1fr">
+    <div class="fcard" style="border:1.5px dashed var(--series-2)">
+      <b>Run A · reading grader</b>First tryout: adopted the new playbook
+      (grader 6.08 &gt; 5.08). Sealed key says the new one was WORSE
+      (60.9 &lt; 67.3). <b style="color:var(--series-2)">Wrong call — shipped a
+      regression.</b></div>
+    <div class="fcard" style="border:1.5px dashed var(--series-3)">
+      <b>Run B · verifying grader</b>Same-generation new playbook: kept the old
+      one (grader 3.75 &lt; 4.5). Sealed key agrees it was worse
+      (50.4 &lt; 56.7). <b style="color:var(--series-3)">Right call — refused the
+      regression.</b></div>
+  </div>
+  <p class="note">The tryout is only as good as the grader scoring it. Aligning
+  the grader turns the keep/reject decision from a coin flip (Run A matched the
+  sealed key on 2 of 5 decisions) into a correct one — so the <b>deployed</b>
+  playbook never regresses.</p>'''
         expb_html = (
             '<h2>Experiment B — verifying judge (controlled comparison)</h2>'
             + line_chart("expb", [
@@ -342,7 +359,9 @@ def build(curve_path="results/curve.json", cert_path="DATASET_V1_CERTIFIED.json"
             ], [0, 25, 50, 75, 100],
                 note=("One variable changed vs the main run: the gold-blind judge "
                       "gets the actor's file tools and must recompute tie-outs "
-                      "before scoring." + rho_txt)))
+                      "before scoring." + rho_txt))
+            + '<h2>The decision that matters: same bad revision, opposite calls</h2>'
+            + gate_card)
         # surface B right after the all-category chart, not buried at the end
         anchor = '<h2>Transfer: seen vs unseen industries</h2>'
         if anchor in charts:

@@ -113,6 +113,25 @@
    "usd": 6.5728,
    "usd_per_task": 0.27,
    "version": "v5"
+  },
+  {
+   "by_category": {
+    "accrual_schedule": 71.67,
+    "bank_rec": 57.47,
+    "journal_entries": 65.28,
+    "variance_analysis": 17.45
+   },
+   "checkpoint": 6,
+   "errors": 0,
+   "gold_mean": 52.97,
+   "gold_seen_industries": 49.69,
+   "gold_unseen_industries": 56.24,
+   "judge_mean": 45.42,
+   "n": 24,
+   "tag": "c6",
+   "usd": 3.7906,
+   "usd_per_task": 0.16,
+   "version": "v6"
   }
  ],
  "deployed": [
@@ -147,6 +166,14 @@
    "deployed_gold": 64.51,
    "incumbent_mean_judge": 5.25,
    "iteration": 4
+  },
+  {
+   "candidate": "v5",
+   "candidate_mean_judge": 4.417,
+   "deployed": "v4",
+   "deployed_gold": 64.51,
+   "incumbent_mean_judge": 5.417,
+   "iteration": 5
   }
  ]
 }
