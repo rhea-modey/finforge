@@ -111,6 +111,9 @@
     "train-i00-w03-bank_rec",
     "train-i00-w03-journal_entries",
     "train-i00-w03-variance_analysis",
+    "train-i01-w04-bank_rec",
+    "train-i01-w04-bank_rec@inc",
+    "train-i01-w04-variance_analysis",
     "train-i01-w04-variance_analysis@inc"
   ]
 }

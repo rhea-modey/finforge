@@ -287,7 +287,11 @@ class LLMClient:
             # worker thread forever (observed: 2 stuck tasks wedged a whole
             # run). Optimizer emits 16k-token specs on a slow host — give it
             # longer; everything else fails fast into the retry path.
-            kwargs["timeout"] = 600.0 if self.role == "optimizer" else 240.0
+            # Short read timeout so a hung socket fails fast into the retry
+            # path instead of parking a worker for minutes. Optimizer emits
+            # 16k-token specs and legitimately needs longer.
+            kwargs["timeout"] = 300.0 if self.role == "optimizer" else 90.0
+            kwargs["max_retries"] = 0  # our _with_outer_retry owns retries
             self._client = OpenAI(**kwargs)
         return self._client
 
