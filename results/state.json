@@ -1,7 +1,7 @@
 {
-  "iteration": 6,
-  "harness_version": "v6",
-  "accepted_version": "v4",
+  "iteration": 7,
+  "harness_version": "v7",
+  "accepted_version": "v6",
   "completed": [
     "heldout-c0-h01-accrual_schedule",
     "heldout-c0-h01-bank_rec",
@@ -302,6 +302,30 @@
     "train-i05-w18-journal_entries",
     "train-i05-w18-journal_entries@inc",
     "train-i05-w18-variance_analysis",
-    "train-i05-w18-variance_analysis@inc"
+    "train-i05-w18-variance_analysis@inc",
+    "train-i06-w19-accrual_schedule",
+    "train-i06-w19-accrual_schedule@inc",
+    "train-i06-w19-bank_rec",
+    "train-i06-w19-bank_rec@inc",
+    "train-i06-w19-journal_entries",
+    "train-i06-w19-journal_entries@inc",
+    "train-i06-w19-variance_analysis",
+    "train-i06-w19-variance_analysis@inc",
+    "train-i06-w20-accrual_schedule",
+    "train-i06-w20-accrual_schedule@inc",
+    "train-i06-w20-bank_rec",
+    "train-i06-w20-bank_rec@inc",
+    "train-i06-w20-journal_entries",
+    "train-i06-w20-journal_entries@inc",
+    "train-i06-w20-variance_analysis",
+    "train-i06-w20-variance_analysis@inc",
+    "train-i06-w21-accrual_schedule",
+    "train-i06-w21-accrual_schedule@inc",
+    "train-i06-w21-bank_rec",
+    "train-i06-w21-bank_rec@inc",
+    "train-i06-w21-journal_entries",
+    "train-i06-w21-journal_entries@inc",
+    "train-i06-w21-variance_analysis",
+    "train-i06-w21-variance_analysis@inc"
   ]
 }

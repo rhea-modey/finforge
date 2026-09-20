@@ -349,7 +349,7 @@ def build(curve_path="results/curve.json", cert_path="DATASET_V1_CERTIFIED.json"
   </div>
   <p class="note">The tryout is only as good as the grader scoring it. Aligning
   the grader turns the keep/reject decision from a coin flip (Run A matched the
-  sealed key on 2 of 5 decisions) into a correct one — so the <b>deployed</b>
+  sealed key on 2 of 6 decisions) into a correct one — so the <b>deployed</b>
   playbook never regresses.</p>'''
         expb_html = (
             '<h2>Experiment B — verifying judge (controlled comparison)</h2>'

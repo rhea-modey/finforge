@@ -174,6 +174,14 @@
    "deployed_gold": 64.51,
    "incumbent_mean_judge": 5.417,
    "iteration": 5
+  },
+  {
+   "candidate": "v6",
+   "candidate_mean_judge": 5.417,
+   "deployed": "v6",
+   "deployed_gold": 52.97,
+   "incumbent_mean_judge": 4.417,
+   "iteration": 6
   }
  ]
 }
