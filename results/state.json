@@ -255,6 +255,9 @@
     "train-i04-w15-journal_entries@inc",
     "train-i04-w15-variance_analysis",
     "train-i04-w15-variance_analysis@inc",
-    "train-i05-w16-accrual_schedule@inc"
+    "train-i05-w16-accrual_schedule@inc",
+    "train-i05-w16-journal_entries@inc",
+    "train-i05-w17-bank_rec",
+    "train-i05-w17-journal_entries"
   ]
 }

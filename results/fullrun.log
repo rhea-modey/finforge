@@ -191,3 +191,6 @@
 [finforge] heldout eval tag=c5 version=v5 worlds=['h01', 'h02', 'h03', 'h04', 'h05', 'h06']
 [finforge] iteration 5: candidate=v5 vs incumbent=v4 (acceptance gate) worlds=['w16', 'w17', 'w18']
 [finforge]   train-i05-w16-accrual_schedule@inc: ended=submitted judge=5.0 usd=0.0245
+[finforge]   train-i05-w17-journal_entries: ended=submitted judge=6.0 usd=0.1414
+[finforge]   train-i05-w16-journal_entries@inc: ended=submitted judge=4.0 usd=0.1176
+[finforge]   train-i05-w17-bank_rec: ended=submitted judge=8.0 usd=0.1020

@@ -67,3 +67,5 @@
 [finforge]   heldout-c1-h03-journal_entries@r1: ended=submitted gold=50.0 judge=4.0 usd=0.0824
 [finforge]   heldout-c1-h03-bank_rec@r1: ended=submitted gold=40.0 judge=3.0 usd=0.0633
 [finforge]   heldout-c1-h04-journal_entries@r1: ended=submitted gold=66.7 judge=4.0 usd=0.0854
+[finforge]   heldout-c1-h04-variance_analysis@r1: ended=submitted gold=85.0 judge=3.0 usd=0.0432
+[finforge]   heldout-c1-h04-accrual_schedule@r1: ended=submitted gold=100.0 judge=10.0 usd=0.0210
