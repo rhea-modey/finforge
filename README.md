@@ -7,7 +7,7 @@ FinForge is a self-improving multi-agent harness for month-end close work
 plus the contamination-free synthetic benchmark used to measure it against
 ground truth it never sees.
 
-Built for the Office-of-the-CFO hackathon track, September 2026.
+Built as a team project for the Office-of-the-CFO hackathon track at HackMIT 2026.
 
 ## Headline results
 
