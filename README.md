@@ -9,13 +9,19 @@ ground truth it never sees.
 
 Built as a team project for the Office-of-the-CFO hackathon track at HackMIT 2026.
 
+## My contributions
+
+I co-built the recursive improvement and evaluation workflow used for the HackMIT submission. My work included the synthetic bank-reconciliation benchmark, verifier/evaluation harness, and the rollout/tool-call signals used to iteratively improve the system prompt and toolset across runs.
+
 ## Headline results
 
 | | |
 |---|---|
-| **Bank reconciliation, best evolved harness** | **91.3 / 100** on 6 never-seen companies (+30.4 vs the starting harness) — the loop *self-invented* a Calculator agent that recomputes every tie-out and rejects drafts off by more than $0.01 |
+| **Bank reconciliation, best evolved harness** | **60.9 → 91.3 / 100** on 6 never-seen companies (+30.4 points) — the loop *self-invented* a Calculator agent that recomputes every tie-out and rejects drafts off by more than $0.01 |
 | **The research finding** | Self-improvement is bounded by the *verification quality of its reward*: a judge that only reads the work correlates with truth at ρ = +0.24; the same gold-blind judge armed with tools to redo the math reaches **ρ = +0.70** |
 | **The controlled experiment** | Run B reruns the identical protocol with only the verifying judge changed — live at submission time |
+
+The repository reports the exact held-out benchmark score (60.9 → 91.3). Rounded summaries should describe this as a **score improvement**, not classification accuracy.
 
 ## How it works
 
